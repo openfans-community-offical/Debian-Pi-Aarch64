@@ -596,7 +596,7 @@ dmidecode -t 4
 
 **QQ群1：** *695558192* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **QQ群2：** *203950207*
 
-### Debian-Pi-Aarch64 OPENFANS官方群 
+### OPENFANS官方群 
 
 **QQ群号：** *370350002* 
 
