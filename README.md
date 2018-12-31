@@ -487,15 +487,39 @@ vc4-fkms-v3d 是较好的优选兼容模式
 
 使用 Ext4 标准文件系统和 树莓派3B+ 的 UnixBench 测试结果（和同类Debian Aarch64系统相比）：
 
+* **单线程：**
+
+![x1](/images/u1.JPG)
+
+* **多线程：**
+
+![x4](/images/u4.JPG)
+
+* **整体评分：**
+
+![all](/images/uall.JPG)
+
 综合整体性能全面超越对比测试系统的2~3倍以上，部分指标甚至达到了10倍以上，1000%的提升
 
 ----
 
 # 系统截图
 
-启动界面
+* **启动界面**
 
-UEFI BIOS 界面
+![start](/images/boot0.png)
+
+* **引导**
+
+![boot](/images/boot1.png)
+
+* **UEFI BIOS 界面**
+
+![BIOS](/images/bios0.png)
+
+* **登录界面**
+
+![login](images/login0.png)
 
 ----
 
@@ -542,6 +566,8 @@ UEFI BIOS 界面
 ```shell
 dmidecode -t 4
 ```
+
+![smbios](/images/smbios.png)
 
 如上图所示，dmidecode命令是专门读取SMBOIS硬件信息的命令，通过该命令我们能够获取有关CPU更详细的信息情况，而不是 cat /proc/cpuinfo 传统方式这些简单的信息，我们甚至能看到CPU支持的频率，CPU支持的特性，例如上图可以看到SMBIOS开启了CPU虚拟化的支持，这些都是 cat /proc/cpuinfo 传统模式所不具备的
 
