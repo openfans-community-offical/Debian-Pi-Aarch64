@@ -594,17 +594,21 @@ dmidecode -t 4
 
 ### 树莓派爱好者基地QQ群
 
-**QQ群1：** *695558192* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **QQ群2：** *203950207*
+**1群：** *695558192*
 
-### OPENFANS官方群 
+**2群：** *203950207*
 
-**QQ群号：** *370350002* 
+### OPENFANS官方QQ群 
+
+**1群：** *370350002* 
 
 ![Debian-Pi-Aarch64 OPENFANS](/images/370350002.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=07bab0507c84a21cc939f0d8ed5c86c2a32039f271af948ccf2dcbcfd900eee0"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Debian-Pi-Aarch64" title="Debian-Pi-Aarch64"></a>
 
-## 镜像文件校验信息
+----
+
+# 镜像文件校验信息
 
 * **img镜像文件命名规则名：**
  
