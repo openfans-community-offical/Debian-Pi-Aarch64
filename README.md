@@ -35,10 +35,10 @@
 ## 更新
 
     1. 系统包更新至Debian稳定主线：2018-12-30
-    2. 使用官方Dcoker-CE, 版本已更新至：18.09
+    2. 使用官方Dcoker-CE 版本已更新至：18.09
     3. 固件Firmware已更新至：v1.20181112
     4. 无线固件已更新至：2018-08-20官方版
-    5. 系统内核同步更新至Linux主线**长期支持**：4.14.90
+    5. 系统内核同步更新至Linux主线长期支持：4.14.90
 
 ## 系统特性
 
@@ -70,8 +70,10 @@
 
 由于 **Hypriot** 不支持“ **bridge vlan/vxlan netfiler** ”, 你将得到以下错误信息:
 
-    reexec to set bridge default vlan fialed exit status 1
-    
+```shell
+reexec to set bridge default vlan fialed exit status 1
+```
+
 这将导致不能完全正常使用**Dcoker Swarm**集群，网络缺少相关特性支持，会存在一些功能缺失的问题
 
 你可以通过 **systemctl status containerd** 和 **systemctl status docker** 以及查看日志的方式在原生的64位ARM系统上发现不少错误和警告信息，拒不完全统计，原生的系统内核至少包括以下特性的缺失：
@@ -110,34 +112,34 @@ systemctl status containerd
 systemctl status docker
 ```
 
-##### Docker Compose
+ - Docker Compose
 
 Docker官方没有提供基于arm的**docker-compose**可运行二进制程序，因此我们重新编译并提供了可运行的aarch64位二进制程序
 
 默认没有加入到系统镜像中，你可以按照以下步骤下载并安装：
 
-      1. 前往下载地址下载最新版的 docker-compose aarch64 二进制文件；
-      2. 解压下载得到的文件；
+      1. 前往下载地址下载最新版的 docker-compose aarch64 二进制文件
+      2. 解压下载得到的文件
       3. 将下载的文件重命名为 docker-compose
-      4. 然后将 docker-compose 文件复制到系统的 /usr/bin/ 目录下；
-      5. 最后给予文件执行权限即可，执行命令：
+      4. 然后将 docker-compose 文件复制到系统的 /usr/bin/ 目录下
+      5. 最后给予文件执行权限即可，执行命令
       6. chmod +x /usr/bin/docker-compose
 
 **docker-compose aarch64** 二进制文件的下载地址：[**点击前往下载**](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/tree/master/docker-compose-aarch64)
 
 **目前最新版本：** v1.23.2
 
-##### Docker Machine
+- Docker Machine
 
 Docker官方没有提供基于arm64的**docker-machine**可运行二进制程序，因此我们重新编译并提供了可运行的aarch64位二进制程序
 
 默认没有加入到系统镜像中，你可以按照以下步骤下载并安装：
 
-      1. 前往下载地址下载最新版的 docker-machine aarch64 二进制文件；
-      2. 解压下载得到的文件；
+      1. 前往下载地址下载最新版的 docker-machine aarch64 二进制文件
+      2. 解压下载得到的文件
       3. 将下载的文件重命名为 docker-machine
-      4. 然后将 docker-machine 文件复制到系统的 /usr/bin/ 目录下；
-      5. 最后给予文件执行权限即可，执行命令：
+      4. 然后将 docker-machine 文件复制到系统的 /usr/bin/ 目录下
+      5. 最后给予文件执行权限即可，执行命令
       6. chmod +x /usr/bin/docker-machine
 
 **docker-machine aarch64** 二进制文件的下载地址：[**点击前往下载**](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/tree/master/docker-machine-aarch64)
@@ -152,10 +154,13 @@ AUFS的全称是 advanced multi-layered unification filesystem ，主要功能�
 
 AUFS曾是Docker默认的首选存储驱动，它非常的稳定、有很多真实场景的部署、很强的社区支持，它有以下几个主要优点：
  
-    1. 极短的容器启动时间； 
-    2. 有效的存储利用率； 
-    3. 有效的内存利用率； 
-    4. 但由于它没有包含在Linux内核主线中，所有很多Linux发行版并不支持AUFS
+1. 极短的容器启动时间
+
+2. 有效的存储利用率
+
+3. 有效的内存利用率
+
+4. 但由于它没有包含在Linux内核主线中，所有很多Linux发行版并不支持AUFS
 
 * 最新的Docker默认使用的是更快最新的OverlayFS文件系统 ，**本系统保持此官方设置的默认值**
 
@@ -171,7 +176,7 @@ AUFS曾是Docker默认的首选存储驱动，它非常的稳定、有很多真�
 
 ### Swap
 
-本次新版系统默认增加了对Swap交换缓存的支持，以缓解系统内存不足所造成的死机问题，大大提升了可执行大容量内存需求应用程序的支持和效率**用户无需手动创建系统Swap，我们的系统在安装完成后将自动完成并初始化Swap**，Swap文件或分区的位置可以通过查看系统挂载配置文件 **/etc/fstab** 来调整
+本次新版系统默认增加了对Swap交换缓存的支持，以缓解系统内存不足所造成的死机问题，大大提升了可执行大容量内存需求应用程序的支持和效率，**用户无需手动创建系统Swap，我们的系统在安装完成后将自动完成并初始化Swap**，Swap文件或分区的位置可以通过查看系统挂载配置文件 **/etc/fstab** 来调整
 
 * Ext4、F2FS 版本系统使用Swap文件方式，便于用户后期根据实际需求调整大小，默认大小为1G
 
@@ -183,21 +188,20 @@ AUFS曾是Docker默认的首选存储驱动，它非常的稳定、有很多真�
 
 * **zSWAP的好处**
 
-```shell
+
 1. 当内存页将要交换出去时，zSWAP不将其移动到交换设备，而是对其执行压缩，然后存储到系统RAM内动态分配的内存池中，回写到实际交换设备的动作则会延迟，甚至能完全避免，从而显著减少Linux系统用于交换的I/O。对于树莓派这样依托于TF卡的设备，本来I/O就不是很高，减少用于交换的I/O的操作就意味着提高系统性能，把I/O用在系统应用程序等更需要的其他调度上去
 
 2. 在使用Swap文件/分区的场景下，由于减少了对Swap文件/分区的I/O操作，可以提升TF的使用寿命
 
 3. zSWAP并不虚拟一个块设备，而是hook到普通的Swap代码里，在实际发生写入到磁盘/从磁盘读取的操作前，先利用自己管理的内存进行数据的换出/换入，内存不够用以后再使用传统的Swap文件/分区。所以zSWAP适用于本身已经有交换分区的系统，以及树莓派这样本身内存不大的硬件设备
-```
+
 * **为什么不使用zRAM**
 
 zSWAP同时使用内存和交换分区，并根据实际情况自动调整所占内存的大小，所缓存的数据在系统内存不够用时会自动存入到Swap文件/分区中，大大提高了系统swap交换的效率，更充分的利用了内存空间资源又避免了系统出现内存不够的情况，而zRam完全使用内存来进行操作和存储数据，完全占用内存，一般用在大内存的场景，这对于内存很小的树莓派来说就不合适了
 
 * **zSWAP在本系统中使用的内存分配器和数据压缩算法**
 
-```shell
-内存分配器zpool框架： smalloc、zbud、z3fold
+**内存分配器zpool框架： smalloc、zbud、z3fold**
       
 1. 现实表明，zsmalloc虽然压缩率高，但是算法复杂，还需要额外的线程负责内存整理，耗费更多的cpu时间
 
@@ -207,14 +211,16 @@ zSWAP同时使用内存和交换分区，并根据实际情况自动调整所占
       
 我们在系统中选用了z3fold算法，在系统 /boot/cmdline.txt 中可以看到配置：
 
+```shell
 zswap.enabled=1 zswap.zpool=z3fold zswap.compressor=lz4 zswap.max_pool_percent=25
-      
-压缩算法：
+```
+
+**压缩算法**
 
 Linux有很多压缩算法：lz,lzo,xz,gzip,lzma... 
 
 我们这里采用了拥有极高压缩速度和较高压缩率的lz4 ，lz4相对于其他压缩算法而言，压缩率不是最高的，但速度确是最快的，在已采用 z3fold 算法的情况下，结合树莓派本身的性能特点和实际的测试，在拥有不错的压缩率的情况下，速度对于树莓派来说才是最重要的（考虑到本身CPU性能开销和内存大小的情况）
-```
+
 
 ### KVM 虚拟化支持
 
@@ -256,7 +262,7 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
     3. 进入"HypDxe Configuration"
     4. 进入"System Boot Mode" 进行选择
 
-该BIOS功能异常强大，还有很多可配置选项，各位老铁请自行发掘。 ^_^ :P
+该BIOS功能异常强大，还有很多可配置选项，各位老铁请自行发掘 ^_^ :P
 
     * EFI固件引用自 "andreiw/RaspberryPiPkg" 的项目
 
@@ -279,8 +285,8 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 注释掉以下2行内容： (前面加上#即可)
 
 ```shell
-  net.core.default_qdisc=fq
-  net.ipv4.tcp_congestion_control=bbr
+net.core.default_qdisc=fq
+net.ipv4.tcp_congestion_control=bbr
 ```
 
 ### VC4 图形双栈切换
@@ -304,13 +310,13 @@ VideoCore 是一个由Alphamosaic Ltd开发并且现在被Broadcom拥有的低�
 如需切换为vc32硬件加速模式，只需要执行命令：
 
 ```shell
-    enableVChardfp
+enableVChardfp
 ```
 
 切换回vc64兼容模式，请执行命令：
 
 ```shell
-    enableVC64
+enableVC64
 ```
 
 **切换模式后需要重启系统生效**
@@ -327,11 +333,11 @@ VideoCore 是一个由Alphamosaic Ltd开发并且现在被Broadcom拥有的低�
 
 系统的其他配置如下：
 
-## 默认账户
+### 默认账户
 
     用户名：pi ，密码为: raspberry 
 
-## 安全增强
+### 安全增强
 
   1. 不再设置默认的 **root** 用户密码，需要用户使用默认 **pi** 账户登录后通过 " **sudo passwd root** " 命令自行设置 **root** 用户密码
     
@@ -343,11 +349,11 @@ VideoCore 是一个由Alphamosaic Ltd开发并且现在被Broadcom拥有的低�
 
     然后按照系统提示重新设置pi账户密码并再次输入确认
 
-## 默认仓库源为清华源
+### 默认仓库源为清华源
      
     用户可自行配置为其他源
 
-## 32位软件支持
+### 32位软件支持
 
     系统默认已开启对32位软件包的支持，无需手动添加，安装32位软件请在包的名称后加入后缀 ":armhf" 
     
@@ -355,7 +361,7 @@ VideoCore 是一个由Alphamosaic Ltd开发并且现在被Broadcom拥有的低�
 
     注意：这里的冒号 ":" 是需要的哦
 
-## 启动模式
+### 启动模式
 
 * 三种文件系统格式的镜像都支持 **开机自动扩展根分区**
 
@@ -369,7 +375,7 @@ VideoCore 是一个由Alphamosaic Ltd开发并且现在被Broadcom拥有的低�
 
       * 自动扩容脚本部分参考了树莓派官方和 UMRnInside/RPi-arm64 项目的部分内容 
 
-## 预配置项
+### 预配置项
 
 系统提供网络和自动开机任务的预配置，相关配置文件的路径和对应关系如下：
 
@@ -380,7 +386,7 @@ VideoCore 是一个由Alphamosaic Ltd开发并且现在被Broadcom拥有的低�
 | DHCP客户端 | /boot/dhclient.conf | /etc/dhcp/dhclient.conf |
 | 自定义启动脚本 | /boot/rc-local | /etc/rc.local |
 
-### 网络预配置
+#### 网络预配置
 
 镜像支持在启动前提前配置好网络（无线、有线网络均可配置）
 
@@ -426,15 +432,15 @@ source-directory /etc/network/interfaces.d
 #dns-nameservers 8.8.8.8
 ```
 
-### 自动任务预配置
+#### 自动任务预配置
 
 系统支持自定义任务自启动脚本，可以在系统启动前预先配置
 
     编辑脚本文件 "/boot/rc-local" ，加入自定义的脚本内容
 
-## 其他杂项配置
+### 其他杂项配置
 
-### 开启armel支持
+#### 开启armel支持
 
 执行以下命令
 
@@ -444,7 +450,7 @@ apt-get update
 apt-get install libc6-armel
 ```
 
-### 安装桌面
+#### 安装桌面
 
 这里以安装mate桌面环境为例：
 
@@ -455,7 +461,7 @@ sudo apt-get install --no-install-recommends xserver-xorg -y
 sudo apt-get install mate-desktop-environment-core lightdm -y
 ```
 
-### 开启显卡3D硬件加速
+#### 开启显卡3D硬件加速
 
 编辑 /boot/config.txt 文件，在文件末尾加入：
 
@@ -479,7 +485,7 @@ vc4-fkms-v3d 是较好的优选兼容模式
 
 使用 Ext4 标准文件系统和 树莓派3B+ 的 UnixBench 测试结果（和同类Debian Aarch64系统相比）：
 
-    综合整体性能全面超越对比测试系统的2~3倍以上，部分指标甚至达到了10倍以上，1000%的提升
+综合整体性能全面超越对比测试系统的2~3倍以上，部分指标甚至达到了10倍以上，1000%的提升
 
 ----
 
@@ -522,7 +528,7 @@ UEFI BIOS 界面
 执行命令
 
 ```shell
- dmidecode -t 4
+dmidecode -t 4
 ```
 
 如上图所示，dmidecode命令是专门读取SMBOIS硬件信息的命令，通过该命令我们能够获取有关CPU更详细的信息情况，而不是 cat /proc/cpuinfo 传统方式这些简单的信息，我们甚至能看到CPU支持的频率，CPU支持的特性，例如上图可以看到SMBIOS开启了CPU虚拟化的支持，这些都是 cat /proc/cpuinfo 传统模式所不具备的
