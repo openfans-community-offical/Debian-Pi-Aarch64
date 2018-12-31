@@ -1,16 +1,11 @@
 # Debian Pi Aarch64
 
-树莓派64位系统
-
-**Debian Stretch Aarch64**
-
-2019 新年版 v1.0 全新正式发布！
-
-点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
 
 ![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**荣誉出品**
+
+树莓派64位系统&nbsp;&nbsp;&nbsp;&nbsp;**Debian Stretch Aarch64**&nbsp;&nbsp;&nbsp;&nbsp;2019 新年版 v1.0 全新正式发布！&nbsp;&nbsp;&nbsp;&nbsp;点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
 
 ----
 
