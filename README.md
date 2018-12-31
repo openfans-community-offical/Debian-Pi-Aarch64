@@ -5,7 +5,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**荣誉出品**
 
-树莓派64位系统&nbsp;&nbsp;&nbsp;&nbsp;**Debian Stretch Aarch64**&nbsp;&nbsp;&nbsp;&nbsp;2019 新年版 v1.0 全新正式发布！&nbsp;&nbsp;&nbsp;&nbsp;点击 **[此处](https://pan.baidu.com/s/1twhxNYVa5A3IeeT8AqmQOA)** 前往下载 , **文件提取码：**  *53ch*
+树莓派64位系统&nbsp;&nbsp;&nbsp;&nbsp;**Debian Stretch Aarch64**&nbsp;&nbsp;&nbsp;&nbsp;2019 新年版 v1.0 全新正式发布！&nbsp;&nbsp;&nbsp;&nbsp;点击 **[此处](https://pan.baidu.com/s/1twhxNYVa5A3IeeT8AqmQOA)** 前往下载 | 文件提取码:*53ch*
 
 ----
 
