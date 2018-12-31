@@ -127,7 +127,7 @@ Docker官方没有提供基于arm的**docker-compose**可运行二进制程序�
       5. 最后给予文件执行权限即可，执行命令
       6. chmod +x /usr/bin/docker-compose
 
-docker-compose aarch64 二进制文件的下载地址：[点击前往下载](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/tree/master/docker-compose-aarch64)
+docker-compose aarch64 二进制文件的下载地址：[点击前往下载](./docker-compose-aarch64/)
 
 目前最新版本：v1.23.2
 
@@ -144,7 +144,7 @@ Docker官方没有提供基于arm64的**docker-machine**可运行二进制程序
       5. 最后给予文件执行权限即可，执行命令
       6. chmod +x /usr/bin/docker-machine
 
-docker-machine aarch64 二进制文件的下载地址：[点击前往下载](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/tree/master/docker-machine-aarch64)
+docker-machine aarch64 二进制文件的下载地址：[点击前往下载](./docker-machine-aarch64/)
 
 目前最新版本：v0.16.0
 
