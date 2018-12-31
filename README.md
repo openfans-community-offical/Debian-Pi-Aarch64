@@ -584,3 +584,33 @@ dmidecode -t 4
 
 5. “**OPENFANS开源社区**” 及 “**树莓派爱好者基地**” 拥有以上内容的最终解释权
 
+----
+
+# 附：
+
+## 镜像文件校验信息
+
+* **img镜像文件命名规则名：**
+ 
+       FSTYPE = ext4, btrfs, fsf2
+       2018-12-30-OPENFANS-Debian-Stretch-Aarch64-$FSTYPE-v2019-1.0.img
+
+*  **xz压缩文件命名规则名：** 
+
+       FSTYPE = ext4, btrfs, fsf2
+       2018-12-30-OPENFANS-Debian-Stretch-Aarch64-$FSTYPE-v2019-1.0.img.xz
+
+* **系统镜像版本：**
+
+      v2019-1.0
+
+* **信息参考表：**
+
+| 文件类型 | 文件系统类型 |            MD5校验码            |             SHA256校验码             |
+| --- | --- | --- | --- |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| f0534a2d6df2c6cb4399273749b3128d | f8941440b192804387a6c2b4d48ef644c327643872184aee1179368d4026a0d9 |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;btrfs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| bdb78133513541651cb16cf7d3c8c3ba | 6c2bbeca1af55634d8a6738fb03bd7cae25986fab8f8d725090da6192318bcad |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f2fs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| d7aa147e49d70d6d5e9a30cefeb405a1 | 618371e7a51c513c85dec892b26bb6616ddefdf33e18b88e701f757b8b47764c |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| b8a3e728da7e3fa0944b6e39be9c9898 | e2ec878ab0a6b216cdb4add8f6d1f4d957c083b969ce3c1cf0c6e28e27e5c97f |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;btrfs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| a22c8d168cf691728452df2a14177765 | 1ce31aec4528038f24d21e68b585b9d55d85d9a42ffe7605e21c9d21e55740ae |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f2fs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| bce494a0d0d074e33a2f3767d516613c | 4749da65b14bab2b84e3547a5b337ed36654360dccd66faa735d59173458be2e |
