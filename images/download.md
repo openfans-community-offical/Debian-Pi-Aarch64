@@ -7,3 +7,7 @@ Private:
 [下载地址](https://pan.baidu.com/s/1twhxNYVa5A3IeeT8AqmQOA)  
 
     Pass: 53ch
+
+kernel & firmware
+
+[下载地址](https://pan.baidu.com/s/1-NY_WL5LB0stpxT1wAKSaA) 
