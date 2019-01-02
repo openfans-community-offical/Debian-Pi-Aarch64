@@ -483,9 +483,9 @@ source-directory /etc/network/interfaces.d
 
     编辑脚本文件 "/boot/rc-local" ，加入自定义的脚本内容
 
-### 其他杂项配置
+## 其他杂项配置
 
-#### 开启armel支持
+### 开启armel支持
 
 执行以下命令
 
@@ -495,7 +495,7 @@ apt-get update
 apt-get install libc6-armel
 ```
 
-#### 安装桌面
+### 安装桌面
 
 这里以安装 *lxde* 桌面环境为例：
 
@@ -544,7 +544,7 @@ LC_CTYPE="zh_CN.UTF-8"
 LANG="zh_CN.UTF-8"
 ```
 
-#### 开启显卡3D硬件加速
+### 开启显卡3D硬件加速
 
 编辑 /boot/config.txt 文件，在文件末尾加入：
 
