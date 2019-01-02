@@ -17,7 +17,7 @@ unzip upkg-2019-01-02-v2019-1.0-u1.zip
 
 ```shell
 cd ./upkg
-./sys_upgrade
+sudo  sh  ./sys_upgrade
 ```
 
 * 然后重启系统，完成升级
