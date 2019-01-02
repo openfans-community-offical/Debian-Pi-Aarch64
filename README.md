@@ -497,13 +497,12 @@ apt-get install libc6-armel
 
 #### 安装桌面
 
-这里以安装mate桌面环境为例：
+这里以安装lxde桌面环境为例：
 
 执行以下命令，然后重启即可
 
 ```shell
-sudo apt-get install --no-install-recommends xserver-xorg -y
-sudo apt-get install mate-desktop-environment-core lightdm -y
+sudo apt-get install lxde-core lxappearance -y
 ```
 
 #### 开启显卡3D硬件加速
