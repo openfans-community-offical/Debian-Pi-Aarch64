@@ -502,7 +502,7 @@ apt-get install libc6-armel
 * 执行以下命令
 
 ```shell
-sudo apt-get install lxde-core lxappearance -y
+sudo apt-get install lxde-core lxde lxappearance chromium fcitx-rime -y
 ```
 
 * 参照下面的 "**开启显卡3D硬件加速**" 部分的设置，为桌面开启 *显卡加速*
@@ -513,6 +513,14 @@ sudo apt-get install lxde-core lxappearance -y
 disable_overscan=1
 ```
 * 最后重启即可
+
+** **如何添加中文支持**
+
+执行以下命令即可
+
+```shell
+sudo apt install ttf-wqy-zenhei fcitx-googlepinyin -y
+```
 
 #### 开启显卡3D硬件加速
 
