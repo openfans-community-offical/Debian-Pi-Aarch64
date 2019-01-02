@@ -131,7 +131,8 @@ reexec to set bridge default vlan fialed exit status 1
     14. ipvs
     15. ipvs ipv6
     16. memory sysfs
-    ...
+    17. kernel ksm
+    18. ...
 
 考虑到通用性，我们的系统默认没有启用Docker服务，如需要启动Docker服务，请执行以下命令：
 
@@ -298,12 +299,13 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
     5. 支持EFI专有的EL2启动模式以启用KVM硬件虚拟化的支持，大幅度提升KVM性能（需要开机在BIOS里设置，默认使用EL1标准模式）
     6. 支持自定义启动选项：从其他设备、分区、文件等
 
-**提示：如何设置系统启动方式**
+#### **提示：如何设置系统启动方式**
 
     1. 开机按住"ESC"进入"BIOS设置"
     2. 选择"Raspberry Pi Configuration"
     3. 进入"HypDxe Configuration"
     4. 进入"System Boot Mode" 进行选择
+    5. 选择"EL2"即可开启"KVM硬件加速"
 
 该BIOS功能异常强大，还有很多可配置选项，各位老铁请自行发掘 ^_^ :P
 
