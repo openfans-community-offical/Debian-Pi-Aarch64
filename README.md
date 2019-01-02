@@ -305,7 +305,7 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
     2. 选择 "Raspberry Pi Configuration"
     3. 进入 "HypDxe Configuration"
     4. 进入 "System Boot Mode" 进行选择
-    5. 选择 "EL2" 即可开启 "KVM硬件加速"
+    5. 选择 "Boot in EL2" 即可开启 "KVM硬件加速"
 
 该BIOS功能异常强大，还有很多可配置选项，各位老铁请自行发掘 ^_^ :P
 
