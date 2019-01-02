@@ -505,7 +505,7 @@ apt-get install libc6-armel
 sudo apt-get install lxde-core lxde lxappearance fcitx-rime -y
 ```
 
-* 如果你要安装 "基础桌面+桌面基础软件" 请执行下面这条命令 (软件较多，请耐心等待)
+* 如果你要安装 **"基础桌面 + 桌面基础软件 + 桌面软件包管理器"** 请执行下面这条命令 (软件较多，请耐心等待)
 
 ```shell
 sudo apt-get install lxde-core lxde lxappearance fcitx-rime lxdm \
