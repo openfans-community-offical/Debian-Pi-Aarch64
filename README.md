@@ -497,13 +497,22 @@ apt-get install libc6-armel
 
 #### 安装桌面
 
-这里以安装lxde桌面环境为例：
+这里以安装 *lxde* 桌面环境为例：
 
-执行以下命令，然后重启即可
+* 执行以下命令
 
 ```shell
 sudo apt-get install lxde-core lxappearance -y
 ```
+
+* 参照下面的 "**开启显卡3D硬件加速**" 部分的设置，为桌面开启 *显卡加速*
+
+* 然后修改 **/boot/config.txt** 文件配置，去掉下面一行前面的 "**#**" 注释符号，**否则桌面会有黑边框**
+
+```shell
+disable_overscan=1
+```
+* 最后重启即可
 
 #### 开启显卡3D硬件加速
 
