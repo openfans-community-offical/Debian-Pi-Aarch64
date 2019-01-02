@@ -55,7 +55,7 @@ sudo sh ./vm_run2
 
 5. 登录虚拟机并开启远程登录
 
-按照以上步凑启动虚拟机后，登录系统，默认账户的**root**的密码为：**raspberry**
+按照以上步骤启动虚拟机后，登录系统，默认账户的**root**的密码为：**raspberry**
 
 编辑 **/etc/ssh/sshd_config** 文件
 
