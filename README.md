@@ -530,7 +530,7 @@ sudo apt install zhcon firefox-esr-l10n-zh-cn python-zhpy ttf-wqy-zenhei \
 fonts-arphic-ukai fonts-arphic-uming fonts-wqy-zenhei \
 fcitx-m17n fcitx-googlepinyin -y
 ```
-** **图形界面显示中文
+** **图形界面显示中文**
 
 修改文件 **/etc/default/locale**
 
