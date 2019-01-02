@@ -7,7 +7,7 @@
 
 树莓派64位系统&nbsp;&nbsp;&nbsp;&nbsp;**Debian Stretch Aarch64**&nbsp;&nbsp;&nbsp;&nbsp;2019 新年**元旦**特别版 v1.0 全新正式发布！
 
-点击 **[此处](https://pan.baidu.com/s/1twhxNYVa5A3IeeT8AqmQOA)** 前往下载 | 文件提取码:*53ch*
+点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载 
  | **[捐赠](donation/README.md)**
 
 ----
