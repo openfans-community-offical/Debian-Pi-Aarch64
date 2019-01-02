@@ -521,7 +521,7 @@ disable_overscan=1
 ```shell
 sudo apt install ttf-wqy-zenhei fcitx-googlepinyin -y
 ```
-\**图形界面现实中文
+** **图形界面显示中文
 
 修改文件 **/etc/default/locale**
 
