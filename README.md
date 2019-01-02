@@ -519,7 +519,9 @@ disable_overscan=1
 执行以下命令即可
 
 ```shell
-sudo apt install ttf-wqy-zenhei fcitx-googlepinyin -y
+sudo apt install zhcon firefox-esr-l10n-zh-cn python-zhpy ttf-wqy-zenhei \
+fonts-arphic-ukai fonts-arphic-uming fonts-wqy-zenhei \
+fcitx-m17n fcitx-googlepinyin -y
 ```
 ** **图形界面显示中文
 
