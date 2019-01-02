@@ -33,7 +33,7 @@ sudo sh ./install
 
 ### **Debian Aarch64 虚拟机镜像 使用说明**
 
-#### 要使用此虚拟机镜像，BIOS必须开启 "KVM硬件加速功能" ，点击 [此处](./README.md#提示如何设置系统启动方式) 查看如何开启 "KVM硬件加速"
+#### 要使用此虚拟机镜像，BIOS必须开启 "KVM硬件加速功能" ，点击 [此处](./README.md#%E6%8F%90%E7%A4%BA%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E6%96%B9%E5%BC%8F-%E8%BF%99%E9%87%8C%E4%BB%A5%E5%BC%80%E5%90%AF-kvm%E7%A1%AC%E4%BB%B6%E5%8A%A0%E9%80%9F-%E4%B8%BA%E4%BE%8B) 查看如何开启 "KVM硬件加速"
 
 1. 登录到你的树莓派并新建一个文件夹，例如 *virtual_michine*
 2. 将刚才下载的所有文件全部上传到这个目录中
