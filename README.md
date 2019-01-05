@@ -46,7 +46,9 @@
 2. 为KVM硬件虚拟化模式加入KSM内核支持（自动开启，无需手动加载）
 3. 发布原生Aarch64架构的QEMU虚拟机软件包，支持KVM硬件加速，并提供了默认的*Debian Aarch64*虚拟机镜像
 
-点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载 
+点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 下载最新系统镜像
+
+点击 **[此处](https://pan.baidu.com/s/1-NY_WL5LB0stpxT1wAKSaA)** 下载最新系统更新
 
 >**什么是KSM ？**
 </br>KSM的原理，是多个进程中，Linux将内核相似的内存页合并成一个内存页
