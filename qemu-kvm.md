@@ -86,7 +86,7 @@ init 0
 执行以下命令，以**后台**的方式访问虚拟机：
 
 ```shell
-sudo sh ./vm_run
+sudo nohup sh ./vm_run
 ```
 
 6. 远程登录
