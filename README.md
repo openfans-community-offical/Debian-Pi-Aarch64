@@ -306,7 +306,7 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 #### **提示：如何设置系统启动方式 (这里以开启 "KVM硬件加速" 为例)
 
     1. 开机按住 "ESC" 进入 "BIOS设置"
-    2. 选择 "Device Mnanager" 并回车进入
+    2. 选择 "Device Manager" 并回车进入
     3. 选择 "Raspberry Pi Configuration"
     4. 进入 "HypDxe Configuration"
     5. 进入 "System Boot Mode" 进行选择
