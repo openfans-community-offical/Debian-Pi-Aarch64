@@ -566,6 +566,23 @@ vc4-fkms-v3d 是较好的优选兼容模式
 
 然后重启即可
 
+### 开启蓝牙支持
+
+编辑文件 */boot/rc-local*，在第二行加入以下内容，重启即可，如不重启，请执行这条命令将立即生效以开启蓝牙
+
+```shell
+/usr/bin/hciattach /dev/ttyAMA0 bcm43xx 921600 noflow -
+```
+
+下面是一个 **/boot/rc-local** 文件的完整例子：
+
+```shell
+#!/bin/bash
+/usr/bin/hciattach /dev/ttyAMA0 bcm43xx 921600 noflow -
+echo "rc-local bash echo test."
+exit 0
+```
+
 ----
 
 # 系统测试
