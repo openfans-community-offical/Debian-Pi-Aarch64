@@ -80,7 +80,7 @@ fdisk -l /dev/sda
 结果如下：
 
 ```shell
-Disk /dev/sda: 20 GiB, 21474836480 bytes, 41943040 sectors # 已增加到20G
+Disk /dev/sda: 20 GiB, 21474836480 bytes, 41943040 sectors        # 已增加到20G
 Units: sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
@@ -88,7 +88,7 @@ Disklabel type: dos
 Disk identifier: 0xcd0e4df1
 
 Device     Boot Start      End  Sectors Size Id Type
-/dev/sda1  *     2048 20969471 20967424  10G 83 Linux
+/dev/sda1  *     2048 20969471 20967424  10G 83 Linux             # 分区容量还未扩展
 ```
 
 **查看分区大小**
