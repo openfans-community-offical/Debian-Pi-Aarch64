@@ -93,8 +93,14 @@ Device     Boot Start      End  Sectors Size Id Type
 
 **查看分区大小**
 
+执行命令：
+
 ```shell
 df -hT
+```
+结果如下：
+
+```shell
 Filesystem     Type      Size  Used Avail Use% Mounted on
 udev           devtmpfs  496M     0  496M   0% /dev
 tmpfs          tmpfs     103M  1.5M  101M   2% /run
