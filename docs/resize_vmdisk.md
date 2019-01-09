@@ -145,7 +145,7 @@ Number  Start   End     Size    Type     File system  Flags
 
 ```shell
 (parted) resizepart        # 输入命令 "resizepart" 进行分区扩展
-Partition number? 1        # 输入需要扩展的分区编号，由于我们这的磁盘只有一个分区，所以输入 “1”
+Partition number? 1        # 输入需要扩展的分区编号，由于我们这里的磁盘只有一个分区，所以输入 “1”
 Warning: Partition /dev/sda1 is being used. Are you sure you want to continue?
 Yes/No? yes                # 确认继续，输入 "yes"
 End?  [10.7GB]? 100%       # 输入“100%”，将所有可用容量全部扩展到上一步指定的分区 
