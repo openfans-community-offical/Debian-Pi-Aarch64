@@ -38,8 +38,15 @@ qemu-img resize bt.qcow2.disk +10G
 
 然后再次查看磁盘大小
 
+执行命令：
+
 ```shell
 qemu-img info bt.qcow2.disk
+```
+
+结果如下：
+
+```shell
 image: bt.qcow2.disk
 file format: qcow2
 virtual size: 20G (21474836480 bytes) # 容量增加成功，总大小为20G
