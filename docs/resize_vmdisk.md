@@ -111,7 +111,7 @@ tmpfs          tmpfs     513M     0  513M   0% /sys/fs/cgroup
 tmpfs          tmpfs     103M     0  103M   0% /run/user/0
 ```
 
-**安装parted磁盘管理工具**
+**安装** *parted* **磁盘管理工具**
 
 ```shell
 apt update ; apt install parted -y
