@@ -104,7 +104,7 @@ df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
 udev           devtmpfs  496M     0  496M   0% /dev
 tmpfs          tmpfs     103M  1.5M  101M   2% /run
-/dev/sda1      btrfs      10G  4.7G  4.7G  50% /           # 分区容量还未扩展
+/dev/sda1      btrfs      10G  4.7G  4.7G  50% /                  # 分区容量还未扩展
 tmpfs          tmpfs     513M  4.0K  513M   1% /dev/shm
 tmpfs          tmpfs     5.0M     0  5.0M   0% /run/lock
 tmpfs          tmpfs     513M     0  513M   0% /sys/fs/cgroup
@@ -133,12 +133,12 @@ Using /dev/sda                                                   # 这是我们�
 Welcome to GNU Parted! Type 'help' to view a list of commands.
 (parted) print                                                   # 输入"print",查看当前操作的磁盘信息
 Model: QEMU QEMU HARDDISK (scsi)
-Disk /dev/sda: 21.5GB  # 总大小已增加至20G
+Disk /dev/sda: 21.5GB                                            # 总大小已增加至20G
 Sector size (logical/physical): 512B/512B
 Partition Table: msdos
 Disk Flags:
 Number  Start   End     Size    Type     File system  Flags
- 1      1049kB  10.7GB  10.7GB  primary  btrfs        boot        # 此处的“1”是磁盘分区编号，此时分区容量还没有变化
+ 1      1049kB  10.7GB  10.7GB  primary  btrfs        boot       # 此处的“1”是磁盘分区编号，此时分区容量还没有变化
 ```
 
 接下来输入如下命令 **resizepart** :
