@@ -144,12 +144,12 @@ Number  Start   End     Size    Type     File system  Flags
 接下来输入如下命令 **resizepart** :
 
 ```shell
-(parted) resizepart        # 输入命令
-Partition number? 1        # 输入需要扩展的分区编号，由于我们这的磁盘只有一个分区，所以输入“1”
+(parted) resizepart        # 输入命令 "resizepart" 进行分区扩展
+Partition number? 1        # 输入需要扩展的分区编号，由于我们这的磁盘只有一个分区，所以输入 “1”
 Warning: Partition /dev/sda1 is being used. Are you sure you want to continue?
-Yes/No? yes                # 确认继续，输入"yes"
+Yes/No? yes                # 确认继续，输入 "yes"
 End?  [10.7GB]? 100%       # 输入“100%”，将所有可用容量全部扩展到上一步指定的分区 
-(parted) print             # 输入"print",查看当前操作的磁盘信息    
+(parted) print             # 输入 "print" ,查看当前操作的磁盘信息    
 Model: QEMU QEMU HARDDISK (scsi)
 Disk /dev/sda: 21.5GB
 Sector size (logical/physical): 512B/512B
@@ -158,7 +158,7 @@ Disk Flags:
 Number  Start   End     Size    Type     File system  Flags
  1      1049kB  21.5GB  21.5GB  primary  btrfs        boot     # 可以看到增加的磁盘容量已扩展成功
 
-(parted) quit              # 输入"quit", 退出
+(parted) quit              # 输入 "quit" , 退出
 Information: You may need to update /etc/fstab.
 ```
 
