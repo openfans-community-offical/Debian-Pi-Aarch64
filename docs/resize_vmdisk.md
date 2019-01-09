@@ -8,11 +8,13 @@
 
 **查看磁盘大小**
 
+执行命令：
+
 ```shell
 qemu-img info bt.qcow2.disk
 ```
 
-我们将得到如下信息:
+得到如下信息:
 
 ```shell
 image: bt.qcow2.disk
