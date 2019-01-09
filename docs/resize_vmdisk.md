@@ -73,8 +73,13 @@ ssh -p 2222 root@localhost
 
 **查看磁盘大小**
 
+执行命令：
 ```shell
 fdisk -l /dev/sda
+```
+结果如下：
+
+```shell
 Disk /dev/sda: 20 GiB, 21474836480 bytes, 41943040 sectors # 已增加到20G
 Units: sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
