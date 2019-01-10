@@ -6,7 +6,7 @@
 
       文件路径：Debian-Pi-Aarch64-PKGS -> qemu
 
-      文件名：qemu-2.12+dfsg-3.zip
+      文件名：qemu-2.12+dfsg-3ubuntu9.zip
 
 * Debian Aarch64虚拟机镜像 [下载地址](https://pan.baidu.com/s/1cQRDNV712f7sbrFrP4wpQg)
 
