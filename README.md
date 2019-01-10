@@ -38,7 +38,7 @@
 
 #### 如何升级和更新系统？ 请点击 [此处](./upgrade.md) 查看
 
-### 2019-01-10
+### 2019.01.10 &nbsp;&nbsp;// *SoftWare Update*
 
 - **qemu-kvm** 虚拟机更新至 *qemu-2.12+dfsg-3ubuntu9*
 
