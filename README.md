@@ -519,7 +519,7 @@ sudo apt-get install lxde-core lxde lxappearance fcitx-rime -y
 
 ```shell
 sudo apt-get install lxde-core lxde lxappearance fcitx-rime lxdm \
-menulibre openbox-menu task-lxde-desktop lxpanel-plugin-topmenu -y
+menulibre openbox-menu task-lxde-desktop lxpanel-plugin-topmenu alsa-utils -y
 ```
 
 * 参照下面的 "**开启显卡3D硬件加速**" 部分的设置，为桌面开启 *显卡加速*
