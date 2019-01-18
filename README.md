@@ -50,6 +50,7 @@
 8. 最新镜像加入了对vfat分区修复检查工具的支持
 9. 新版镜像调整了 *cmdline.txt* 的默认启动参数
 10. 新版镜像调整了 *config.txt* 的默认配置模板
+11. *Dcoker-CE* 更新至：**18.09.1**
 
 
 ### 2019.01.10 &nbsp;&nbsp;// *SoftWare Update*
