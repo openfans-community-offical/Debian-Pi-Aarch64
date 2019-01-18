@@ -424,6 +424,18 @@ enableVC64
   - 接下来系统要求重新设置账户密码 （再次输入一次默认密码 “raspberry”）
 
     然后按照系统提示重新设置pi账户密码**并再次输入新密码**确认
+    
+* 这里是一个完整的首次登录和修改密码的过程
+
+```shell
+raspbian login: pi                ## 默认登录账户  pi
+Password:                         ## 默认登录密码  raspberry
+You are required to change your password immediately (root enforced)
+Changing password for pi.
+(current) UNIX password:          ## 系统账户pi的默认密码  raspberry
+Enter new UNIX password:          ## 系统账户pi的新密码
+Retype new UNIX password:         ## 再次输入系统账户pi的新密码
+```
 
 ### 默认仓库源为清华源
      
