@@ -605,6 +605,8 @@ vc4-fkms-v3d 是较好的优选兼容模式
 
 ###  ShellinaBox
 
+![shellinabox](/images/shellinabox.jpg)
+
 WEB SSH 客户端支持，不再需要SSH客户端来连接服务器，可以通过浏览器直接SSH访问服务器
 
 默认访问协议是*https*和**4200**端口，访问地址  https://树莓派IP地址:4200
