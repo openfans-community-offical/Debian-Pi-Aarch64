@@ -4,15 +4,21 @@
 
 **QEMU虚拟机二进制软件包 [点击查看](../qemu-kvm.md)**
 
+----
+
 #### 下载地址：
 
 [点击前往](https://pan.baidu.com/s/1cQRDNV712f7sbrFrP4wpQg)
+
+----
 
 #### 文件路径：
 
 **Debian-Pi-Aarch64-PKGS** -> **qemu_vm** -> **bt_panel_vm** -> **5.9.1_pro**
 
 -> **bt-panel_vm_5.9.1_pro.tar**
+
+----
 
 ### 使用方法：
 
@@ -65,6 +71,8 @@
     -rw-r--r-- 1 root root         32 Jan 20 08:38 ports
 
 至此，宝塔虚拟机已安装成功
+
+----
 
 ### 启动宝塔虚拟机
 
