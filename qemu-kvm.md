@@ -111,3 +111,8 @@ sudo nohup sh ./vm_run
 ```shell
 ssh -p 2222 root@本机的IP地址
 ```
+
+## 如何扩展虚拟机的磁盘大小
+
+[点击此处](./docs/resize_vmdisk.md) 查看相关文档 
+
