@@ -544,19 +544,12 @@ apt-get install libc6-armel
 
 ### 安装桌面
 
-这里以安装 *lxde* 桌面环境为例：
+这里以安装 *xfce* 桌面环境为例：
 
 * 执行以下命令 (软件较多，请耐心等待)
 
 ```shell
-sudo apt-get install lxde-core lxde lxappearance fcitx-rime -y
-```
-
-* 如果你要安装 **"基础桌面 + 桌面基础软件 + 桌面软件包管理器"** 请执行下面这条命令 (软件较多，请耐心等待)
-
-```shell
-sudo apt-get install lxde-core lxde lxappearance fcitx-rime lxdm \
-menulibre openbox-menu task-lxde-desktop lxpanel-plugin-topmenu alsa-utils -y
+sudo apt-get update; sudo apt-get install xfce4 task-xfce-desktop wicd blueman fcitx-rime alsa-utils -y
 ```
 
 * 参照下面的 "**开启显卡3D硬件加速**" 部分的设置，为桌面开启 *显卡加速*
@@ -573,9 +566,8 @@ disable_overscan=1
 执行以下命令即可
 
 ```shell
-sudo apt install zhcon firefox-esr-l10n-zh-cn python-zhpy ttf-wqy-zenhei \
-fonts-arphic-ukai fonts-arphic-uming fonts-wqy-zenhei \
-fcitx-m17n fcitx-googlepinyin -y
+sudo apt install zhcon python-zhpy ttf-wqy-zenhei fonts-arphic-ukai fonts-arphic-uming fonts-wqy-zenhei \
+fcitx-m17n fcitx-googlepinyin firefox-esr-l10n-zh-cn libreoffice-l10n-zh-cn -y
 ```
 ** **图形界面显示中文**
 
