@@ -566,8 +566,9 @@ disable_overscan=1
 执行以下命令即可
 
 ```shell
-sudo apt install zhcon python-zhpy ttf-wqy-zenhei fonts-arphic-ukai fonts-arphic-uming fonts-wqy-zenhei \
-fcitx-m17n fcitx-googlepinyin firefox-esr-l10n-zh-cn libreoffice-l10n-zh-cn -y
+sudo apt install ttf-wqy-zenhei fonts-arphic-ukai fonts-arphic-uming fonts-wqy-zenhei \
+fcitx-m17n fcitx-googlepinyin zhcon python-zhpy \
+firefox-esr-l10n-zh-cn libreoffice-l10n-zh-cn -y
 ```
 ** **图形界面显示中文**
 
