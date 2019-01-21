@@ -597,7 +597,7 @@ LANG="zh_CN.UTF-8"
 
 ```shell
 dtoverlay=vc4-fkms-v3d
-gpu_mem=256  （这个值最小应应保证不低于128）
+gpu_mem=192  （这个值最小应应保证不低于128）
 
 注意：
 vc4-fkms-v3d 是较好的优选兼容模式
