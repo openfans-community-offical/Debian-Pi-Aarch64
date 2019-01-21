@@ -544,22 +544,22 @@ apt-get install libc6-armel
 
 ### 安装桌面
 
-**z这里以安装 *xfce* 桌面环境为例：**
+**这里以安装 *xfce* 桌面环境为例：**
 
-* 执行以下命令 (软件较多，请耐心等待)
-
-```shell
-sudo apt-get update; sudo apt-get install xfce4 task-xfce-desktop wicd blueman fcitx-rime alsa-utils -y
-```
-
-* 参照下面的 "**开启显卡3D硬件加速**" 部分的设置，为桌面开启 *显卡加速*
+* 首先参照下面的 "**开启显卡3D硬件加速**" 部分的设置，为桌面开启 *显卡加速*
 
 * 然后修改 **/boot/config.txt** 文件配置，去掉下面一行前面的 "**#**" 注释符号，**否则桌面会有黑边框**
 
 ```shell
 disable_overscan=1
 ```
-* 最后重启即可
+* 重启后即可生效
+
+* 然后执行以下命令安装桌面环境相关的软件包 (安装的软件包数量较多，请耐心等待)
+
+```shell
+sudo apt-get update; sudo apt-get install xfce4 task-xfce-desktop wicd blueman fcitx-rime alsa-utils -y
+```
 
 ** **如何添加中文支持**
 
