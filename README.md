@@ -565,7 +565,8 @@ disable_overscan=1
 * 然后执行以下命令安装桌面环境相关的软件包 (安装的软件包数量较多，请耐心等待)
 
 ```shell
-sudo apt-get update; sudo apt-get install accountsservice xfce4 task-xfce-desktop wicd blueman fcitx-rime alsa-utils -y
+sudo apt-get update; \
+sudo apt-get install accountsservice xfce4 task-xfce-desktop wicd blueman fcitx-rime alsa-utils -y
 ```
 
 ** **如何添加中文支持**
