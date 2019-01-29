@@ -19,7 +19,7 @@ apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 
 * 打开"***Debian-Pi-Aarch64-Kernel-Firmware***"文件夹，
 
-* **下载最新的升级包** (根据年月日判断，如2019-01-18)
+* **下载最新的升级包** (根据年月日判断，如2019-01-29)
 
 > 如：***upkg-2019-01-29-v2019-1.0-u4.zip***
 
