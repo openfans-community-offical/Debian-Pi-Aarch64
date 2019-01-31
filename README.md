@@ -47,13 +47,13 @@
 
 ## 更新
 
+#### 如何升级和更新系统？ 请点击 [此处](./upgrade.md) 查看
+
 - 请点击 [此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q) 下载最新系统镜像
 
 - 请点击 [此处](./upgrade.md)  查看：如何下载更新文件并更新至最新版本
 
 - 请点击 [此处](./qemu-kvm.md) 查看：QEMU虚拟机二进制软件包及虚拟机镜像下载地址和教程
-
-#### 如何升级和更新系统？ 请点击 [此处](./upgrade.md) 查看
 
 ### 2019-01-31-v2019-1.0-U4 &nbsp;&nbsp;// *Update4*
 
