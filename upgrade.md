@@ -28,7 +28,7 @@ apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 ```shell
 unzip upkg-2019-01-30-v2019-1.0-u4.zip
 
-# 注意：这里的 upkg-2019-01-29-v2019-1.0-u4.zip 以你实际下载的文件名为准
+# 注意：这里的 upkg-2019-01-30-v2019-1.0-u4.zip 以你实际下载的文件名为准
 ```
 * 解压完成后执行以下命令
 
