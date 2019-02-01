@@ -55,6 +55,8 @@
 
 - 请点击 [此处](./qemu-kvm.md) 查看：QEMU虚拟机二进制软件包及虚拟机镜像下载地址和教程
 
+### 2019.02.01 &nbsp;&nbsp;// *Desktop System Image Released*
+
 ### 2019-01-31-v2019-1.0-U4 &nbsp;&nbsp;// *Update4*
 
 1. 调整构建系统参数
