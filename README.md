@@ -1,6 +1,6 @@
 # Debian Pi Aarch64
 
-##  再次重申！我们是团队，企业级的专业团队出品的系统，不要拿个人作品来和我们比较。
+###  再次重申！我们是团队，企业级的专业团队出品的系统，不要拿个人作品来和我们比较。
 
 ![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
 
