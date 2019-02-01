@@ -1,6 +1,10 @@
 # 深度桌面 Deepin Aarch64 ARM64位 专业版
 
-**全网首发！！**
+#### 再次重申！我们是团队，企业级团队出品的系统，不要拿个人作品来和我们比较。
+
+![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**荣誉出品 - 全网首发 ！！**
 
 ![深度系统桌面1](../images/deepin_desktop1.png)
 
