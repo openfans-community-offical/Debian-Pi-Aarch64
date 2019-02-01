@@ -104,5 +104,5 @@
 
 #### SD卡类型参照表
 
-![sd_card](./images/sd_card.jpg)
+![sd_card](../images/sd_card.jpg)
 
