@@ -34,7 +34,7 @@
 
 ![bios_s6](/images/bios_s6.png)
 
-### 9. 按 "ESC" 返回BIOS主界面，选择 "Continue" 继续
+### 9. 连续按 "ESC" 直到返回BIOS主界面，选择 "Continue" 继续
 
 ![bios_s7](/images/bios_s7.png)
 
