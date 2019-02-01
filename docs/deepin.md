@@ -20,6 +20,8 @@
 
 **树莓派B/3B+/3A**的**64位深度ARM64桌面系统镜像 !!**
 
+点击[此处](https://pan.baidu.com/s/1hyxwtWqcjaf6G7FZTjdwKg)前往下载
+
 ----
 
 ## 系统特点
