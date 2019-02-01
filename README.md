@@ -6,8 +6,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**荣誉出品**
 
-----
-
 树莓派64位系统&nbsp;&nbsp;&nbsp;&nbsp;**Debian Stretch Aarch64**&nbsp;&nbsp;&nbsp;&nbsp;2019 新年**元旦**特别版 v1.0 全新正式发布！
 
 - 现已更新至 *2019-01-31-v2019-1.0-U4 *
