@@ -16,7 +16,7 @@
 
 标准系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载 
 
- | **[捐赠](donation/README.md)**
+### [捐赠](donation/README.md)
 
 ----
 
