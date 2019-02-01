@@ -16,7 +16,7 @@
 
 ## 系统下载
 
-- 标准 *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
+- **标准** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
 
 - **Xface** *Aarch64(ARM64)* 桌面系统镜像 点击 **[此处](#)** 前往下载 
 
