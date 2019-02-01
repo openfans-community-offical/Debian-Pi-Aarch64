@@ -1,5 +1,14 @@
 ## 如何扩展虚拟机的磁盘大小
 
+
+#### 再次重申！我们是团队，企业级团队出品的系统，不要拿个人作品来和我们比较。
+
+![openfans](../images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](../images/amatfan.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**荣誉出品 ！！**
+
+----
+
 首先确认你的虚拟机已正常关闭或没有运行
 
 本文虚拟机磁盘以 **bt.qcow2.disk** 为例
