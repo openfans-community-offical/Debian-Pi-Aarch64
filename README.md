@@ -712,7 +712,7 @@ exit 0
 
 * **登录界面**
 
-![login](images/login0.png)
+![login](images/login0-2.png)
 
 ----
 
@@ -760,7 +760,7 @@ exit 0
 dmidecode -t 4
 ```
 
-![smbios](/images/smbios.png)
+![smbios](/images/smbios-2.png)
 
 如上图所示，dmidecode命令是专门读取SMBOIS硬件信息的命令，通过该命令我们能够获取有关CPU更详细的信息情况，而不是 cat /proc/cpuinfo 传统方式这些简单的信息，我们甚至能看到CPU支持的频率，CPU支持的特性，例如上图可以看到SMBIOS开启了CPU虚拟化的支持，这些都是 cat /proc/cpuinfo 传统模式所不具备的
 
