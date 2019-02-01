@@ -22,6 +22,10 @@
 
 ---
 
+## 桌面截图
+
+![xface](../images/xface_desktop.png)
+
 ## 系统特点
 
 1. 完全兼容 **[OPENFANS Debian Pi Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)** 系统，具备 **OPENFANS Debian Pi Aarch64** 系统的所有优秀特性
@@ -65,10 +69,6 @@
       - 第二次自动扩展根分区
       - 第三次自动生成Swap交换文件并初始化系统
       - **系统初始安装可能会消耗较长的时间，请耐心等待**
-
-## 桌面截图
-
-![xface](../images/xface_desktop.png)
 
 ----
 
