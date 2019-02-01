@@ -2,6 +2,8 @@
 
 **全网首发！！**
 
+![深度系统桌面1](../images/deepin_desktop1.png)
+
 ## 系统介绍
 
 大名鼎鼎的深度Deepin这里就不做过多介绍了，目前网上只有古老的32位树莓派2B的镜像，没有支持3B/3B+的镜像，就更别奢望Aarch64 ARM64位的树莓派3B/3B+的镜像支持了... 
@@ -39,8 +41,6 @@
 ## 截图
 
 #### 系统桌面
-
-![深度系统桌面1](../images/deepin_desktop1.png)
 
 ![深度系统桌面2](../images/deepin_desktop2.png)
 
