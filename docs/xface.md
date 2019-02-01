@@ -12,7 +12,7 @@
 
 四大流行桌面环境之一：**"Xface"**  *这里就不做过多介绍了*
 
-基于 **[OPENFANS Debian Pi Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)** 基础系统U4版镜像构建的Xface桌面系统
+基于 **[OPENFANS Debian Pi Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)** 基础系统U4版镜像构建的Xface桌面
 
 点击[此处](https://pan.baidu.com/s/1dJk5uCQq8o0eRyW5Edtkzg)前往下载
 
