@@ -32,7 +32,7 @@
 
 9. 同**OPENFANS Debian Pi Aarch64**共享软件源和更新
 
-10. 支持TF卡和USB外设的多启动
+10. 支持TF卡和USB外设的多重启动模式
 
 ----
 
