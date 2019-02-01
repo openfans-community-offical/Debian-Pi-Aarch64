@@ -700,7 +700,7 @@ exit 0
 
 * **启动界面**
 
-![start](/images/boot0.png)
+![start](/images/boot0-2.png)
 
 * **引导**
 
