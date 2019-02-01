@@ -6,6 +6,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**荣誉出品**
 
+----
+
 树莓派64位系统&nbsp;&nbsp;&nbsp;&nbsp;**Debian Stretch Aarch64**&nbsp;&nbsp;&nbsp;&nbsp;2019 新年**元旦**特别版 v1.0 全新正式发布！
 
 ![深度系统桌面1](./images/deepin_desktop1.png)
@@ -15,8 +17,6 @@
 - **Xface** *Aarch64(ARM64)* 桌面系统镜像 **已发布！** (基于U4版基础系统镜像)
 
 - **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 **已发布！** (基于U4版基础系统镜像)
-
-----
 
 ## 系统下载
 
