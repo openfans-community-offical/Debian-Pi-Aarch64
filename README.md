@@ -364,7 +364,7 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
     6. 选择 "System Boot Mode"
     7. 选择 "Boot in EL2" 开启 "KVM硬件加速"
     8. 按 "F10" 再按 "Y" 保存设置
-    9. 按 "ESC" 返回BIOS主界面，选择 "Continue" 继续
+    9. 连续按 "ESC" 直到返回BIOS主界面，选择 "Continue" 继续
     10. 配置完成，系统将自动重启
     
 你可以点击[这里](./docs/biso_kvm.md)查看图文教程
