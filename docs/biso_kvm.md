@@ -30,7 +30,7 @@
 
 ![bios_s5](/images/bios_s5.png)
 
-### 8. 按 "F10" 保存设置
+### 8. 按 "F10" 再按 "Y" 保存设置
 
 ![bios_s6](/images/bios_s6.png)
 
