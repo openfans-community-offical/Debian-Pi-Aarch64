@@ -20,7 +20,7 @@
 
 - **Xface** *Aarch64(ARM64)* 桌面系统镜像 点击 **[此处](#)** 前往下载 
 
-- **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 点击 **[此处](#)** 前往下载 
+- **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 点击 **[此处](./docs/deepin.md)** 前往下载 
 
 ### [捐赠](donation/README.md)
 
