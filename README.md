@@ -14,7 +14,15 @@
 
 - **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 **已发布！** (基于U4版系统镜像)
 
-标准系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载 
+----
+
+## 系统下载
+
+- 标准 *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
+
+- **Xface** *Aarch64(ARM64)* 桌面系统镜像 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载 
+
+- **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载 
 
 ### [捐赠](donation/README.md)
 
