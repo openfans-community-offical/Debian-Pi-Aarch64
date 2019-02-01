@@ -704,7 +704,7 @@ exit 0
 
 * **引导**
 
-![boot](/images/boot1.png)
+![boot](/images/boot1-2.png)
 
 * **UEFI BIOS 界面**
 
