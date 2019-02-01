@@ -1,5 +1,13 @@
 ## 如何升级或更新 Debian Pi Aarch64 系统
 
+#### 再次重申！我们是团队，企业级团队出品的系统，不要拿个人作品来和我们比较。
+
+![openfans](./images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](./images/amatfan.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**荣誉出品 ！！**
+
+----
+
 ### 重要：
 
 **我们发布的更新或软件包根据实际情况一般通常采用 tag、zip、tar.gz、xz 的压缩格式发布**
