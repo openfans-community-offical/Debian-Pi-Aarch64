@@ -26,7 +26,7 @@
 
 2. 完全支持 **OPENFANS Debian Pi Aarch64** 系统的所有配置和操作指令
 
-3. 系统镜像使用UEFI启动，完整支持有线、网卡和蓝牙设备，均可以通过图形界面配置
+3. 系统镜像使用UEFI启动，完整支持有线、无线网卡和蓝牙设备，均可以通过图形界面配置
 
 4. 支持 **shellinabox** Web方式进行SSH访问，使用方法同**OPENFANS Debian Pi Aarch64**一致
 
