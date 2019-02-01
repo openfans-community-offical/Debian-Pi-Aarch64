@@ -22,7 +22,7 @@
 
 - **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
 
-- **Xface** *Aarch64(ARM64)* 桌面系统镜像 点击 **[此处](#)** 前往下载 
+- **Xface** *Aarch64(ARM64)* 桌面系统镜像 点击 **[此处](./docs/xface.md)** 前往下载 
 
 - **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 点击 **[此处](./docs/deepin.md)** 前往下载 
 
@@ -54,7 +54,7 @@
 
 ### **- Xface桌面**
 
-同时，我们也发布了**Xface桌面**的系统镜像，请前往[此处](#)查看相关说明
+同时，我们也发布了**Xface桌面**的系统镜像，请前往[此处](./docs/xface.md)查看相关说明
 
 ---
 
