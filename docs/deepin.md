@@ -126,7 +126,7 @@
 
 ![sd_card](../images/sd_card.jpg)
 
-### TF的选择
+### TF卡的选择
 
 #### SDHC/XC-I+A1/V30+U3以下的卡
 
