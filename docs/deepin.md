@@ -22,6 +22,8 @@
 
 点击[此处](https://pan.baidu.com/s/1hyxwtWqcjaf6G7FZTjdwKg)前往下载
 
+# [捐赠](donation/README.md)
+
 ----
 
 ## 系统特点
@@ -149,3 +151,5 @@
 ##### 致谢
 
 ###### *感谢 yangxuan8282(七喜) 提供的支持和帮助
+
+# [捐赠](donation/README.md)
