@@ -8,7 +8,7 @@
 
 树莓派64位系统&nbsp;&nbsp;&nbsp;&nbsp;**Debian Stretch Aarch64**&nbsp;&nbsp;&nbsp;&nbsp;2019 新年**元旦**特别版 v1.0 全新正式发布！
 
-- 现已更新至 *2019-01-31-v2019-1.0-U4 *
+- 基础系统 现已更新至 *2019-01-31-v2019-1.0-U4 *
 
 - **Xface** *Aarch64(ARM64)* 桌面系统镜像 **已发布！** (基于U4版系统镜像)
 
@@ -16,7 +16,7 @@
 
 ## 系统下载
 
-- **标准** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
+- **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
 
 - **Xface** *Aarch64(ARM64)* 桌面系统镜像 点击 **[此处](#)** 前往下载 
 
