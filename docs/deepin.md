@@ -10,6 +10,8 @@
 
 目前已正式发布，并提供下载，这是目前第一个基于完整的*Debian Aarch64*架构而构建的适配于**树莓派B/3B+/3A**的**64位深度ARM64桌面系统镜像** ！
 
+----
+
 ## 系统特点
 
 1. 完全兼容 **[OPENFANS Debian Pi Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)** 系统，具备 **OPENFANS Debian Pi Aarch64** 系统的所有优秀特性
@@ -31,6 +33,8 @@
 9. 同**OPENFANS Debian Pi Aarch64**共享软件源和更新
 
 10. 支持TF卡和USB外设的多启动
+
+----
 
 ## 截图
 
@@ -72,6 +76,8 @@
 
 系统浏览器播放视频演示2 [下载](../videos/deep_show_2.mp4)
 
+----
+
 ## 系统说明
 
 1. 系统默认没有开启root账户的登录权限
@@ -97,6 +103,8 @@
       - 第二次自动扩展根分区
       - 第三次自动生成Swap交换文件并初始化系统
       - **系统初始安装可能会消耗较长的时间，请耐心等待**
+
+----
 
 ## 关于TF卡的要求
 
