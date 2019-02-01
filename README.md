@@ -700,7 +700,7 @@ exit 0
 
 * **启动界面**
 
-![start](/images/boot0-2.png)
+![start](/images/boot_loader_screen.png)
 
 * **引导**
 
@@ -708,7 +708,7 @@ exit 0
 
 * **UEFI BIOS 界面**
 
-![BIOS](/images/bios0.png)
+![BIOS](/images/bios_main.png)
 
 * **登录界面**
 
