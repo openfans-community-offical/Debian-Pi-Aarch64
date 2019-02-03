@@ -821,6 +821,26 @@ dmidecode -t 4
 
 # FAQ (常见问题处理)
 
+#### 中文环境下，TTY 无法显示中文字体
+
+问题描述：在已安装中文字体并配置好语言为中文后，TTY(本地终端，非远程方式访问)下无法显示中文，中文变成方框或乱码
+
+根源：Linux标准TTY不支持显示中文字体
+
+解决方案：安装fbterm，以支持TTY下显示中文
+fbterm提供了一个快速的终端仿真器，它直接运行在你的系统中的帧缓冲 (framebuffer) 之上。使用帧缓冲可以在终端渲染 UTF-8 文本时可以提高性能。fbterm 旨在提供国际化和现代字体支持时至少与 Linux 内核终端一样快。它允许你在同一个帧缓冲上创建多达 10 个不同的终端窗口，每个窗口都有它的回滚历史。
+执行以下操作，以支持显示中文：
+
+```shell
+## 安装fbterm
+sudo apt update; sudo apt install fbterm -y
+## 添加登录用户到video组
+sudo adduser root video ; sudo adduser pi video 
+sudo adduser 你自己创建的其他用户名(若果有) video
+## 然后每次需要显示时执行以下命令即可（第一次需要等待一些时间）：
+fbterm
+```
+
 ----
 
 # 版权说明
