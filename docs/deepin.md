@@ -115,7 +115,7 @@
       - ![deepin x11 settings](../images/deepin_x11_setting.png)
 
 ```shell
-enableV3D
+            enableV3D
 ```
 
 6. 首次安装系统会自动重启3次
