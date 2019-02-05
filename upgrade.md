@@ -27,16 +27,16 @@ apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 
 * 打开"***Debian-Pi-Aarch64-Kernel-Firmware***"文件夹，
 
-* **下载最新的升级包** (根据年月日判断，如201x-0x-xx)
+* **下载最新的升级包** (根据年月日判断，如201X-0X-XX)
 
-> 如：***upkg-201x-0x-xx-v201x-1.x-ux.zip***
+> 如：***upkg-201X-0X-XX-v201X-1.X-uX.zip***
 
 * 上传到你的树莓派系统，解压这个升级包
 
 ```shell
-unzip upkg-201x-0x-xx-v201x-1.x-ux.zip
+unzip upkg-201X-0X-XX-v201X-1.X-uX.zip
 
-# 注意：这里的 upkg-201x-0x-xx-v201x-1.x-ux.zip 以你实际下载的文件名为准
+# 注意：这里的 upkg-201X-0X-XX-v201X-1.X-uX.zip 以你实际下载的文件名为准
 ```
 * 解压完成后执行以下命令
 
