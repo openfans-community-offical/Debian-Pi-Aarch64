@@ -101,8 +101,8 @@
 
 ### 2019.02.01 &nbsp;&nbsp;// *Desktop System Image Released U4*
 
-1. **Xface** *Aarch64(ARM64)* 桌面系统镜像 **已发布！** (基于U4版基础系统镜像)
-2. **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 **已发布！** (基于U4版基础系统镜像)
+1. **Xface** *Aarch64(ARM64)* 桌面系统镜像U4 **已发布！** (基于U4版基础系统镜像)
+2. **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像U4 **已发布！** (基于U4版基础系统镜像)
 
 ### 2019-01-31-v2019-1.0-U4 &nbsp;&nbsp;// *Update4*
 
