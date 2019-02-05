@@ -17,19 +17,19 @@
 
 ![Xface桌面1](./images/xface_desktop.png)
 
-- **基础系统** 现已更新至 *2019-01-31-v2019-1.0-U5*
-
-- **Xface** *Aarch64(ARM64)* 桌面系统镜像 **已更新！** (基于U5版基础系统镜像)
-
-- **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 **已更新！** (基于U5版基础系统镜像)
-
-## 系统下载
-
 - **基础系统** 现已更新至 *2019-02-05-v2019-1.0-U5*
 
 - **Xface** *Aarch64(ARM64)* 现已更新至 *2019-02-05-v2019-1.0-U5*
 
 - **Deepin** *Aarch64(ARM64)* 现已更新至 *2019-02-05-v2019-1.0-U5*
+
+## 系统下载
+
+- **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
+
+- **Xface** *Aarch64(ARM64)* 桌面系统镜像 点击 **[此处](./docs/xface.md)** 前往下载 
+
+- **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 点击 **[此处](./docs/deepin.md)** 前往下载 
 
 # [捐赠](donation/README.md)
 
