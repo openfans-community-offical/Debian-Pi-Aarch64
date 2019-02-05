@@ -99,7 +99,7 @@
 
 - 请点击 [此处](./qemu-kvm.md) 查看：QEMU虚拟机二进制软件包及虚拟机镜像下载地址和教程
 
-### 2019.02.01 &nbsp;&nbsp;// *Desktop System Image Released*
+### 2019.02.01 &nbsp;&nbsp;// *Desktop System Image Released U4*
 
 1. **Xface** *Aarch64(ARM64)* 桌面系统镜像 **已发布！** (基于U4版基础系统镜像)
 2. **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 **已发布！** (基于U4版基础系统镜像)
