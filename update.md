@@ -1,6 +1,6 @@
-## 更新说明
+# 更新说明
 
-#### 2019.02.05 &nbsp;&nbsp;// *All Released to U5*
+## 2019.02.05 &nbsp;&nbsp;// *All Released to U5*
 
 1. 修复音频热插拔电源问题
 2. 去除内核多余的ARMV7支持
@@ -21,12 +21,12 @@
 17. 内核升级至主线 *4.14.95，Jan 30 2019*
 18. 系统升级至 *debian 9 arm64* 兼容主线 *Feb 5 2019*
 
-#### 2019.02.01 &nbsp;&nbsp;// *Desktop System Image Released U4*
+## 2019.02.01 &nbsp;&nbsp;// *Desktop System Image Released U4*
 
 1. **Xface** *Aarch64(ARM64)* 桌面系统镜像U4 **已发布！** (基于U4版基础系统镜像)
 2. **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像U4 **已发布！** (基于U4版基础系统镜像)
 
-#### 2019-01-31-v2019-1.0-U4 &nbsp;&nbsp;// *Update4*
+## 2019-01-31-v2019-1.0-U4 &nbsp;&nbsp;// *Update4*
 
 1. 调整构建系统参数
 2. 优化内核GPU驱动
@@ -36,7 +36,7 @@
 6. 优化深度系统下内核GPU的效率
 7. 系统包更新至Debian稳定主线：2019-01-31
 
-#### 2019-01-26-v2019-1.0-U3 &nbsp;&nbsp;// *Update3*
+## 2019-01-26-v2019-1.0-U3 &nbsp;&nbsp;// *Update3*
 
 1. 系统内核同步更新至Linux主线长期支持：**4.14.95**
 2. 固件 *Firmware *更新至对应内核主线：*4.14.95*
@@ -44,7 +44,7 @@
 4. 其他内核细微改动
 5. 系统包更新至Debian稳定主线：2019-01-26
 
-#### 2019-01-18-v2019-1.0-U2 &nbsp;&nbsp;// *Update2*
+## 2019-01-18-v2019-1.0-U2 &nbsp;&nbsp;// *Update2*
 
 1. 系统内核同步更新至Linux主线长期支持：**4.14.93**
 2. 固件 *Firmware *更新至对应内核主线：*4.14.93*
@@ -61,11 +61,11 @@
 13. 系统包更新至Debian稳定主线：2019-01-18
 
 
-#### 2019.01.10 &nbsp;&nbsp;// *SoftWare Update*
+## 2019.01.10 &nbsp;&nbsp;// *SoftWare Update*
 
 - **qemu-kvm** 虚拟机更新至 *qemu-2.12+dfsg-3ubuntu9*
 
-#### 2019-01-02-v2019-1.0-u1 &nbsp;&nbsp;// *Update1*
+## 2019-01-02-v2019-1.0-u1 &nbsp;&nbsp;// *Update1*
 
 1. 系统内核同步更新至Linux主线长期支持：4.14.91
 2. 为KVM硬件虚拟化模式加入KSM内核支持（自动开启，无需手动加载）
