@@ -29,7 +29,7 @@ apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 
 * **下载最新的升级包** (根据年月日判断，如201x-0x-xx)
 
-> 如：***upkg-201x-0x-xx-v201x-x.0-ux.zip***
+> 如：***upkg-201x-0x-xx-v201x-1.x-ux.zip***
 
 * 上传到你的树莓派系统，解压这个升级包
 
