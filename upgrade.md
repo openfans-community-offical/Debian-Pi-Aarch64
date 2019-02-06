@@ -23,7 +23,7 @@ apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 
 ### 升级系统固件及驱动
 
-**请前往 [此处](https://pan.baidu.com/s/1-NY_WL5LB0stpxT1wAKSaA)**
+**请前往  [此处](https://pan.baidu.com/s/1-NY_WL5LB0stpxT1wAKSaA)**
 
 * 打开"***Debian-Pi-Aarch64-Kernel-Firmware***"文件夹，
 
