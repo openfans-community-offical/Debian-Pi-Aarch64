@@ -21,4 +21,5 @@
 
 #### initrd
 
+      apt update ; apt install initramfs-tools -y
       mkinitramfs -o /boot/initrd.img-$(uname -r)
