@@ -19,3 +19,6 @@
       export XAUTHORITY=/var/lib/lightdm/.Xauthority
       glxinfo -B
 
+#### initrd
+
+      mkinitramfs -o /boot/initrd.img-$(uname -r)
