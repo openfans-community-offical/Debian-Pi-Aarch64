@@ -23,3 +23,8 @@
 
       apt update ; apt install initramfs-tools -y
       mkinitramfs -o /boot/initrd.img-$(uname -r)
+      
+#### Xorg
+
+      (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+      sudo apt install xfonts-cyrillic
