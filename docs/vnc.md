@@ -120,3 +120,9 @@ WantedBy=multi-user.target
 systemctl daemon-reload; systemctl enable vncserver@1.service ;\
 systemctl start vncserver@1.service ; systemctl status vncserver@1.service
 ```
+
+### 客户端连接
+
+1. 使用客户端连接到你的服务器：IP地址:5901
+
+2. 然后输入你设置的pi用户的VNC密码
