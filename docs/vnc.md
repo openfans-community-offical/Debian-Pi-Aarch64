@@ -157,3 +157,9 @@ websockify -D --web=/usr/share/novnc/ --cert=/var/lib/shellinabox/certificate.pe
 ### 开机启动
 
 将上面的命令放入 "/boot/rc-local" 即可
+
+## XRDP SERVER
+
+```shell
+apt install xrdp -y ; systemctl enable xrdp.service
+```
