@@ -18,6 +18,7 @@ Verify:    # 再次确认你的root账户的VNC访问密码
 ## 下面设置仅查看密码(无操作权限)，这里不设置，所以选择"n"
 Would you like to enter a view-only password (y/n)? n 
 ```
+
 ### 结束VNC进程
 
 ```shell
@@ -51,12 +52,16 @@ vncserver ; vncserver -kill :1
 mkdir /home/pi/.vnc ; cp ~/.vnc/xstartup /home/pi/.vnc/xstartup
 chown -R  pi /home/pi/.vnc
 adduser pi bluetooth
+
 ## 编辑文件
+
 vim /etc/dbus-1/system.d/bluetooth.conf
-#### 在"<!-- allow users of bluetooth group to communicate -->" 行上加入以下内容
+
+#### 在"<!-- allow users of bluetooth group to communicate -->" 一行上加入以下内容
 ```
 
 ```shell
+
   <policy group="pi">
     <allow send_destination="org.bluez"/>
   </policy>
