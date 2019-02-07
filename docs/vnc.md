@@ -49,10 +49,12 @@ vncserver ; vncserver -kill :1
 ### 设置pi账户VNC配置文件
 
 ```shell
-mkdir /home/pi/.vnc ; cp ~/.vnc/xstartup /home/pi/.vnc/xstartup
-chown -R  pi /home/pi/.vnc
+mkdir /home/pi/.vnc ; cp ~/.vnc/xstartup /home/pi/.vnc/xstartup ;\
+chown -R  pi /home/pi/.vnc ;\
 adduser pi bluetooth
+```
 
+```shell
 ## 编辑文件
 
 vim /etc/dbus-1/system.d/bluetooth.conf
