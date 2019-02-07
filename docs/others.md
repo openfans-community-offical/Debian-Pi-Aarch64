@@ -28,3 +28,17 @@
 
       (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
       sudo apt install xfonts-cyrillic
+
+#### chromium
+
+      rm -rf /usr/sbin/chromium_mod-xface.sh 2>/dev/null;\
+      cat <<EOF >/usr/sbin/chromium_mod-xface.sh
+      #!/bin/bash
+      export PICHROMIUMMODS='/etc/chromium.d/pi-mods'
+      touch \$PICHROMIUMMODS 2>/dev/null
+      echo 'CHROMIUM_FLAGS=' > \$PICHROMIUMMODS
+      sed -i 's/CHROMIUM_FLAGS=/CHROMIUM_FLAGS="\$CHROMIUM_FLAGS --disable-gpu-compositing --enable-gpu-rasterization --enable-native-gpu-memory-buffers --disable-quic --enable-checker-imaging --enable-tcp-fast-open--enable-fast-unload --enable-experimental-canvas-features --enable-scroll-prediction --enable-simple-cache-backend --answers-in-suggest --max-tiles-for-interest-area=512 --num-raster-threads=4 --default-tile-height=512 --disk-cache-size=0 --use-gl=egl --gles --enable-zero-copy"/g' \$PICHROMIUMMODS
+      EOF
+      sudo chmod +x /usr/sbin/chromium_mod-xface.sh
+      
+      ## --disable-gpu-compositing to use vc4 ??
