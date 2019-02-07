@@ -1,9 +1,10 @@
 # 更新说明
 
-## 2019.02.06 &nbsp;&nbsp;// Kernel & Firmware
+## 2019.02.07 &nbsp;&nbsp;// Kernel & Firmware
 
 1. 内核已更新至Linux主线版本: *4.14.97* 
 2. 固件驱动已同步更新至主线内核: *4.14.97*
+3. 修改CMA为默认值
 
 
 ## 2019.02.05 &nbsp;&nbsp;// *All Released to U5*
