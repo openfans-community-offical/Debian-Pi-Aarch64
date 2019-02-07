@@ -1,4 +1,4 @@
-# 如何设置VNC远程访问 novnc python-websockify 
+# 如何设置VNC远程访问 
 
 使用root账户登录并执行下列操作：
 
@@ -126,3 +126,24 @@ systemctl start vncserver@1.service ; systemctl status vncserver@1.service
 1. 使用客户端连接到你的服务器：IP地址:5901
 
 2. 然后输入你设置的pi用户的VNC密码
+
+## 安装NOVNC
+
+支持使用浏览器作为客户端访问VNC
+
+### 安装并配置
+
+```shell
+apt update; apt install novnc python-websockify -y ;\
+ln -sf /usr/share/novnc/vnc_auto.html /usr/share/novnc/index.html
+```
+
+### 启动服务
+
+```shell
+websockify -D --web=/usr/share/novnc/ --cert=/var/lib/shellinabox/certificate.pem 6080 localhost:5901
+```
+
+### 开机启动
+
+将上面的命令放入 "/boot/rc-local" 即可
