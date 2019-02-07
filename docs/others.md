@@ -51,3 +51,9 @@ sudo chmod +x /usr/sbin/chromium_mod-xface.sh
 
 ## --disable-gpu-compositing to use vc4 ??
 ```
+
+#### libGL.so armhf
+
+```shell
+apt install libgl1-mesa-dri:armhf libgl1-mesa-glx:armhf glx-alternative-mesa:armhf
+```
