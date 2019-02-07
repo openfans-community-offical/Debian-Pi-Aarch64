@@ -31,6 +31,9 @@ mv /root/.vnc/xstartup /root/.vnc/xstartup.bak
 ## 编辑文件
 vim /root/.vnc/xstartup
 ## 键入下面的内容
+```
+
+```shell
 #!/bin/bash
 xrdb $HOME/.Xresources
 startxfce4 &
@@ -51,12 +54,16 @@ adduser pi bluetooth
 ## 编辑文件
 vim /etc/dbus-1/system.d/bluetooth.conf
 #### 在"<!-- allow users of bluetooth group to communicate -->" 行上加入以下内容
+```
+
+```shell
   <policy group="pi">
     <allow send_destination="org.bluez"/>
   </policy>
 
 ## 下面一行不要添加，文件中应该存在
 <!-- allow users of bluetooth group to communicate -->
+```
 
 ### 设置pi用户VNC密码
 
@@ -77,6 +84,10 @@ exit
 ```shell
 ## 编辑文件
 vim /lib/systemd/system/vncserver@.service
+## 键入下面的内容
+```
+
+```shell
 [Unit]
 Description=Start TightVNC server at startup
 After=syslog.target network.target
