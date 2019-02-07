@@ -127,7 +127,9 @@ systemctl start vncserver@1.service ; systemctl status vncserver@1.service
 
 2. 然后输入你设置的pi用户的VNC密码
 
-## 安装NOVNC
+----
+
+## NOVNC
 
 支持使用浏览器作为客户端访问VNC
 
