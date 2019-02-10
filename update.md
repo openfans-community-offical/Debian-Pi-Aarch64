@@ -1,5 +1,11 @@
 # 更新说明
 
+## 2019.02.11 &nbsp;&nbsp;// Deepin Aarch64(ARM64)
+
+1. Deepin Aarch64(ARM64) 现已更新至 2019-02-11-v2019-1.0-U6
+2. 修复Plymoth引导画面显示问题
+3. 更新内核及固件到U6版
+
 ## 2019.02.07 &nbsp;&nbsp;// Kernel & Firmware
 
 1. 内核已更新至Linux主线版本: *4.14.97* 
