@@ -124,6 +124,35 @@
       - 第三次自动生成Swap交换文件并初始化系统
       - **系统初始安装可能会消耗较长的时间，请耐心等待**
 
+## **如果你的系统出现卡顿死机的情况怎么办？**
+
+这是由于你的TF卡的性能不能足支撑系统的I/O交换空间造成的，这种情况下**不再建议使用浏览器播放视频**
+
+并编辑你的 **/boot/config.txt** 文件，关闭GPU硬件加速，释放GPU占用的内存空间
+
+找到以下内容:
+
+```shell
+##   3D for VC4 GPU support:  ##
+dtoverlay=vc4-fkms-v3d
+gpu_mem=128
+## If open 3D support,        ##
+## Must change gpu_mum >=128  ##
+```
+
+将其改为:
+
+```shell
+##   3D for VC4 GPU support:  ##
+# dtoverlay=vc4-fkms-v3d
+gpu_mem=256
+gpu_mem_256=64
+## If open 3D support,        ##
+## Must change gpu_mum >=128  ##
+```
+
+然后重启即可
+
 ----
 
 ## 关于TF卡的要求
