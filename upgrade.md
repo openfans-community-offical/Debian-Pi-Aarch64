@@ -31,7 +31,7 @@ apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 
 > 如：***upkg-201X-0X-XX-v201X-1.X-uX.zip***
 
-* 上传到你的树莓派系统，解压这个升级包
+* 上传到你的树莓派系统，**切换至root用户**并解压这个升级包
 
 ```shell
 unzip upkg-201X-0X-XX-v201X-1.X-uX.zip
