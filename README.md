@@ -19,7 +19,7 @@
 
 - **基础系统** 现已更新至 *2019-02-05-v2019-1.0-U5*
 
-- **Deepin** *Aarch64(ARM64)* 现已更新至 *2019-02-05-v2019-1.0-U6*
+- **Deepin** *Aarch64(ARM64)* 现已更新至 *2019-02-11-v2019-1.0-U6*
 
 - **Xface** *Aarch64(ARM64)* 现已更新至 *2019-02-05-v2019-1.0-U5*
 
@@ -105,7 +105,7 @@
 
 - **基础系统** 现已更新至 *2019-02-05-v2019-1.0-U5*
 
-- **Deepin** *Aarch64(ARM64)* 现已更新至 *2019-02-05-v2019-1.0-U6*
+- **Deepin** *Aarch64(ARM64)* 现已更新至 *2019-02-11-v2019-1.0-U6*
 
 - **Xface** *Aarch64(ARM64)* 现已更新至 *2019-02-05-v2019-1.0-U5*
 
@@ -794,84 +794,4 @@ Linux标准TTY不支持显示中文字体
 fbterm提供了一个快速的终端仿真器，它直接运行在你的系统中的帧缓冲 (framebuffer) 之上
 使用帧缓冲可以在终端渲染 UTF-8 文本时可以提高性能
 fbterm 旨在提供国际化和现代字体支持时至少与 Linux 内核终端一样快
-它允许你在同一个帧缓冲上创建多达 10 个不同的终端窗口，每个窗口都有它的回滚历史
-```
-
-请在你的本地终端执行以下操作，以支持显示中文
-
-```shell
-## 安装fbterm
-sudo apt update; sudo apt install fbterm -y
-## 添加登录用户到video组
-sudo adduser root video ; sudo adduser pi video 
-sudo adduser 你自己创建的其他用户名(若果有) video
-## 然后每次需要显示时执行以下命令即可（第一次需要等待一些时间）：
-fbterm
-```
-
-----
-
-# 版权说明
-
-1. 以上系统由 "**OPENFANS开源社区**" 制作，仅由 “**树莓派爱好者基地**” 独家发布并提供技术支持
-
-2. 任何文字、图片转载必须标明系统（软件）来源；您可以对软件或系统进行任何修改，但必须保留出处；严谨用于任何商业用途，如需商业使用，请与 “**OPENFANS开源社区**” 及 “**树莓派爱好者基地**” 联系并获得许可
-
-3. 以上系统以及软件的所有权归属相对应的软件作者和遵守相关软件包的许可授权协议
-
-4. 未遵守上诉规定保留出处，“**OPENFANS开源社区**” 及 “**树莓派爱好者基地**” 有权追究其相应责任并责令停止一切侵权行为
-
-5. “**OPENFANS开源社区**” 及 “**树莓派爱好者基地**” 拥有以上内容的最终解释权
-
-----
-
-# 附：
-
-## **[捐赠](donation/README.md)**
-
-## 联系方式
-
-### 树莓派爱好者基地QQ群
-
-**1群：** *695558192*
-
-**2群：** *203950207*
-
-**3群：** *788379183*
-
-### OPENFANS官方QQ群 
-
-**1群：** *370350002* 
-
-![Debian-Pi-Aarch64 OPENFANS](/images/370350002.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=07bab0507c84a21cc939f0d8ed5c86c2a32039f271af948ccf2dcbcfd900eee0"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Debian-Pi-Aarch64" title="Debian-Pi-Aarch64"></a>
-
-----
-
-# 镜像文件校验信息
-
-* **img镜像文件命名规则名：**
- 
-       FSTYPE = ext4, btrfs, fsf2
-       2018-12-30-OPENFANS-Debian-Stretch-Aarch64-$FSTYPE-v2019-1.0.img
-
-*  **xz压缩文件命名规则名：** 
-
-       FSTYPE = ext4, btrfs, fsf2
-       2018-12-30-OPENFANS-Debian-Stretch-Aarch64-$FSTYPE-v2019-1.0.img.xz
-
-* **系统镜像版本：**
-
-      v2019-1.0
-
-* **信息参考表：**
-
-| 文件类型 | 文件系统类型 |            MD5校验码            |             SHA256校验码             |
-| --- | --- | --- | --- |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| f0534a2d6df2c6cb4399273749b3128d | f8941440b192804387a6c2b4d48ef644c327643872184aee1179368d4026a0d9 |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;btrfs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| bdb78133513541651cb16cf7d3c8c3ba | 6c2bbeca1af55634d8a6738fb03bd7cae25986fab8f8d725090da6192318bcad |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f2fs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| d7aa147e49d70d6d5e9a30cefeb405a1 | 618371e7a51c513c85dec892b26bb6616ddefdf33e18b88e701f757b8b47764c |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| b8a3e728da7e3fa0944b6e39be9c9898 | e2ec878ab0a6b216cdb4add8f6d1f4d957c083b969ce3c1cf0c6e28e27e5c97f |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;btrfs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| a22c8d168cf691728452df2a14177765 | 1ce31aec4528038f24d21e68b585b9d55d85d9a42ffe7605e21c9d21e55740ae |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f2fs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| bce494a0d0d074e33a2f3767d516613c | 4749da65b14bab2b84e3547a5b337ed36654360dccd66faa735d59173458be2e |
+它允许你在同一个帧缓冲上创建多达 10 个不同的终端窗口，
