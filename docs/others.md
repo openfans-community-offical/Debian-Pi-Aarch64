@@ -57,3 +57,13 @@ sudo chmod +x /usr/sbin/chromium_mod-xface.sh
 ```shell
 apt install libgl1-mesa-dri:armhf libgl1-mesa-glx:armhf glx-alternative-mesa:armhf
 ```
+
+### glmark2 build
+
+```shell
+sudo git clone https://github.com/LeMaker/glmark2.git
+cd glmark2
+sudo ./waf configure --with-flavors=x11-gl,x11-glesv2
+sudo ./waf
+sudo ./waf install
+```
