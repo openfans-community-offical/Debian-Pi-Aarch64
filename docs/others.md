@@ -61,6 +61,10 @@ apt install libgl1-mesa-dri:armhf libgl1-mesa-glx:armhf glx-alternative-mesa:arm
 ### glmark2 build
 
 ```shell
+apt-get install libgegl-0.2-0 libgfortran3 libgimp2.0 libgl1-mesa-dev \
+libgles2-mesa-dev libglew-dev libglew1.10 libglib2.0-bin libglib2.0-data \
+libglib2.0-dev libglu1-mesa-dev 
+apt install libpng-dev libx11-dev pkg-config libjpeg-dev
 sudo git clone https://github.com/LeMaker/glmark2.git
 cd glmark2
 sudo ./waf configure --with-flavors=x11-gl,x11-glesv2
