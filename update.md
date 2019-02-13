@@ -10,8 +10,9 @@
 6. 加入终端原生中文实现，使用 **fbterm**
 7. Deepin系统加入 **initrd** 的支持
 8. Deepin系统加入 **引导动画** 支持
-9. 重建Xface自动构建系统
-10. 重建Deepin自动构建系统
+9. 优化基础构建系统
+10. 重建Xface自动构建系统
+11. 重建Deepin自动构建系统
 
 ## 2019.02.11 &nbsp;&nbsp;// Deepin Aarch64(ARM64)
 
