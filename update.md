@@ -11,6 +11,8 @@
 7. Deepin系统加入 **initrd** 的支持
 8. Deepin系统加入 **引导动画** 支持
 
+----
+
 ## 2019.02.11 &nbsp;&nbsp;// Deepin Aarch64(ARM64)
 
 1. **Deepin Aarch64(ARM64)** 现已更新至 **2019-02-11-v2019-1.0-U6**
