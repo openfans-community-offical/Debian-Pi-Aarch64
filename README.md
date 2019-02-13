@@ -10,9 +10,6 @@
 
 **树莓派64位系统** &nbsp;&nbsp; **Debian Stretch Aarch64 基础系统** + **深度桌面** + **Xface桌面**
 
-- 2019 新年**春节**特别版 v1.0 **U5** 新版已发布！
-- 2019 新年**元旦**特别版 v1.0 全新正式发布！
-
 ![深度系统桌面1](./images/deepin_desktop1.png)
 
 ![Xface桌面1](./images/xface_desktop.png)
