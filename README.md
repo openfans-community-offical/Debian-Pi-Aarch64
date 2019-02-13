@@ -843,18 +843,27 @@ fbterm
 ![Debian-Pi-Aarch64 OPENFANS](/images/370350002.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=07bab0507c84a21cc939f0d8ed5c86c2a32039f271af948ccf2dcbcfd900eee0"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Debian-Pi-Aarch64" title="Debian-Pi-Aarch64"></a>
+
 ----
+
 # 镜像文件校验信息
+
 * **img镜像文件命名规则名：**
  
        FSTYPE = ext4, btrfs, fsf2
        2018-12-30-OPENFANS-Debian-Stretch-Aarch64-$FSTYPE-v2019-1.0.img
+
 *  **xz压缩文件命名规则名：** 
+ 
        FSTYPE = ext4, btrfs, fsf2
        2018-12-30-OPENFANS-Debian-Stretch-Aarch64-$FSTYPE-v2019-1.0.img.xz
+
 * **系统镜像版本：**
-      v2019-1.0
+
+       v2019-1.0
+
 * **信息参考表：**
+
 | 文件类型 | 文件系统类型 |            MD5校验码            |             SHA256校验码             |
 | --- | --- | --- | --- |
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| f0534a2d6df2c6cb4399273749b3128d | f8941440b192804387a6c2b4d48ef644c327643872184aee1179368d4026a0d9 |
