@@ -2,7 +2,7 @@
 
 # Debian Pi Aarch64 - 基础系统 + 深度桌面 + Xface桌面
 
-&nbsp;&nbsp;[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp; && &nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp;**荣誉出品**
+**[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp; && &nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp;荣誉出品**
 
 ###  再次重申！我们是团队，企业级的专业团队出品的系统，不要拿个人作品来和我们比较。
 
