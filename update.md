@@ -11,8 +11,9 @@
 7. Deepin系统加入 **initrd** 的支持
 8. Deepin系统加入 **引导动画** 支持
 9. 优化基础构建系统
-10. 重建Xface自动构建系统
-11. 重建Deepin自动构建系统
+10. 重建 Xface 自动构建系统
+11. 重建 Deepin 自动构建系统
+12. 调整 Xface Xorg 的结构包
 
 ## 2019.02.11 &nbsp;&nbsp;// Deepin Aarch64(ARM64)
 
