@@ -810,15 +810,15 @@ fbterm
 
 # 版权说明
 
-1. 以上系统由 "**OPENFANS开源社区**" 制作，仅由 “**树莓派爱好者基地**” 独家发布并提供技术支持
+1. 以上系统由**OPENFANS开源社区**制作，仅由**树莓派爱好者基地**独家发布并提供技术支持
 
-2. 任何文字、图片转载必须标明系统（软件）来源；您可以对软件或系统进行任何修改，但必须保留出处；严谨用于任何商业用途，如需商业使用，请与 “**OPENFANS开源社区**” 及 “**树莓派爱好者基地**” 联系并获得许可
+2. 任何文字、图片转载必须标明系统（软件）来源；您可以对软件或系统进行任何修改，但必须保留出处；严谨用于任何商业用途，如需商业使用，请与**OPENFANS开源社区**及**树莓派爱好者基地**联系并获得许可
 
 3. 以上系统以及软件的所有权归属相对应的软件作者和遵守相关软件包的许可授权协议
 
-4. 未遵守上诉规定保留出处，“**OPENFANS开源社区**” 及 “**树莓派爱好者基地**” 有权追究其相应责任并责令停止一切侵权行为
+4. 未遵守上诉规定保留出处，**OPENFANS开源社区**及**树莓派爱好者基地**有权追究其相应责任并责令停止一切侵权行为
 
-5. “**OPENFANS开源社区**” 及 “**树莓派爱好者基地**” 拥有以上内容的最终解释权
+5. **OPENFANS开源社区**及**树莓派爱好者基地**拥有以上内容的最终解释权
 
 ----
 
@@ -872,3 +872,5 @@ fbterm
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| b8a3e728da7e3fa0944b6e39be9c9898 | e2ec878ab0a6b216cdb4add8f6d1f4d957c083b969ce3c1cf0c6e28e27e5c97f |
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;btrfs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| a22c8d168cf691728452df2a14177765 | 1ce31aec4528038f24d21e68b585b9d55d85d9a42ffe7605e21c9d21e55740ae |
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f2fs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| bce494a0d0d074e33a2f3767d516613c | 4749da65b14bab2b84e3547a5b337ed36654360dccd66faa735d59173458be2e |
+
+----
