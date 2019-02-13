@@ -13,7 +13,7 @@
 9. 优化基础构建系统
 10. 重建 Xface 自动构建系统
 11. 重建 Deepin 自动构建系统
-12. 调整 Xface Xorg 的结构包
+12. 调整 Xorg 的结构包
 
 ## 2019.02.11 &nbsp;&nbsp;// Deepin Aarch64(ARM64)
 
