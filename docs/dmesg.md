@@ -1,3 +1,6 @@
+### dmesg
+
+```shell
 [    0.000000] Booting Linux on physical CPU 0x0
 [    0.000000] Linux version 4.14.98-OPENFANS+20190213-v8 (root@raspbian) (gcc version 6.3.0 20170516 (Debian 6.3.0-18)) #1 SMP Wed Feb 13 21:23:33 CST 2019
 [    0.000000] Boot CPU: AArch64 Processor [410fd034]
@@ -410,3 +413,4 @@
 [   36.684941] Bluetooth: RFCOMM TTY layer initialized
 [   36.684969] Bluetooth: RFCOMM socket layer initialized
 [   36.685014] Bluetooth: RFCOMM ver 1.11
+```
