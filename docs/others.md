@@ -7,6 +7,13 @@
 
 ----
 
+#### GLES2
+
+```shell
+apt install libgles2-mesa-dev
+apt install libgles2-mesa
+```
+
 #### Disable cgroup
 
 In cmdline.txt remove defined cgoup args and add:
