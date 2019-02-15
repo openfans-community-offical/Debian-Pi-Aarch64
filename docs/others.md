@@ -34,7 +34,7 @@ cgroup_disable=cpuset,cpuacct,blkio,memory,devices,freezer,net_cls,perf_event,ne
 export DISPLAY=:0
 export XAUTHORITY=/var/lib/lightdm/.Xauthority
 glxinfo -B
-vblank_mode=0 glxgears -info
+env vblank_mode=0 __GL_SYNC_TO_VBLANK=0 glxgears
 ```
 
 #### initrd
