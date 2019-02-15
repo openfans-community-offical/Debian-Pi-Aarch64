@@ -14,6 +14,12 @@ apt install libgles2-mesa-dev
 apt install libgles2-mesa
 ```
 
+#### /etc/modules-load.d/modules.conf
+
+```shell
+fbtft
+````
+
 #### Disable cgroup
 
 In cmdline.txt remove defined cgoup args and add:
