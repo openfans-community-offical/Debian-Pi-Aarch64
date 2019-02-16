@@ -217,20 +217,20 @@ You’ll need to create an xorg.conf file and run startx to see anything. Howeve
 sudo vim /etc/X11/xorg.conf
 
 ```shell
-Section “Module”
-Load “glamoregl”
-Load “glx”
+Section "Module"
+  Load "glamoregl"
+  Load "glx"
 EndSection
 
-Section “Device”
-Identifier “Default screen”
-Driver “modesetting” # you can change this back to fbdev
-Option “ForceGallium” “True”
-Option “AccelMethod” “glamor”
+Section "Device"
+  Identifier "Default screen"
+  Driver "modesetting" # you can change this back to fbdev
+  Option "ForceGallium" "True"
+  Option "AccelMethod" "glamor"
 EndSection
 
-Section “dri”
-Mode 0666
+Section "dri"
+  Mode 0666
 EndSection
 ```
 
