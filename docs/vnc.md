@@ -13,7 +13,7 @@
 ## 安装VNC
 
 ```shell
-apt update; sudo apt installtightvncserver -y
+apt update; sudo apt install tightvncserver -y
 ```
 
 ### 设置root用户VNC密码
