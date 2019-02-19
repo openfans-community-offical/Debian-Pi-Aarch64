@@ -51,7 +51,7 @@ startxfce4 &
 ### 启动检验再关闭退出
 
 ```shell
-vncserver ; vncserver -kill :1
+vncserver ; vncserver -kill  :1
 ```
 
 ### 设置pi账户VNC配置文件
