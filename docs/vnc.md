@@ -61,8 +61,11 @@ systemctl enable vncserver-x11-serviced.service ; systemctl start vncserver-x11-
 
 - 运行后默认端口为：**5900**
 
-现在，你 **必须** 使用 **RealVNC** 客户端来进行连接，有关RealVNC的客户端，请自行搜索下载
+现在，你 **必须** 使用 **RealVNC** 客户端来进行连接，有关RealVNC的客户端，点击 此处 [前往](https://www.realvnc.com/en/connect/download/viewer/) 下载
+
 下载RealVNC客户端，直接输入**IP地址**即可，**不需要填写端口**
+
+推荐使用**RealVNC** ，客户端支持广泛： windows, Linux, 安卓, 苹果 ...
 
 ----
 
