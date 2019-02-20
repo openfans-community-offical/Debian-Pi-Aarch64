@@ -63,30 +63,9 @@ systemctl enable vncserver-x11-serviced.service ; systemctl start vncserver-x11-
 
 ----
 
-## NOVNC
-
-支持使用浏览器作为客户端访问VNC
-
-### 安装并配置
-
-```shell
-apt update; apt install novnc python-websockify -y ;\
-ln -sf /usr/share/novnc/vnc_auto.html /usr/share/novnc/index.html
-```
-
-### 启动服务
-
-```shell
-websockify -D --web=/usr/share/novnc/ --cert=/var/lib/shellinabox/certificate.pem 6080 localhost:5900
-```
-
-### 开机启动
-
-将上面的命令放入 "/boot/rc-local" 即可
-
-----
-
 ## XRDP SERVER
+
+如果要安装XRDP 执行下面命令，除非你知道XRDP是做什么的，否则不需要 !!
 
 ```shell
 apt install xrdp -y ; systemctl enable xrdp.service
