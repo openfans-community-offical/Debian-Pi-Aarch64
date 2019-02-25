@@ -1,10 +1,10 @@
-![openfans](../images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](../images/amatfan.png)
+![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
 
-# Debian Pi Aarch64 Xface Desktop 桌面系统 树莓派3B/3B+
+# Debian Pi Aarch64 Xfce Desktop 桌面系统 树莓派3B/3B+
 
-**[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp;&&&nbsp;&nbsp;[树莓派爱好者基地](http://rpifans.cn/)&nbsp;&nbsp; 荣誉出品 - 全网首发 ！！**
+**[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp; && &nbsp;&nbsp;[树莓派爱好者基地](http://www.pifan.org/)&nbsp;&nbsp;荣誉出品**
 
-#### 再次重申！我们是团队，企业级团队出品的系统，不要拿个人作品来和我们比较
+###  再次重申！我们是团队，企业级的专业团队出品的系统，不要拿个人作品来和我们比较
 
 ----
 
@@ -12,9 +12,9 @@
 
 ## 系统介绍
 
-四大流行桌面环境之一：**"Xface"**  *这里就不做过多介绍了*
+四大流行桌面环境之一：**"Xfce"**  *这里就不做过多介绍了*
 
-基于 **[OPENFANS Debian Pi Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)** 基础系统U5版镜像构建的Xface桌面
+基于 **[OPENFANS Debian Pi Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)** 基础系统镜像构建的Xfce桌面
 
 点击 [此处](https://pan.baidu.com/s/1dJk5uCQq8o0eRyW5Edtkzg) 前往下载
 
@@ -24,7 +24,7 @@
 
 ## 桌面截图
 
-![xface](../images/xface_desktop.png)
+![xfce](../images/xface_desktop.png)
 
 ## 系统特点
 
@@ -46,29 +46,22 @@
 
 ## 系统说明
 
-1. 系统默认没有开启root账户的登录权限
+### 默认账户
 
-2. 不允许保持使用默认的用户密码
+- 默认账户: pi
 
-3. 默认系统账户名：**pi**  ，密码：**raspberry**
+- 默认账户pi密码: raspberry
 
-4. 首次登录必须修改默认的密码，总共需要输入4次密码：
+- root账户密码需要自行设定
 
-      - 第一次是默认密码 **raspberry**  - *PS: 登录认证*
-      - 第二次也是默认密码 **raspberry**  - *PS: 修改密码的操作认证*
-      - 第三次设置新密码  - *PS: 设置密码*
-      - 第四次确认新密码  - *PS: 必须和新设置的密码一致*
-      - **修改密码操作请务必在完成初始安装的3次重启后再进行！**
+- 默认用户**pi**已开启图形化界面的自动登录模式
 
-5. 首次登录系统后，需要打开终端，执行以下命令以开启GPU硬件加速支持
+### 首次安装系统会自动重启3次
 
-        enableV3D
-
-6. 首次安装系统会自动重启3次
-      - 第一次检查文件系统
-      - 第二次自动扩展根分区
-      - 第三次自动生成Swap交换文件并初始化系统
-      - **系统初始安装可能会消耗较长的时间，请耐心等待**
+- 第一次检查文件系统
+- 第二次自动扩展根分区
+- 第三次自动生成Swap交换文件并初始化系统
+- **系统初始安装可能会消耗较长的时间，请耐心等待**
 
 ----
 
