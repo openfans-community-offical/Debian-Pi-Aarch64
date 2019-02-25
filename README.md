@@ -448,9 +448,9 @@ enableVC64
 
 ### 默认账户
 
-  1. 默认账户: **pi**
+  1. 默认账户:    **pi**
     
-  2. 默认账户**pi**密码: **raspberry**
+  2. 默认账户**pi**密码:    **raspberry**
 
   3. root账户密码需要自行设定
 
@@ -566,6 +566,7 @@ apt-get install libc6-armel
 ```shell
 disable_overscan=1
 ```
+
 * 重启后即可生效
 
 * 然后执行以下命令安装桌面环境相关的软件包 (安装的软件包数量较多，请耐心等待)
@@ -584,6 +585,7 @@ sudo apt install ttf-wqy-zenhei fonts-arphic-ukai fonts-arphic-uming fonts-wqy-z
 fcitx-m17n fcitx-googlepinyin zhcon python-zhpy \
 firefox-esr-l10n-zh-cn libreoffice-l10n-zh-cn -y
 ```
+
 ** **图形界面显示中文**
 
 需要修改文件 **/etc/default/locale**
