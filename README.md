@@ -12,7 +12,7 @@
 
 ![深度系统桌面1](./images/deepin_desktop1.png)
 
-![Xface桌面1](./images/xface_desktop.png)
+![Xfce桌面1](./images/xface_desktop.png)
 
 ## 系统下载
 
@@ -20,7 +20,7 @@
 
 ● **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 点击 **[此处](./docs/deepin.md)** 前往下载 
 
-● **Xface** *Aarch64(ARM64)* 桌面系统镜像 点击 **[此处](./docs/xface.md)** 前往下载 
+● **Xfce** *Aarch64(ARM64)* 桌面系统镜像 点击 **[此处](./docs/xfce.md)** 前往下载 
 
 # [捐赠](donation/README.md)
 
@@ -56,9 +56,9 @@
 
 有关 **【 深度Deepin 15.5 ARM64位 专业版 】** 的详细介绍，请前往 **[此处](./docs/deepin.md)** 查看
 
-### **●  Xface桌面**
+### **●  Xfce桌面**
 
-同时，我们也发布了**Xface桌面**的系统镜像，请前往 **[此处](./docs/xface.md)** 查看相关说明
+同时，我们也发布了**Xfce桌面**的系统镜像，请前往 **[此处](./docs/xfce.md)** 查看相关说明
 
 ---
 
@@ -96,7 +96,7 @@
 
 - **Deepin** *Aarch64(ARM64)* 现已更新至 **2019-02-13-v2019-1.0-U7**
 
-- **Xface** *Aarch64(ARM64)* 现已更新至 **2019-02-13-v2019-1.0-U7**
+- **Xfce** *Aarch64(ARM64)* 现已更新至 **2019-02-13-v2019-1.0-U7**
 
 - **内核、固件驱动** 已更新至 **2019-02-13-v2019-1.0-U7**
 
