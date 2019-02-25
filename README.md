@@ -673,7 +673,7 @@ apt update; apt install shellinabox -y
 
 - 统计图
 
-![sysbench](./images/sysbench.png)
+![sysbench](./images/sysbench_result.png)
 
 ----
 
