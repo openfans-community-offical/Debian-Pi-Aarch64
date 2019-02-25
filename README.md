@@ -649,7 +649,7 @@ apt update; apt install shellinabox -y
 
 近来，树莓派官方做了不少优化工作，现在的系统对比以前的32位系统有了较大的提升，但是由于32位原生的架构限制，与64位系统性能差距仍然较大
 
-### 附： 树莓派爱好者基地 Debian Pi Aarch64 64位系统 与 树莓派官方64位 性能对比测试
+**附：** 树莓派爱好者基地 **Debian Pi Aarch64 64位**系统 与 树莓派官方 **Raspbian 32位** 性能对比测试
 
 #### Sysbench 0.4.12 Result
 
