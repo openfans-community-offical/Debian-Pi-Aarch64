@@ -448,37 +448,11 @@ enableVC64
 
 ### 默认账户
 
-    用户名：pi ，密码为: raspberry 
-
-### 安全增强
-
-  1. 不再设置默认的 **root** 用户密码，需要用户使用默认**pi**账户登录后通过"**sudo passwd root**"命令自行设置**root**用户密码
+  1. 默认账户: **pi**
     
-  2. **默认没有开启 root 用户的ssh登录权限（默认仅支持 pi 用户远程ssh登录）**
+  2. 默认账户**pi**密码: **raspberry**
 
-  3. 不再允许保留初始使用的默认密码，首次使用 **pi** 账户登录后需要重新设置默认账户pi的密码，具体操作如下：
-
-  **注意：第一次登录需要重新设置账户密码，这之前需要输入2次默认密码 "raspberry"**
-
-  - 登录系统：（输入一次默认密码 “raspberry”）
-  
-    使用pi账户的默认密码登录系统
-  
-  - 接下来系统要求重新设置账户密码 （再次输入一次默认密码 “raspberry”）
-
-    然后按照系统提示重新设置pi账户密码**并再次输入新密码**确认
-    
-#### 这里是一个完整的首次登录和修改密码的过程
-
-```shell
-raspbian login: pi                ## 默认登录账户  pi
-Password:                         ## 默认登录密码  raspberry
-You are required to change your password immediately (root enforced)
-Changing password for pi.
-(current) UNIX password:          ## 系统账户pi的默认密码  raspberry
-Enter new UNIX password:          ## 系统账户pi的新密码
-Retype new UNIX password:         ## 再次输入系统账户pi的新密码
-```
+  3. root账户密码需要自行设定
 
 ### 默认仓库源为清华源
      
