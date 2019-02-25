@@ -16,7 +16,7 @@
 
 基于 **[OPENFANS Debian Pi Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)** 基础系统镜像构建的Xfce桌面
 
-点击 [此处](https://pan.baidu.com/s/1dJk5uCQq8o0eRyW5Edtkzg) 前往下载
+点击 **[此处](https://pan.baidu.com/s/1dJk5uCQq8o0eRyW5Edtkzg)** 前往下载
 
 # [捐赠](../donation/README.md)
 
