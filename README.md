@@ -1,6 +1,6 @@
 ![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
 
-# Debian Pi Aarch64 - 基础系统 + 深度桌面 + Xface桌面
+# Debian Pi Aarch64 - 基础系统 + 深度桌面 + Xfce桌面
 
 **[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp; && &nbsp;&nbsp;[树莓派爱好者基地](http://www.pifan.org/)&nbsp;&nbsp;荣誉出品**
 
