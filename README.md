@@ -608,19 +608,7 @@ EOF
 
 ### 开启显卡3D硬件加速
 
-编辑 /boot/config.txt 文件，在文件末尾加入：
-
-```shell
-dtoverlay=vc4-fkms-v3d
-gpu_mem=192  （这个值最小应应保证不低于128）
-
-注意：
-vc4-fkms-v3d 是较好的优选兼容模式
-也可以设置为 vc4-kms-v3d 全硬件加速，但是在远程等环境下显示会有一些问题
-除非你是本地接显示器，一般不建议设置为 vc4-kms-v3d
-```
-
-然后重启即可
+所有图形化系统镜像Xfce和Deepin桌面都已经开启3D硬件加速支持，无需配置
 
 ###  ShellinaBox
 
