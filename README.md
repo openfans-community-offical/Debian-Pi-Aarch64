@@ -569,7 +569,7 @@ sudo apt-get update; \
 sudo apt-get install accountsservice xfce4 task-xfce-desktop wicd blueman fcitx-rime alsa-utils -y
 ```
 
-** ● 如何添加中文支持
+● 如何添加中文支持
 
 执行以下命令即可
 
@@ -579,7 +579,7 @@ fcitx-m17n fcitx-googlepinyin zhcon python-zhpy \
 firefox-esr-l10n-zh-cn libreoffice-l10n-zh-cn -y
 ```
 
-** ● 图形界面显示中文
+● 图形界面显示中文
 
 需要修改文件 **/etc/default/locale**
 
