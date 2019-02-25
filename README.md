@@ -8,7 +8,7 @@
 
 ----
 
-**树莓派64位系统** &nbsp;&nbsp; **Debian Stretch Aarch64 基础系统** + **深度桌面** + **Xface桌面**
+**树莓派64位系统** &nbsp;&nbsp; **Debian Stretch Aarch64 基础系统** + **深度桌面** + **Xfce桌面**
 
 ![深度系统桌面1](./images/deepin_desktop1.png)
 
