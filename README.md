@@ -470,9 +470,7 @@ enableVC64
 
 ●  因为正如前面文中提到的BtrFS文件系统不支持使用Swap交换文件的模式而只能使用交换分区的方式，考虑到这一点，我们在制作镜像的时候就已经默认创建并配置好了Swap交换分区，所以当然不需要了，这就是为什么BtrFS文件系统镜像会比其他两个镜像都大一些并且有3个分区（其中一个1G大小的是默认的交换分区）的原因 :P
 
-```shell
-* 自动扩容脚本部分参考了树莓派官方和 UMRnInside/RPi-arm64 项目的部分内容 
-```
+    *自动扩容脚本部分参考了树莓派官方和 UMRnInside/RPi-arm64 项目的部分内容 
 
 ### 预配置项
 
@@ -489,7 +487,7 @@ enableVC64
 
 镜像支持在启动前提前配置好网络（无线、有线网络均可配置）
 
-* 无线网络配置 /boot/wlan0
+● 无线网络配置 /boot/wlan0
 
 ```shell
 # Used this conf, unconfig # every line bellow. (Do not change this line)
@@ -508,7 +506,7 @@ enableVC64
 #注意，以上两行的双引号需保留
 ```
     
-* 有线网络配置 /boot/interfaces
+● 有线网络配置 /boot/interfaces
 
 ```shell
 # interfaces(5) file used by ifup(8) and ifdown(8)
@@ -553,24 +551,24 @@ apt-get install libc6-armel
 
 **这里以安装 *xfce* 桌面环境为例：**
 
-* 首先参照下面的 "**开启显卡3D硬件加速**" 部分的设置，为桌面开启 *显卡加速*
+● 首先参照下面的 "**开启显卡3D硬件加速**" 部分的设置，为桌面开启 *显卡加速*
 
-* 然后修改 **/boot/config.txt** 文件配置，去掉下面一行前面的 "**#**" 注释符号，**否则桌面会有黑边框**
+● 然后修改 **/boot/config.txt** 文件配置，去掉下面一行前面的 "**#**" 注释符号，**否则桌面会有黑边框**
 
 ```shell
 disable_overscan=1
 ```
 
-* 重启后即可生效
+● 重启后即可生效
 
-* 然后执行以下命令安装桌面环境相关的软件包 (安装的软件包数量较多，请耐心等待)
+● 然后执行以下命令安装桌面环境相关的软件包 (安装的软件包数量较多，请耐心等待)
 
 ```shell
 sudo apt-get update; \
 sudo apt-get install accountsservice xfce4 task-xfce-desktop wicd blueman fcitx-rime alsa-utils -y
 ```
 
-** **如何添加中文支持**
+** ● 如何添加中文支持
 
 执行以下命令即可
 
@@ -580,7 +578,7 @@ fcitx-m17n fcitx-googlepinyin zhcon python-zhpy \
 firefox-esr-l10n-zh-cn libreoffice-l10n-zh-cn -y
 ```
 
-** **图形界面显示中文**
+** ● 图形界面显示中文
 
 需要修改文件 **/etc/default/locale**
 
