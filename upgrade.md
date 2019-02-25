@@ -47,7 +47,9 @@ cd ./upkg
 sudo  sh  ./sys_upgrade
 ```
 
-#### 注意：如果你使用的是 深度桌面和Xfce *U6* 以后的版本，在执行"sh  ./sys_upgrade"后重启之前，还需要执行一下命令再重新启动：
+#### 注意：如果你使用的是 深度桌面和Xfce *U6* 以后的版本
+
+#### 在执行"sh  ./sys_upgrade"后重启之前，还需要执行一下命令再重新启动：
 
 ```shell
 sudo mk-initrd
