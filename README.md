@@ -10,6 +10,8 @@
 
 **树莓派64位系统** **：** **Debian Stretch Aarch64 基础系统** + **深度桌面** + **Xfce桌面**
 
+#### 最新版本：2019.02.24/25 U8版
+
 ![深度系统桌面1](./images/deepin_desktop1.png)
 
 ![Xfce桌面1](./images/xface_desktop.png)
