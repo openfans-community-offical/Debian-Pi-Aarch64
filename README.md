@@ -733,7 +733,7 @@ apt update; apt install shellinabox -y
 
 **改那么个字段也叫“*cpu 信息优化*” ？这也需要显摆一下，还放在首页那么显眼的地方唯独提那么一句 ？**
 
-使UEFI用的是虚拟的SMBIOS，所以在EFI引导模式下，查看CPU信息的正确做法是：
+UEFI用的是虚拟的SMBIOS，所以在EFI引导模式下，查看CPU信息的正确做法是：
 
 执行命令
 
