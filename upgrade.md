@@ -10,7 +10,7 @@
 
 # 如何升级或更新 Debian Pi Aarch64 系统
 
-#### 重要：
+## 重要：
 
 **我们发布的更新或软件包根据实际情况一般通常采用 tag、zip、tar.gz、xz 的压缩格式发布**
 
@@ -21,6 +21,7 @@
 ```shell
 apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 ```
+
 ----
 
 ## 升级系统固件及驱动
@@ -51,7 +52,7 @@ sudo  sh  ./sys_upgrade
 
 ## 注意：如果你使用的是 深度桌面 和 Xfce U6 以后的版本
 
-### 在执行"sh  ./sys_upgrade"后重启之前，还需要执行以下命令再重新启动：
+- **在执行"sh  ./sys_upgrade"后重启之前，还需要执行以下命令再重新启动**
 
 ```shell
 sudo -i
@@ -59,7 +60,7 @@ sed -i '/initramfs.*/d' /boot/config.txt; sed -i '/initramfs.*/d' /boot/config.t
 sync && sync && init 6
 ```
 
-### 待完成重启后，执行以下命令
+- **待完成重启后，执行以下命令**
 
 ```shell
 mkinitramfs -o /boot/initrd.img-$(uname -r)
@@ -68,7 +69,7 @@ update-initramfs -u -t
 mk-initrd && sync && sync && init 6
 ```
 
-### 最后重启系统，完成升级**
+- **最后重启系统，完成升级**
 
 ---
 
