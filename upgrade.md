@@ -47,14 +47,24 @@ cd ./upkg
 sudo  sh  ./sys_upgrade
 ```
 
-#### 注意：如果你使用的是 深度桌面和Xfce *U6* 以后的版本
+### 注意：如果你使用的是 深度桌面和Xfce *U6* 以后的版本
 
-#### 在执行"sh  ./sys_upgrade"后重启之前，还需要执行一下命令再重新启动：
+#### 在执行"sh  ./sys_upgrade"后重启之前，还需要执行以下命令再重新启动：
 
 ```shell
-sudo mk-initrd
+sudo -i
+sed -i '/initramfs.*/d' /boot/config.txt; sed -i '/initramfs.*/d' /boot/config.txt
+sync && sync && init 6
 ```
 
+#### 待完成重启后，执行以下命令
+
+```shell
+mkinitramfs -o /boot/initrd.img-$(uname -r)
+update-initramfs -k $(uname -r) -u -t
+update-initramfs -u -t
+mk-initrd && sync && sync && init 6
+```
 
 * **然后重启系统，完成升级**
 
