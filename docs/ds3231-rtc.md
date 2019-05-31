@@ -76,7 +76,7 @@ dtoverlay=i2c-rtc,ds3231
 
 ## 5. Edit file: /boot/rc-local 
 
-Befor "exit 0", add context bellow:
+Before "exit 0", add content bellow:
 
 ```
 
