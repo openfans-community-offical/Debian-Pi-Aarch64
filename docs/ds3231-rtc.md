@@ -76,7 +76,7 @@ dtoverlay=i2c-rtc,ds3231
 
 ## 5. Edit file: /boot/rc-local 
 
-Before "exit 0", add content bellow:
+Before " **exit 0** ", add content bellow:
 
 ```
 
@@ -86,7 +86,9 @@ hwclock -r
 # write rtc-time to system
 hwclock -s
 
-exit 0
 ```
+
+**exit 0**
+
 
 
