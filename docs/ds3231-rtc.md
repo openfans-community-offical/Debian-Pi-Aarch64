@@ -1,6 +1,6 @@
 # RTC Mod DS3231 Readme
 
-## 1. Change to root:
+## 1. Change to user root:
 
 ```
 sudo -i
