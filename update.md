@@ -1,6 +1,6 @@
 ![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
 
-# Debian Pi Aarch64 - 基础系统 + 深度桌面 + Xfce桌面
+# Debian Pi Aarch64 - 基础系统(WebUI加强版) + 深度桌面 + Xfce桌面
 
 **[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp; && &nbsp;&nbsp;[树莓派爱好者基地](http://www.pifan.org/)&nbsp;&nbsp;荣誉出品**
 
@@ -36,6 +36,7 @@
 1. 内核更新至主线稳定 **4.14.114** 版本
 2. 固件更新至主线稳定 **4.14.114** 版本
 3. 所有系统升级至主线 **debian 9 arm64 Jun 02 2019**
+4. Docker版本更新至 **18.09.6_3**
 
 ## 2019.02.24/25 &nbsp;&nbsp;// *All Released to U8*
 
