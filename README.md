@@ -10,7 +10,7 @@
 
 **树莓派64位系统** **：** **Debian Stretch Aarch64 基础系统** + **深度桌面** + **Xfce桌面**
 
-### 最新版本：2019.06.02 U9版
+### 最新版本：2019.06.07 U9 Plus++ 版
 
 ![深度系统桌面1](./images/deepin_desktop1.png)
 
@@ -86,13 +86,17 @@
 
 #### 如何升级和更新系统？ 请点击 [此处](./upgrade.md) 查看
 
-- 请点击 [此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q) 下载最新系统镜像
+- 请点击 [此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q) 下载最新 **基础系统（增强版）** 镜像
+
+- 请点击 [此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q) 下载最新基础系统镜像
 
 - 请点击 [此处](./upgrade.md)  查看：如何下载更新文件并更新至最新版本
 
 - 请点击 [此处](./qemu-kvm.md) 查看：QEMU虚拟机二进制软件包及虚拟机镜像下载地址和教程
 
 ### 最新版本
+
+- **基础系统（增强版）** 现已更新至 **2019-06-07-v2019-1.0-U9-Plus++**
 
 - **基础系统** 现已更新至 **2019-06-02-v2019-1.0-U9**
 
