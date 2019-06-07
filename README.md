@@ -30,7 +30,7 @@
 
 ## 系统下载
 
-● **基础** *Aarch64(ARM64)* 系统镜像(无桌面增强版) 点击 **[此处](https://pan.baidu.com/s/1gC7cdekQFCGVfQaALfX2XQ)**  ( 提取码：bc96 ) 前往下载
+● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 点击 **[此处](https://pan.baidu.com/s/1gC7cdekQFCGVfQaALfX2XQ)**  ( 提取码：bc96 ) 前往下载
 
 ● **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
 
