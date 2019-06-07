@@ -269,7 +269,7 @@ Docker官方没有提供基于arm的**docker-compose**可运行二进制程序�
 
 docker-compose aarch64 二进制文件的下载地址：[点击前往下载](./docker-compose-aarch64/)
 
-目前最新版本：v1.23.2
+目前最新版本：v1.24.0
 
 - Docker Machine
 
@@ -286,7 +286,7 @@ Docker官方没有提供基于arm64的**docker-machine**可运行二进制程序
 
 docker-machine aarch64 二进制文件的下载地址：[点击前往下载](./docker-machine-aarch64/)
 
-目前最新版本：v0.16.0
+目前最新版本：v0.16.1
 
 ### AUFS
 
