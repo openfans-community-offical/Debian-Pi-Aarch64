@@ -22,6 +22,8 @@
 
 ![CaaS](./images/caas.png)
 
+![CaaS Cluster](./images/caas2.png)
+
 ![Deepin桌面1](./images/deepin_desktop_min.png)
 
 ![Xfce桌面1](./images/xface_desktop.png)
