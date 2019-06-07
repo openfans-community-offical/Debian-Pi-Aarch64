@@ -18,6 +18,8 @@
 
 ## 系统下载
 
+● **基础** *Aarch64(ARM64)* 系统镜像(无桌面增强版) 点击 **[此处](https://pan.baidu.com/s/1gC7cdekQFCGVfQaALfX2XQ)**  ( 提取码：bc96 ) 前往下
+
 ● **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q)** 前往下载
 
 ● **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像 点击 **[此处](./docs/deepin.md)** 前往下载 
@@ -86,7 +88,7 @@
 
 #### 如何升级和更新系统？ 请点击 [此处](./upgrade.md) 查看
 
-- 请点击 [此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q) 下载最新 **基础系统（增强版）** 镜像
+- 请点击 [此处](https://pan.baidu.com/s/1gC7cdekQFCGVfQaALfX2XQ) ( 提取码：bc96 ) 下载最新 **基础系统（增强版）** 镜像
 
 - 请点击 [此处](https://pan.baidu.com/s/1z6NLcbdPzijEIikovpST7Q) 下载最新基础系统镜像
 
