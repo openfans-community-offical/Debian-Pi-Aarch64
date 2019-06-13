@@ -87,3 +87,34 @@ sudo ./waf configure --with-flavors=x11-gl,x11-glesv2
 sudo ./waf
 sudo ./waf install
 ```
+
+### omv
+
+- install
+
+```
+apt update; apt upgrade; \ 
+echo 'deb http://packages.openmediavault.org/public arrakis main' >/etc/apt/sources.list.d/openmediavault.list ;\
+wget http://packages.openmediavault.org/public/pool/main/o/openmediavault-keyring/openmediavault-keyring_1.0_all.deb ;\
+dpkg -i ./openmediavault-keyring_1.0_all.deb ;\
+rm -rf ./openmediavault-keyring_1.0_all.deb ;\
+omv-initsystem ; wget -O - http://omv-extras.org/install | bash
+```
+
+- Issue
+
+Python 3.5 issues during apt-get update/upgrade
+
+Edit **/usr/lib/python3.5/weakref.py**
+
+change line 109 to:
+
+```
+def remove(wr, selfref=ref(self), _atomic_removal=_remove_dead_weakref):
+```
+
+And line 117 to:
+
+```
+_atomic_removal(d, wr.key)
+```
