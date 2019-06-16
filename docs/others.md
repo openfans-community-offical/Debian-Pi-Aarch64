@@ -93,7 +93,7 @@ sudo ./waf install
 - install
 
 ```
-apt update; apt upgrade; \ 
+apt update; apt upgrade; \
 echo 'deb http://packages.openmediavault.org/public arrakis main' >/etc/apt/sources.list.d/openmediavault.list ;\
 wget http://packages.openmediavault.org/public/pool/main/o/openmediavault-keyring/openmediavault-keyring_1.0_all.deb ;\
 dpkg -i ./openmediavault-keyring_1.0_all.deb ;\
