@@ -98,6 +98,7 @@ echo 'deb http://packages.openmediavault.org/public arrakis main' >/etc/apt/sour
 wget http://packages.openmediavault.org/public/pool/main/o/openmediavault-keyring/openmediavault-keyring_1.0_all.deb ;\
 dpkg -i ./openmediavault-keyring_1.0_all.deb ;\
 rm -rf ./openmediavault-keyring_1.0_all.deb ;\
+apt update; apt install postfix openmediavault ;\
 omv-initsystem ; wget -O - http://omv-extras.org/install | bash
 ```
 
