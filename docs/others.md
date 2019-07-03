@@ -8,6 +8,24 @@
 
 ----
 
+#### other  USB+SD=4
+
+CONFIG
+
+```
+[pi4]
+arm_64bit=1
+total_mem=1024
+enable_gic=1                                       
+armstub=armstub8-gic.bin
+```
+
+CMD
+
+```
+dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/sda2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait mem=1G
+```
+
 #### GLES2
 
 ```shell
