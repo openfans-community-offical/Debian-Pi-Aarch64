@@ -10,7 +10,7 @@
 
 **树莓派64位系统** **：** **Debian Stretch Aarch64 基础系统 (WebUI加强版)** + **深度桌面** + **Xfce桌面**
 
-### 最新版本：2019.06.07 1.0 U9 Plus++ 版 (WebUI加强版)
+### Pi 3B/3B+/3A+ 最新版本：2019.06.07 1.0 U9 Plus++ 版 (WebUI加强版)
 
 ![loginUI](./images/ui1.png)
 
