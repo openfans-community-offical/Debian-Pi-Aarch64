@@ -10,7 +10,7 @@
 
 **树莓派64位系统** **：** **Debian Stretch Aarch64 基础系统 (WebUI加强版)** + **深度桌面** + **Xfce桌面**
 
-### Pi 3B/3B+/3A+ 最新版本：2019.06.07 1.0 U9 Plus++ 版 (WebUI加强版)
+### Pi 3B/3B+/3A+ 最新*稳定*版本：2019.06.07 1.0 U9 Plus++ 版 (WebUI加强版)
 
 ![loginUI](./images/ui1.png)
 
@@ -134,7 +134,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 请点击 [此处](./qemu-kvm.md) 查看：QEMU虚拟机二进制软件包及虚拟机镜像下载地址和教程
 
-### 最新版本
+### 最新*稳定*版本
 
 - **基础系统（增强版）** 现已更新至 **2019-06-07-v2019-1.0-U9-Plus++**
 
