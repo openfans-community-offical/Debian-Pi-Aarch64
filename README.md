@@ -154,7 +154,11 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 秉承我们**OPENFANS和树莓派爱好者**基地联合发布的**Debian-Pi-Aarch64系统**一直以来的优良传统！
 
-系统全面兼容树莓派全线64位CPU的单板机：3B、3B+、3A+、**4B**，并仍然继承1.0稳定版的全部特性，同频官方基线【debian buster】并已更新至最新版本。
+- 系统全面兼容树莓派全线64位CPU的单板机：3B、3B+、3A+、**4B**，并仍然继承1.0稳定版的全部特性
+
+- 系统同频官方基线【debian buster】并已更新至最新版本
+
+- 内核同频上游【长期支持版本】最新版
 
 ## 2.0 测试版系统的【 已知问题 】说明
 
