@@ -84,7 +84,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 # 系统介绍
 
-这是为树莓派（Raspberry Pi）**3B/3B+/3A+** 所全新构建的：
+这是为树莓派（Raspberry Pi）**3B/3B+/3A+/4B** 所全新构建的：
 
 **Debian 9（Stretch）ARM64(Aarch64) 64位系统镜像**
 
@@ -150,13 +150,13 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 请点击 [此处](./qemu-kvm.md) 查看：QEMU虚拟机二进制软件包及虚拟机镜像下载地址和教程
 
-### 最新 *测试* 2.0 版本
+### 最新 *测试* 2.0 版本 | 支持：Pi 3B/3B+/3A+/4B
 
 - **基础系统（增强版）** 现已更新至 **2019-07-06-v2019-2.0-Beta-plus++**
 
 - **基础系统** 现已更新至 **2019-07-06-v2019-2.0-Beta**
 
-### 最新 *稳定* 1.0 版本
+### 最新 *稳定* 1.0 版本 | 支持：Pi 3B/3B+/3A+
 
 - **基础系统（增强版）** 现已更新至 **2019-06-07-v2019-1.0-U9-Plus++**
 
@@ -180,7 +180,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 ### 全平台可视化管理操作
 
-既**基础系统 U9 Plus++ 加强版**发布之后，我们在无桌面版的系统上提供了Web管理和操作的支持，至此，全系统平台均实现了可视化的操作管理，不算是标准的桌面图形，还是无桌面的系统（ **Web可视化管理方式** ），**Debian Pi Aarch64** 正式全面开启可视化时代。
+既**基础系统 U9 Plus++ 加强版**发布之后(以及2.0版本)，我们在无桌面版的系统上提供了Web管理和操作的支持，至此，全系统平台均实现了可视化的操作管理，不算是标准的桌面图形，还是无桌面的系统（ **Web可视化管理方式** ），**Debian Pi Aarch64** 正式全面开启可视化时代。
 
 * **Web管理支持**
 
