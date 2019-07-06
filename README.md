@@ -154,6 +154,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 ## 2.0 测试版系统的【 已知问题 】说明
 
+(max: 2019.07.06)
+
 #### **内存问题**
 
 ```
