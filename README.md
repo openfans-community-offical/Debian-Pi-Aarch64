@@ -164,7 +164,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 内核同频上游【长期支持版本】最新版
 
-## 2.0 测试版系统的【 已知问题 】说明
+## 2.0 测试版系统【 已知问题 】说明
 
 (max: 2019.07.06)
 
