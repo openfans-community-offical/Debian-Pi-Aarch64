@@ -1,5 +1,11 @@
 ![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
 
+# ★ 树莓派 4B Debian Pi Aarch 64位系统 2.0 ★
+
+# ★★★★★★ 全球首发 ！！★★★★★★
+
+----
+
 ## Debian Pi Aarch64 - 基础系统(WebUI加强版) + 深度桌面 + Xfce桌面
 
 **[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp; && &nbsp;&nbsp;[树莓派爱好者基地](http://www.pifan.org/)&nbsp;&nbsp;荣誉出品**
@@ -33,6 +39,14 @@
 ![pi4桌面1](./images/p4-1.png)
 
 ## 系统下载
+
+- **v2.0 测试版**
+
+#### For: **Pi 4B**、3B、3B+、3A （支持树莓派全系64位CPU）
+
+● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 点击 **[此处](https://pan.baidu.com/s/xxxxxx)**  ( 提取码：xxxxxx ) 前往下载
+
+● **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/xxxxxx)** ( 提取码：xxxxxx ) 前往下载
 
 - **v1.0 稳定版**
 
@@ -135,6 +149,12 @@ systemctl enable ntp.service && systemctl start ntp.service
 - 请点击 [此处](./upgrade.md)  查看：如何下载更新文件并更新至最新版本
 
 - 请点击 [此处](./qemu-kvm.md) 查看：QEMU虚拟机二进制软件包及虚拟机镜像下载地址和教程
+
+### 最新 *测试* 2.0 版本
+
+- **基础系统（增强版）** 现已更新至 **2019-07-06-v2019-2.0-Beta-plus++**
+
+- **基础系统** 现已更新至 **2019-07-06-v2019-2.0-Beta**
 
 ### 最新 *稳定* 1.0 版本
 
@@ -562,13 +582,15 @@ enableVC64
 
 #### 网络预配置
 
+**无线网络配置根据1.0和2.0的版本不同，配置有所区别，请注意**
+
 镜像支持在启动前提前配置好网络（无线、有线网络均可配置）
 
-● 无线网络配置 /boot/wlan0
+● 无线网络配置 (1.0版本 3B、3B+、3A+，2.0版本 3B) /boot/wlan0
 
 ```shell
 # Used this conf, unconfig # every line bellow. (Do not change this line)
-#除第一行外（第一行可以删除，去掉一下每行的“#”注释符号，中文内容是注释，删除或不要取消前面的“#”符号）
+# 除第一行外，第一行可以删除，去掉以下每行的“#”注释符号，中文内容是注释，删除或不要取消前面的“#”符号）
 
 #auto wlan0
 #allow-hotplug wlan0
@@ -583,7 +605,44 @@ enableVC64
 #注意，以上两行的双引号需保留
 
 ```
-    
+● 无线网络配置 (1.0版本 3B、3B+、3A+，2.0版本 3B) /boot/wpa_supplicant.conf
+
+```
+## To use this file, you should run command "systemctl disable network-manager" and reboot system. (Do not uncomment this line!) ##
+## 除第一行外，第一行可以删除，去掉以下每行只有单个“#”的注释符号，两个“#”注释符号的行位说明内容，请不要修改
+## 中文内容是注释，删除或不要取消前面的“#”符号
+
+## country是设置无线的国家地区，CN是中国
+#country=CN
+#ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+#update_config=1
+
+## 下面的 "WIFI 1" 、"WIFI 2" 代表多个无线网络的设置
+## 除非你要设置多个无线网络，否则只需要设置 "WIFI 1" 这部分的设置即可
+## WIFI 1 (Do not uncomment this line!)
+
+## 除了取消需要生效的内容注释以外，以下仅需要修改 "" 和 "psk" 后面引号内的内容即可
+## ssid是你的无线Wifi名称，psk是你无线Wifi的密码
+#network={
+#    ssid="your-wifi1-ssid"
+#    psk="wifi1-password"
+#    priority=1
+#    id_str="wifi-1"
+#}
+
+
+## WIFI 2 (Do not uncomment this line!)
+
+#network={
+#    ssid="your-wifi2-ssid"
+#    psk="wifi2-password"
+#    priority=2
+#    id_str="wifi-2"
+#}
+
+
+```
+
 ● 有线网络配置 /boot/interfaces
 
 ```shell
