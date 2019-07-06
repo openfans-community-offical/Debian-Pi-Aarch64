@@ -899,7 +899,7 @@ apt update; apt install shellinabox -y
 
 平均性能差距倍数： **14.144**
 
-- 统计图
+- 统计图 **(统计单位：时间，越小越好)**
 
 ![sysbench](./images/sysbench_result2.png)
 
