@@ -204,6 +204,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 #### 有关更多更新相关的说明，请点击 [此处](./update.md) 查看
 
+**PS：** 由于架构变动较大，不支持系统从1.0版本升级到2.0。
+
 ----
 
 # 更新 (仅限1.0稳定版本)
@@ -217,6 +219,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 - 请点击 [此处](./upgrade.md)  查看：如何下载更新文件并更新至最新版本
 
 - 请点击 [此处](./qemu-kvm.md) 查看：QEMU虚拟机二进制软件包及虚拟机镜像下载地址和教程
+
+#### **PS：** 由于架构变动较大，不支持系统从1.0版本升级到2.0。
 
 #### 最新 *稳定* 1.0 版本 | 支持：Pi 3B/3B+/3A+
 
@@ -233,6 +237,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 ## 更新说明
 
 #### 有关更多更新相关的说明，请点击 [此处](./update.md) 查看
+
+**PS：** 由于架构变动较大，不支持系统从1.0版本升级到2.0。
 
 ----
 
