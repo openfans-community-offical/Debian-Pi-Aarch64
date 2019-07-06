@@ -10,6 +10,7 @@
 
 #### sysbench
 
+```
 sysbench --version
 sysbench --test=cpu     --num-threads=1 --max-requests=10000  run
 sysbench --test=cpu     --num-threads=4 --max-requests=100000 run
@@ -20,6 +21,7 @@ sysbench --test=fileio  --file-num=2 --file-total-size=64M --file-test-mode=seqr
 sysbench --test=fileio  --file-num=2 --file-total-size=64M --file-test-mode=rndwr run
 sysbench --test=threads --num-threads=1000 --thread-yields=1000 --thread-locks=8 run
 sysbench --test=mutex   --mutex-num=4096   --mutex-locks=50000 --mutex-loops=10000 run
+```
 
 #### other  USB+SD=4
 
