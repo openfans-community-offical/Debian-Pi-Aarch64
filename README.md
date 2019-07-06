@@ -144,6 +144,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - **无桌面加强版环境目前仅提供 Ext4 格式的镜像 ！**
 
+--
+
 ## 64位 2.0新版系统发布说明 **（全球首发！！）**
 
 - 2019年6月20日，树莓派基金会发布了全新的第四代树莓派单板机**4B**，我们在第一时间托人从树莓派官方英国剑桥全球专卖店拿到了4代4G的单板机
@@ -188,7 +190,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 无线、蓝牙均正常，请放心使用
 
--------
+--
 
 ## 更新 (仅限1.0稳定版本)
 
