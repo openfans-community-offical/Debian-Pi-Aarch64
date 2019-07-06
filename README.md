@@ -44,9 +44,9 @@
 
 #### For: **Pi 4B**、3B、3B+、3A （支持树莓派全系64位CPU）  - 基于 [Debian Buster]
 
-● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 点击 **[此处](https://pan.baidu.com/s/1oo9tLDUCjJp-m39-l-z2ug)**  ( 提取码：内测中，稍后开放公测下载 ) 前往下载
+● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 点击 **[此处](https://pan.baidu.com/s/1oo9tLDUCjJp-m39-l-z2ug)**  ( 提取码：**内测中，稍后开放公测下载** ) 前往下载
 
-● **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1hkWGBMq4rapOdLoPHXYPZQ)** ( 提取码：内测中，稍后开放公测下载 ) 前往下载
+● **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1hkWGBMq4rapOdLoPHXYPZQ)** ( 提取码：**内测中，稍后开放公测下载** ) 前往下载
 
 **说明：**
 
