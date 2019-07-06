@@ -14,7 +14,7 @@
 
 ----
 
-**树莓派64位系统** **：** **Debian Stretch Aarch64 基础系统 (WebUI加强版)** + **深度桌面** + **Xfce桌面**
+**树莓派64位系统** 1.0 **：** **Debian Aarch64 基础系统 (WebUI加强版)** + **深度桌面** + **Xfce桌面**
 
 ### Pi 3B/3B+/3A+ 最新 *稳定* 版本：2019.06.07 1.0 U9 Plus++ 版 (WebUI加强版)
 
@@ -42,7 +42,7 @@
 
 - **v2.0 测试版**
 
-#### For: **Pi 4B**、3B、3B+、3A （支持树莓派全系64位CPU）
+#### For: **Pi 4B**、3B、3B+、3A （支持树莓派全系64位CPU）  - 基于 [Debian Buster]
 
 ● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 点击 **[此处](https://pan.baidu.com/s/1oo9tLDUCjJp-m39-l-z2ug)**  ( 提取码：xxxxxx ) 前往下载
 
@@ -54,7 +54,7 @@
 
 - **v1.0 稳定版**
 
-#### For: Pi 3B/3B+/3A+ 
+#### For: Pi 3B/3B+/3A+  - 基于 [Debian Stretch]
 
 ● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 点击 **[此处](https://pan.baidu.com/s/1gC7cdekQFCGVfQaALfX2XQ)**  ( 提取码：bc96 ) 前往下载
 
@@ -90,7 +90,11 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 这是为树莓派（Raspberry Pi）**3B/3B+/3A+/4B** 所全新构建的：
 
-**Debian 9（Stretch）ARM64(Aarch64) 64位系统镜像**
+**Debian 9 ARM64(Aarch64) 64位系统镜像**
+
+**2.0 基于 [Debian Buster]**
+
+**1.0 基于 [Debian Stretch]**
 
 别问为什么树莓派要用64位系统，64位和32位有什么差别 ？因为树莓派CPU支持64位，但是官方没有，其他的请自行补脑...
 
@@ -150,7 +154,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 秉承我们**OPENFANS和树莓派爱好者**基地联合发布的**Debian-Pi-Aarch64系统**一直以来的优良传统！
 
-系统全面兼容树莓派全线64位CPU的单板机：3B、3B+、3A+、**4B**，并仍然继承1.0稳定版的全部特性！
+系统全面兼容树莓派全线64位CPU的单板机：3B、3B+、3A+、**4B**，并仍然继承1.0稳定版的全部特性，同频官方基线【debian buster】并已更新至最新版本。
 
 ## 2.0 测试版系统的【 已知问题 】说明
 
@@ -172,13 +176,13 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 #### GPU 3D加速问题
 
-同样由于驱动原因所致，2.0系统暂时**不支持**开启【GPU 3D】加速，请等待上游及我们更新。
+同样由于厂商驱动原因所致，2.0系统暂时**不支持**开启【GPU 3D】加速，请等待上游及我们更新。
 
 ----
 
 #### ReMax PS：
 
-无线蓝牙均正常，请放行使用
+无线、蓝牙均正常，请放心使用
 
 -------
 
