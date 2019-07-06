@@ -44,9 +44,9 @@
 
 #### For: **Pi 4B**、3B、3B+、3A （支持树莓派全系64位CPU）
 
-● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 点击 **[此处](https://pan.baidu.com/s/xxxxxx)**  ( 提取码：xxxxxx ) 前往下载
+● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 点击 **[此处](https://pan.baidu.com/s/1oo9tLDUCjJp-m39-l-z2ug)**  ( 提取码：xxxxxx ) 前往下载
 
-● **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/xxxxxx)** ( 提取码：xxxxxx ) 前往下载
+● **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 点击 **[此处](https://pan.baidu.com/s/1hkWGBMq4rapOdLoPHXYPZQ)** ( 提取码：xxxxxx ) 前往下载
 
 **说明：**
 
@@ -148,9 +148,9 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 这是**全球**第一个发行的支持**树莓派4B**的**64位**系统
 
-- 秉承我们**OPENFANS和树莓派爱好者**基地联合发布的**Debian-Pi-Aarch64系统**一直以来的优良传统
+- 秉承我们**OPENFANS和树莓派爱好者**基地联合发布的**Debian-Pi-Aarch64系统**一直以来的优良传统！
 
-系统全面兼容树莓派全线64位CPU的单板机：3B、3B+、3A+、**4B**，并仍然集成1.0稳定版的全部特性
+系统全面兼容树莓派全线64位CPU的单板机：3B、3B+、3A+、**4B**，并仍然继承1.0稳定版的全部特性！
 
 ## 2.0 测试版系统的【 已知问题 】说明
 
