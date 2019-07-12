@@ -10,6 +10,16 @@
 
 # 更新说明
 
+## 2019.07.12 &nbsp;&nbsp;// ** v1.0 U10 Released. **
+1. 基础 Aarch64(ARM64) 系统镜像(无桌面) U10 [Ext4/Btrfs/F2FS] 全线发布,开放下载
+2. 基础 Aarch64(ARM64) 系统镜像(无桌面WebUI增强版) U10 [Ext4/Btrfs/F2FS] 全线发布,开放下载
+3. Xface桌面更新至U10
+4. Deepin桌面更新U10
+5. Docker版本更新至 **18.09.7~3-0**
+6. 系统更新至 *Debian Buster* 2019-07-12 最新版本
+7. 添加丢失的系统用户组
+8. 默认开启NTP服务
+
 ## 2019.07.06 &nbsp;&nbsp;// **2.0 Beta Published.**
 1. 基础 Aarch64(ARM64) 系统镜像(无桌面)2.0测试版发布
 2. 基础 Aarch64(ARM64) 系统镜像(无桌面WebUI增强版)2.0测试版发布
