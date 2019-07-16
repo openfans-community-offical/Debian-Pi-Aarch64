@@ -654,7 +654,7 @@ enableVC64
 
 镜像支持在启动前提前配置好网络（无线、有线网络均可配置）
 
-● 无线网络配置 (1.0版本 3B、3B+、3A+，2.0版本 3B) /boot/wlan0
+● 无线网络配置 (1.0版本) /boot/wlan0
 
 ```shell
 # Used this conf, unconfig # every line bellow. (Do not change this line)
@@ -673,7 +673,7 @@ enableVC64
 #注意，以上两行的双引号需保留
 
 ```
-● 无线网络配置 (1.0版本 3B、3B+、3A+，2.0版本 3B) /boot/wpa_supplicant.conf
+● 无线网络配置 (2.0版本) /boot/wpa_supplicant.conf
 
 ```
 ## To use this file, you should run command "systemctl disable network-manager" and reboot system. (Do not uncomment this line!) ##
