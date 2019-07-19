@@ -117,6 +117,8 @@
 
 ![sd_card](../images/sd_card.jpg)
 
+![sd_card](../images/sd_card1.png)
+
 ### TF卡的选择
 
 - **为了良好的体验和充分满足性能的需求，建议使用【 SDHC/XC-I+A1/V30+U3 】以上的卡**
