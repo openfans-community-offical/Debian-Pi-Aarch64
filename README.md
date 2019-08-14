@@ -172,9 +172,11 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 2019年7月24日，Beta2 版本发布
 
+- 2019年08月15日，RC1 版本发布
+
 ## 2.0 测试版系统【 已知问题 】说明
 
-(max: 2019.07.24 update)
+(max: 2019.08.15 update)
 
 - **内存问题**
 
@@ -186,7 +188,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 由于上游驱动所致，3B型号的单板机在连接5G模式的Wifi时存在不稳定现在，请连接使用2.4G信号无线，或等待上游及我们更新。
 
-- GPU 3D加速问题
+- **GPU 3D加速问题**
 
 同样由于厂商驱动原因所致，2.0系统暂时**不支持**开启【GPU 3D】加速，请等待上游及我们更新。
 
@@ -202,9 +204,9 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 #### 最新 *测试* 2.0 版本 | 支持：Pi 3B/3B+/3A+/4B
 
-- **基础系统（增强版）** 现已更新至 **2019-07-06-v2019-2.0-Beta-plus++**
+- **基础系统（增强版）** 现已更新至 **2019-08-15-v2019-2.0-RC1-plus++**
 
-- **基础系统** 现已更新至 **2019-07-06-v2019-2.0-Beta2** (Beta2更新：2G版可使用全部内存，4G版最高可使用3G内存)
+- **基础系统** 现已更新至 **2019-08-15-v2019-2.0-RC1**
 
 #### 有关更多更新相关的说明，请点击 [此处](./update.md) 查看
 
