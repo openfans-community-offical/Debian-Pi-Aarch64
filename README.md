@@ -4,7 +4,7 @@
 
 # ★★★★★★ 2019.07.06 - 全球首发 ！！★★★★★★
 
-#### PS：4G版4G内存问题我们已修复，完美适配所有版本，现已更新下载，欢迎使用！！！
+#### PS：4G版4G内存问题我们已修复、显卡3D硬件加速已全线支持 (2.0 RC2以后的版本)，完美适配所有硬件版本，现已更新下载，欢迎使用！！！
 
 #### Pi 3B/3B+/3A+/4B 2.0 最新RC版本：2019.08.15 2.0 RC1
 
@@ -44,17 +44,19 @@
 
 ## 系统下载
 
-- **v2.0 测试版**
+- **v2.0 预览版**
 
 #### For: **Pi 4B**、3B、3B+、3A （支持树莓派全系64位CPU）  - 基于 [Debian Buster]
 
 ● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 
 
-点击 **[此处](https://pan.baidu.com/s/1FKhVQJVW454m8qfrhpmjeQ )**  ( 提取码：kayu ) 前往下载
-
 ● **基础** *Aarch64(ARM64)* 系统镜像(无桌面) 
 
-点击 **[此处](https://pan.baidu.com/s/1FKhVQJVW454m8qfrhpmjeQ )** ( 提取码：kayu ) 前往下载
+● **Deepin** *Aarch64(ARM64)* 深度桌面系统镜像
+
+● **Xfce** *Aarch64(ARM64)* 桌面系统镜像
+
+以上**2.0**所有系统 **->** 点击 **[此处](https://pan.baidu.com/s/1FKhVQJVW454m8qfrhpmjeQ )** ( 提取码：kayu ) 前往下载
 
 **说明：**
 
@@ -176,7 +178,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 2019年08月15日，RC1 版本发布
 
-## 2.0 测试版系统【 已知问题 】说明
+## 2.0 预览版系统【 已知问题 】说明
 
 (max: 2019.08.15 update)
 
@@ -192,7 +194,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - **GPU 3D加速问题**
 
-同样由于厂商驱动原因所致，2.0系统暂时**不支持**开启【GPU 3D】加速，请等待上游及我们更新。
+**所有系统已全线支持 ！！**
 
 ----
 
@@ -204,7 +206,7 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 ## 更新（2.0版本）
 
-#### 最新 *测试* 2.0 版本 | 支持：Pi 3B/3B+/3A+/4B
+#### 最新 *预览* 2.0 版本 | 支持：Pi 3B/3B+/3A+/4B
 
 - **基础系统（增强版）** 现已更新至 **2019-08-15-v2019-2.0-RC1-plus++**
 
