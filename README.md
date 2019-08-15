@@ -48,7 +48,7 @@
 
 - **v2.0 预览版**
 
-#### For: **Pi 4B**、3B、3B+、3A （支持树莓派全系64位CPU）  - 基于 [Debian Buster]
+#### For: **Pi 4B**、3B、3B+、3A+ （支持树莓派全系64位CPU）  - 基于 [Debian Buster]
 
 ● **基础** *Aarch64(ARM64)* 系统镜像(无桌面WebUI增强版) 
 
