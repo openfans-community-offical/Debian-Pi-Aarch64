@@ -214,6 +214,10 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - **基础系统** 现已更新至 **2019-08-15-v2019-2.0-RC1**
 
+- **Deepin深度桌面** *Aarch64(ARM64)* 现已更新至 **xx**
+
+- **Xfce** *Aarch64(ARM64)* 现已更新至 **xx**
+
 #### 有关更多更新相关的说明，请点击 [此处](./update.md) 查看
 
 **PS：** 由于架构变动较大，不支持系统从1.0版本升级到2.0。
