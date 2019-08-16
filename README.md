@@ -80,6 +80,18 @@
 
 ### FAQ & 常见问题处理
 
+### 特别说明
+
+**由于Deepin系统和上游仓库存在一定的兼容性问题（deepin本身的问题），除非你清楚自己需要做什么，否则强烈建议不要使用以下的任何一条命令进行任何的升级操作！！！
+
+```
+apt upgrade
+apt-get upgrade
+
+# 或者其他任何会使得系统进行升级的操作
+
+```
+
 #### 为了更好的了解和使用系统，对于遇见的问题请优先查看一下链接，以免耽误大家时间，谢谢合作！^-^
 
 ----
@@ -1112,11 +1124,4 @@ fbterm
 
 | 文件类型 | 文件系统类型 |            MD5校验码            |             SHA256校验码             |
 | --- | --- | --- | --- |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| f0534a2d6df2c6cb4399273749b3128d | f8941440b192804387a6c2b4d48ef644c327643872184aee1179368d4026a0d9 |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;btrfs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| bdb78133513541651cb16cf7d3c8c3ba | 6c2bbeca1af55634d8a6738fb03bd7cae25986fab8f8d725090da6192318bcad |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f2fs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| d7aa147e49d70d6d5e9a30cefeb405a1 | 618371e7a51c513c85dec892b26bb6616ddefdf33e18b88e701f757b8b47764c |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| b8a3e728da7e3fa0944b6e39be9c9898 | e2ec878ab0a6b216cdb4add8f6d1f4d957c083b969ce3c1cf0c6e28e27e5c97f |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;btrfs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| a22c8d168cf691728452df2a14177765 | 1ce31aec4528038f24d21e68b585b9d55d85d9a42ffe7605e21c9d21e55740ae |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f2fs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| bce494a0d0d074e33a2f3767d516613c | 4749da65b14bab2b84e3547a5b337ed36654360dccd66faa735d59173458be2e |
-
-----
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4
