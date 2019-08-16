@@ -709,6 +709,53 @@ enableVC64
 #注意，以上两行的双引号需保留
 
 ```
+
+● 无线网络配置 - **图形化界面** (2.0版本)
+
+**在使用图形化界面Wifi无线管理器之前，为了正常识别无线的固件和参数配置，需要先配置你的无线路由的地区码才能正常使用！！
+
+编辑文件 **/etc/default/crda** ，找到 **"REGDOMAIN"** 开头的行，将如下的默认内容：
+
+```
+REGDOMAIN=
+```
+
+改为 **"REGDOMAIN=地区码"** 的形式，大陆国产路由一般地区码为 **"CN"** ，所以绝大多数情况下改为如下内容：
+
+```
+REGDOMAIN=CN
+```
+
+设置完成后重启生效，方可使用图形化界面Wifi无线管理器连接网络，如果要立即生效，请执行如下命令：
+
+```
+sudo iw set 地区码
+
+如果要设置为中国，则执行：
+sudo iw set CN
+
+完成后常看是否设置生效，执行：
+sudo iw get
+
+```
+
+其他的国家地区码请点击 **[此处](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements)** 查看
+
+**常用国家地区码：**
+
+```
+AU 澳大利亚
+CA 加拿大
+CN 中国
+GB 英国
+HK 香港
+JP 日本
+KR 韩国
+DE 德国
+US 美国
+TW 台湾
+```
+
 ● 无线网络配置 (2.0版本) /boot/wpa_supplicant.conf
 
 ```
