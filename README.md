@@ -980,7 +980,7 @@ apt update; apt install shellinabox -y
 执行以下命令关闭并禁用**dhcpcd**服务后，再使用**Wicd网络管理器**客户端进行连接。
 
 ```
-systemctl stop dhcpcd ; systemctl disabled dhcpcd
+systemctl stop dhcpcd ; systemctl disable dhcpcd
 ```
 
 - 方案二：
