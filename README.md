@@ -686,31 +686,7 @@ enableVC64
 
 #### 网络预配置
 
-**无线网络配置根据1.0和2.0的版本不同，配置有所区别，请注意**
-
-镜像支持在启动前提前配置好网络（无线、有线网络均可配置）
-
-● 无线网络配置 (1.0版本) /boot/wlan0
-
-```shell
-# Used this conf, unconfig # every line bellow. (Do not change this line)
-# 除第一行外，第一行可以删除，去掉以下每行的“#”注释符号，中文内容是注释，删除或不要取消前面的“#”符号）
-
-#auto wlan0
-#allow-hotplug wlan0
-#iface wlan0 inet dhcp
-
-#wpa-ssid "Your-Wifi-SSID-Name"
-#修改此处“Your-Wifi-SSID-Name”为无线的SSID名称
-
-#wpa-psk "Your-Wifi-SSID-Password"
-#修改此处“Your-Wifi-SSID-Password”为无线密码
-
-#注意，以上两行的双引号需保留
-
-```
-
-● 无线网络配置 - **图形化桌面环境** (2.0版本)
+● 无线网络配置 - **图形化桌面环境** (包括Deepin和Xfce)
 
 ## 提示：
 
@@ -769,6 +745,30 @@ KR 韩国
 DE 德国
 US 美国
 TW 台湾
+```
+
+**无线网络配置根据1.0和2.0的版本不同，配置有所区别，请注意**
+
+镜像支持在启动前提前配置好网络（无线、有线网络均可配置）
+
+● 无线网络配置 (1.0版本) /boot/wlan0
+
+```shell
+# Used this conf, unconfig # every line bellow. (Do not change this line)
+# 除第一行外，第一行可以删除，去掉以下每行的“#”注释符号，中文内容是注释，删除或不要取消前面的“#”符号）
+
+#auto wlan0
+#allow-hotplug wlan0
+#iface wlan0 inet dhcp
+
+#wpa-ssid "Your-Wifi-SSID-Name"
+#修改此处“Your-Wifi-SSID-Name”为无线的SSID名称
+
+#wpa-psk "Your-Wifi-SSID-Password"
+#修改此处“Your-Wifi-SSID-Password”为无线密码
+
+#注意，以上两行的双引号需保留
+
 ```
 
 ● 无线网络配置 - **无桌面环境，命令行界面** (2.0版本) /boot/wpa_supplicant.conf
