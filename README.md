@@ -1034,8 +1034,10 @@ apt update; apt install shellinabox -y
 
 **问题根源：**
 
+```
 对于问题1： Wicd客户端存在部分无线设备或无线网络设置参数的的兼容问题
 对于问题2： Wicd客户端和**NetworkManager无线管理器**有冲突
+```
 
 **解决方案：**
 
@@ -1184,25 +1186,3 @@ fbterm
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=07bab0507c84a21cc939f0d8ed5c86c2a32039f271af948ccf2dcbcfd900eee0"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Debian-Pi-Aarch64" title="Debian-Pi-Aarch64"></a>
 
 ----
-
-# 镜像文件校验信息
-
-* **img镜像文件命名规则名：**
- 
-       FSTYPE = ext4, btrfs, fsf2
-       2018-12-30-OPENFANS-Debian-Stretch-Aarch64-$FSTYPE-v2019-1.0.img
-
-*  **xz压缩文件命名规则名：** 
- 
-       FSTYPE = ext4, btrfs, fsf2
-       2018-12-30-OPENFANS-Debian-Stretch-Aarch64-$FSTYPE-v2019-1.0.img.xz
-
-* **系统镜像版本：**
-
-       v2019-1.0
-
-* **信息参考表：**
-
-| 文件类型 | 文件系统类型 |            MD5校验码            |             SHA256校验码             |
-| --- | --- | --- | --- |
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4
