@@ -1047,20 +1047,22 @@ apt update; apt install shellinabox -y
 
 - 如下图所示：右上角有2个无线管理程序，从 **最右边往左** 依次是 **"NetworkManager"** 和 **"Wicd"**
 
+```
 为了保证无线的兼容性，所以我们集成了多个无线管理工具，这里我们强烈推荐使用 **"NetworkManager"** 来连接你的无线网络
+```
 
 ![wifi0](./images/wifi-key/wifi-key0.png)
 
 **对于问题2：**
 
-- 首先执行以下命令：
+- 1. 首先执行以下命令：
 
 ```
 systemctl disable wicd
 systemctl restart NetworkManager
 ```
 
-- 然后，按照如下步骤操作：
+- 2. 然后，按照如下步骤操作：
 
 ```
 点击屏幕最左上方，选择 "所有应用程序" -> "设置" -> "设置管理器" ，在弹出的 "设置" 窗口选择 "会话和启动" 如下图所示：
@@ -1068,9 +1070,11 @@ systemctl restart NetworkManager
 
 ![wifi-key1](./images/wifi-key/wifi-key1.png)
 
-- 最后打开 "会话和启动" 设置后，选择 "应用程序自启动" 选项，取消勾选下面的选项，完成后重启即可。 
+- 3. 最后打开 "会话和启动" 设置后，选择 "应用程序自启动" 选项，取消勾选下面的选项，完成后重启即可。 
 
-**Wicd Network Manager Tray (Display network connection status in the system tray)**
+```
+* Wicd Network Manager Tray (Display network connection status in the system tray)
+```
 
 ---
 
@@ -1091,6 +1095,8 @@ systemctl restart NetworkManager
 ```
 systemctl enable ntp.service && systemctl start ntp.service 
 ```
+
+---
 
 ### 中文环境下，TTY 无法显示中文字体
 
@@ -1124,6 +1130,8 @@ sudo adduser 你自己创建的其他用户名(若果有) video
 ## 然后每次需要显示时执行以下命令即可（第一次需要等待一些时间）：
 fbterm
 ```
+
+---
 
 ### 桌面环境如何设置VNC访问
 
