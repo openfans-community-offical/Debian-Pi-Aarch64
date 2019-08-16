@@ -26,7 +26,7 @@ GNOME-KEYRING未启用，必要时需要开机自动启用
 
 打开 **"会话和启动"** 设置后，选择 **"应用程序自启动"** 选项
 
-取消勾选 "Wicd Network Manager Tray"
+取消勾选 **"Wicd Network Manager Tray"**
 
 勾选 **"Certificate and Key Storage (GNOME Keyring: PKCS#11 Componet)"**
 
