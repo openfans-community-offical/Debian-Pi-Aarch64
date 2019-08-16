@@ -737,6 +737,19 @@ sudo iw set CN
 完成后常看是否设置生效，执行：
 sudo iw get
 
+得到如下内容:
+global
+country CN: DFS-FCC
+  (2402 - 2482 @ 40), (N/A, 20), (N/A)
+  (5170 - 5250 @ 80), (N/A, 23), (N/A), AUTO-BW
+  (5250 - 5330 @ 80), (N/A, 23), (0 ms), DFS, AUTO-BW
+  (5735 - 5835 @ 80), (N/A, 30), (N/A)
+  (57240 - 59400 @ 2160), (N/A, 28), (N/A)
+  (59400 - 63720 @ 2160), (N/A, 44), (N/A)
+  (63720 - 65880 @ 2160), (N/A, 28), (N/A)
+  
+如上面的country部分，可以看到是CN，代表设置成功
+
 ```
 
 其他的国家地区码请点击 **[此处](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements)** 查看
