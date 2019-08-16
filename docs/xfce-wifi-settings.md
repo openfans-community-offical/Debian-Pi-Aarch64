@@ -1,4 +1,4 @@
-# Debian-Pi-Aarch64 Xfce桌面  Wifi无线设置
+# Debian-Pi-Aarch64 Xfce桌面  Wifi无线设置问题 解决办法
 
 ## 已知问题：
 
