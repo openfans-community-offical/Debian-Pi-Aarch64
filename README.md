@@ -1029,19 +1029,42 @@ apt update; apt install shellinabox -y
 
 **问题描述：**
 
-客户端兼容性问题，即使输入正确的密码也 **无法连接到无线网络**
+1. 客户端兼容性问题，即使输入正确的密码也 **无法连接到无线网络**
+2. 使用Wicd无线管理器后，**NetworkManager无线管理器**找不到网络
 
 **问题根源：**
 
-Wicd客户端存在部分无线设备或无线网络设置参数的的兼容问题
+对于问题1： Wicd客户端存在部分无线设备或无线网络设置参数的的兼容问题
+对于问题2： Wicd客户端和**NetworkManager无线管理器**有冲突
 
 **解决方案：**
+
+**对于问题1：**
 
 - 如下图所示：右上角有2个无线管理程序，从 **最右边往左** 依次是 **"NetworkManager"** 和 **"Wicd"**
 
 为了保证无线的兼容性，所以我们集成了多个无线管理工具，这里我们强烈推荐使用 **"NetworkManager"** 来连接你的无线网络
 
 ![wifi0](./images/wifi-key/wifi-key0.png)
+
+**对于问题2：**
+
+- 执行以下命令：
+
+```
+systemctl disable wicd
+systemctl restart NetworkManager
+```
+
+- 点击屏幕最左上方，选择 "所有应用程序" -> "设置" -> "设置管理器" ，在弹出的 "设置" 窗口选择 "会话和启动" 如下图所示：
+
+![wifi-key1](./images/wifi-key/wifi-key1.png)
+
+- 然后打开 "会话和启动" 设置后，选择 "应用程序自启动" 选项，取消勾选下面的选项 
+
+**Wicd Network Manager Tray (Display network connection status in the system tray)**
+
+---
 
 ### 时间同步
 
