@@ -110,9 +110,9 @@ apt-get dist-upgrade
 systemctl enable ntp.service && systemctl start ntp.service 
 ```
 
-- [配置及说明](./README.md#%E9%85%8D%E7%BD%AE%E5%8F%8A%E8%AF%B4%E6%98%8E)
+- **更多配置情况请参看** [配置及说明](./README.md#%E9%85%8D%E7%BD%AE%E5%8F%8A%E8%AF%B4%E6%98%8E)**
 
-- [FAQ & 常见问题处理](./README.md#faq-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86)
+- **更多详细FAQ请参看** [FAQ & 常见问题处理](./README.md#faq-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86)
 
 ----
 
