@@ -91,6 +91,8 @@
 ```
 apt upgrade
 apt-get upgrade
+apt dist-upgrade
+apt-get dist-upgrade
 
 # 或者其他任何会使得系统进行升级的操作
 
