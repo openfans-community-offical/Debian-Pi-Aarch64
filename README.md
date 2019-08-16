@@ -710,7 +710,7 @@ enableVC64
 
 ```
 
-● 无线网络配置 - **图形化界面** (2.0版本)
+● 无线网络配置 - **图形化桌面环境** (2.0版本)
 
 ## 提示：
 
@@ -771,7 +771,7 @@ US 美国
 TW 台湾
 ```
 
-● 无线网络配置 (2.0版本) /boot/wpa_supplicant.conf
+● 无线网络配置 - **无桌面环境，命令行界面** (2.0版本) /boot/wpa_supplicant.conf
 
 ```
 ## To use this file, you should run command "systemctl disable network-manager" and reboot system. (Do not uncomment this line!) ##
