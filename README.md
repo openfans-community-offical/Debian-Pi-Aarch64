@@ -680,7 +680,7 @@ enableVC64
 | 预配置项 | 预配置文件路径 | 对应链接到的系统文件路径 |
 | --- | --- | --- |
 | 无线网络 | /boot/wlan0 | /etc/network/interfaces.d/wlan0 |
-| 有限网络 | /boot/interfaces | /etc/network/interfaces |
+| 有线网络 | /boot/interfaces | /etc/network/interfaces |
 | DHCP客户端 | /boot/dhclient.conf | /etc/dhcp/dhclient.conf |
 | 自定义启动脚本 | /boot/rc-local | /etc/rc.local |
 
