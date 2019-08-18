@@ -8,7 +8,7 @@
 
 ----
 
-# QEMU-KVM 下载及使用说明
+# QEMU-KVM 下载及使用说明 (1.0系统)
 
 ## 下载地址
 
@@ -126,3 +126,8 @@ ssh -p 2222 root@本机的IP地址
 
 [点击此处](./docs/resize_vmdisk.md) 查看相关文档 
 
+# 2.0系统KVM安装说明
+
+```
+apt install ipxe-qemu* libnfs12 libvirglrenderer0 qemu-block-extra qemu-system-arm qemu-system-common qemu-system-data qemu-system-gui qemu-utils qemu-user-binfmt qemu qemu-guest-agent qemu-system qemu-system-x86 qemu-user
+```
