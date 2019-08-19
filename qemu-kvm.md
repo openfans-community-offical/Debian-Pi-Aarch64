@@ -129,5 +129,10 @@ ssh -p 2222 root@本机的IP地址
 # 2.0系统KVM安装说明
 
 ```
-apt install ipxe-qemu* libnfs12 libvirglrenderer0 qemu-block-extra qemu-system-arm qemu-system-common qemu-system-data qemu-system-gui qemu-utils qemu-user-binfmt qemu qemu-guest-agent qemu-system qemu-system-x86 qemu-user
+apt install qemu-efi qemu-efi-arm qemu-efi-aarch64 ipxe-qemu* \
+libnfs12 libvirglrenderer0 qemu-block-extra qemu-system-arm \
+qemu-system-common qemu-system-data qemu-system-gui qemu-utils \
+qemu-user-binfmt qemu qemu-guest-agent qemu-system \
+qemu-system-x86 qemu-user \
+ -y
 ```
