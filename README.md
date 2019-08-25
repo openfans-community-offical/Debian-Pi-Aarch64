@@ -10,6 +10,8 @@
 
 #### Pi 3B/3B+/3A+/4B 最新 *预览* 版本：2019.08.16 2.0 RC2
 
+#### 2.0 内核固件 - 更新： *预览* 版本：upkg-2019-08-25-v2019-2.0-RC2-U2
+
 #### Pi 3B/3B+/3A+ 最新 *稳定* 版本：2019.07.12 1.0 U10
 
 ----
@@ -58,7 +60,7 @@
 
 ● **Xfce** *Aarch64(ARM64)* 桌面系统镜像
 
-以上**2.0**所有系统 **->** 点击 **[此处](https://pan.baidu.com/s/1FKhVQJVW454m8qfrhpmjeQ )** ( 提取码：kayu ) 前往下载
+以上**2.0** 所有系统 及 内核固件更新 **->** 点击 **[此处](https://pan.baidu.com/s/1FKhVQJVW454m8qfrhpmjeQ )** ( 提取码：kayu ) 前往下载
 
 **说明：**
 
@@ -200,6 +202,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 2019年08月16日，RC2 版本发布，全系3D加速支持
 
+- 2019年08月25日，RC2 内核及固件更新：upkg-2019-08-25-v2019-2.0-RC2-U2
+
 ## 2.0 预览版系统【 已知问题 】说明
 
 (max: 2019.08.15 update)
@@ -237,6 +241,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 - **Deepin深度桌面** *Aarch64(ARM64)* 现已更新至 **2019-08-16-v2019-2.0-RC2**
 
 - **Xfce** *Aarch64(ARM64)* 现已更新至 **2019-08-16-v2019-2.0-RC2**
+
+- **2.0 内核及固件更新** 现已更新至 **upkg-2019-08-25-v2019-2.0-RC2-U2**
 
 #### 有关更多更新相关的说明，请点击 [此处](./update.md) 查看
 
