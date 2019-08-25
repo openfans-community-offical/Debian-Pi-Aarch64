@@ -631,6 +631,8 @@ enableVChardfp
 enableVC64
 ```
 
+#### ps: 2.0 系统执行 enableVChardfp 需要在/boot/config.txt 文件中找到 "vc4-kms-v3d", 手动将其修改为 "vc4-fkms-v3d", 这是由于驱动工作模式改变引起的 (2.0使用DRM模式驱动显卡加速)，否则无法开机。
+
 **切换模式后需要重启系统生效**
 
 ### CPU硬标支持
