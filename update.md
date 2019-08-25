@@ -10,6 +10,10 @@
 
 # 更新说明
 
+## 2019.08.25 &nbsp;&nbsp;// **2.0 RC2 U2 ( Kernel & Firmware ) UPDATE Published.**
+1. Kernel upgrade to 4.19.67-OPENFANS+20190825-v8 LTS,
+2. Fix DMA leaks caused swiotlb bounce buffer overflow errors under heavy wifi usage in bcm2835-mmc.
+
 ## 2019.08.16 &nbsp;&nbsp;// **2.0 RC2 Published.**
 1. 全系64位3D显卡硬件加速支持
 4. 基础系统更新至上游8月16日
