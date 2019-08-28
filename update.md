@@ -10,8 +10,12 @@
 
 # 更新说明
 
+## 2019.08.28 &nbsp;&nbsp;// **2.0 RC2 U3 ( Kernel & Firmware ) UPDATE Published.**
+1. Kernel upgrade to Mainline 4.19.68-OPENFANS+20190828-v8 LTS, 内核及固件更新至主线
+2. Kernel support RPS feature, 内核支持RPS特性
+
 ## 2019.08.25 &nbsp;&nbsp;// **2.0 RC2 U2 ( Kernel & Firmware ) UPDATE Published.**
-1. Kernel upgrade to 4.19.67-OPENFANS+20190825-v8 LTS, 内核及固件更新
+1. Kernel upgrade to Mainline 4.19.67-OPENFANS+20190825-v8 LTS, 内核及固件更新至主线
 2. Fix DMA leaks caused swiotlb bounce buffer overflow errors under heavy wifi usage in bcm2835-mmc, 修复WIFI高数据负载下MMC引起的死机问题
 
 ## 2019.08.16 &nbsp;&nbsp;// **2.0 RC2 Published.**
