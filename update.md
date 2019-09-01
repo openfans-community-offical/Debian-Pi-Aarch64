@@ -10,7 +10,7 @@
 
 # 更新说明
 
-## 2019.08.31 &nbsp;&nbsp;// **2.0 RC2 U4 ( Kernel & Firmware ) UPDATE Published.**
+## 2019.09.02 &nbsp;&nbsp;// **2.0 RC2 U5 ( GCC Cross Line Rebuild ) Published.**
 1. 基于树莓派硬件定制并优化GCC(gcc-9.1.0-64)交叉编译工具链重新编译 Kernel 4.19.69-OPENFANS+20190902-v8 LTS 内核及固件同步主线4.19.69
 
 ## 2019.08.31 &nbsp;&nbsp;// **2.0 RC2 U4 ( Kernel & Firmware ) UPDATE Published.**
