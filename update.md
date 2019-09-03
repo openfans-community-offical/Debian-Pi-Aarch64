@@ -21,6 +21,8 @@
 7. BaseOS更新至上游20190902
 8. 重构升级脚本
 
+----
+
 ## 2019.09.02 &nbsp;&nbsp;// **2.0 RC2 U5 ( GCC Cross Line Rebuild ) Published.**
 1. 基于树莓派硬件定制并优化GCC(gcc-9.1.0-64)交叉编译工具链重新编译 Kernel 4.19.69-OPENFANS+20190902-v8 LTS 内核及固件同步主线4.19.69
 
@@ -35,9 +37,13 @@
 1. Kernel upgrade to Mainline 4.19.67-OPENFANS+20190825-v8 LTS, 内核及固件更新至主线4.19.67
 2. Fix DMA leaks caused swiotlb bounce buffer overflow errors under heavy wifi usage in bcm2835-mmc, 修复WIFI高数据负载下MMC引起的死机问题
 
+----
+
 ## 2019.08.16 &nbsp;&nbsp;// **2.0 RC2 Published.**
 1. 全系64位3D显卡硬件加速支持
 4. 基础系统更新至上游8月16日
+
+----
 
 ## 2019.08.15 &nbsp;&nbsp;// **2.0 RC1 Published.**
 1. 内核更新至主线 **4.19.65** 版本
@@ -45,11 +51,15 @@
 3. 完整支持4B：1G、2G、4G版本均可自动适配识别
 4. 基础系统更新至上游8月15日
 
+----
+
 ## 2019.07.24 &nbsp;&nbsp;// **2.0 Beta2 Published.**
 1. 内核更新至主线 **4.19.58** 版本
 2. 固件同步至主线 **4.19.58** 版本
 3. 完整支持4B：1G、2G版本，有限支持4G版本
 4. 基础系统更新至上游7月24日
+
+----
 
 ## 2019.07.12 &nbsp;&nbsp;// ** v1.0 U10 Released. **
 1. 基础 Aarch64(ARM64) 系统镜像(无桌面) U10 [Ext4/Btrfs/F2FS] 全线发布,开放下载
