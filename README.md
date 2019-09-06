@@ -26,6 +26,8 @@
 
 **树莓派64位系统** 1.0/2.0 **：** **Debian Aarch64 基础系统 (WebUI加强版)** + **深度桌面** + **Xfce桌面**
 
+![macos](./images/macos1.png)
+
 ![loginUI](./images/ui1.png)
 
 ![WebUI](./images/ui2.png)
@@ -37,6 +39,8 @@
 ![CaaS](./images/caas.png)
 
 ![CaaS Cluster](./images/caas2.png)
+
+![macos](./images/macos2.png)
 
 ![Deepin桌面1](./images/deepin_desktop_min.png)
 
