@@ -16,7 +16,13 @@
 
 ----
 
-## Debian Pi Aarch64 - 基础系统(WebUI加强版) + 深度桌面 + Xfce桌面( ★★ 全新界面！！★★ )
+## Debian Pi Aarch64
+
+### ● 基础系统
+### ● 基础系统 - WebUI加强版
+### ● Xfce桌面 ( ★★ 全新界面！！★★ )
+### ● 深度桌面 
+
 
 **[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp; && &nbsp;&nbsp;[树莓派爱好者基地](http://www.pifan.org/)&nbsp;&nbsp;荣誉出品**
 
