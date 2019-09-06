@@ -737,13 +737,13 @@ REGDOMAIN=CN
 设置完成后重启生效，方可使用图形化界面Wifi无线管理器连接网络，如果要立即生效，请执行如下命令：
 
 ```
-sudo iw set 地区码
+sudo iw reg set 地区码
 
 如果要设置为中国，则执行：
-sudo iw set CN
+sudo iw reg set CN
 
 完成后查看是否设置生效，执行：（部分系统更新后，由于版本原因 iw get 可能不能使用，属于正常现象）
-sudo iw get
+sudo iw reg get
 
 得到如下内容:
 global
