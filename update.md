@@ -10,7 +10,7 @@
 
 # 更新说明
 
-## 2019.09.06 &nbsp;&nbsp;// ** v2.0 RC4 Released. **
+## 2019.09.06 &nbsp;&nbsp;// **v2.0 RC4 Released.**
 1. 内核及固件同步**RC3-U1**升级包，系统更新至最新**2019-09-06**
 2. **全新的XFCE界面，清新MacOS Mojave主题和背景**
 3. 默认全部开启NetworkManager, Web加强版无需再设置NM
@@ -24,12 +24,12 @@
 
 
 
-## 2019.09.06 &nbsp;&nbsp;// ** v2.0 UPKG RC3-U2 Released. **
+## 2019.09.06 &nbsp;&nbsp;// **v2.0 UPKG RC3-U2 Released.**
 1. 内核及固件独立升级包：升级到 **RC3-U1**
 2. 内核模块及固件小调整，加入了新的模块和特性支持(主要针对KVM的特性)
 3. cpuinfo固件显示信息优化
 
-## 2019.09.05 &nbsp;&nbsp;// ** v1.0 U11 Released. **
+## 2019.09.05 &nbsp;&nbsp;// **v1.0 U11 Released.**
 1. 将无线区域默认至CN，国内环境无需再次修改
 2. BaseOS更新至上游最新2019-09-05
 
