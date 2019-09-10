@@ -75,6 +75,8 @@
 
 以上**2.0** 所有系统 及 内核固件更新 **->** 点击 **[此处](https://pan.baidu.com/s/1FKhVQJVW454m8qfrhpmjeQ )** ( 提取码：kayu ) 前往下载
 
+## [捐赠](donation/README.md)
+
 **说明：**
 
 2.0系统无线设置和1.0不太一样，请点击此处 **[网络预配置](./README.md#%E7%BD%91%E7%BB%9C%E9%A2%84%E9%85%8D%E7%BD%AE)** 查看设置方法
@@ -129,6 +131,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - **更多详细FAQ请查看** [FAQ & 常见问题处理](./README.md#faq-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86)
 
+## [捐赠](donation/README.md)
+
 ----
 
 # 系统介绍
@@ -169,6 +173,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 同时，我们也发布了 **【 定制优化的 Xfce桌面 】** 的系统镜像，请前往 **[此处](./docs/xfce.md)** 查看相关说明
 
+## [捐赠](donation/README.md)
+
 ---
 
 ## 系统说明
@@ -188,6 +194,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 - **桌面环境仅提供 Ext4 格式的镜像 ！**
 
 - **无桌面加强版环境目前仅提供 Ext4 格式的镜像 ！**
+
+## [捐赠](donation/README.md)
 
 ----
 
@@ -229,6 +237,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 - 2019年09月10日，RC5 版本发布，内核及固件更新：upkg-2019-09-10-v2019-2.0-RC5
 
+## [捐赠](donation/README.md)
+
 ## 2.0 预览版系统【 已知问题 】说明
 
 (max: 2019.08.15 update)
@@ -246,6 +256,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 - **GPU 3D加速问题**
 
 **所有系统已全线支持 ！！**
+
+## [捐赠](donation/README.md)
 
 ----
 
@@ -273,6 +285,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 
 **PS：** 由于架构变动较大，不支持系统从1.0版本升级到2.0。
 
+## [捐赠](donation/README.md)
+
 ----
 
 # 更新 (仅限1.0稳定版本)
@@ -286,6 +300,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 - 请点击 [此处](./upgrade.md)  查看：如何下载更新文件并更新至最新版本
 
 - 请点击 [此处](./qemu-kvm.md) 查看：QEMU虚拟机二进制软件包及虚拟机镜像下载地址和教程
+
+## [捐赠](donation/README.md)
 
 #### **PS：** 由于架构变动较大，不支持系统从1.0版本升级到2.0。
 
@@ -306,6 +322,8 @@ systemctl enable ntp.service && systemctl start ntp.service
 #### 有关更多更新相关的说明，请点击 [此处](./update.md) 查看
 
 **PS：** 由于架构变动较大，不支持系统从1.0版本升级到2.0。
+
+## [捐赠](donation/README.md)
 
 ----
 
@@ -980,6 +998,8 @@ apt update; apt install shellinabox -y
 
 综合整体性能全面超越对比测试系统的2~3倍以上，部分指标甚至达到了10倍以上，1000%的提升
 
+## [捐赠](donation/README.md)
+
 ## 与树莓派官方32位系统测试
 
 近来，树莓派官方做了不少优化工作，现在的系统对比以前的32位系统有了较大的提升，但是由于32位原生的架构限制，与64位系统性能差距仍然较大
@@ -1008,6 +1028,8 @@ apt update; apt install shellinabox -y
 
 ![sysbench](./images/sysbench_result.png)
 
+## [捐赠](donation/README.md)
+
 ----
 
 # 最新2.0测试版与树莓派官方32位系统测试
@@ -1035,6 +1057,8 @@ apt update; apt install shellinabox -y
 - 统计图 **(统计单位：时间，越小越好)**
 
 ![sysbench](./images/sysbench_result2.png)
+
+## [捐赠](donation/README.md)
 
 ----
 
