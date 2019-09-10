@@ -4,6 +4,8 @@
 
 **[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp; && &nbsp;&nbsp;[树莓派爱好者基地](http://www.pifan.org/)&nbsp;&nbsp;荣誉出品**
 
+## [捐赠](donation/README.md)
+
 ###  再次重申！我们是团队，企业级的专业团队出品的系统，不要拿个人作品来和我们比较
 
 ----
@@ -21,6 +23,8 @@
 ```shell
 apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 ```
+
+## [捐赠](donation/README.md)
 
 ----
 
@@ -69,6 +73,8 @@ mk-initrd && sync && sync && init 6
 
 - **最后重启系统，完成升级**
 
+## [捐赠](donation/README.md)
+
 ---
 
 ## 如何更新系统
@@ -78,3 +84,4 @@ mk-initrd && sync && sync && init 6
 ```shell
 apt update ; apt upgrade -y
 ```
+## [捐赠](donation/README.md)
