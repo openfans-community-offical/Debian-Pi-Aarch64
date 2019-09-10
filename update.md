@@ -11,16 +11,16 @@
 # 更新说明
 
 ## 2019.09.10 &nbsp;&nbsp;// **v2.0 RC5 Released.**
-1. Kernel及固件主线同步上游LTS 4.19.71
-2. 内核及固件同步**RC5**升级包，系统更新至最新**2019-09-10, Debian Buster 10.1**
-3. Docker同步至上游CE最新**19.03.2~3-0**
-4. 修复内核上游无线地区码问题
-5. 修复Xfce Panel Length部分配置问题
-6. 更新raspberrypi-sys-mods至最新版本
-7. 修复mac80211的STA泄露
-8. 正确设置mac80211 PAE帧的noencrypt
-9. 升级bluealsa至0.12
-10. 暂定为正式版发布前的倒数第四个版本
+1. 内核及固件同步**RC5**升级包，系统更新至最新**2019-09-10, Debian Buster 10.1**
+2. Docker同步至上游CE最新**19.03.2~3-0**
+3. 修复内核上游无线地区码问题
+4. 修复Xfce Panel Length部分配置问题
+5. 更新raspberrypi-sys-mods至最新版本
+6. mac80211:正确设置PAE帧的noencrypt 
+7. mac80211:在PAE拦截之前不要记忆RXCB
+8. mac80211:修复可能的sta泄漏
+9. cfg80211:非模块化时修复处理地区码的regdomain 
+10. 升级bluealsa至0.12
 
 ## 2019.09.06 &nbsp;&nbsp;// **v2.0 RC4 Released.**
 1. 内核及固件同步**RC3-U1**升级包，系统更新至最新**2019-09-06**
