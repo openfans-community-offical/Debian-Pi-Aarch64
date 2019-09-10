@@ -18,7 +18,9 @@
 5. 修复Xfce Panel Length部分配置问题
 6. 更新raspberrypi-sys-mods至最新版本
 7. 修复mac80211的STA泄露
-8. 正确设置mac80211 PAE帧的noencrypt 
+8. 正确设置mac80211 PAE帧的noencrypt
+9. 升级bluealsa至0.12
+10. 暂定为正式版发布前的倒数第四个版本
 
 ## 2019.09.06 &nbsp;&nbsp;// **v2.0 RC4 Released.**
 1. 内核及固件同步**RC3-U1**升级包，系统更新至最新**2019-09-06**
