@@ -2,7 +2,7 @@
 
 # ★ 树莓派 4B Debian Pi Aarch 64位系统 2.0 ★
 
-## [捐赠](donation/README.md)
+# [捐赠](donation/README.md)
 
 # ★★★★★★ 2019.07.06 - 全球首发 ！！★★★★★★
 
