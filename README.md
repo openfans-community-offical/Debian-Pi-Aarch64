@@ -2,6 +2,8 @@
 
 # ★ 树莓派 4B Debian Pi Aarch 64位系统 2.0 ★
 
+## [捐赠](donation/README.md)
+
 # ★★★★★★ 2019.07.06 - 全球首发 ！！★★★★★★
 
 ### PS：Pi 4B [4G版] 4G内存问题我们已修复、显卡3D硬件加速已全线支持 (2.0 RC2以后的版本)，
@@ -23,6 +25,7 @@
 ### ● Xfce桌面 ( ★★ 全新界面！！★★ )
 ### ● 深度桌面 
 
+## [捐赠](donation/README.md)
 
 **[OPENFANS开源社区](http://www.openfans.org)&nbsp;&nbsp; && &nbsp;&nbsp;[树莓派爱好者基地](http://www.pifan.org/)&nbsp;&nbsp;荣誉出品**
 
