@@ -93,7 +93,7 @@ PermitRootLogin yes
 保存文件并退出文件编辑，然后执行以下命令
 
 ```shell 
-systemctl damon-reload ; systemctl restart ssh
+systemctl daemon-reload ; systemctl restart ssh
 ```
 
 最后执行以下命令，关闭虚拟机
