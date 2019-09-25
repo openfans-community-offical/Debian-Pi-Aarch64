@@ -130,11 +130,8 @@ ssh -p 2222 root@本机的IP地址
 
 ```
 apt install qemu-efi qemu-efi-arm qemu-efi-aarch64 ipxe-qemu* \
-libnfs12 libvirglrenderer0 qemu-block-extra qemu-system-arm \
-qemu-system-common qemu-system-data qemu-system-gui qemu-utils \
-qemu-user-binfmt qemu qemu-guest-agent qemu-system \
-qemu-user faumachine-data ksmtuned qemu-skiboot \
-cpu-checker seabios sgabios vde2 \
-xserver-xorg-video-qxl  \
- -y
+qemu-block-extra qemu-system-arm qemu-system-common qemu-system-data qemu-system-gui qemu-utils \
+qemu qemu-guest-agent qemu-skiboot qemu-system \
+libnfs12 libvirglrenderer0 faumachine-data ksmtuned cpu-checker seabios sgabios vde2 xserver-xorg-video-qxl \
+-y
 ```
