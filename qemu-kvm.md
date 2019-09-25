@@ -137,3 +137,4 @@ libnfs12 libvirglrenderer0 faumachine-data ksmtuned \
 cpu-checker seabios sgabios vde2 xserver-xorg-video-qxl \
 virt-manager -y
 ```
+ 
