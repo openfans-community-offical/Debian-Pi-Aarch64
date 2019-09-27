@@ -61,6 +61,8 @@
 
 ![pi4桌面1](./images/p4-1.png)
 
+![pi4VMM](./images/vmm.png)
+
 ## 系统下载
 
 - **v2.0 预览版**
