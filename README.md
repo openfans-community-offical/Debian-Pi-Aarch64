@@ -63,6 +63,10 @@
 
 ![pi4VMM](./images/vmm.png)
 
+![pi4Android1](./images/apk01.png)
+
+![pi4Android2](./images/apk02.png)
+
 ## 系统下载
 
 - **v2.0 预览版**
