@@ -10,7 +10,7 @@
 
 # 宝塔虚拟机 安装及使用说明
 
-![btvm](../images/bt.png
+![btvm](../images/bt.png)
 
 * **在使用宝塔虚拟机之前，请确认你使用的是我们的Debian-Pi-Aarch64系统**
 
