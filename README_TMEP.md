@@ -2,6 +2,8 @@
 
 # ★ New - Raspberry Pi Debian Pi Aarch 64OS - ★
 
+#### 系统截图：
+
 MacOS_Mojave主题桌面截图
 
 ![macos](./images/macos1.png)
