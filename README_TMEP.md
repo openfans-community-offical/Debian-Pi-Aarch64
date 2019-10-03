@@ -56,9 +56,12 @@
 
 [3-8. 深度桌面禁止自动升级的说明](./README_TMEP.md#3-8%E6%B7%B1%E5%BA%A6%E6%A1%8C%E9%9D%A2%E7%A6%81%E6%AD%A2%E8%87%AA%E5%8A%A8%E5%8D%87%E7%BA%A7%E7%9A%84%E8%AF%B4%E6%98%8E)
 
-3-9.中文环境下TTY显示中文字体(非远程方式)
-3-10.MacOS_Mojave主题桌面安装VNC远程
-3-11.切换声音输出通道
+[3-9. 中文环境下TTY显示中文字体(非远程方式)](./README_TMEP.md#3-9%E4%B8%AD%E6%96%87%E7%8E%AF%E5%A2%83%E4%B8%8Btty%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93%E9%9D%9E%E8%BF%9C%E7%A8%8B%E6%96%B9%E5%BC%8F)
+
+[3-10. MacOS_Mojave主题桌面安装VNC远程](./README_TMEP.md#3-10macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2%E5%AE%89%E8%A3%85vnc%E8%BF%9C%E7%A8%8B)
+
+[3-11. 切换声音输出通道](./README_TMEP.md#3-11%E5%88%87%E6%8D%A2%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E9%80%9A%E9%81%93)
+
 ----
 
 ## 1.系统介绍
