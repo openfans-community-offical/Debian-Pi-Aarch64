@@ -64,7 +64,7 @@
 
 [2-8. CecOS CaaS 容器云](./README_TMEP.md#2-8cecos_caas%E5%AE%B9%E5%99%A8%E4%BA%91)
 
-[2-9. 其他特性](./README_TMEP.md##%E5%85%B6%E4%BB%96%E7%89%B9%E6%80%A7raw/master/images/caas.png)
+[2-9. 其他特性](./README_TMEP.md#%E5%85%B6%E4%BB%96%E7%89%B9%E6%80%A7)
 
 [3. 使用说明](./README_TMEP.md#3%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
