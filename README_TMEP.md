@@ -2,6 +2,34 @@
 
 # ★ New - Raspberry Pi Debian Pi Aarch 64OS - ★
 
+![macos](./images/macos1.png)
+
+![loginUI](./images/ui1.png)
+
+![WebUI](./images/ui2.png)
+
+![Docker](./images/ui3.png)
+
+![UI SHELL](./images/uishell.png)
+
+![CaaS](./images/caas.png)
+
+![CaaS Cluster](./images/caas2.png)
+
+![macos](./images/macos2.png)
+
+![Deepin桌面1](./images/deepin_desktop_min.png)
+
+![pi4桌面2](./images/p4-2.png)
+
+![pi4桌面1](./images/p4-1.png)
+
+![pi4VMM](./images/vmm.png)
+
+![pi4Android1](./images/apk0.png)
+
+![pi4Android2](./images/apk1.png)
+
 ## 2.0 说明文档 
 
 \- **树莓派64位操作系统** - **OPENFANS开源社区 & 树莓派爱好者社区** - **联合出品** -
@@ -62,7 +90,7 @@
 
 [3-11. 切换声音输出通道](./README_TMEP.md#3-11%E5%88%87%E6%8D%A2%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E9%80%9A%E9%81%93)
 
-[3-12. 32位软件armhf支持]()
+[3-12. 32位软件armhf支持](./README_TMEP.md#3-1232%E4%BD%8D%E8%BD%AF%E4%BB%B6armhf%E6%94%AF%E6%8C%81)
 
 ----
 
