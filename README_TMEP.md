@@ -36,6 +36,7 @@
 
 [2-8. CecOS CaaS 容器云](./README_TMEP.md#2-8cecos_caas%E5%AE%B9%E5%99%A8%E4%BA%91)
 
+[2-9. 其他特性](./README_TMEP.md##%E5%85%B6%E4%BB%96%E7%89%B9%E6%80%A7raw/master/images/caas.png)
 
 ----
 
@@ -59,7 +60,9 @@
 
 2019年7月6日，历时半个月的努力，OPENFANS和树莓派爱好者基地联合发布了新的Debian-Pi-Aarch64 2.0系统。
 
-这是全球第一个发行的支持树莓派4B的64位系统
+这是全球第一个发行的支持树莓派4B的64位系统!
+
+新的2.0正式版开启了全系的3D加速支持，正式引入OPENFANS的容器云管理平台，较1.0系统将更为完善和强大！
 
 秉承我们OPENFANS和树莓派爱好者基地联合发布的Debian-Pi-Aarch64系统一直以来的优良传统！
 
@@ -299,7 +302,137 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 
 ### 其他特性
 
-新版2.0特性太多，这里就不再一一举例说明，以上只列举主要说明，请他特性请老铁们自行发掘 :)
+- 支持3D加速，默认所有桌面环境已开启
+
+- 新版2.0特性太多，这里就不再一一举例说明，以上只列举主要说明，请他特性请老铁们自行发掘 :)
+
+## 3.使用说明
+
+### 3-1.系统初始化说明
+
+系统开机将自动扩展根分区，然后会自动进行相关配置，待完成后方可正常使用，此过程中系统将 **自动重启3次** 。
+
+### 3-2.账户及密码
+
+系统默认账户：**pi** ，默认密码：**raspberry**
+
+默认账户pi账户支持ssh登录，root账户密码请登陆后使用命令 **“sudo password root”** 执行设置，
+
+或使用命令 **“sudo -i”** 来切换到root用户。
+
+### 3-3.Web登录接口说明
+
+```
+1.Web可视化管理界面
+登录地址 https://你树莓派的IP地址:9090
+说明：请使用系统默认账户pi登录
+
+2.WEB SSH 客户端 入口界面
+登录地址 https://你树莓派的IP地址:4200
+说明：请使用系统默认账户pi登录
+
+3.CecOS CaaS 容器云管理平台 登录界面
+登录地址 https://你树莓派的IP地址:8443
+说明：默认管理账户 admin , 默认密码：password 。请登录后立即修改默认密码！！
+
+```
+
+### 3-4.预配置项
+
+系统提供网络和自动开机任务的预配置，相关配置文件的路径和对应关系如下：
+
+| 预配置项 | 预配置文件路径 | 对应链接到的系统文件路径 |
+| --- | --- | --- |
+| 无线网络 | /boot/wpa_supplicant.conf | /etc/wpa_supplicant/wpa_supplicant.conf |
+| 有线网络 | /boot/interfaces | /etc/network/interfaces |
+| DHCP客户端 | /boot/dhclient.conf | /etc/dhcp/dhclient.conf |
+| 自定义启动脚本 | /boot/rc-local | /etc/rc.local |
+
+### 3-5.无线配置说明
+
+桌面化环境可以登录到桌面环境后通过图形化界面设置，这里提供配置文件的修改方式。
+
+修改 **/boot/wpa_supplicant.conf** 文件
+
+```
+## To use this file, you should run command "systemctl disable network-manager" and reboot system. (Do not uncomment this line!) ##
+## 除第一行外，第一行可以删除，去掉以下每行只有单个“#”的注释符号，两个“#”注释符号的行位说明内容，请不要修改
+## 中文内容是注释，删除或不要取消前面的“#”符号
+
+## country是设置无线的国家地区，CN是中国
+#country=CN
+#ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+#update_config=1
+
+## 下面的 "WIFI 1" 、"WIFI 2" 代表多个无线网络的设置
+## 除非你要设置多个无线网络，否则只需要设置 "WIFI 1" 这部分的设置即可
+## WIFI 1 (Do not uncomment this line!)
+
+## 除了取消需要生效的内容注释以外，以下仅需要修改 "" 和 "psk" 后面引号内的内容即可
+## ssid是你的无线Wifi名称，psk是你无线Wifi的密码
+#network={
+#    ssid="your-wifi1-ssid"
+#    psk="wifi1-password"
+#    priority=1
+#    id_str="wifi-1"
+#}
 
 
+## WIFI 2 (Do not uncomment this line!)
 
+#network={
+#    ssid="your-wifi2-ssid"
+#    psk="wifi2-password"
+#    priority=2
+#    id_str="wifi-2"
+#}
+```
+
+**无线地区码设置：**
+
+编辑 **/etc/default/crda** 文件，编辑 **REGDOMAIN=** 后面的内容，默认已设置为 **“CN”中国** ，一般情况下无需设置。
+
+**附无线常用地区码：**
+
+```
+AU 澳大利亚
+CA 加拿大
+CN 中国
+GB 英国
+HK 香港
+JP 日本
+KR 韩国
+DE 德国
+US 美国
+TW 台湾
+```
+
+### 3-6.有线网络配置
+
+修改 **/boot/interfaces** 文件
+
+```
+# interfaces(5) file used by ifup(8) and ifdown(8)
+# Include files from /etc/network/interfaces.d:
+source-directory /etc/network/interfaces.d
+## Used dhcp ip address set eth0 inet to dhcp,
+## or used static ip address set eth0 to static
+## and change other ip settings.
+## If you wanna let settings to take effect,
+## uncomment symbol in front.
+
+#auto eth0
+#allow-hotplug eth0
+
+#iface eth0 inet dhcp
+#iface eth0 inet static
+#address 172.16.192.168
+#netmask 255.255.255.0
+#gateway 172.16.192.1
+#dns-nameservers 8.8.8.8
+```
+### 3-7.开机自定义启动脚本
+
+系统支持自定义任务自启动脚本，可以在系统启动前预先配置。
+
+编辑脚本文件 **"/boot/rc-local"** ，在 **“exoit 0”** 前加入自定义的脚本内容。
