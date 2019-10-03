@@ -2,9 +2,11 @@
 
 # ★ New - Raspberry Pi Debian Pi Aarch 64OS - ★
 
+MacOS_Mojave主题桌面截图
+
 ![macos](./images/macos1.png)
 
-MacOS_Mojave主题桌面截图
+无桌面加强版Web管理界面
 
 ![loginUI](./images/ui1.png)
 
@@ -20,19 +22,19 @@ MacOS_Mojave主题桌面截图
 
 ![UI SHELL](./images/uishell.png)
 
-无桌面加强版Web管理界面
+CecOS CaaS 容器云
 
 ![CaaS](./images/caas.png)
 
-CecOS CaaS 容器云
+CecOS CaaS 容器云 集群管理
 
 ![CaaS Cluster](./images/caas2.png)
 
-CecOS CaaS 容器云 集群管理
+MacOS_Mojave主题桌面截图 多媒体支持
 
 ![macos](./images/macos2.png)
 
-MacOS_Mojave主题桌面截图 多媒体支持
+深度(Deepin)桌面截图
 
 ![Deepin桌面1](./images/deepin_desktop_min.png)
 
@@ -44,19 +46,19 @@ MacOS_Mojave主题桌面截图 多媒体支持
 
 ![pi4桌面1](./images/p4-1.png)
 
-深度(Deepin)桌面截图
+MacOS_Mojave主题桌面截图 虚拟机图形化管理器
 
 ![pi4VMM](./images/vmm.png)
 
-MacOS_Mojave主题桌面截图 虚拟机图形化管理器
+MacOS_Mojave主题桌面截图 运行 Android App: 刀塔
 
 ![pi4Android1](./images/apk0.png)
 
-MacOS_Mojave主题桌面截图 运行 Android App: 刀塔
+MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 ![pi4Android2](./images/apk1.png)
 
-MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
+----
 
 ## 2.0 说明文档 
 
