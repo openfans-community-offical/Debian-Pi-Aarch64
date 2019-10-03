@@ -56,6 +56,9 @@
 
 [3-8. 深度桌面禁止自动升级的说明](./README_TMEP.md#3-8%E6%B7%B1%E5%BA%A6%E6%A1%8C%E9%9D%A2%E7%A6%81%E6%AD%A2%E8%87%AA%E5%8A%A8%E5%8D%87%E7%BA%A7%E7%9A%84%E8%AF%B4%E6%98%8E)
 
+3-9.中文环境下TTY显示中文字体(非远程方式)
+3-10.MacOS_Mojave主题桌面安装VNC远程
+3-11.切换声音输出通道
 ----
 
 ## 1.系统介绍
@@ -473,3 +476,72 @@ apt-get dist-upgrade
 *深度软件商店的软件是由深度提供的，非我们提供，目前深度软件商店暂时没有提供对arm64的软件支持，如有任何需求，请到深度官方论坛寻求帮助。*
 
 *这里我们强烈建议使用我们提供的定制的 MacOS_Mojave主题桌面版本。*
+
+### 3-9.中文环境下TTY显示中文字体(非远程方式)
+
+注意：远程登录的方式无视这个问题，不会存在乱码的问题，仅在通过本地显示器或串口连接使用终端是由于Linux内核本地的标准TTY不支持显示中文字体，会显示乱码时才需要执行相关操作。
+
+我们需要安装fbterm扩展支持，在联网环境下执行如下操作：
+
+```
+## 安装fbterm
+sudo apt update; sudo apt install fbterm -y
+## 添加登录用户到video组
+sudo adduser root video ; sudo adduser pi video 
+sudo adduser 你自己创建的其他用户名(若果有) video
+## 然后每次需要显示时执行以下命令即可（第一次需要等待一些时间）：
+fbterm
+```
+
+### 3-10.MacOS_Mojave主题桌面安装VNC远程
+
+安装 RealVNC
+
+```
+apt update
+cd ~ ; wget https://www.realvnc.com/download/file/vnc.files/VNC-Server-6.5.0-Linux-ARM.deb
+apt install ./VNC-Server-6.5.0-Linux-ARM.deb
+rm -rf ./VNC-Server-6.4.0-Linux-ARM.deb
+systemctl enable vncserver-x11-serviced.service ; systemctl start vncserver-x11-serviced.service
+```
+
+点击 [此处](https://www.realvnc.com/en/connect/download/viewer/) 前往下载RealVNC的客户端。
+
+安装并运行客户端，直接输入IP地址即可，不需要填写端口，用户名和密码是你系统的登录用户和密码。
+
+PS:
+
+Realvnc的一些高级说明
+
+```
+Installed systemd unit for VNC Server in Service Mode daemon
+Start or stop the service with:
+  systemctl (start|stop) vncserver-x11-serviced.service
+
+Mark or unmark the service to be started at boot time with:
+  systemctl (enable|disable) vncserver-x11-serviced.service
+
+Installed systemd unit for VNC Server in Virtual Mode daemon
+
+Start or stop the service with:
+  systemctl (start|stop) vncserver-virtuald.service
+
+Mark or unmark the service to be started at boot time with:
+  systemctl (enable|disable) vncserver-virtuald.service
+
+Kill All process：
+killall vncserver-x11-core vncserver-x11 vncagent vncserverui
+```
+
+### 3-11.切换声音输出通道
+
+2.0系统默认声音使用 **HDMI** 输出
+
+切换声音输出的命令：
+
+```
+amixer cset numid=3 2
+这里将输出设置为2，也就是HDMI。
+将输出设置为1将切换到模拟信号（也就是耳机接口）。
+默认的设置为0，代表自动选择
+```
