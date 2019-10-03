@@ -12,11 +12,73 @@
 
 **在使用前请仔细阅读该文档**，避免重复提问或询问任何在该文档中已说明的内容（我们将拒绝回答任何已说明的问题），除本文档外本Git仓库中的其他任何文档已不再维护，仅作为开发人员存档，特此说明。
 
-[文档目录](./README_TMEP.md#%E7%9B%AE%E5%BD%95)
+----
+
+## 目录
+
+[0. 系统截图]()
+
+[1. 系统介绍](./README_TMEP.md#1%E7%B3%BB%E7%BB%9F%E4%BB%8B%E7%BB%8D)
+
+[1-1. 系统环境（版本介绍）](./README_TMEP.md#1-1%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D)
+
+[1-2. 系统环境（系统相关）](./README_TMEP.md#1-2%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3)
+
+[2. 主要特性说明](./README_TMEP.md#2%E4%B8%BB%E8%A6%81%E7%89%B9%E6%80%A7%E8%AF%B4%E6%98%8E)
+
+[2-1. Web可视化管理Web可视化管理](./README_TMEP.md#2-1web%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86)
+
+[2-2. QEMU-KVM 虚拟化支持](./README_TMEP.md#2-2qemu-kvm-%E8%99%9A%E6%8B%9F%E5%8C%96%E6%94%AF%E6%8C%81)
+
+[2-3. Docker 容器支持](./README_TMEP.md#2-3docker-%E5%AE%B9%E5%99%A8%E6%94%AF%E6%8C%81)
+
+[2-4. AUFS文件系统支持](./README_TMEP.md#2-4aufs%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81)
+
+[2-5. TCP加速](./README_TMEP.md#2-5tcp%E5%8A%A0%E9%80%9F)
+
+[2-6. 内存及交换优化（算法级）](./README_TMEP.md#2-6%E5%86%85%E5%AD%98%E5%8F%8A%E4%BA%A4%E6%8D%A2%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95%E7%BA%A7)
+
+[2-7. MacOS Mojave 主题桌面](./README_TMEP.md#2-7macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2)
+
+[2-8. CecOS CaaS 容器云](./README_TMEP.md#2-8cecos_caas%E5%AE%B9%E5%99%A8%E4%BA%91)
+
+[2-9. 其他特性](./README_TMEP.md#%E5%85%B6%E4%BB%96%E7%89%B9%E6%80%A7)
+
+[3. 使用说明](./README_TMEP.md#3%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+
+[3-1. 系统初始化说明](./README_TMEP.md#3-1%E7%B3%BB%E7%BB%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AF%B4%E6%98%8E)
+
+[3-2. 账户及密码](./README_TMEP.md#3-2%E8%B4%A6%E6%88%B7%E5%8F%8A%E5%AF%86%E7%A0%81)
+
+[3-3. Web登录接口说明](./README_TMEP.md#3-3web%E7%99%BB%E5%BD%95%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E)
+
+[3-4. 预配置项](./README_TMEP.md#3-4%E9%A2%84%E9%85%8D%E7%BD%AE%E9%A1%B9)
+
+[3-5. 无线配置说明](./README_TMEP.md#3-5%E6%97%A0%E7%BA%BF%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E)
+
+[3-6. 有线网络配置](./README_TMEP.md#3-6%E6%9C%89%E7%BA%BF%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE)
+
+[3-7. 开机自定义启动脚本](./README_TMEP.md#3-7%E5%BC%80%E6%9C%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%AF%E5%8A%A8%E8%84%9A%E6%9C%AC)
+
+[3-8. 深度桌面禁止自动升级的说明](./README_TMEP.md#3-8%E6%B7%B1%E5%BA%A6%E6%A1%8C%E9%9D%A2%E7%A6%81%E6%AD%A2%E8%87%AA%E5%8A%A8%E5%8D%87%E7%BA%A7%E7%9A%84%E8%AF%B4%E6%98%8E)
+
+[3-9. 中文环境下TTY显示中文字体(非远程方式)](./README_TMEP.md#3-9%E4%B8%AD%E6%96%87%E7%8E%AF%E5%A2%83%E4%B8%8Btty%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93%E9%9D%9E%E8%BF%9C%E7%A8%8B%E6%96%B9%E5%BC%8F)
+
+[3-10. MacOS_Mojave主题桌面安装VNC远程](./README_TMEP.md#3-10macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2%E5%AE%89%E8%A3%85vnc%E8%BF%9C%E7%A8%8B)
+
+[3-11. 切换声音输出通道](./README_TMEP.md#3-11%E5%88%87%E6%8D%A2%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E9%80%9A%E9%81%93)
+
+[3-12. 32位软件armhf支持](./README_TMEP.md#3-1232%E4%BD%8D%E8%BD%AF%E4%BB%B6armhf%E6%94%AF%E6%8C%81)
+
+[3-13. 启用和运行Docker服务](./README_TMEP.md#3-13%E5%90%AF%E7%94%A8%E5%92%8C%E8%BF%90%E8%A1%8Cdocker%E6%9C%8D%E5%8A%A1)
+
+[3-14. 启用CecOS-CaaS容器云](./README_TMEP.md#3-14%E5%90%AF%E7%94%A8cecos-caas%E5%AE%B9%E5%99%A8%E4%BA%91)
+
+[3.15. 启用和退出Docker集群](./README_TMEP.md#315%E5%90%AF%E7%94%A8%E5%92%8C%E9%80%80%E5%87%BAdocker%E9%9B%86%E7%BE%A4)
 
 ----
 
-#### 系统截图：
+#### 0.系统截图
 
 MacOS_Mojave主题桌面截图
 
@@ -73,68 +135,6 @@ MacOS_Mojave主题桌面截图 运行 Android App: 刀塔
 MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 ![pi4Android2](./images/apk1.png)
-
-----
-
-## 目录
-
-[1.系统介绍](./README_TMEP.md#1%E7%B3%BB%E7%BB%9F%E4%BB%8B%E7%BB%8D)
-
-[1-1.系统环境（版本介绍）](./README_TMEP.md#1-1%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D)
-
-[1-2.系统环境（系统相关）](./README_TMEP.md#1-2%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3)
-
-[2.主要特性说明](./README_TMEP.md#2%E4%B8%BB%E8%A6%81%E7%89%B9%E6%80%A7%E8%AF%B4%E6%98%8E)
-
-[2-1. Web可视化管理Web可视化管理](./README_TMEP.md#2-1web%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86)
-
-[2-2. QEMU-KVM 虚拟化支持](./README_TMEP.md#2-2qemu-kvm-%E8%99%9A%E6%8B%9F%E5%8C%96%E6%94%AF%E6%8C%81)
-
-[2-3. Docker 容器支持](./README_TMEP.md#2-3docker-%E5%AE%B9%E5%99%A8%E6%94%AF%E6%8C%81)
-
-[2-4. AUFS文件系统支持](./README_TMEP.md#2-4aufs%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81)
-
-[2-5. TCP加速](./README_TMEP.md#2-5tcp%E5%8A%A0%E9%80%9F)
-
-[2-6. 内存及交换优化（算法级）](./README_TMEP.md#2-6%E5%86%85%E5%AD%98%E5%8F%8A%E4%BA%A4%E6%8D%A2%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95%E7%BA%A7)
-
-[2-7. MacOS Mojave 主题桌面](./README_TMEP.md#2-7macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2)
-
-[2-8. CecOS CaaS 容器云](./README_TMEP.md#2-8cecos_caas%E5%AE%B9%E5%99%A8%E4%BA%91)
-
-[2-9. 其他特性](./README_TMEP.md#%E5%85%B6%E4%BB%96%E7%89%B9%E6%80%A7)
-
-[3. 使用说明](./README_TMEP.md#3%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
-
-[3-1. 系统初始化说明](./README_TMEP.md#3-1%E7%B3%BB%E7%BB%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AF%B4%E6%98%8E)
-
-[3-2. 账户及密码](./README_TMEP.md#3-2%E8%B4%A6%E6%88%B7%E5%8F%8A%E5%AF%86%E7%A0%81)
-
-[3-3. Web登录接口说明](./README_TMEP.md#3-3web%E7%99%BB%E5%BD%95%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E)
-
-[3-4. 预配置项](./README_TMEP.md#3-4%E9%A2%84%E9%85%8D%E7%BD%AE%E9%A1%B9)
-
-[3-5. 无线配置说明](./README_TMEP.md#3-5%E6%97%A0%E7%BA%BF%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E)
-
-[3-6. 有线网络配置](./README_TMEP.md#3-6%E6%9C%89%E7%BA%BF%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE)
-
-[3-7. 开机自定义启动脚本](./README_TMEP.md#3-7%E5%BC%80%E6%9C%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%AF%E5%8A%A8%E8%84%9A%E6%9C%AC)
-
-[3-8. 深度桌面禁止自动升级的说明](./README_TMEP.md#3-8%E6%B7%B1%E5%BA%A6%E6%A1%8C%E9%9D%A2%E7%A6%81%E6%AD%A2%E8%87%AA%E5%8A%A8%E5%8D%87%E7%BA%A7%E7%9A%84%E8%AF%B4%E6%98%8E)
-
-[3-9. 中文环境下TTY显示中文字体(非远程方式)](./README_TMEP.md#3-9%E4%B8%AD%E6%96%87%E7%8E%AF%E5%A2%83%E4%B8%8Btty%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93%E9%9D%9E%E8%BF%9C%E7%A8%8B%E6%96%B9%E5%BC%8F)
-
-[3-10. MacOS_Mojave主题桌面安装VNC远程](./README_TMEP.md#3-10macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2%E5%AE%89%E8%A3%85vnc%E8%BF%9C%E7%A8%8B)
-
-[3-11. 切换声音输出通道](./README_TMEP.md#3-11%E5%88%87%E6%8D%A2%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E9%80%9A%E9%81%93)
-
-[3-12. 32位软件armhf支持](./README_TMEP.md#3-1232%E4%BD%8D%E8%BD%AF%E4%BB%B6armhf%E6%94%AF%E6%8C%81)
-
-[3-13. 启用和运行Docker服务](./README_TMEP.md#3-13%E5%90%AF%E7%94%A8%E5%92%8C%E8%BF%90%E8%A1%8Cdocker%E6%9C%8D%E5%8A%A1)
-
-[3-14. 启用CecOS-CaaS容器云](./README_TMEP.md#3-14%E5%90%AF%E7%94%A8cecos-caas%E5%AE%B9%E5%99%A8%E4%BA%91)
-
-[3.15. 启用和退出Docker集群](./README_TMEP.md#315%E5%90%AF%E7%94%A8%E5%92%8C%E9%80%80%E5%87%BAdocker%E9%9B%86%E7%BE%A4)
 
 ----
 
@@ -425,6 +425,8 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 - 支持3D加速，默认所有桌面环境已开启
 
 - 新版2.0特性太多，这里就不再一一举例说明，以上只列举主要说明，请他特性请老铁们自行发掘 :)
+
+----
 
 ## 3.使用说明
 
