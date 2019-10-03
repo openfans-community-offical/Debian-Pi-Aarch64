@@ -1,6 +1,6 @@
 ![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
 
-# ★ New - Raspberry Pi Debian Pi Aarch 64OS - ★
+# ★ New - Raspberry Pi Debian Pi Aarch 64 bit OS - ★
 
 ## 2.0 说明文档 
 
@@ -78,9 +78,9 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 [1.系统介绍](./README_TMEP.md#1%E7%B3%BB%E7%BB%9F%E4%BB%8B%E7%BB%8D)
 
-[1-1.系统环境（版本介绍）](.)
+[1-1.系统环境（版本介绍）](./README_TMEP.md#1-1%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D)
 
-[1-2.系统环境（系统相关）](.)
+[1-2.系统环境（系统相关）](./README_TMEP.md#1-2%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3)
 
 [2.主要特性说明](./README_TMEP.md#2%E4%B8%BB%E8%A6%81%E7%89%B9%E6%80%A7%E8%AF%B4%E6%98%8E)
 
