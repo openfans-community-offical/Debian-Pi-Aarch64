@@ -124,6 +124,12 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 [3-12. 32位软件armhf支持](./README_TMEP.md#3-1232%E4%BD%8D%E8%BD%AF%E4%BB%B6armhf%E6%94%AF%E6%8C%81)
 
+[3-13. 启用和运行Docker服务]()
+
+[3-14. 启用CecOS-CaaS容器云]()
+
+[3.15. 启用和退出Docker集群]()
+
 ----
 
 ## 1.系统介绍
@@ -638,4 +644,58 @@ apt update
 apt install ibc6:armhf
 apt install 其他软件包名:armhf
 ## 安装32位软件请在包的名称后加入后缀 ":armhf"
+```
+
+### 3-13.启用和运行Docker服务
+
+无桌面基础版和桌面全功能版默认没有启用 **Docker服务**，需要手动启动。
+
+```
+开机自动启动Docker服务
+systemctl enable docker.service
+
+启动Docker服务
+systemctl start docker.service
+
+######
+
+停止Docker服务
+systemctl stop docker.service
+禁止Docker服务开机启动
+systemctl disable docker.service
+
+```
+
+### 3-14.启用CecOS-CaaS容器云
+
+无桌面基础版和桌面全功能版默认没有启用 **CecOS CaaS容器云** 服务，需要手动启动。
+
+**注意：要启用CecOS CaaS容器云服务，必须要先启用和启动docker服务！！**
+
+```
+开机自动启动 CecOS CaaS容器云 服务
+systemctl enable docker.service
+
+启动 CecOS CaaS容器云 服务
+systemctl start docker.service
+
+######
+
+停止 CecOS CaaS容器云 服务
+systemctl stop docker.service
+禁 CecOS CaaS容器云 服务开机启动
+systemctl disable docker.service
+```
+
+### 3.15.启用和退出Docker集群
+
+```
+#初始化并加入一个 Docker Swarm集群
+docker swarm init
+
+#查看集群节点状态
+docker node ls
+
+#退出Docker Swarm集群
+docker swarm leave --force
 ```
