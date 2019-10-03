@@ -62,6 +62,8 @@
 
 [3-11. 切换声音输出通道](./README_TMEP.md#3-11%E5%88%87%E6%8D%A2%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E9%80%9A%E9%81%93)
 
+[3-12. 32位软件armhf支持]()
+
 ----
 
 ## 1.系统介绍
@@ -547,4 +549,15 @@ amixer cset numid=3 2
 这里将输出设置为2，也就是HDMI。
 将输出设置为1将切换到模拟信号（也就是耳机接口）。
 默认的设置为0，代表自动选择
+```
+
+### 3-12.32位软件armhf支持
+
+```
+dpkg --add-architecture armhf
+apt update
+## 需要先安装32位的ibc6的基础库
+apt install ibc6:armhf
+apt install 其他软件包名:armhf
+## 安装32位软件请在包的名称后加入后缀 ":armhf"
 ```
