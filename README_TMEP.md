@@ -182,17 +182,25 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 标准基础系统镜像，没有X-WINDOWS桌面环境。
 
+**镜像名称：** OPENFANS-Debian-Buster-Aarch64-ext4-v2019-2.0-Release.img
+
 ● 基础系统Plus++（无桌面加强版）
 
 在标准基础系统之上，加入了可视化的WebUI管理界面支持。
+
+**镜像名称：** OPENFANS-Debian-Buster-Aarch64-ext4-v2019-2.0-Release-plus++.img
 
 ● MacOS_Mojave主题定制桌面（全功能版）
 
 在标准基础系统之上基于XFCE深度定制的树莓派爱好者基地的独家系统镜像，具备所有系统的全部功能！！
 
+**镜像名称：** OPENFANS-Debian-Buster-Desktop-Aarch64-ext4-v2019-2.0-Release.img
+
 ● 深度(Deepin)桌面
 
 基于我们自己的基础系统镜像，移植了完整的深度Deepin 15.5专业版桌面，这是目前 **第一个** 基于完整的Debian Aarch64架构而构建的适配于树莓派B/3B+/3A/4B的64位深度ARM64镜像。
+
+**镜像名称：** OPENFANS-Deepin-Professional-Desktop-Aarch64-ext4-v2019-2.0-Release.img
 
 ### 1-2.系统环境（系统相关）
 
