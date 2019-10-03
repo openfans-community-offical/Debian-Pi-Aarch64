@@ -4,31 +4,59 @@
 
 ![macos](./images/macos1.png)
 
+MacOS_Mojave主题桌面截图
+
 ![loginUI](./images/ui1.png)
+
+无桌面加强版Web管理界面
 
 ![WebUI](./images/ui2.png)
 
+无桌面加强版Web管理界面
+
 ![Docker](./images/ui3.png)
+
+无桌面加强版Web管理界面
 
 ![UI SHELL](./images/uishell.png)
 
+无桌面加强版Web管理界面
+
 ![CaaS](./images/caas.png)
+
+CecOS CaaS 容器云
 
 ![CaaS Cluster](./images/caas2.png)
 
+CecOS CaaS 容器云 集群管理
+
 ![macos](./images/macos2.png)
+
+MacOS_Mojave主题桌面截图 多媒体支持
 
 ![Deepin桌面1](./images/deepin_desktop_min.png)
 
+深度(Deepin)桌面截图
+
 ![pi4桌面2](./images/p4-2.png)
+
+深度(Deepin)桌面截图
 
 ![pi4桌面1](./images/p4-1.png)
 
+深度(Deepin)桌面截图
+
 ![pi4VMM](./images/vmm.png)
+
+MacOS_Mojave主题桌面截图 虚拟机图形化管理器
 
 ![pi4Android1](./images/apk0.png)
 
+MacOS_Mojave主题桌面截图 运行 Android App: 刀塔
+
 ![pi4Android2](./images/apk1.png)
+
+MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 ## 2.0 说明文档 
 
@@ -121,6 +149,24 @@
 秉承我们OPENFANS和树莓派爱好者基地联合发布的Debian-Pi-Aarch64系统一直以来的优良传统！
 
 系统全面兼容树莓派全线64位CPU的单板机：3B、3B+、3A+、4B，并仍然继承1.0稳定版的全部特性。
+
+### 1-1.系统环境（版本介绍）
+
+● 基础系统（无桌面基础版）
+
+标准基础系统镜像，没有X-WINDOWS桌面环境。
+
+● 基础系统Plus++（无桌面加强版）
+
+在标准基础系统之上，加入了可视化的WebUI管理界面支持。
+
+● MacOS_Mojave主题定制桌面（全功能版）
+
+在标准基础系统之上基于XFCE深度定制的树莓派爱好者基地的独家系统镜像，具备所有系统的全部功能！！
+
+● 深度(Deepin)桌面
+
+基于我们自己的基础系统镜像，移植了完整的 【 深度Deepin 15.5 专业版 】 桌面，这是目前 **第一个基于完整的Debian Aarch64架构而构建的适配于树莓派B/3B+/3A/4B的64位深度ARM64镜像 ！！**
 
 ----
 
