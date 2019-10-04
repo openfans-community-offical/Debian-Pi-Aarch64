@@ -878,7 +878,7 @@ systemctl start cecos-caas.service
 停止 CecOS CaaS容器云 服务
 systemctl stop cecos-caas.service
 
-禁 CecOS CaaS容器云 服务开机启动
+禁止 CecOS CaaS容器云 服务开机启动
 systemctl disable cecos-caas.service
 ```
 
