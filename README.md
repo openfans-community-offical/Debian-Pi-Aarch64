@@ -274,7 +274,7 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 |虚拟机图形化控制端|X|X|★|X|
 |Docker容器支持|☆|★|☆|☆|
 |CecOS CaaS容器云支持|☆|★|☆|X|
-|WebGUI管理平台|X|★|☆|X|
+|WebGUI管理平台|X|★|★|X|
 |Web SSH 客户端支持|★|★|★|★|
 |标准虚拟机套件|★|★|★|X|
 |宝塔虚拟机套件|★|★|★|X|
