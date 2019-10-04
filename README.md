@@ -1310,11 +1310,13 @@ sudo  sh  ./sys_upgrade
 
 - 百度网盘： [点击前往下载](https://pan.baidu.com/s/1Q4eBVLyV9plXrjVGmSrMSg)
 
-- OneDrive: [点击前往下载](https://1drv.ms/u/s!AtEthomfQXh8lWj8KVMcbJL0pgJL?e=tZHisM) (由于空间限制，**OneDrive**暂时没有提供虚拟机镜像下载)
+- OneDrive: [点击前往下载](https://1drv.ms/u/s!AtEthomfQXh8lWj8KVMcbJL0pgJL?e=tZHisM)
 
 - Google Drive: [点击前往下载](https://drive.google.com/drive/folders/1MvMuzWYbjWSMZmY607qjukKiwSajOFZc?usp=sharing)
 
 - HUAWEI OSS STORAGE: [View](https://pifan.obs.myhuaweicloud.com)
+
+ (由于空间限制，**OneDrive**及**Google Drive**暂时没有提供虚拟机镜像下载)
 
 ----
 
