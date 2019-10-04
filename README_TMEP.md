@@ -230,7 +230,7 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 |---|---|---|---|
 |Docker支持|☆|★|☆|
 |CecOS CaaS容器云支持|☆|★|☆|
-|WebGUI管理平台|x|★|☆|
+|WebGUI管理平台|X|★|☆|
 |Web SSH 客户端支持|★|★|★|
 
 **说明：**
