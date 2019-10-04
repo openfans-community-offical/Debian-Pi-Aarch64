@@ -116,6 +116,20 @@
 
 [5.2 更新内核及固件](./README_TMEP.md#52%E6%9B%B4%E6%96%B0%E5%86%85%E6%A0%B8%E5%8F%8A%E5%9B%BA%E4%BB%B6)
 
+[5.3 更新说明](./README_TMEP.md#53%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README_TMEP.md#6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80
+
+----
+
+[6. 下载地址](./README_TMEP.md#6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80)
+
+[7. 其他说明](./README_TMEP.md#7%E5%85%B6%E4%BB%96%E8%AF%B4%E6%98%8E)
+
+[7.1 捐赠](./README_TMEP.md#71%E6%8D%90%E8%B5%A0)
+
+[7.2 联系方式](./README_TMEP.md#72%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)
+
+[7.3 版权说明](./README_TMEP.md#73%E7%89%88%E6%9D%83%E8%AF%B4%E6%98%8E)
+
 ----
 
 #### 0.系统截图
@@ -214,25 +228,25 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 标准基础系统镜像，没有X-WINDOWS桌面环境。
 
-**镜像名称：** OPENFANS-Debian-Buster-Aarch64-ext4-v2019-2.0-Release.img
+**镜像名称：** OPENFANS-Debian-Buster-Aarch64-XXXXXX.img
 
 ● 基础系统Plus++（无桌面加强版）
 
 在标准基础系统之上，加入了可视化的WebUI管理界面支持。
 
-**镜像名称：** OPENFANS-Debian-Buster-Aarch64-ext4-v2019-2.0-Release-plus++.img
+**镜像名称：** OPENFANS-Debian-Buster-Aarch64-XXXXXX-plus++.img
 
 ● MacOS_Mojave主题定制桌面（全功能版）
 
 在标准基础系统之上基于XFCE深度定制的树莓派爱好者基地的独家系统镜像，具备所有系统的全部功能！！
 
-**镜像名称：** OPENFANS-Debian-Buster-Desktop-Aarch64-ext4-v2019-2.0-Release.img
+**镜像名称：** OPENFANS-Debian-Buster-Desktop-Aarch64-XXXXXX.img
 
 ● 深度(Deepin)桌面
 
 基于我们自己的基础系统镜像，移植了完整的深度Deepin 15.5专业版桌面，这是目前 **第一个** 基于完整的Debian Aarch64架构而构建的适配于树莓派B/3B+/3A/4B的64位深度ARM64镜像。
 
-**镜像名称：** OPENFANS-Deepin-Professional-Desktop-Aarch64-ext4-v2019-2.0-Release.img
+**镜像名称：** OPENFANS-Deepin-Professional-Desktop-Aarch64-XXXXXX.img
 
 ### 1-2.系统环境（系统相关）
 
