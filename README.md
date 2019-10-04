@@ -98,6 +98,8 @@
 
 [3.15. 启用和退出Docker集群](./README.md#315%E5%90%AF%E7%94%A8%E5%92%8C%E9%80%80%E5%87%BAdocker%E9%9B%86%E7%BE%A4)
 
+[3.16. FAQ常见问题说明](./README.md#316faq%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%AF%B4%E6%98%8E)
+
 ----
 
 [4.虚拟机使用说明](./README.md#4%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
