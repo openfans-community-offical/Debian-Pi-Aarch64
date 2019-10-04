@@ -256,7 +256,7 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 ● 深度(Deepin)桌面
 
-基于我们自己的基础系统镜像，移植了完整的深度Deepin 15.5专业版桌面，这是目前 **第一个** 基于完整的Debian Aarch64架构而构建的适配于树莓派B/3B+/3A/4B的64位深度ARM64镜像。
+基于我们自己的基础系统镜像，移植了完整的深度Deepin 15.5专业版桌面，这是目前 **第一个** 基于完整的Debian Aarch64架构而构建的适配于树莓派3B/3B+/3A/4B的64位深度ARM64镜像。
 
 **镜像名称：** OPENFANS-Deepin-Professional-Desktop-Aarch64-XXXXXX.img
 
