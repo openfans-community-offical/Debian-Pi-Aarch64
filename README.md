@@ -899,6 +899,24 @@ docker swarm leave --force
 
 ### 3.16.FAQ常见问题说明
 
+#### 3.16.1图形化桌面环境使用配置文件连接无线网络
+
+图形化桌面环境使用配置文件连接无线网络，在修改**“/boot/wpa_supplicant.conf”**文件后，为了保证良好的网络兼容性，请执行以下操作：
+
+使用root用户身份执行：
+
+```shell
+systemctl disable NetworkManager
+```
+
+然后执行：
+
+```shell
+sed  's/sudo systemctl restart NetworkManager/## sudo systemctl restart NetworkManager/g' /home/pi/.xsessionrc
+```
+
+最后重启即可。
+
 ----
 
 ## 4.虚拟机使用说明
