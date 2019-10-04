@@ -1329,7 +1329,7 @@ sudo  sh  ./sys_upgrade
 
 - HUAWEI OSS STORAGE: [View](https://pifan.obs.myhuaweicloud.com)
 
- (由于空间限制，**OneDrive**及**Google Drive**暂时没有提供虚拟机镜像下载)
+ (由于空间限制，**OneDrive**暂时没有提供虚拟机镜像下载)
 
 ----
 
