@@ -12,6 +12,21 @@
 
 # 更新说明文档
 
+## 2019.10.05 &nbsp;&nbsp;// **Upkg Updated.**
+1. 内核及固件同步上游最新稳定版本 *4.19.76* ；
+2. 内核及固件更新包更新至**upkg-2019.10.05** ;
+3. 更新了部分上游内核的DTB及DTS;
+4. **解决部分情况下的卡顿问题** ;
+5. 重命名HDMI:ALSA设备名称，检查启用状态;
+6. ACPI视频:添加新的hw_changes_brightness怪癖,在PB:Easyno上进行设置;
+7. iwlwifi:mvm:始终以20MHz带宽速率初始化rs_fw;
+8. iwlwifi:mvm:正确发送BCAST管理帧;
+9. clk:bcm2835:添加BCM2711_CLOCK_EMMC2支持; 
+10. pinctrl-bcm2835:添加对BCM2838的支持; 
+11. ARM:dts:bcm27xx:修复了内存节点的DTC警告;
+12. bcm2708_fb:修复结构vc4_display_settings_t的布局;
+\*. **建议2.0正式版更新该固件** 。
+
 ## 2019.10.03 &nbsp;&nbsp;// **v2.0 Release Published.**
 1. **2.0正式版发布 ！！！**
 2. 内核及固件同步上游最新稳定版本 *4.19.75*；
