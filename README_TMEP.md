@@ -1249,7 +1249,7 @@ tmpfs          tmpfs     103M     0  103M   0% /run/user/0
 
 ## 5.更新及升级
 
-### 5.1系统更新
+### 5.1升级系统
 
 系统更新请使用系统自带的工具或命令，例如 "apt update; apt upgrade"
 
