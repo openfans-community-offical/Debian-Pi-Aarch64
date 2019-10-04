@@ -1386,6 +1386,6 @@ OPENFANS Offical Site 官网： [www.openfans.org](http://www.openfans.org)
 
 任何意向请与我们联系： [mailto:admin@openfans.org](mailto:admin@openfans.org)
 
-来信请说明具体情况和意图，谢谢合作。
+来信请说明具体情况和意图并留下您的**联系电话**，谢谢合作。
 
 ----
