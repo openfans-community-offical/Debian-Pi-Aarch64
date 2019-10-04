@@ -46,7 +46,7 @@
 
 [2. 主要特性说明](./README.md#2%E4%B8%BB%E8%A6%81%E7%89%B9%E6%80%A7%E8%AF%B4%E6%98%8E)
 
-[2-1. Web可视化管理Web可视化管理](./README.md#2-1web%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86)
+[2-1. Web可视化管理](./README.md#2-1web%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86)
 
 [2-2. QEMU-KVM 虚拟化支持](./README.md#2-2qemu-kvm-%E8%99%9A%E6%8B%9F%E5%8C%96%E6%94%AF%E6%8C%81)
 
