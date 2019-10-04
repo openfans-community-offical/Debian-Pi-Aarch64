@@ -100,6 +100,8 @@
 
 [3.16. FAQ常见问题说明](./README.md#316faq%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%AF%B4%E6%98%8E)
 
+[- 3.16.1 图形化桌面环境使用配置文件连接无线网络](./README.md#3161%E5%9B%BE%E5%BD%A2%E5%8C%96%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%BF%9E%E6%8E%A5%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C)
+
 ----
 
 [4.虚拟机使用说明](./README.md#4%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
@@ -657,6 +659,8 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 
 桌面化环境可以登录到桌面环境后通过图形化界面设置，这里提供配置文件的修改方式。
 
+若果桌面化环境想使用修改配置文件的方式连接无线网络，请查看[此处](./README.md#3161%E5%9B%BE%E5%BD%A2%E5%8C%96%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%BF%9E%E6%8E%A5%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C)说明。
+
 修改 **/boot/wpa_supplicant.conf** 文件
 
 ```
@@ -912,7 +916,9 @@ systemctl disable NetworkManager
 然后执行：
 
 ```shell
-sed  's/sudo systemctl restart NetworkManager/## sudo systemctl restart NetworkManager/g' /home/pi/.xsessionrc
+sed -i  \
+'s/sudo systemctl restart NetworkManager/## sudo systemctl restart NetworkManager/g' \
+/home/pi/.xsessionrc
 ```
 
 最后重启即可。
