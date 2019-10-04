@@ -1306,11 +1306,11 @@ sudo  sh  ./sys_upgrade
 
 ## 6.下载地址
 
-- 百度网盘： XXXXXX
+- 百度网盘： [点击前往下载](https://pan.baidu.com/s/1Q4eBVLyV9plXrjVGmSrMSg)
 
-- OneDrive: XXXXXX
+- OneDrive: [点击前往下载](#)
 
-- Google Drive: XXXXX
+- Google Drive: [点击前往下载](#)
 
 ----
 
