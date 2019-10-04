@@ -1286,7 +1286,7 @@ tmpfs          tmpfs     513M     0  513M   0% /sys/fs/cgroup
 tmpfs          tmpfs     103M     0  103M   0% /run/user/0
 ```
 
-重启虚拟机，再次登录，并执行命令 **df -hT** 已确定结果
+重启虚拟机，再次登录，并执行命令 **df -hT** 以确定结果
 
 ----
 
