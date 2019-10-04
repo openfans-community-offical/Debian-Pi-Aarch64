@@ -1312,6 +1312,8 @@ sudo  sh  ./sys_upgrade
 
 - Google Drive: [点击前往下载](https://drive.google.com/drive/folders/1MvMuzWYbjWSMZmY607qjukKiwSajOFZc?usp=sharing)
 
+- HUAWEI OSS STORAGE: [View](https://pifan.obs.myhuaweicloud.com)
+
 ----
 
 ## 7.其他说明
