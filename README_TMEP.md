@@ -116,7 +116,7 @@
 
 [5.2 更新内核及固件](./README_TMEP.md#52%E6%9B%B4%E6%96%B0%E5%86%85%E6%A0%B8%E5%8F%8A%E5%9B%BA%E4%BB%B6)
 
-[5.3 更新说明](./README_TMEP.md#53%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README_TMEP.md#6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80
+[5.3 更新说明](./README_TMEP.md#53%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
 
 ----
 
@@ -1300,7 +1300,7 @@ sudo  sh  ./sys_upgrade
 
 ### 5.3更新说明
 
-点击[此处](./#)查看更新说明
+点击 **[此处](./update.md)** 查看更新说明
 
 ----
 
