@@ -868,18 +868,18 @@ systemctl disable docker.service
 
 ```
 开机自动启动 CecOS CaaS容器云 服务
-systemctl enable docker.service
+systemctl enable cecos-caas.service
 
 启动 CecOS CaaS容器云 服务
-systemctl start docker.service
+systemctl start cecos-caas.service
 
 ######
 
 停止 CecOS CaaS容器云 服务
-systemctl stop docker.service
+systemctl stop cecos-caas.service
 
 禁 CecOS CaaS容器云 服务开机启动
-systemctl disable docker.service
+systemctl disable cecos-caas.service
 ```
 
 ### 3.15.启用和退出Docker集群
