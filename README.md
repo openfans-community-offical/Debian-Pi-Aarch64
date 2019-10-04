@@ -1308,9 +1308,9 @@ sudo  sh  ./sys_upgrade
 
 - 百度网盘： [点击前往下载](https://pan.baidu.com/s/1Q4eBVLyV9plXrjVGmSrMSg)
 
-- OneDrive: [点击前往下载](#)
+- OneDrive: [点击前往下载](https://1drv.ms/u/s!AtEthomfQXh8lWj8KVMcbJL0pgJL?e=tZHisM)
 
-- Google Drive: [点击前往下载](#)
+- Google Drive: [点击前往下载](https://drive.google.com/drive/folders/1MvMuzWYbjWSMZmY607qjukKiwSajOFZc?usp=sharing)
 
 ----
 
