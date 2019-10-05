@@ -807,9 +807,9 @@ fbterm
 
 ```
 dpkg --add-architecture armhf ; apt update
-cd ~ ; wget https://www.realvnc.com/download/file/vnc.files/VNC-Server-6.5.0-Linux-ARM.deb
-apt install ./VNC-Server-6.5.0-Linux-ARM.deb
-rm -rf ./VNC-Server-6.4.0-Linux-ARM.deb
+cd ~ ; wget https://www.realvnc.com/download/file/vnc.files/VNC-Server-6.6.0-Linux-ARM.deb
+apt install ./VNC-Server-6.6.0-Linux-ARM.deb
+rm -rf ./VNC-Server-6.6.0-Linux-ARM.deb
 dpkg --remove-architecture armhf ; apt update
 systemctl enable vncserver-x11-serviced.service ; systemctl start vncserver-x11-serviced.service
 ```
