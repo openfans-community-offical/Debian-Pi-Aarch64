@@ -625,7 +625,7 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 
 系统默认账户：**pi** ，默认密码：**raspberry**
 
-默认账户pi账户支持ssh登录，root账户密码请登陆后使用命令 **“sudo password root”** 执行设置，
+默认账户pi账户支持ssh登录，root账户密码请登陆后使用命令 **“sudo passwd root”** 执行设置，
 
 或使用命令 **“sudo -i”** 来切换到root用户。
 
