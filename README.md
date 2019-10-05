@@ -278,6 +278,10 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 **镜像名称：** OPENFANS-Deepin-Professional-Desktop-Aarch64-XXXXXX.img
 
+● 固件升级包
+
+一般命名规则方式为(以**upkg**开头)：**upkg**-xxxx(年)-xx(月)-xx(日)-vxxxx-x.x-zip/zip.xz
+
 ### 1-2.系统环境（系统相关）
 
 2.0正式版使用**ext4**文件系统，默认使用清华源，基于 **Debian Buster 10 Arm64** 构建。
