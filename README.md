@@ -860,7 +860,7 @@ amixer cset numid=3 2
 ```
 dpkg --add-architecture armhf
 apt update
-## 需要先安装32位的ibc6的基础库
+## 需要先安装32位的"libc6:armhf"的基础库
 apt install libc6:armhf
 apt install 其他软件包名:armhf
 ## 安装32位软件请在包的名称后加入后缀 ":armhf"
