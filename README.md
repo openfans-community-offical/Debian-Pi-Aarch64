@@ -697,7 +697,7 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 ## 除非你要设置多个无线网络，否则只需要设置 "WIFI 1" 这部分的设置即可
 ## WIFI 1 (Do not uncomment this line!)
 
-## 除了取消需要生效的内容注释以外，以下仅需要修改 "" 和 "psk" 后面引号内的内容即可
+## 除了取消需要生效的内容注释以外，以下仅需要修改 "ssid" 和 "psk" 后面引号内的内容即可
 ## ssid是你的无线Wifi名称，psk是你无线Wifi的密码
 #network={
 #    ssid="your-wifi1-ssid"
