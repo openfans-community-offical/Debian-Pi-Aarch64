@@ -254,33 +254,40 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 ### 1-1.系统环境（版本介绍）
 
-● 基础系统（无桌面基础版）
+● **基础系统（无桌面基础版）**
 
+```
 标准基础系统镜像，没有X-WINDOWS桌面环境。
+**镜像名称：OPENFANS-Debian-Buster-Aarch64-XXXXXX.img
+```
 
-**镜像名称：** OPENFANS-Debian-Buster-Aarch64-XXXXXX.img
+● **基础系统Plus++（无桌面加强版）**
 
-● 基础系统Plus++（无桌面加强版）
-
+```
 在标准基础系统之上，加入了可视化的WebUI管理界面支持。
+**镜像名称：OPENFANS-Debian-Buster-Aarch64-XXXXXX-plus++.img
+```
 
-**镜像名称：** OPENFANS-Debian-Buster-Aarch64-XXXXXX-plus++.img
+● **MacOS_Mojave主题定制桌面（全功能版）**
 
-● MacOS_Mojave主题定制桌面（全功能版）
-
+```
 在标准基础系统之上基于XFCE深度定制的树莓派爱好者基地的独家系统镜像，具备所有系统的全部功能！！
+**镜像名称： OPENFANS-Debian-Buster-Desktop-Aarch64-XXXXXX.img
+```
 
-**镜像名称：** OPENFANS-Debian-Buster-Desktop-Aarch64-XXXXXX.img
+● **深度(Deepin)桌面**
 
-● 深度(Deepin)桌面
-
+```
 基于我们自己的基础系统镜像，移植了完整的深度Deepin 15.5专业版桌面，这是目前 **第一个** 基于完整的Debian Aarch64架构而构建的适配于树莓派3B/3B+/3A/4B的64位深度ARM64镜像。
+**镜像名称：OPENFANS-Deepin-Professional-Desktop-Aarch64-XXXXXX.img
+```
 
-**镜像名称：** OPENFANS-Deepin-Professional-Desktop-Aarch64-XXXXXX.img
+● **固件升级包**
 
-● 固件升级包
-
-一般命名规则方式为(以**upkg**开头)：**upkg**-xxxx(年)-xx(月)-xx(日)-vxxxx-x.x-zip/zip.xz
+```
+一般命名规则方式为(以 "upkg" 开头)：
+upkg-xxxx(年)-xx(月)-xx(日)-vxxxx-x.x-zip/zip.xz
+```
 
 ----
 
