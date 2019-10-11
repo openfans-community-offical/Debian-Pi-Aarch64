@@ -286,16 +286,17 @@ Out of the function of BaseOS, with a visual Web UI management interface added.
 ● **MacOS Mojave theme custom desktop** (Desktop environment, Full-Featured)
 
 ```
-Exclusive system image ingested from the XFCE depth-customized and full support all the features as our other versions!
+Exclusive system image ingested from the XFCE depth-customized 
+and full support all the features as our other versions!
 **System image name format: OPENFANS-Debian-Buster-Desktop-Aarch64-XXXXXX.img
 ```
 
 ● **Deepin desktop environment**
 
 ```
-Based on our own underlying BaseOS system image, from the complete Deepin 15.5 Pro desktop environment is ported, 
-which is the first 64-bit ARM64 image currently built based on the complete Debian Aarch64 architecture, 
-adapted to the Raspberry Pi 3B, 3B+, 3A+ and 4B.
+Based on our own underlying BaseOS system image, from the complete 
+Deepin 15.5 Pro desktop environment is ported, which is the first 64-bit ARM64 image currently built 
+based on the complete Debian Aarch64 architecture, adapted to the Raspberry Pi 3B, 3B+, 3A+ and 4B.
 **System image name format: OPENFANS-Deepin-Professional-Desktop-Aarch64-XXXXXX.img
 ```
 
