@@ -6,9 +6,9 @@
 
 ## Official Documentation Version 2.0
 
-***English edition translation is continuously optimized and adjusted ...***
+***[中文版(Chinese)](README_zh.md)  |  English edition translation is continuously optimized and adjusted ...***
 
-**[中文版(Chinese)](README_zh.md)**
+
 
 ----
 
