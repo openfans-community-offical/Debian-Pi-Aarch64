@@ -756,7 +756,7 @@ If the desktop environment wants to connect to wireless networks using a configu
 Modify the file **"/boot/wpa_supplicant.conf"**
 
 ```
-## To use this file, you need to run command "systemctl disable network-manager" and reboot system. ## 
+## To use this file,you need to run command "systemctl disable network-manager" and reboot system.# 
 ## (Do not uncomment this line!) ##
 
 ## 'country' is to set wifi area,'CN' is china ##
