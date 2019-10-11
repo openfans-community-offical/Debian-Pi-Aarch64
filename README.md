@@ -22,9 +22,9 @@ This is an **official version** readme for the newest version 2.0 of 64-bit OS w
 
 The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese Edition)
 
-**First, Please read this document carefully before your questions, may be your answers has included in this document (We'll refuse to reply any answered questions).**
+**First, Please read this document carefully before your questions, maybe your answers have included in this document (We'll refuse to reply any answered questions).**
 
-**Attention please! Besides this document, any other documents in this Git repository are no longer supported (Except linked file form this document), just for a developer's archive.**
+**Attention, please! Besides this document, any other documents in this Git repository are no longer supported (Except linked file form this document), just for a developer's archive.**
 
 ## Attention!
 
@@ -37,16 +37,16 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 *The official version 2.0 is most suggested to upgrade to the latest firmware version:* **"2019-10-05"**
 
 ```
-Latest version of the system:
+The latest version of the system:
 2019-10-03-v2019-2.0-Release
 
-Latest version of kernel and firmware:
+The latest version of kernel and firmware:
 2019-10-05-v2019-2.0-Release (recommended update)
 ```
 
 ## Donation
 
-Thanks for your donating! We'll get greatest power from your encourage!
+Thanks for your donation! We'll get the greatest power from your encourage!
 
 ![jz](./images/jz.png)
 
@@ -84,7 +84,7 @@ Thanks for your donating! We'll get greatest power from your encourage!
 
 [2-6. Memory And Swap Optimization (Algorithm-level)](./README.md#2-6-memory-and-swap-optimization-algorithm-level)
 
-[2-7. MacOS-Mojave Theme Desktop](./README.md#2-7-macos-mojave-theme-desktop)
+[2-7. macOS-Mojave Theme Desktop](./README.md#2-7-macOS-Mojave-theme-desktop)
 
 [2-8. CecOS-CaaS Container Cloud (JUST A CHINESE EDITION SUPPORT)](./README.md#2-8-cecos-caas-container-cloud-just-a-chinese-edition-support)
 
@@ -92,7 +92,7 @@ Thanks for your donating! We'll get greatest power from your encourage!
 
 ----
 
-[3. Instructions For Usage](./README.md#3-instructions-for-usage)
+[3. Instructions For Useage](./README.md#3-instructions-for-useage)
 
 [3-1. System Initialization (First Boot)](./README.md#3-1-system-initialization-first-boot)
 
@@ -122,7 +122,7 @@ Thanks for your donating! We'll get greatest power from your encourage!
 
 [3-14 Enabled And Start CecOS CaaS Container Cloud](./README.md#3-14-enabled-and-start-cecos-caas-container-cloud)
 
-[3-15 Create And Joined Or Exit And Leaved A Docker Cluster](./README.md#3-15-create-and-joined-or-exit-and-leaved-a-docker-cluster)
+[3-15 Create And Joined Or Exit And Left A Docker Cluster](./README.md#3-15-create-and-joined-or-exit-and-leaved-a-docker-cluster)
 
 [3-16. FAQ NOTE](./README.md#3-16-faq-note)
 
@@ -177,7 +177,7 @@ Thanks for your donating! We'll get greatest power from your encourage!
 
 ## 0. System Screenshots
 
-Screenshot of the MacOS-Mojave theme desktop by XFCE.
+Screenshot of the macOS-Mojave theme desktop by XFCE.
 
 ![macos](./images/macos1.png)
 
@@ -205,7 +205,7 @@ Screenshot of the CecOS CaaS Container Cloud: Cluster Management.
 
 ![CaaS Cluster](./images/caas2.png)
 
-Screenshot of the MacOS-Mojave theme desktop: Multimedia support.
+Screenshot of the macOS-Mojave theme desktop: Multimedia support.
 
 ![macos](./images/macos2.png)
 
@@ -221,15 +221,15 @@ Screenshot of the Deepin desktop environment: System Settings & System info.
 
 ![pi4桌面1](./images/p4-1.png)
 
-Screenshot of the MacOS-Mojave Theme Desktop: Graphic Virtual Machine Manager (VMM). 
+Screenshot of the macOS-Mojave Theme Desktop: Graphics Virtual Machine Manager (VMM). 
 
 ![pi4VMM](./images/vmm.png)
 
-Screenshot of the MacOS-Mojave Theme Desktop: Run Android App: DOTA.
+Screenshot of the macOS-Mojave Theme Desktop: Run Android App: DOTA.
 
 ![pi4Android1](./images/apk0.png)
 
-Screenshot of the MacOS-Mojave Themed Desktop: Run Android App: WPS (A China office compatiable software) and DOTA.
+Screenshot of the macOS-Mojave Themed Desktop: Run Android App: WPS (A China office compatible software) and DOTA.
 
 ![pi4Android2](./images/apk1.png)
 
@@ -239,31 +239,31 @@ Screenshot of the MacOS-Mojave Themed Desktop: Run Android App: WPS (A China off
 
 Don't ask a question about using a 64-bit OS for the Raspberry Pi and what's the difference between 64-bit & 32-bit OS?
 
-Cuz the Raspberry Pi with a 64-bit CPU, unfortunately the Raspberry Pi foundation had without any system or software supported. Otherwise please add your own brain...
+Cuz the Raspberry Pi with a 64-bit CPU, unfortunately the Raspberry Pi foundation had without any system or software supported. Otherwise please add your brain...
 
-All the versions released on this article are official versions that had been used and validated in the really enterprise production environment. The system has been rigorously tested and used normally with fully compatible for the Raspberry Pi 3B/3B+/3A+/4B, such as: local wired, wireless network card, Bluetooth, 3D acceleration, etc. The numbers of all system packages are almost comparable to the X86 version. The system was built from the official Debian 64-bit base line (wasn't built from any other ported edition or third-part edition) to ensure the original flavor.
+All the versions released in this article are official versions that had been used and validated in the real enterprise production environment. The system has been rigorously tested and used normally with fully compatible for the Raspberry Pi 3B/3B+/3A+/4B, such as local wired, wireless network card, Bluetooth, 3D acceleration, etc. The numbers of all system packages are almost comparable to the X86 version. The system was built from the official Debian 64-bit baseline (wasn't built from any other ported edition or third-part edition) to ensure the original flavor.
 
-There isn't any other relationship with the official Raspberry Pi, so no proprietary commands as the Raspberry Pi official system used (such as raspi-config, rpi-update, etc.), your need to edit the configuration file ( /boot/config.txt ) by yourself.
+There isn't any other relationship with the official Raspberry Pi, so no proprietary commands as the Raspberry Pi official system used (such as raspi-config, rpi-update, etc.), you need to edit the configuration file ( /boot/config.txt ) by yourself.
 
 **Why choose Debian?**
 
 Cuz the Raspberry Pi has the best compatible from Debian OS (This is inseparable from Raspbian does, the Raspbian is also based on Debian OS with the full-testing, also inherited a great power and performance of Debian. For example: Ubuntu, the most famous and successful distribution OS which was also based built from Debian).
 
-This system is completely different from any systems we released before (also including the previous 64-bit Debian we published), we have all built from zero-os base line this time and built a new automatic compilation and packaging, testing system in our lab. We also redefined the packaging process and adjust all the relevant configurations, make a lot of modifications, adjustments and optimizations for the system, fixed a lot of bugs of the kernel. A lot of new features have been added, especially with the support for the hardware KVM virtualization acceleration and optimization for Docker features tuning.
+This system is completely different from any systems we released before (also including the previous 64-bit Debian we published), we have all built from zero-os baseline this time and built a new automatic compilation and packaging, the testing system in our lab. We also redefined the packaging process and adjust all the relevant configurations, make a lot of modifications, adjustments and optimizations for the system, fixed a lot of bugs of the kernel. A lot of new features have been added, especially with the support for the hardware KVM virtualization acceleration and optimization for Docker features tuning.
 
-**We have specifically redefined and optimized our own cross compiler chain-tool and compiler for rebuild the base kernel and modules of Raspberry Pi when we was publishing the version 2.0 what is more greatly optimized and improved compiler faster and efficiency (About cross compiler chain-tool and compiler, you can refer to Huawei's Ark compiler, they have the same effect, our compiler is optimized for basic compilation tools such as C, C++, G++, ASM, NM, ld, CMAKE, and Glib, etc., Specifically target the raspberry-based hardware, ARM aarch64 A53 and ARM-v8a A72 and also including instruction set of hardware, etc.)**
+**We have specifically redefined and optimized our own cross compiler chain-tool and compiler for rebuild the base kernel and modules of Raspberry Pi when we were publishing the version 2.0 what is more greatly optimized and improved compiler faster and efficiency (About cross compiler chain-tool and compiler, you can refer to Huawei's Ark compiler, they have the same effect, our compiler is optimized for basic compilation tools such as C, C++, G++, ASM, NM, ld, CMAKE, and Glib, etc., Specifically target the raspberry-based hardware, ARM aarch64 A53 and ARM-v8a A72 and also including instruction set of hardware, etc.)**
 
-On June 20, 2019, the Raspberry Pi foundation released the new fourth-generation single board machine "Raspberry Pi 4B". We got the 4th-generation 4G version from the Raspberry Pi official Cambridge Global Store for the first time.
+On June 20, 2019, the Raspberry Pi foundation released the new fourth-generation single-board machine "Raspberry Pi 4B". We got the 4th-generation 4G version from the Raspberry Pi official Cambridge Global Store for the first time.
 
-- **On July 6, 2019, half a month hard working after Pi4 released, The OPENFANS and the Pi Fan base community released the new Debian-Pi-Aarch64 OS version 2.0 release together.**
+- **On July 6, 2019, half a month hard-working after Pi4 released, The OPENFANS and the Pi Fan base community released the new Debian-Pi-Aarch64 OS version 2.0 release together.**
 
 - **This is the world's 64-bit OS which is first support to Raspberry Pi 4B !!**
 
-All of the new version 2.0 has 3D acceleration supported (With FKMS), and finally introduced the **OPENFANS Container Cloud Management Platform**  supported (Also called CecOS CaaS, based build from an open source project which is called Portainer) which is be more perfect and powerful than system version 1.0!
+All of the new version 2.0 has 3D acceleration supported (With FKMS), and finally introduced the **OPENFANS Container Cloud Management Platform**  supported (Also called CecOS CaaS, based build from an open-source project which is called Portainer) which is be more perfect and powerful than system version 1.0!
 
 The newest OS 2.0 is also adhering to the all excellent tradition from the Debian-Pi-Aarch64 OS which was built by OPENFANS and Pi Fan Base community.
 
-This newest OS 2.0 is full support to the all Raspberry Pi aarch64 single boards: 3B, 3B+, 3A+, 4B, and still inherit all the features of the stable version 1.0!
+This newest OS 2.0 is full support to all Raspberry Pi aarch64 single boards: 3B, 3B+, 3A+, 4B, and still inherit all the features of the stable version 1.0!
 
 ----
 
@@ -313,7 +313,7 @@ upkg-xxxx (years)-xx (months) -xx (day) -vxxxx-x-x-zip/zip.xz
 
 All the version 2.0 system images are used "ext4" file system as default, the Tsinghua source-mirror was set as the default software repo, and version was based on the Debian Buster 10 Arm64.
 
-**Note that the version 2.0 does not support upgrades from any other version for the time being and requires a fresh installation.**
+**Note that version 2.0 does not support upgrades from any other version for the time being and requires a fresh installation.**
 
 ### 1-3. Features Comparison From Different Versions
 
@@ -330,13 +330,13 @@ All the version 2.0 system images are used "ext4" file system as default, the Ts
 
 **Note:**
 
-**★ :** Stands for supported and default enabled. Can directly being used.
+**★ :** Stands for supported and default enabled. It can directly be used.
 
-**☆ :** Stands for supported and default disabled. Need to be start manually. 
+**☆ :** Stands for supported and default disabled. Need to be started manually. 
 
-(There will be a instruction for how to use this service in this document.)
+(There will be an instruction for how to use this service in this document.)
 
-**X :** Stands for not supported.
+**☆ :** Stands for not supported.
 
 ----
 
@@ -442,18 +442,18 @@ Anytime, Anywhere, direct browser management;
 5. Support the web interface to view system conditions, 
 hardware information, situation and other information;
 
-6. Support for web interafce setting host name;
+6. Support for web interface setting hostname;
 
 7. Support for web interface setting up host domain;
 
-8. Support web interface to set host time, ntp servers, update mode;
+8. Support web interface to set host time, NTP servers, update mode;
 
-9. Support web inteface shutdown and restart system;
+9. Support web interface shutdown and restart the system;
 
 10. Support for web interface system log management;
 
 11. Support web interface system storage and related peripheral management, 
-online partitioning, mount equipment and other functions;
+online partitioning, mount equipment, and other functions;
 
 13. Support for web interface system account management;
 
@@ -466,13 +466,12 @@ online partitioning, mount equipment and other functions;
 17. Support for cross-node and unified management: manage multiple devices in one interface, 
 dramatically improving management and productivity;
 
-18. Web management communications are encrypted using SSL certificates to ensure the security 
-of session data.
+18. Web management communications are encrypted using SSL certificates to ensure the security of session data.
 ```
 
 ![shellinabox](./images/shellinabox.jpg)
 
-**WEB SSH** client support, using a separate webshell (shellinaBox) suite, provides separate **web ssh** login support.
+**WEB SSH** client support, using a separate web shell (shellinaBox) suite, provides separate **web ssh** login support.
 
 ### 2-2. QEMU-KVM Virtualization Support
 
@@ -487,11 +486,11 @@ We added support for KVM virtual machines when compiling the kernel, directly su
 ```
 1. virtio //standard virtual disk
 
-2. virtio-scsi //virtual scsi disk
+2. virtio-SCSI //virtual SCSI disk
 
 3. virtio-blk //pass-through disk block device
 
-4. Virtio-blk-scsi //pass-through disk block device scsi mode
+4. Virtio-blk-SCSI //pass-through disk block device SCSI mode
 
 5. virtio-net //virtio virtual network card
 
@@ -528,17 +527,17 @@ The current 2.0 system is fully available for virtualization support by default,
 
 ### 2-3. Docker Container Support
 
-The famous Docker will not be much introduced here, this time we recompile the kernel, added the full feature of Dcoker support, this is currently the most complete support for Docker features under the Raspberry Pi Aarch64 system architecture, Most other versions are still 32-bit systems with 32-bit dockers, and local 64-bit system cores lack much kernel support for Docker features.
+The famous Docker will not be much introduced here, this time we recompile the kernel, added the full feature of Docker support, this is currently the most complete support for Docker features under the Raspberry Pi Aarch64 system architecture, Most other versions are still 32-bit systems with 32-bit dockers, and local 64-bit system cores lack much kernel support for Docker features.
 
 Even the latest version of the famous 32-bit Raspberry Pi Docker system **Hypriot** doesn't fully support the **Docker Swarm**.
 
 You'll get the following error message because the **Hypriot** does not support the **bridge vlan/vxlan netfiler**:
 
 ```
-reexec to set bridge default vlan fialed exit status 1
+reexec to set bridge default vlan failed exit status 1
 ```
 
-This will result in the complete use of the Dcoker Swarm cluster is not support (The Hypriot OS), the lack of relevant feature support for the network, there will be some functional missing problems.
+This will result in the complete use of the Docker Swarm cluster is not support (The Hypriot OS), the lack of relevant feature support for the network, there will be some functional missing problems.
 
 You can find a lot of errors and warnings on the local 64-bit ARM system by using the **systemctl status containerd** and the **systemctl status docker** as well as by viewing the logs, and not counting them completely. The local system kernel includes at least lost the following features: (The Hypriot OS and most other system)
 
@@ -588,9 +587,9 @@ Docker official doesn't provide arm/arm64 based docker-compose to run binary, so
 
 **What is the AUFS File System?**
 
-AUFS, the full name is advanced multi-layered unification file system, the main function is to combine the contents of multiple folders to provide a unified view, mainly for the various Linux distributions livecd, and the docker inside used to organize the images.
+AUFS, the full name is an advanced multi-layered unification file system, the main function is to combine the contents of multiple folders to provide a unified view, mainly for the various Linux distributions livecd, and the docker inside used to organize the images.
 
-AUFS was Docker's default storage driver, with a very stable, lots of really deployments, and strong community supported, with several key advantages:
+AUFS was Docker's default storage driver, with a very stable, lots of real deployments, and strong community-supported, with several key advantages:
 
 ```
 - Very short container start-up time
@@ -608,7 +607,7 @@ Cuz Docker's mirror files use a file system that is divided into multiple tiers,
 
 For devices with less storage space like Raspberry Pi, using the AUFS file system makes better use of our limited storage space resources and reduces I/O consumption.
 
-In order to allow users to freely choose and use OverlayFS or AUFS according to their own circumstances, we have added support for AUFS modules by default in the kernel.
+To allow users to freely choose and use OverlayFS or AUFS according to their circumstances, we have added support for AUFS modules by default in the kernel.
 
 Since AUFS is not supported by the mainline of Linux kernel, we have added AUFS kernel module code and recompiled to the kernel of mainline 4.19 through AUFS' PATH, and now the system boot will automatically load the AUFS module, which can be used directly without human intervention.
 
@@ -634,7 +633,7 @@ Simply put, the TCP BBR congestion control algorithm can improve TCP transmissio
 
 Edit the "/mnt/etc/sysctl.conf" file, execute the command "**sysctl -p**" to view the results, and do not see the following comments, representing the operation succeeded.
 
-Comment out the following 2 lines: (Just put the "**#**" at the beginning of each lines)
+Comment out the following 2 lines: (Just put the "**#**" at the beginning of each line)
 
 ```
 net.core.default-qdisc-fq
@@ -645,7 +644,7 @@ net.ipv4.tcp.tcp-contents-control-bbr
 
 - **Support: Swap Partition**
 
-This new version of the system by default increased support for swap  caches to alleviate the problem of low memory in the system, greatly improvethed support and efficiency of executable large-capacity memory requirements applications, users do not need to manually create the system Swap, our system will automatically complete and initialize Swap after installation. The location of the Swap file or partition can be adjusted by looking at the system mount profile /etc/fstab.
+This new version of the system by default increased support for swap  caches to alleviate the problem of low memory in the system, greatly improved support and efficiency of executable large-capacity memory requirements applications, users do not need to manually create the system Swap, our system will automatically complete and initialize Swap after installation. The location of the Swap file or partition can be adjusted by looking at the system mount profile /etc/fstab.
 
 - **Support: zSWAP virtual memory compression**
 
@@ -657,7 +656,7 @@ When the memory page is about to be swapped out, zSWAP does not move it to the s
 
 In scenarios where swap files/partitions are used, TF life can be increased by reducing I/O operation on Swap files/partitions.
 
-zSWAP does not virtual a block device, but hook into the ordinary Swap code, before the actual write-to-disk/read operation, the first use of their own management of memory for data swap/in, memory is not enough to use before the use of traditional Swap files/partitions. So zSWAP is suitable for systems that already have swap partitions themselves, as well as hardware devices like Raspberry Pi, which have little memory of itself.
+zSWAP does not virtual a block device, but hook into the ordinary Swap code, before the actual write-to-disk/read operation, the first use of their management of memory for data swap/in, memory is not enough to use before the use of traditional Swap files/partitions. So zSWAP is suitable for systems that already have swap partitions themselves, as well as hardware devices like Raspberry Pi, which have little memory of itself.
 
 **Why not zRAM?**
 
@@ -685,13 +684,13 @@ zswap.enabled=1 zswap.zpool=z3fold zswap.compressor=lz4 zswap.max_pool_percent=2
 
 Linux has many compression algorithms: lz, lzo, xz, gzip, lzma...
 
-We have adopted lz4 with very high compression speed and high compression rate, lz4 compared to other compression algorithms, compression rate is not the highest, but the speed is indeed the fastest, in the case of the z3fold algorithm has been used, combined with the Raspbery Pi's own performance characteristics and actual testing, and also wanna get a good compression rate, Speed is the most important thing for the Raspberry Pi (given its CPU performance overhead and memory size).
+We have adopted lz4 with very high compression speed and high compression rate, lz4 compared to other compression algorithms, compression rate is not the highest, but the speed is indeed the fastest, in the case of the z3fold algorithm has been used, combined with the Raspbery Pi's performance characteristics and actual testing, and also wanna get a good compression rate, Speed is the most important thing for the Raspberry Pi (given its CPU performance overhead and memory size).
 
-### 2-7. MacOS-Mojave Theme Desktop
+### 2-7. macOS-Mojave Theme Desktop
 
 ![desktop](./images/apk0.png)
 
-The default desktop theme uses a desktop that mimics the MacOS Mojave theme.
+The default desktop theme uses a desktop that mimics the macOS Mojave theme.
 
 ### 2-8. CecOS-CaaS Container Cloud (JUST A CHINESE EDITION SUPPORT)
 
@@ -699,13 +698,13 @@ The default desktop theme uses a desktop that mimics the MacOS Mojave theme.
 
 ![caas-cluster](./images/caas2.png)
 
-Rebuild from An open source project [Portainer](http://potainer.net) and develop for Chinese and others By OPENFANS.
+Rebuild from An open-source project [Portainer](http://potainer.net) and develop for Chinese and others By OPENFANS.
 
 ### 2-9. Other Features
 
 - Support for 3D acceleration, all desktop environments are enabled by default.
 
-- There are too many new features of version 2.0, we won't elaborate  anymore here.
+- There are too many new features of version 2.0, we won't elaborate anymore here.
 
 ----
 
@@ -719,7 +718,7 @@ The system will automatically expand the root partition, and then automatically 
 
 System default account: **pi**, default password: **raspberry**
 
-The default account pi account supports ssh login, for root account password please login first and the use the command **"sudo passwd root"** to set,
+The default account pi account supports ssh login, for root account password please login first and then use the command **"sudo passwd root"** to set,
 
 Or use the command **"sudo -i"** to switch to the root user mode.
 
@@ -756,7 +755,7 @@ If the desktop environment wants to connect to wireless networks using a configu
 Modify the file **"/boot/wpa_supplicant.conf"**
 
 ```
-## To use this file,you need to run command "systemctl disable network-manager" and reboot system.# 
+## To use this file, you need to run the command "systemctl disable network-manager" and reboot system.# 
 ## (Do not uncomment this line!) ##
 
 ## 'country' is to set wifi area,'CN' is china ##
@@ -833,7 +832,7 @@ suncomment symbol in front.
 
 ### 3-7. Boot Custom Startup Script
 
-The system supports a custom scripts as an auto-start task during boot , which can be pre-configured before the system starts.
+The system supports a custom scripts as an auto-start task during boot, which can be pre-configured before the system starts.
 
 Edit the script file **"/boot/rc-local"** and add the custom script content before line: **"exit 0"**.
 
@@ -860,7 +859,7 @@ apt-get dist-upgrade
 
 ### 3-9. TTY Display Chinese Font (Not Remote) Of Chinese Environment
 
-Notice: Remote login ignores this problem, there will be no garbled problem. When only using the local terminal through a local monitor or serial connection, because the Linux kernel local standard TTY does not support the display of Chinese font,  the relevant of action  when the display of garbled is required.
+Notice: Remote login ignores this problem, there will be no garbled problem. When only using the local terminal through a local monitor or serial connection, because the Linux kernel local standard TTY does not support the display of Chinese font,  the relevant of action when the display of garbled is required.
 
 We need to install fbterm extension support, to do that, use following commands under network environment:
 
@@ -869,7 +868,7 @@ We need to install fbterm extension support, to do that, use following commands 
 sudo apt update; sudo apt install fbterm -y
 
 ## Add a login user to the video group
-sudo adduser root video ; sudo adduser pi video
+sudo adduser root video; sudo adduser pi video
 
 sudo adduser you create your own other user name (if any) video
 
@@ -894,7 +893,7 @@ systemctl enable vncserver-x11-serviced.service ; systemctl start vncserver-x11-
 
 Click [here](https://www.realvnc.com/en/connect/download/viewer/)to download RealVNC client
 
-Install and run the client, enter the IP address directly, do not need to fill in the port, username and password is your system's login user and password.
+Install and run the client, enter the IP address directly, do not need to fill in the port, username, and password is your system's login user and password.
 
 PS:
 
@@ -928,7 +927,7 @@ The commands for switching the sound output:
 amixer cset numid s 3 2
 
 ## Set the output here to 2, which is HDMI.
-## Setting the output to 1 switches to the analog signal (that is, the headphone connector).
+## Setting the output to 1 switch to the analog signal (that is, the headphone connector).
 ## The default setting is 0, which represents automatic selection.
 ```
 
@@ -988,7 +987,8 @@ systemctl stop cecos-caas.service
 systemctl disable cecos-caas.service
 ```
 
-### 3-15 Create And Joined Or Exit And Leaved A Docker Cluster
+### 3-15 Create And Joined Or Exit And Left A Docker Cluster
+
 
 ```
 ## Initialize and join a Docker Swarm Cluster
@@ -1053,7 +1053,7 @@ sudo ./vm-run
 ## This script command above will run the virtual machine in a background manner by default.
 ```
 
-Run virtual machine in the way the previous station:
+Run the virtual machine in the way the previous station:
 
 Copy the file **vm_run** and name as **vm_run2** , open the file **vm_run2** and delete the following 2 lines:
 
@@ -1079,18 +1079,18 @@ ssh -p 2222 root@local-ip-address
 ----
 ### 4-2 BT-Panel Virtual Machine PKG Instruction
 
-In order to take care of new users and respond to the voices of the people, we finally “integrated” the Pagoda for you, using the virtual machine, 32-bit super clean custom ARMHF virtual system optimized for the pagoda, even for virtual machines, The speed is also greatly stronger than the official backplane system (who has used and who will be understand :) --).
+In order to take care of new users and respond to the voices of the people, we finally “integrated” the Pagoda for you, using the virtual machine, 32-bit super clean custom ARMHF virtual system optimized for the pagoda, even for virtual machines, The speed is also greatly stronger than the official backplane system (who has used and who will understand :) --).
 
 To run the benchmark:
 
 ![BT-Panel](./images/bt_mark.png)
 
-By default, all software is installed. Version 5.9.X Relatively stable professional "learning version", you know, this is just only allow to used for your own testing!!
+By default, all software is installed. Version 5.9.X Relatively stable professional "learning version", you know, this is just only allowed to use for your testing!!
 
 **Why BT-Panel?**
 
 ```
-1. The use of beginners is really convenient;
+1. The use of beginners is convenient;
 2. The voice of the masses is too high;
 3. By the way...
 ```
@@ -1135,10 +1135,10 @@ sudo ./install
 
 **Close the BT-Panel Virtual Machine:**
 
-In order to ensure the data synchronization security of the virtual machine, please follow the steps below:
+To ensure the data synchronization security of the virtual machine, please follow the steps below:
 
 ```
-Please ssh log in to the virtual machine and execute the command "init 0" 
+Please ssh login to the virtual machine and execute the command "init 0" 
 to shut down the virtual machine.
 
 After shutting down, you need to execute the " ./bt_prog " command in the 
@@ -1150,8 +1150,7 @@ If there is no output, it means the virtual machine has been shut down normally.
 If the virtual machine cannot be shut down gracefully, 
 execute the " ./bt_prog kill " command in the BT-Panel virtual machine directory.
 
-Also remember to execute the " ./bt_prog " command again to check 
-if the virtual machine is down.
+Also, remember to execute the " ./bt_prog " command again to check if the virtual machine is down.
 ```
 
 **Automatic startup:**
@@ -1185,13 +1184,13 @@ External connection: ssh -p 2222 root@IP-address-of-your-Raspberry-Pi
 
 ```
 Do not modify the default management port of the BT-Panel Panel unless you know how to modify the 
-install deployment script.
+install the deployment script.
 
 If you need to enable site support for custom ports, edit the ports file to add your custom port, 
 but don't modify the other default ports in the ports file.
 ```
 
-**In order to save and save everyone's time, all the functions of the BT-Panel are turned on by default.**
+** To save and save everyone's time, all the functions of the BT-Panel are turned on by default.**
 
 **For better performance, we strongly recommend turning off or removing features you don't need.**
 
@@ -1199,7 +1198,7 @@ but don't modify the other default ports in the ports file.
 
 ### 4-3 How To Expand The Size Of A Virtual Machine Disk
 
-First make sure your virtual machine was shutdown or not running.
+First, make sure your virtual machine was shutdown or not running.
 
 The virtual machine disk in this article uses **bt.qcow2.disk** as an example.
 
@@ -1328,7 +1327,7 @@ Enter the following command: **parted** and follow these steps:
 parted
 ```
 
-At this point you can see the disk information as follows
+At this point, you can see the disk information as follows
 
 ```shell
 GNU Parted 3.2
@@ -1492,7 +1491,7 @@ Click **[here](./versions.md)** to view the latest current version information.
 
 ### 7-1 Donation
 
-#### Thanks for your donating! We'll get greatest power from your encourage!
+#### Thanks for your donation! We'll get the greatest power from your encourage!
 
 You can choose to scan Alipay for direct sponsorship to support us, and we guarantee that all donations will be used for project development and equipment purchase.
 
@@ -1530,8 +1529,7 @@ author and the license agreement to comply with the relevant software package;
 Raspberry Pi Fan base community have the right to pursue their respective responsibilities 
 and order to stop all infringements;
 
-5. OPENFANS open source community and Raspberry Pi Fan base  community have the final 
-interpretation of the above content.
+5. OPENFANS open source community and Raspberry Pi Fan base community have the final interpretation of the above content.
 ```
 
 ## 8. Join US!
@@ -1565,7 +1563,7 @@ Go, NodeJS, C, C++ ...;
 
 **Another way, organizations, institutions and business units are welcome to discuss cooperation!!!**
 
-Please contact us with any intent: **[admin@openfans.org](mailto:admin@openfans.org)**
+Please contact us with any intent: **[admin@openfans.org](mail to:admin@openfans.org)**
 
 Please write down the details and intentions and at least leave your **mobile phone number**, thank you for your cooperation.
 
