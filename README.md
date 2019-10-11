@@ -1438,7 +1438,7 @@ OPENFANS Offical Site 官网： [www.openfans.org](http://www.openfans.org)
 
 树莓派爱好者基地现招募各**志愿者**加入社区，基本要求如下：
 
-- 硬件研发及设计人员
+- **硬件研发及设计人员**
 
 ```
 1. 认可树莓派爱好者基地文化，对树莓派有极大的热情；
@@ -1447,7 +1447,7 @@ OPENFANS Offical Site 官网： [www.openfans.org](http://www.openfans.org)
 4. 有实际的硬件设计经验。
 ```
 
-- 软件及系统开发人员
+- **软件及系统开发人员**
 
 ```
 1. 认可树莓派爱好者基地文化，对树莓派有极大的热情；
