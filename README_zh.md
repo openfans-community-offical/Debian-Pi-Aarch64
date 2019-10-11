@@ -2,7 +2,9 @@
 
 # ★ New - Raspberry Pi Debian Pi Aarch 64 bit OS - ★
 
-# 2.0正式版 - 说明文档 
+# 2.0正式版 - 说明文档
+
+***[English Edition (英文版)](./README.md)***
 
 \- **树莓派64位操作系统** - **OPENFANS开源社区 & 树莓派爱好者社区** - **联合出品** -
 
