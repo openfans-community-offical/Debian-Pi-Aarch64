@@ -1,6 +1,6 @@
 ![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
 
-# ★ New - Raspberry Pi Debian Pi Aarch 64 bit OS - ★
+# Debian-Pi-Aarch64 ★ 全新64位树莓派系统
 
 # 2.0正式版 - 说明文档
 
@@ -694,7 +694,8 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 修改 **/boot/wpa_supplicant.conf** 文件
 
 ```
-## To use this file, you should run command "systemctl disable network-manager" and reboot system. (Do not uncomment this line!) ##
+## To use this file, you should run command "systemctl disable network-manager" and reboot system. 
+## (Do not uncomment this line and above!) ##
 ## 除第一行外，第一行可以删除，去掉以下每行只有单个“#”的注释符号，两个“#”注释符号的行位说明内容，请不要修改
 ## 中文内容是注释，删除或不要取消前面的“#”符号
 
@@ -1034,7 +1035,8 @@ ssh -p 2222 root@本机的IP地址
 1.不是每个人都需要默认集成，太臃肿；
 2.比较啃爹，污染系统；
 3.宝塔对ARM64兼容性糊涂的一笔；
-4.宝塔不只是安装那么简单的一件事，里面需要的软件在ARM系统下几乎全部需要重新编译，兼容性差，耗时超级长，可以装得你怀疑人生，装得你想哭；
+4.宝塔不只是安装那么简单的一件事，里面需要的软件在ARM系统下几乎全部需要重新编译，
+兼容性差，耗时超级长，可以装得你怀疑人生，装得你想哭；
 5.我们使用中遇到的各种奇葩坑的问题；
 6.不是说宝塔整体不好，至少在ARM64上的兼容性是个相当大的问题，感觉就跟官方没做过测试一样，干的都是小白鼠的活。
 ```
@@ -1132,7 +1134,7 @@ qemu-img info bt.qcow2.disk
 ```shell
 image: bt.qcow2.disk
 file format: qcow2
-virtual size: 10G (10737418240 bytes) # 磁盘总大小
+virtual size: 10G (10737418240 bytes)    #磁盘总大小
 disk size: 6.4 # 已用容量
 cluster_size: 65536
 Format specific information:
@@ -1165,7 +1167,7 @@ qemu-img info bt.qcow2.disk
 ```shell
 image: bt.qcow2.disk
 file format: qcow2
-virtual size: 20G (21474836480 bytes) # 容量增加成功，总大小为20G
+virtual size: 20G (21474836480 bytes)    #容量增加成功，总大小为20G
 disk size: 6.4G
 cluster_size: 65536
 Format specific information:
@@ -1196,7 +1198,7 @@ fdisk -l /dev/sda
 结果如下：
 
 ```shell
-Disk /dev/sda: 20 GiB, 21474836480 bytes, 41943040 sectors        # 已增加到20G
+Disk /dev/sda: 20 GiB, 21474836480 bytes, 41943040 sectors    #已增加到20G
 Units: sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
@@ -1204,7 +1206,7 @@ Disklabel type: dos
 Disk identifier: 0xcd0e4df1
 
 Device     Boot Start      End  Sectors Size Id Type
-/dev/sda1  *     2048 20969471 20967424  10G 83 Linux             # 分区容量还未扩展
+/dev/sda1  *     2048 20969471 20967424  10G 83 Linux    #分区容量还未扩展
 ```
 
 **查看分区大小**
@@ -1221,7 +1223,7 @@ df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
 udev           devtmpfs  496M     0  496M   0% /dev
 tmpfs          tmpfs     103M  1.5M  101M   2% /run
-/dev/sda1      btrfs      10G  4.7G  4.7G  50% /                  # 分区容量还未扩展
+/dev/sda1      btrfs      10G  4.7G  4.7G  50% /        #分区容量还未扩展
 tmpfs          tmpfs     513M  4.0K  513M   1% /dev/shm
 tmpfs          tmpfs     5.0M     0  5.0M   0% /run/lock
 tmpfs          tmpfs     513M     0  513M   0% /sys/fs/cgroup
@@ -1246,34 +1248,35 @@ parted
 
 ```shell
 GNU Parted 3.2
-Using /dev/sda                                                   # 这是我们需要操作的磁盘
+Using /dev/sda    #这是我们需要操作的磁盘
 Welcome to GNU Parted! Type 'help' to view a list of commands.
-(parted) print                                                   # 输入"print",查看当前操作的磁盘信息
+(parted) print   #输入"print",查看当前操作的磁盘信息
 Model: QEMU QEMU HARDDISK (scsi)
-Disk /dev/sda: 21.5GB                                            # 总大小已增加至20G
+Disk /dev/sda: 21.5GB    #总大小已增加至20G
 Sector size (logical/physical): 512B/512B
 Partition Table: msdos
 Disk Flags:
 Number  Start   End     Size    Type     File system  Flags
- 1      1049kB  10.7GB  10.7GB  primary  btrfs        boot       # 此处的“1”是磁盘分区编号，此时分区容量还没有变化
+ 1      1049kB  10.7GB  10.7GB  primary  btrfs        boot 
+# 此处的“1”是磁盘分区编号，此时分区容量还没有变化
 ```
 
 接下来输入如下命令 **resizepart** :
 
 ```shell
-(parted) resizepart        # 输入命令 "resizepart" 进行分区扩展
-Partition number? 1        # 输入需要扩展的分区编号，由于我们这里的磁盘只有一个分区，所以输入 “1”
+(parted) resizepart        #输入命令 "resizepart" 进行分区扩展
+Partition number? 1        #输入需要扩展的分区编号，由于我们这里的磁盘只有一个分区，所以输入 “1”
 Warning: Partition /dev/sda1 is being used. Are you sure you want to continue?
-Yes/No? yes                # 确认继续，输入 "yes"
-End?  [10.7GB]? 100%       # 输入“100%”，将所有可用容量全部扩展到上一步指定的分区 
-(parted) print             # 输入 "print" ,查看当前操作的磁盘信息    
+Yes/No? yes                #确认继续，输入 "yes"
+End?  [10.7GB]? 100%       #输入“100%”，将所有可用容量全部扩展到上一步指定的分区 
+(parted) print             #输入 "print" ,查看当前操作的磁盘信息    
 Model: QEMU QEMU HARDDISK (scsi)
 Disk /dev/sda: 21.5GB
 Sector size (logical/physical): 512B/512B
 Partition Table: msdos
 Disk Flags:
 Number  Start   End     Size    Type     File system  Flags
- 1      1049kB  21.5GB  21.5GB  primary  btrfs        boot     # 可以看到增加的磁盘容量已扩展成功
+ 1      1049kB  21.5GB  21.5GB  primary  btrfs        boot    #可以看到增加的磁盘容量已扩展成功
 
 (parted) quit              # 输入 "quit" , 退出
 Information: You may need to update /etc/fstab.
@@ -1338,7 +1341,7 @@ df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
 udev           devtmpfs  496M     0  496M   0% /dev
 tmpfs          tmpfs     103M  1.5M  101M   2% /run
-/dev/sda1      btrfs      20G  4.7G   15G  25% /                # 分区已成功扩展
+/dev/sda1      btrfs      20G  4.7G   15G  25% /     #分区已成功扩展
 tmpfs          tmpfs     513M  4.0K  513M   1% /dev/shm
 tmpfs          tmpfs     5.0M     0  5.0M   0% /run/lock
 tmpfs          tmpfs     513M     0  513M   0% /sys/fs/cgroup
