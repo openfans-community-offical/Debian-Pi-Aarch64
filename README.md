@@ -92,7 +92,7 @@ Thanks for your donating! We'll get greatest power from your encourage!
 
 ----
 
-[3. Instructions For Useage](./README.md#3-instructions-for-useage)
+[3. Instructions For Usage](./README.md#3-instructions-for-usage)
 
 [3-1. System Initialization (First Boot)](./README.md#3-1-system-initialization-first-boot)
 
@@ -709,7 +709,7 @@ Rebuild from An open source project [Portainer](http://potainer.net) and develop
 
 ----
 
-## 3. Instructions For Useage
+## 3. Instructions For Usage
 
 ### 3-1. System Initialization (First Boot)
 
