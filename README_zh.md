@@ -1,6 +1,6 @@
 ![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
 
-# Debian-Pi-Aarch64 ★ 全新64位树莓派系统
+# Debian-Pi-Aarch64 ★ 全新树莓派64位系统
 
 # 2.0正式版 - 说明文档
 
