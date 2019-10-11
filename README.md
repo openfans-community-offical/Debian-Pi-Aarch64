@@ -466,7 +466,8 @@ online partitioning, mount equipment and other functions;
 17. Support for cross-node and unified management: manage multiple devices in one interface, 
 dramatically improving management and productivity;
 
-18. Web management communications are encrypted using SSL certificates to ensure the security of session data.
+18. Web management communications are encrypted using SSL certificates to ensure the security 
+of session data.
 ```
 
 ![shellinabox](./images/shellinabox.jpg)
@@ -731,7 +732,8 @@ Description: Please login system used default account: pi
 
 2.WEB SSH Client Portal Login Interface
 Login address https://yourRasp's IP address:4200
-Description: Used the account with the permission of console login, user pi was already with this permission.
+Description: Used the account with the permission of console login, 
+user pi was already with this permission.
 ```
 
 ### 3-4. Pre-Configured Items
@@ -763,7 +765,8 @@ Modify the file **"/boot/wpa_supplicant.conf"**
 #update_config=1
 
 ## The following "WIFI 1", "WIFI 2" represents the settings of multiple wireless networks ##
-## Unless you want to set up multiple wireless networks, you only need to set the settings of "WIFI 1". ##
+## Unless you want to set up multiple wireless networks, ##
+##you only need to set the settings of "WIFI 1". ##
 ## WIFI 1 (Do not uncomment this line!) ##
 
 ## In addition to canceling the content comments that need to take effect, ##
@@ -1135,17 +1138,20 @@ sudo ./install
 In order to ensure the data synchronization security of the virtual machine, please follow the steps below:
 
 ```
-Please ssh log in to the virtual machine and execute the command "init 0" to shut down the virtual machine.
+Please ssh log in to the virtual machine and execute the command "init 0" 
+to shut down the virtual machine.
 
-After shutting down, you need to execute the " ./bt_prog " command in the BT-Panel virtual machine directory 
+After shutting down, you need to execute the " ./bt_prog " command in the 
+BT-Panel virtual machine directory 
 to check if the virtual machine is closed.
 
 If there is no output, it means the virtual machine has been shut down normally.
 
-If the virtual machine cannot be shut down gracefully, execute the " ./bt_prog kill " command 
-in the BT-Panel virtual machine directory.
+If the virtual machine cannot be shut down gracefully, 
+execute the " ./bt_prog kill " command in the BT-Panel virtual machine directory.
 
-Also remember to execute the " ./bt_prog " command again to check if the virtual machine is down.
+Also remember to execute the " ./bt_prog " command again to check 
+if the virtual machine is down.
 ```
 
 **Automatic startup:**
@@ -1342,19 +1348,24 @@ Number Start End Size Type File system Flags
 Next enter the following command **resizepart** :
 
 ```shell
-(parted) resizepart # Enter the command "resizepart" for partition expansion
-Partition number? 1 # Enter the partition number to be expanded. Since our disk here has only one partition, enter "1".
+(parted) resizepart 
+# Enter the command "resizepart" for partition expansion
+Partition number? 1 
+# Enter the partition number to be expanded. Since our disk here has only one partition, enter "1".
 Warning: Partition /dev/sda1 is being used. Are you sure you want to continue?
 Yes/No? yes # Confirm to continue, type "yes"
-End? [10.7GB]? 100% # Enter "100%" to extend all available capacity to the partition specified in the previous step.
-(parted) print # Enter "print" to view the disk information of the current operation
+End? [10.7GB]? 100% 
+# Enter "100%" to extend all available capacity to the partition specified in the previous step.
+(parted) print 
+# Enter "print" to view the disk information of the current operation
 Model: QEMU QEMU HARDDISK (scsi)
 Disk /dev/sda: 21.5GB
 Sector size (logical/physical): 512B/512B
 Partition Table: msdos
 Disk Flags:
 Number Start End Size Type File system Flags
- 1 1049kB 21.5GB 21.5GB primary btrfs boot # You can see that the increased disk capacity has been expanded successfully.
+ 1 1049kB 21.5GB 21.5GB primary btrfs boot 
+# You can see that the increased disk capacity has been expanded successfully.
 
 (parted) quit # Enter "quit" to quit
 Information: You may need to update /etc/fstab.
@@ -1502,23 +1513,25 @@ OPENFANS official website: **[www.openfans.org](http://www.openfans.org)**
 ### 7-3 Copyright
 
 ```
-1. The all above system is built by the OPENFANS open source community and is exclusively distributed and provided 
-technical support by the Raspberry Pi Fan base community;
+1. The all above system is built by the OPENFANS open source community and is exclusively 
+distributed and provided technical support by the Raspberry Pi Fan base community;
 
-2. Any words or image reprint must indicate the source of the system (software); you can make any modifications to 
-the software or system, but you must keep the source and readme;
+2. Any words or image reprint must indicate the source of the system (software); 
+you can make any modifications to the software or system, but you must keep the source and readme;
 
-Strictly used for any commercial purpose, if you need to use it commercially, please contact and obtain permission 
-from OPENFANS open source community and Raspberry Pi Fan base community;
+Strictly used for any commercial purpose, if you need to use it commercially, 
+please contact and obtain permission from OPENFANS open source community and 
+Raspberry Pi Fan base community;
 
-3. The above system and the ownership of the software belong to the corresponding software author and the license 
-agreement to comply with the relevant software package;
+3. The above system and the ownership of the software belong to the corresponding software 
+author and the license agreement to comply with the relevant software package;
 
-4. Failure to comply with the appeal rules, the OPENFANS open source community and the Raspberry Pi Fan base community 
-have the right to pursue their respective responsibilities and order to stop all infringements;
+4. Failure to comply with the appeal rules, the OPENFANS open source community and the 
+Raspberry Pi Fan base community have the right to pursue their respective responsibilities 
+and order to stop all infringements;
 
-5. OPENFANS open source community and Raspberry Pi Fan base  community have the final interpretation of the above 
-content.
+5. OPENFANS open source community and Raspberry Pi Fan base  community have the final 
+interpretation of the above content.
 ```
 
 ## 8. Join US!
@@ -1528,8 +1541,10 @@ The Raspberry Pi Fan base community is recruiting **volunteers** to join the com
 - **Hardware development and design staff**
 
 ```
-1. Recognize the Raspberry Pi Fan base community culture and have great enthusiasm for the Raspberry Pi;
-2. Responsible and responsible for the task of completing community arrangements on time and in quality;
+1. Recognize the Raspberry Pi Fan base community culture and have great enthusiasm 
+for the Raspberry Pi;
+2. Responsible and responsible for the task of completing community arrangements on 
+time and in quality;
 3. Have the design ability of 3D printing modeling or circuit DSP;
 4. Have practical hardware design experience.
 ```
@@ -1537,10 +1552,13 @@ The Raspberry Pi Fan base community is recruiting **volunteers** to join the com
 - **Software and system developer**
 
 ```
-1. Recognize the Raspberry Pi Fan base community culture and have great enthusiasm for the Raspberry Pi;
-2. Responsible and responsible for the task of completing community arrangements on time and in quality;
+1. Recognize the Raspberry Pi Fan base community culture and have great enthusiasm 
+for the Raspberry Pi;
+2. Responsible and responsible for the task of completing community arrangements on 
+time and in quality;
 3. Familiar with system build compilation or software development;
-4. We like the development language, including but not limited to: JAVA, Python, Go, NodeJS, C, C++ ...;
+4. We like the development language, including but not limited to: JAVA, Python, 
+Go, NodeJS, C, C++ ...;
 5. Require software compilation and Deb packaging;
 6. Have practical development experience.
 ```
