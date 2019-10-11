@@ -18,7 +18,7 @@
 
 - 本文中所提到的执行的所有命令，没有特殊说明的情况下，默认都是在 **root** 用户的权限下执行！！
 
-- 遇到任何问题的时候，请保证先将系统、固件及内核更新至**最新**版本，你可以点击 **[此处](./README.md#5%E6%9B%B4%E6%96%B0%E5%8F%8A%E5%8D%87%E7%BA%A7)** 了解如何更新系统及升级内核和固件，以及查看最新的系统和**内核、固件**版本。
+- 遇到任何问题的时候，请保证先将系统、固件及内核更新至**最新**版本，你可以点击 **[此处](./README_zh.md#5%E6%9B%B4%E6%96%B0%E5%8F%8A%E5%8D%87%E7%BA%A7)** 了解如何更新系统及升级内核和固件，以及查看最新的系统和**内核、固件**版本。
 
 **快速友情提示：（ 2.0正式版 强烈建议更新至 “2019-10-05” 最新版固件 ）**
 
@@ -40,119 +40,119 @@
 
 ## 目录
 
-[0. 系统截图](./README.md#0%E7%B3%BB%E7%BB%9F%E6%88%AA%E5%9B%BE)
+[0. 系统截图](./README_zh.md#0%E7%B3%BB%E7%BB%9F%E6%88%AA%E5%9B%BE)
 
 ----
 
-[1. 系统介绍](./README.md#1%E7%B3%BB%E7%BB%9F%E4%BB%8B%E7%BB%8D)
+[1. 系统介绍](./README_zh.md#1%E7%B3%BB%E7%BB%9F%E4%BB%8B%E7%BB%8D)
 
-[1-1. 系统环境（版本介绍）](./README.md#1-1%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D)
+[1-1. 系统环境（版本介绍）](./README_zh.md#1-1%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D)
 
-[1-2. 系统环境（系统相关）](./README.md#1-2%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3)
+[1-2. 系统环境（系统相关）](./README_zh.md#1-2%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3)
 
-[1-3. 各版本功能比较](./README.md#1-3%E5%90%84%E7%89%88%E6%9C%AC%E5%8A%9F%E8%83%BD%E6%AF%94%E8%BE%83)
+[1-3. 各版本功能比较](./README_zh.md#1-3%E5%90%84%E7%89%88%E6%9C%AC%E5%8A%9F%E8%83%BD%E6%AF%94%E8%BE%83)
 
-[1-4. 部分系统性能测试结果](./README.md#1-4%E9%83%A8%E5%88%86%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C)
-
-----
-
-[2. 主要特性说明](./README.md#2%E4%B8%BB%E8%A6%81%E7%89%B9%E6%80%A7%E8%AF%B4%E6%98%8E)
-
-[2-1. Web可视化管理](./README.md#2-1web%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86)
-
-[2-2. QEMU-KVM 虚拟化支持](./README.md#2-2qemu-kvm-%E8%99%9A%E6%8B%9F%E5%8C%96%E6%94%AF%E6%8C%81)
-
-[2-3. Docker 容器支持](./README.md#2-3docker-%E5%AE%B9%E5%99%A8%E6%94%AF%E6%8C%81)
-
-[2-4. AUFS文件系统支持](./README.md#2-4aufs%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81)
-
-[2-5. TCP加速](./README.md#2-5tcp%E5%8A%A0%E9%80%9F)
-
-[2-6. 内存及交换优化（算法级）](./README.md#2-6%E5%86%85%E5%AD%98%E5%8F%8A%E4%BA%A4%E6%8D%A2%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95%E7%BA%A7)
-
-[2-7. MacOS Mojave 主题桌面](./README.md#2-7macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2)
-
-[2-8. CecOS CaaS 容器云](./README.md#2-8cecos_caas%E5%AE%B9%E5%99%A8%E4%BA%91)
-
-[2-9. 其他特性](./README.md#2-9%E5%85%B6%E4%BB%96%E7%89%B9%E6%80%A7)
+[1-4. 部分系统性能测试结果](./README_zh.md#1-4%E9%83%A8%E5%88%86%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C)
 
 ----
 
-[3. 使用说明](./README.md#3%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+[2. 主要特性说明](./README_zh.md#2%E4%B8%BB%E8%A6%81%E7%89%B9%E6%80%A7%E8%AF%B4%E6%98%8E)
 
-[3-1. 系统初始化说明](./README.md#3-1%E7%B3%BB%E7%BB%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AF%B4%E6%98%8E)
+[2-1. Web可视化管理](./README_zh.md#2-1web%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86)
 
-[3-2. 账户及密码](./README.md#3-2%E8%B4%A6%E6%88%B7%E5%8F%8A%E5%AF%86%E7%A0%81)
+[2-2. QEMU-KVM 虚拟化支持](./README_zh.md#2-2qemu-kvm-%E8%99%9A%E6%8B%9F%E5%8C%96%E6%94%AF%E6%8C%81)
 
-[3-3. Web登录接口说明](./README.md#3-3web%E7%99%BB%E5%BD%95%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E)
+[2-3. Docker 容器支持](./README_zh.md#2-3docker-%E5%AE%B9%E5%99%A8%E6%94%AF%E6%8C%81)
 
-[3-4. 预配置项](./README.md#3-4%E9%A2%84%E9%85%8D%E7%BD%AE%E9%A1%B9)
+[2-4. AUFS文件系统支持](./README_zh.md#2-4aufs%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81)
 
-[3-5. 无线配置说明](./README.md#3-5%E6%97%A0%E7%BA%BF%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E)
+[2-5. TCP加速](./README_zh.md#2-5tcp%E5%8A%A0%E9%80%9F)
 
-[3-6. 有线网络配置](./README.md#3-6%E6%9C%89%E7%BA%BF%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE)
+[2-6. 内存及交换优化（算法级）](./README_zh.md#2-6%E5%86%85%E5%AD%98%E5%8F%8A%E4%BA%A4%E6%8D%A2%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95%E7%BA%A7)
 
-[3-7. 开机自定义启动脚本](./README.md#3-7%E5%BC%80%E6%9C%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%AF%E5%8A%A8%E8%84%9A%E6%9C%AC)
+[2-7. MacOS Mojave 主题桌面](./README_zh.md#2-7macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2)
 
-[3-8. 深度桌面禁止自动升级的说明](./README.md#3-8%E6%B7%B1%E5%BA%A6%E6%A1%8C%E9%9D%A2%E7%A6%81%E6%AD%A2%E8%87%AA%E5%8A%A8%E5%8D%87%E7%BA%A7%E7%9A%84%E8%AF%B4%E6%98%8E)
+[2-8. CecOS CaaS 容器云](./README_zh.md#2-8cecos_caas%E5%AE%B9%E5%99%A8%E4%BA%91)
 
-[3-9. 中文环境下TTY显示中文字体(非远程方式)](./README.md#3-9%E4%B8%AD%E6%96%87%E7%8E%AF%E5%A2%83%E4%B8%8Btty%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93%E9%9D%9E%E8%BF%9C%E7%A8%8B%E6%96%B9%E5%BC%8F)
-
-[3-10. MacOS_Mojave主题桌面安装VNC远程](./README.md#3-10macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2%E5%AE%89%E8%A3%85vnc%E8%BF%9C%E7%A8%8B)
-
-[3-11. 切换声音输出通道](./README.md#3-11%E5%88%87%E6%8D%A2%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E9%80%9A%E9%81%93)
-
-[3-12. 32位软件armhf支持](./README.md#3-1232%E4%BD%8D%E8%BD%AF%E4%BB%B6armhf%E6%94%AF%E6%8C%81)
-
-[3-13. 启用和运行Docker服务](./README.md#3-13%E5%90%AF%E7%94%A8%E5%92%8C%E8%BF%90%E8%A1%8Cdocker%E6%9C%8D%E5%8A%A1)
-
-[3-14. 启用CecOS-CaaS容器云](./README.md#3-14%E5%90%AF%E7%94%A8cecos-caas%E5%AE%B9%E5%99%A8%E4%BA%91)
-
-[3-15. 启用和退出Docker集群](./README.md#3-15%E5%90%AF%E7%94%A8%E5%92%8C%E9%80%80%E5%87%BAdocker%E9%9B%86%E7%BE%A4)
-
-[3-16. FAQ常见问题说明](./README.md#3-16faq%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%AF%B4%E6%98%8E)
-
-[- 3-16.1 图形化桌面环境使用配置文件连接无线网络](./README.md#3-161%E5%9B%BE%E5%BD%A2%E5%8C%96%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%BF%9E%E6%8E%A5%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C)
+[2-9. 其他特性](./README_zh.md#2-9%E5%85%B6%E4%BB%96%E7%89%B9%E6%80%A7)
 
 ----
 
-[4.虚拟机使用说明](./README.md#4%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+[3. 使用说明](./README_zh.md#3%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
-[4-1 标准虚拟机使用说明](./README.md#4-1%E6%A0%87%E5%87%86%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+[3-1. 系统初始化说明](./README_zh.md#3-1%E7%B3%BB%E7%BB%9F%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AF%B4%E6%98%8E)
 
-[4-2 宝塔虚拟机使用介绍](./README.md#4-2%E5%AE%9D%E5%A1%94%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D)
+[3-2. 账户及密码](./README_zh.md#3-2%E8%B4%A6%E6%88%B7%E5%8F%8A%E5%AF%86%E7%A0%81)
 
-[4-3 如何扩展虚拟机的磁盘大小](./README.md#4-3%E5%A6%82%E4%BD%95%E6%89%A9%E5%B1%95%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E7%A3%81%E7%9B%98%E5%A4%A7%E5%B0%8F)
+[3-3. Web登录接口说明](./README_zh.md#3-3web%E7%99%BB%E5%BD%95%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E)
+
+[3-4. 预配置项](./README_zh.md#3-4%E9%A2%84%E9%85%8D%E7%BD%AE%E9%A1%B9)
+
+[3-5. 无线配置说明](./README_zh.md#3-5%E6%97%A0%E7%BA%BF%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E)
+
+[3-6. 有线网络配置](./README_zh.md#3-6%E6%9C%89%E7%BA%BF%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE)
+
+[3-7. 开机自定义启动脚本](./README_zh.md#3-7%E5%BC%80%E6%9C%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%AF%E5%8A%A8%E8%84%9A%E6%9C%AC)
+
+[3-8. 深度桌面禁止自动升级的说明](./README_zh.md#3-8%E6%B7%B1%E5%BA%A6%E6%A1%8C%E9%9D%A2%E7%A6%81%E6%AD%A2%E8%87%AA%E5%8A%A8%E5%8D%87%E7%BA%A7%E7%9A%84%E8%AF%B4%E6%98%8E)
+
+[3-9. 中文环境下TTY显示中文字体(非远程方式)](./README_zh.md#3-9%E4%B8%AD%E6%96%87%E7%8E%AF%E5%A2%83%E4%B8%8Btty%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93%E9%9D%9E%E8%BF%9C%E7%A8%8B%E6%96%B9%E5%BC%8F)
+
+[3-10. MacOS_Mojave主题桌面安装VNC远程](./README_zh.md#3-10macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2%E5%AE%89%E8%A3%85vnc%E8%BF%9C%E7%A8%8B)
+
+[3-11. 切换声音输出通道](./README_zh.md#3-11%E5%88%87%E6%8D%A2%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E9%80%9A%E9%81%93)
+
+[3-12. 32位软件armhf支持](./README_zh.md#3-1232%E4%BD%8D%E8%BD%AF%E4%BB%B6armhf%E6%94%AF%E6%8C%81)
+
+[3-13. 启用和运行Docker服务](./README_zh.md#3-13%E5%90%AF%E7%94%A8%E5%92%8C%E8%BF%90%E8%A1%8Cdocker%E6%9C%8D%E5%8A%A1)
+
+[3-14. 启用CecOS-CaaS容器云](./README_zh.md#3-14%E5%90%AF%E7%94%A8cecos-caas%E5%AE%B9%E5%99%A8%E4%BA%91)
+
+[3-15. 启用和退出Docker集群](./README_zh.md#3-15%E5%90%AF%E7%94%A8%E5%92%8C%E9%80%80%E5%87%BAdocker%E9%9B%86%E7%BE%A4)
+
+[3-16. FAQ常见问题说明](./README_zh.md#3-16faq%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%AF%B4%E6%98%8E)
+
+[- 3-16.1 图形化桌面环境使用配置文件连接无线网络](./README_zh.md#3-161%E5%9B%BE%E5%BD%A2%E5%8C%96%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%BF%9E%E6%8E%A5%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C)
 
 ----
 
-[5. 更新及升级](./README.md#5%E6%9B%B4%E6%96%B0%E5%8F%8A%E5%8D%87%E7%BA%A7)
+[4.虚拟机使用说明](./README_zh.md#4%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
-[5-1 升级系统](./README.md#5-1%E5%8D%87%E7%BA%A7%E7%B3%BB%E7%BB%9F)
+[4-1 标准虚拟机使用说明](./README_zh.md#4-1%E6%A0%87%E5%87%86%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
-[5-2 更新内核及固件](./README.md#5-2%E6%9B%B4%E6%96%B0%E5%86%85%E6%A0%B8%E5%8F%8A%E5%9B%BA%E4%BB%B6)
+[4-2 宝塔虚拟机使用介绍](./README_zh.md#4-2%E5%AE%9D%E5%A1%94%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D)
 
-[5-3 更新说明](./README.md#5-3%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
-
-[5-4 当前最新版本](./README.md#5-4%E5%BD%93%E5%89%8D%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)
+[4-3 如何扩展虚拟机的磁盘大小](./README_zh.md#4-3%E5%A6%82%E4%BD%95%E6%89%A9%E5%B1%95%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E7%A3%81%E7%9B%98%E5%A4%A7%E5%B0%8F)
 
 ----
 
-[6. 下载地址](./README.md#6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80)
+[5. 更新及升级](./README_zh.md#5%E6%9B%B4%E6%96%B0%E5%8F%8A%E5%8D%87%E7%BA%A7)
+
+[5-1 升级系统](./README_zh.md#5-1%E5%8D%87%E7%BA%A7%E7%B3%BB%E7%BB%9F)
+
+[5-2 更新内核及固件](./README_zh.md#5-2%E6%9B%B4%E6%96%B0%E5%86%85%E6%A0%B8%E5%8F%8A%E5%9B%BA%E4%BB%B6)
+
+[5-3 更新说明](./README_zh.md#5-3%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+
+[5-4 当前最新版本](./README_zh.md#5-4%E5%BD%93%E5%89%8D%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)
 
 ----
 
-[7. 其他说明](./README.md#7%E5%85%B6%E4%BB%96%E8%AF%B4%E6%98%8E)
-
-[7-1 捐赠](./README.md#7-1%E6%8D%90%E8%B5%A0)
-
-[7-2 联系方式](./README.md#7-2%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)
-
-[7-3 版权说明](./README.md#7-3%E7%89%88%E6%9D%83%E8%AF%B4%E6%98%8E)
+[6. 下载地址](./README_zh.md#6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80)
 
 ----
 
-[8. 招募](./README.md#8%E6%8B%9B%E5%8B%9F)
+[7. 其他说明](./README_zh.md#7%E5%85%B6%E4%BB%96%E8%AF%B4%E6%98%8E)
+
+[7-1 捐赠](./README_zh.md#7-1%E6%8D%90%E8%B5%A0)
+
+[7-2 联系方式](./README_zh.md#7-2%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)
+
+[7-3 版权说明](./README_zh.md#7-3%E7%89%88%E6%9D%83%E8%AF%B4%E6%98%8E)
+
+----
+
+[8. 招募](./README_zh.md#8%E6%8B%9B%E5%8B%9F)
 
 
 ----
@@ -687,7 +687,7 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 
 桌面化环境可以登录到桌面环境后通过图形化界面设置，这里提供配置文件的修改方式。
 
-如果桌面化环境想使用修改配置文件的方式连接无线网络，请查看[此处](./README.md#3161%E5%9B%BE%E5%BD%A2%E5%8C%96%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%BF%9E%E6%8E%A5%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C)说明。
+如果桌面化环境想使用修改配置文件的方式连接无线网络，请查看[此处](./README_zh.md#3161%E5%9B%BE%E5%BD%A2%E5%8C%96%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%BF%9E%E6%8E%A5%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C)说明。
 
 修改 **/boot/wpa_supplicant.conf** 文件
 
