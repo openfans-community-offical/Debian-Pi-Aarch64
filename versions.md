@@ -1,6 +1,6 @@
 ## 2.0正式版 系统及相关组件(内核、固件等) 最新版本情况
 
-#### Release version 2.0 System and related components (kernel, firmware, etc.) Latest version:
+#### The release version 2.0 System and related components (kernel, firmware, etc.) Latest version:
 
 ----
 
