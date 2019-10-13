@@ -130,6 +130,10 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-16.1 Using Profiles To Connect To The Wireless Networks Of Graphical Desktop Environment](./README.md#3-161-using-profiles-to-connect-to-the-wireless-networks-of-graphical-desktop-environment)
 
+[3-17. Extra Application Instructions](./README.md#3-17-extra-application-instructions)
+
+[- 3-17.1 WPS Office Arm 64-bit Desktop Installation Note](./README.md#3-171-wps-office-arm-64-bit-desktop-installation-note)
+
 ----
 
 [4. Virtual Machine Instructions](./README.md#4-virtual-machine-instructions)
@@ -1034,6 +1038,17 @@ Finally, after restart all done.
 ### 3-17. Extra Application Instructions
 
 #### 3-17.1 WPS Office Arm 64-bit Desktop Installation Note
+
+Get the install package from download repo's "APP" folder, after extracting the installation package, go to the installation package directory.
+
+Then connect to the public network and execute the following command as the root user:
+
+```shell
+sudo ./install.sh
+```
+
+The program will be installed.
+
 ----
 
 ## 4. Virtual Machine Instructions
