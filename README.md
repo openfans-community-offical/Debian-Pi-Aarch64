@@ -38,10 +38,10 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 ```
 The latest version of the system:
-2019-10-03-v2019-2.0-Release
+2019-10-13-v2019-2.0-Release
 
 The latest version of kernel and firmware:
-2019-10-05-v2019-2.0-Release (recommended update)
+2019-10-13-v2019-2.0-Release (recommended update)
 ```
 
 ## Donation
