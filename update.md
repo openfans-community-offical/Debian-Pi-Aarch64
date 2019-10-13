@@ -14,6 +14,37 @@
 
 ----
 
+## 2019.10.13 &nbsp;&nbsp;// **System v2.0 Release ver. 1013 Updated.** 
+
+```
+[A Chinese Team]
+
+1. Kernel and firmware upgrade to "4.19.79-OPENFANS+20191013-v8" as support as newest LTS main-line;
+
+2. CecOS CaaS Container Cloud Platform has upgrade to newest version "2.22.1";
+
+3. Docker-CE upgrade to newest version "19.03.3~3-0";
+
+4. Rebuild FFMPEG and used the main-line release version "4.2.1" to custom version "4.2.1-v4l2", 
+   Add "h264_v4l2_m2m" video codec and camera decodec support;
+
+5. Hardware video decodec video player and camera command app support;
+
+6. Mesa pkg upgrade to version "19.2.1-1";
+
+7. WPS Aarch64 desktop app edition extra pkg support;
+
+8. Add missing LAN shared browsing features：
+   add pkg "gvfs-backends" and "gvfs-fuse";
+
+9. Upgrade Wifi firmware to newest main-line version;
+
+10. upkg pkg update to version "2019.10.13".
+```
+
+
+----
+
 ## 2019.10.05 &nbsp;&nbsp;// **Upkg Updated.**
 1. 内核及固件同步上游最新稳定版本 *4.19.76* ；
 2. 内核及固件更新包更新至**upkg-2019.10.05** ;
