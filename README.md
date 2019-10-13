@@ -34,7 +34,9 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 ## Notice:
 
-*The official version 2.0 is most suggested to upgrade to the latest firmware version:* **"2019-10-05"**
+*The official version 2.0 is most suggested to upgrade to the latest firmware version:* **"2019-10-13"**
+
+*The system version "2019-10-13-v2019-2.0-Release" don't need upgrade the kernel and firmware to "2019-10-13"*
 
 ```
 The latest version of the system:
