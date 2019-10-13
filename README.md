@@ -60,7 +60,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 ----
 
-[1. Introduction](./README.md#1-introduction)
+[1. Introductions](./README.md#1-introductions)
 
 [1-1. System Environment (Versions)](./README.md#1-1-system-environment-versions)
 
@@ -134,9 +134,9 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [4. Virtual Machine Instructions](./README.md#4-virtual-machine-instructions)
 
-[4-1. Standard Virtual Machines PKG Instruction](./README.md#4-1-standard-virtual-machines-pkg-instruction)
+[4-1. Standard Virtual Machines PKG Instructions](./README.md#4-1-standard-virtual-machines-pkg-instructions)
 
-[4-2 BT-Panel Virtual Machine PKG Instruction](./README.md#4-2-bt-panel-virtual-machine-pkg-instruction)
+[4-2 BT-Panel Virtual Machine PKG Instructions](./README.md#4-2-bt-panel-virtual-machine-pkg-instructions)
 
 [4-3 How To Expand The Size Of A Virtual Machine Disk](./README.md#4-3-how-to-expand-the-size-of-a-virtual-machine-disk)
 
@@ -148,7 +148,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [5-2 Update Kernel And Firmware](./README.md#5-2-update-kernel-and-firmware)
 
-[5-3 Update Instruction](./README.md#5-3-update-instruction)
+[5-3 Update Instructions](./README.md#5-3-update-instructions)
 
 [5-4 Latest Current Version](./README.md#5-4-latest-current-version)
 
@@ -241,7 +241,7 @@ Screenshot of the macOS-Mojave Themed Desktop: Run WPS-ARM64-Edition-App (A Chin
 
 ----
 
-## 1. Introduction
+## 1. Introductions
 
 Don't ask a question about using a 64-bit OS for the Raspberry Pi and what's the difference between 64-bit & 32-bit OS?
 
@@ -257,7 +257,7 @@ Cuz the Raspberry Pi has the best compatible from Debian OS (This is inseparable
 
 This system is completely different from any systems we released before (also including the previous 64-bit Debian we published), we have all built from zero-os baseline this time and built a new automatic compilation and packaging, the testing system in our lab. We also redefined the packaging process and adjust all the relevant configurations, make a lot of modifications, adjustments and optimizations for the system, fixed a lot of bugs of the kernel. A lot of new features have been added, especially with the support for the hardware KVM virtualization acceleration and optimization for Docker features tuning.
 
-**We have specifically redefined and optimized our own cross compiler chain-tool and compiler for rebuild the base kernel and modules of Raspberry Pi when we were publishing the version 2.0 what is more greatly optimized and improved compiler faster and efficiency (About cross compiler chain-tool and compiler, you can refer to Huawei's Ark compiler, they have the same effect, our compiler is optimized for basic compilation tools such as C, C++, G++, ASM, NM, ld, CMAKE, and Glib, etc., Specifically target the raspberry-based hardware, ARM aarch64 A53 and ARM-v8a A72 and also including instruction set of hardware, etc.)**
+**We have specifically redefined and optimized our own cross compiler chain-tool and compiler for rebuild the base kernel and modules of Raspberry Pi when we were publishing the version 2.0 what is more greatly optimized and improved compiler faster and efficiency (About cross compiler chain-tool and compiler, you can refer to Huawei's Ark compiler, they have the same effect, our compiler is optimized for basic compilation tools such as C, C++, G++, ASM, NM, ld, CMAKE, and Glib, etc., Specifically target the raspberry-based hardware, ARM aarch64 A53 and ARM-v8a A72 and also including instructions set of hardware, etc.)**
 
 On June 20, 2019, the Raspberry Pi foundation released the new fourth-generation single-board machine "Raspberry Pi 4B". We got the 4th-generation 4G version from the Raspberry Pi official Cambridge Global Store for the first time.
 
@@ -340,7 +340,7 @@ All the version 2.0 system images are used "ext4" file system as default, the Ts
 
 **☆ :** Stands for supported and default disabled. Need to be started manually. 
 
-(There will be an instruction for how to use this service in this document.)
+(There will be an instructions for how to use this service in this document.)
 
 **X :** Stands for not supported.
 
@@ -1031,6 +1031,9 @@ sed -i  \
 
 Finally, after restart all done.
 
+### 3-17. Extra Application Instructions
+
+#### 3-17.1 WPS Office Arm 64-bit Desktop Installation Note
 ----
 
 ## 4. Virtual Machine Instructions
@@ -1041,7 +1044,7 @@ Virtual machine resource packages are typically published as compression package
 apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 ```
 
-### 4-1. Standard Virtual Machines PKG Instruction
+### 4-1. Standard Virtual Machines PKG Instructions
 
 Default user: root (remote permissions turned on), password: raspberry
 
@@ -1085,7 +1088,7 @@ Example of the command:
 ssh -p 2222 root@local-ip-address
 ```
 ----
-### 4-2 BT-Panel Virtual Machine PKG Instruction
+### 4-2 BT-Panel Virtual Machine PKG Instructions
 
 In order to take care of new users and respond to the voices of the people, we finally “integrated” the Pagoda for you, using the virtual machine, 32-bit super clean custom ARMHF virtual system optimized for the pagoda, even for virtual machines, The speed is also greatly stronger than the official backplane system (who has used and who will understand :) --).
 
@@ -1472,7 +1475,7 @@ After the completion, restart it.
 
 **Version 2.0 does not currently support upgrading from any other version and requires a new installation.**
 
-### 5-3 Update Instruction
+### 5-3 Update Instructions
 
 Click **[here](./update.md)** to see the update instructions.
 
