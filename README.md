@@ -233,6 +233,10 @@ Screenshot of the macOS-Mojave Themed Desktop: Run Android App: WPS (A China off
 
 ![pi4Android2](./images/apk1.png)
 
+Screenshot of the macOS-Mojave Themed Desktop: Run WPS-ARM64-Edition-App (A China office compatible software).
+
+![wps_arm64](./images/wps.png)
+
 ----
 
 ## 1. Introduction
