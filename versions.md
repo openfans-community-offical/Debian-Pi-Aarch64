@@ -10,7 +10,7 @@
 
 #### 内核及固件（ kernel & firmware）：
 
-*2019-10-13-v2019-2.0-Release* ( ** 建议更新 - Suggested to update ** )
+*2019-10-13-v2019-2.0-Release* ( **建议更新 - Suggested to update** )
 
 - *最新 “2019-1013” 的系统不需要再更新固件*
 
