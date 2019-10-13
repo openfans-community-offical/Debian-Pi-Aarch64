@@ -220,6 +220,10 @@ MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
 ![pi4Android2](./images/apk1.png)
 
+MacOS_Mojave主题桌面截图 运行 *WPS* 桌面版
+
+![wps_arm64](./images/wps.png)
+
 ----
 
 ## 1.系统介绍
