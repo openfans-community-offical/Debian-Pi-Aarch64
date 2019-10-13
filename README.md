@@ -1051,6 +1051,8 @@ The program will be installed.
 
 **Note:** *Test only on the* **macOS Mojave theme custom desktop** *version!!* 
 
+**For testing and learning use only!!!**
+
 ----
 
 ## 4. Virtual Machine Instructions
