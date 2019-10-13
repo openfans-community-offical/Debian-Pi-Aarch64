@@ -60,7 +60,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 ----
 
-[1. Introductions](./README.md#1-introductions)
+[1. Introduction](./README.md#1-introduction)
 
 [1-1. System Environment (Versions)](./README.md#1-1-system-environment-versions)
 
@@ -241,7 +241,7 @@ Screenshot of the macOS-Mojave Themed Desktop: Run WPS-ARM64-Edition-App (A Chin
 
 ----
 
-## 1. Introductions
+## 1. Introduction
 
 Don't ask a question about using a 64-bit OS for the Raspberry Pi and what's the difference between 64-bit & 32-bit OS?
 
