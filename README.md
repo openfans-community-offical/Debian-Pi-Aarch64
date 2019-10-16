@@ -185,7 +185,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 Screenshot of the macOS-Mojave theme desktop by XFCE.
 
-![macos](./images/macos1.png)
+![macos](./images/macos1s.png)
 
 Screenshot of the BaseOS Plus++ version: Web Management login interface.
 
