@@ -170,7 +170,7 @@
 
 MacOS_Mojave主题桌面截图
 
-![macos](./images/macos1s.png)
+![macos](./images/macos1s.jpg)
 
 无桌面加强版Web管理界面
 
