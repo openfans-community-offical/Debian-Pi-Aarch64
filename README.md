@@ -213,11 +213,11 @@ Screenshot of the CecOS CaaS Container Cloud: Cluster Management.
 
 Screenshot of the macOS-Mojave theme desktop: Multimedia support.
 
-![macos](./images/macos2.png)
+![macos](./images/macos2.jpg)
 
 Screenshot of the Deepin desktop environment: Main Desktop.
 
-![Deepin桌面1](./images/deepin_desktop_min.png)
+![Deepin桌面1](./images/deepin_desktop_min.jpg)
 
 Screenshot of the Deepin desktop environment: Dashboard.
 
@@ -225,23 +225,23 @@ Screenshot of the Deepin desktop environment: Dashboard.
 
 Screenshot of the Deepin desktop environment: System Settings & System info.
 
-![pi4桌面1](./images/p4-1.png)
+![pi4桌面1](./images/p4-1.jpg)
 
 Screenshot of the macOS-Mojave Theme Desktop: Graphics Virtual Machine Manager (VMM). 
 
-![pi4VMM](./images/vmm.png)
+![pi4VMM](./images/vmm.jpg)
 
 Screenshot of the macOS-Mojave Theme Desktop: Run Android App: DOTA.
 
-![pi4Android1](./images/apk0.png)
+![pi4Android1](./images/apk0.jpg)
 
 Screenshot of the macOS-Mojave Themed Desktop: Run Android App: WPS (A China office compatible software) and DOTA.
 
-![pi4Android2](./images/apk1.png)
+![pi4Android2](./images/apk1.jpg)
 
 Screenshot of the macOS-Mojave Themed Desktop: Run WPS-ARM64-Edition-App (A China office compatible software).
 
-![wps_arm64](./images/wps.png)
+![wps_arm64](./images/wps.jpg)
 
 ----
 
