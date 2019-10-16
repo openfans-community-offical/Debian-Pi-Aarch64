@@ -198,11 +198,11 @@ CecOS CaaS 容器云 集群管理
 
 MacOS_Mojave主题桌面截图 多媒体支持
 
-![macos](./images/macos2.png)
+![macos](./images/macos2.jpg)
 
 深度(Deepin)桌面截图
 
-![Deepin桌面1](./images/deepin_desktop_min.png)
+![Deepin桌面1](./images/deepin_desktop_min.jpg)
 
 深度(Deepin)桌面截图
 
@@ -210,23 +210,23 @@ MacOS_Mojave主题桌面截图 多媒体支持
 
 深度(Deepin)桌面截图
 
-![pi4桌面1](./images/p4-1.png)
+![pi4桌面1](./images/p4-1.jpg)
 
 MacOS_Mojave主题桌面截图 虚拟机图形化管理器
 
-![pi4VMM](./images/vmm.png)
+![pi4VMM](./images/vmm.jpg)
 
 MacOS_Mojave主题桌面截图 运行 Android App: 刀塔
 
-![pi4Android1](./images/apk0.png)
+![pi4Android1](./images/apk0.jpg)
 
 MacOS_Mojave主题桌面截图 运行 Android App: WPS和刀塔
 
-![pi4Android2](./images/apk1.png)
+![pi4Android2](./images/apk1.jpg)
 
 MacOS_Mojave主题桌面截图 运行 *WPS* 桌面版
 
-![wps_arm64](./images/wps.png)
+![wps_arm64](./images/wps.jpg)
 
 ----
 
