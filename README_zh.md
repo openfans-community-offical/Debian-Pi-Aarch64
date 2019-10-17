@@ -1512,16 +1512,16 @@ OPENFANS Offical Site 官网： [www.openfans.org](http://www.openfans.org)
 
 ## 9.致谢
 
-Raspbian : 官方系统 (自动扩容脚本部分参考)
+Raspbian : *官方系统 (自动扩容脚本部分参考)*
 
-UMRnInside : "UMRnInside/RPi-arm64"的项目 (自动扩容脚本部分参考)
+UMRnInside : *"UMRnInside/RPi-arm64"的项目 (自动扩容脚本部分参考)*
 
-Andreiw : "andreiw/RaspberryPiPkg" 的项目 (1.0版本引用的EFI固件)
+Andreiw : *"andreiw/RaspberryPiPkg" 的项目 (1.0版本引用的EFI固件)*
 
-sakaki : [link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (内核引导的问题参考)
+sakaki : *[link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (内核引导的问题参考)*
 
-margetts99 : [link](http://bbs.pifan.org/?thread-132.htm) (WPS的集成建议和共享问题的报告)
+margetts99 : *[link](http://bbs.pifan.org/?thread-132.htm) (WPS的集成建议和共享问题的报告)*
 
-以及其他无私赞助和帮助过我们的朋友们！
+**以及其他无私赞助和帮助过我们的朋友们！**
 
 ----
