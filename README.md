@@ -1625,10 +1625,10 @@ UMRnInside :Project [UMRnInside/RPi-arm64](https://github.com/UMRnInside/RPi-arm
 
 Andreiw: Project [andreiw/RaspberryPiPkg](https://github.com/andreiw/RaspberryPiPkg)(EFI firmware referenced in version 1.0)
 
-Sakaki : link(https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (kernel boot problem reference)
+Sakaki : [link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (kernel boot problem reference)
 
-Margetts99 : link(link) (WPS integration recommendations and sharing issues report)
+Margetts99 : [link](http://bbs.pifan.org/?thread-132.htm) (WPS integration recommendations and sharing issues report)
 
-**And other friends who have privately sponsored and helped us!**
+**And all other friends who have privately sponsored and helped us!**
 
 ----
