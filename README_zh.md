@@ -1522,4 +1522,6 @@ sakaki : [link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) 
 
 margetts99 : [link](http://bbs.pifan.org/?thread-132.htm) (WPS的集成建议和共享问题的报告)
 
+以及其他无私赞助和帮助过我们的朋友们！
+
 ----
