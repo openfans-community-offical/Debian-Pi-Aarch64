@@ -174,6 +174,7 @@
 
 [8. 招募](./README_zh.md#8%E6%8B%9B%E5%8B%9F)
 
+[9. 致谢]()
 
 ----
 
@@ -1506,5 +1507,17 @@ OPENFANS Offical Site 官网： [www.openfans.org](http://www.openfans.org)
 任何意向请与我们联系： [admin@openfans.org](mailto:admin@openfans.org)
 
 来信请说明具体情况和意图并留下您的**联系电话**，谢谢合作。
+
+----
+
+## 8.致谢
+
+Raspbian : 官方系统 (自动扩容脚本部分参考)
+
+UMRnInside : "UMRnInside/RPi-arm64"的项目 (自动扩容脚本部分参考)
+
+Andreiw : "andreiw/RaspberryPiPkg" 的项目 (1.0版本引用的EFI固件)
+
+sakaki : [link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (内核引导的问题参考)
 
 ----
