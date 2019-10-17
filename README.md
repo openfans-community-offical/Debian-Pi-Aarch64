@@ -1619,6 +1619,8 @@ Please write down the details and intentions and at least leave your **mobile ph
 
 ## 9. Thanks
 
+OSCHINA : [Support fot git repo](https://gitee.com/)
+
 Raspbian: Official system (automatic expansion script part reference)
 
 UMRnInside :Project [UMRnInside/RPi-arm64](https://github.com/UMRnInside/RPi-arm64)(refer to the automatic expansion script section)
@@ -1632,3 +1634,5 @@ Margetts99 : [link](http://bbs.pifan.org/?thread-132.htm) (WPS integration recom
 **And all other friends who have privately sponsored and helped us!**
 
 ----
+
+Once again despise the attack and slander called the dog egg X!
