@@ -1510,7 +1510,7 @@ OPENFANS Offical Site 官网： [www.openfans.org](http://www.openfans.org)
 
 ----
 
-## 8.致谢
+## 9.致谢
 
 Raspbian : 官方系统 (自动扩容脚本部分参考)
 
