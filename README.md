@@ -271,7 +271,7 @@ On June 20, 2019, the Raspberry Pi foundation released the new fourth-generation
 
 - **On July 6, 2019, half a month hard-working after Pi4 released, The OPENFANS and the Pi Fan base community released the new Debian-Pi-Aarch64 OS version 2.0 release together.**
 
-- **This is the world's 64-bit OS which is first support to Raspberry Pi 4B !!**
+- **This is the first 64-bit system in the world to support all Raspberry Pi 64-bit hardware!!! (Include: 2Bv1.2, 3B, 3B+, 3A+, 4B)**
 
 All of the new version 2.0 has 3D acceleration supported (With FKMS), and finally introduced the **OPENFANS Container Cloud Management Platform**  supported (Also called CecOS CaaS, based build from an open-source project which is called Portainer) which is be more perfect and powerful than system version 1.0!
 
