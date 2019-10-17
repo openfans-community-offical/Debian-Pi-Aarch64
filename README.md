@@ -6,6 +6,12 @@
 
 *This is the first 64-bit system in the world to support all Raspberry Pi 64-bit hardware!!! (Include: 2Bv1.2, 3B, 3B+, 3A+, 4B)*
 
+```
+There are always people of all kinds of people who do everything possible to find someone's handle, in order to avoid misleading,
+We will explain all the help and reference that we have used and applied. If there are any omissions, please feel free to give us feedback in time.
+Thanks again to all those who have helped us.
+```
+
 ## Official Documentation Version 2.0
 
 ***[中文版(Chinese)](README_zh.md)***
