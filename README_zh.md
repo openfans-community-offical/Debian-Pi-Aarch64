@@ -1512,6 +1512,8 @@ OPENFANS Offical Site 官网： [www.openfans.org](http://www.openfans.org)
 
 ## 9.致谢
 
+OSCHINA : [Git支持](https://gitee.com/)
+
 Raspbian : *官方系统 (自动扩容脚本部分参考)*
 
 UMRnInside : *项目v[UMRnInside/RPi-arm64](https://github.com/UMRnInside/RPi-arm64) (自动扩容脚本部分参考)*
