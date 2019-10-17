@@ -188,6 +188,8 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [8. Join US!](./README.md#8-join-us)
 
+[9. Thanks](./README.md#9-thanks)
+
 ----
 
 
@@ -1612,5 +1614,21 @@ Go, NodeJS, C, C++ ...;
 Please contact us with any intent: **[admin@openfans.org](mailto:admin@openfans.org)**
 
 Please write down the details and intentions and at least leave your **mobile phone number**, thank you for your cooperation.
+
+----
+
+## 9. Thanks
+
+Raspbian: Official system (automatic expansion script part reference)
+
+UMRnInside :Project [UMRnInside/RPi-arm64](https://github.com/UMRnInside/RPi-arm64)(refer to the automatic expansion script section)
+
+Andreiw: Project [andreiw/RaspberryPiPkg](https://github.com/andreiw/RaspberryPiPkg)(EFI firmware referenced in version 1.0)
+
+Sakaki : link(https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (kernel boot problem reference)
+
+Margetts99 : link(link) (WPS integration recommendations and sharing issues report)
+
+**And other friends who have privately sponsored and helped us!**
 
 ----
