@@ -174,7 +174,7 @@
 
 [8. 招募](./README_zh.md#8%E6%8B%9B%E5%8B%9F)
 
-[9. 致谢]()
+[9. 致谢](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README_zh.md#9%E8%87%B4%E8%B0%A2)
 
 ----
 
@@ -1519,5 +1519,7 @@ UMRnInside : "UMRnInside/RPi-arm64"的项目 (自动扩容脚本部分参考)
 Andreiw : "andreiw/RaspberryPiPkg" 的项目 (1.0版本引用的EFI固件)
 
 sakaki : [link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (内核引导的问题参考)
+
+margetts99 : [link](http://bbs.pifan.org/?thread-132.htm) (WPS的集成建议和共享问题的报告)
 
 ----
