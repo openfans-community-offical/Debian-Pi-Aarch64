@@ -4,7 +4,7 @@
 
 # 2.0正式版 - 说明文档
 
-***[English Edition (英文版)](./README.md)***  **...   请不要吝啬，一个点击，给我一颗心,(Star)**  **:)**
+***[English Edition (英文版)](./README.md)***  **... 请不要吝啬，一个点击，给我一颗心(Star), 已是莫大的荣耀。**  **:)**
 
 \- **树莓派64位操作系统** - **OPENFANS开源社区 & 树莓派爱好者社区** - **联合出品** -
 
@@ -16,9 +16,9 @@
 
 **除本文档外本Git仓库中的其他任何文档已不再维护（本文链接的文档除外），仅作为开发人员存档，特此说明!!!**
 
-Gitee(码云仓库地址): [gitee.com/openfans-community/Debian-Pi-Aarch64](https://gitee.com/openfans-community/Debian-Pi-Aarch64)
+**Gitee(码云)仓库地址**: [gitee.com/openfans-community/Debian-Pi-Aarch64](https://gitee.com/openfans-community/Debian-Pi-Aarch64)
 
-Github (码云仓库地址): [github.com/openfans-community-offical/Debian-Pi-Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)
+**Github仓库地址**: [github.com/openfans-community-offical/Debian-Pi-Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)
 
 ## 注意
 
