@@ -1515,13 +1515,13 @@ OSCHINA : [Git支持](https://gitee.com/)
 
 Raspbian : *官方系统 (自动扩容脚本部分参考)*
 
-UMRnInside : *项目v[UMRnInside/RPi-arm64](https://github.com/UMRnInside/RPi-arm64) (自动扩容脚本部分参考)*
+UMRnInside : *项目 [UMRnInside/RPi-arm64](https://github.com/UMRnInside/RPi-arm64) (自动扩容脚本部分参考)*
 
-Andreiw : *项目v[andreiw/RaspberryPiPkg](https://github.com/andreiw/RaspberryPiPkg) (1.0版本引用的EFI固件)*
+Andreiw : *项目 [andreiw/RaspberryPiPkg](https://github.com/andreiw/RaspberryPiPkg) (1.0版本引用的EFI固件)*
 
-sakaki : *[link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (内核引导的问题参考)*
+sakaki : *[Link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (内核引导的问题参考)*
 
-margetts99 : *[link](http://bbs.pifan.org/?thread-132.htm) (WPS的集成建议和共享问题的报告)*
+margetts99 : *[Link](http://bbs.pifan.org/?thread-132.htm) (WPS的集成建议和共享问题的报告)*
 
 **以及其他无私赞助和帮助过我们的朋友们！**
 
