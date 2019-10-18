@@ -971,6 +971,14 @@ killall vncserver-x11-core vncserver-x11 vncagent vncserverui
 
 **When you do not have a monitor you need do this way**
 
+*VNC Server Virtual Mode*
+
+In this mode, the VNC connect address is:
+
+```
+your-Rpi-ip-address:1
+```
+
 ```
 ## Mode A:
 
