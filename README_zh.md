@@ -899,6 +899,14 @@ killall vncserver-x11-core vncserver-x11 vncagent vncserverui
 
 **当你没有外接显示器的时候你需要按一下方法操作**
 
+*RealVNC虚拟显示服务模式*
+
+在此模式下，VNC连接地址为：
+
+```
+你树莓派的IP地址:1
+```
+
 ```
 ## A模式：
 
