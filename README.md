@@ -1007,7 +1007,7 @@ Do as the follow steps:
     systemctl stop vncserver-virtuald.service ;\
     systemctl disable vncserver-virtuald.service
 
-3.Create a service script and enable it: 
+3. Create a service script and enable it: 
 
 /usr/lib/systemd/system/vncserver-pi.service
 
