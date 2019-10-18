@@ -841,7 +841,7 @@ fbterm
 
 ```
 sudo \
-sed '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
+sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
 /etc/apt/sources.list ; \
 apt clean all ; \
 echo 'deb http://mirrors.tuna.tsinghua.edu.cn/debian/ sid main non-free contrib' \
@@ -854,7 +854,7 @@ dpkg --remove-architecture armhf ; apt update \
 systemctl enable vncserver-x11-serviced.service ; \
 systemctl start vncserver-x11-serviced.service ; \
 sudo \
-sed '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
+sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
 /etc/apt/sources.list ; \
 apt clean all ; apt update
 ```
@@ -863,7 +863,7 @@ apt clean all ; apt update
 
 ```
 sudo \
-sed '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
+sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
 /etc/apt/sources.list ; \
 ```
 
