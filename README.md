@@ -945,26 +945,110 @@ Click [here](https://www.realvnc.com/en/connect/download/viewer/) to download Re
 
 Install and run the client, enter the IP address directly, do not need to fill in the port, username, and password is your system's login user and password.
 
-PS:
+**PS:**
 
 *Some advanced instructions for Realvnc:*
 
+**When you do not have a monitor you need do this way**
+
 ```
+## Mode A:
+
 Installed system unit for VNC Server in Service Mode Mode Daemon
+(This feature needs a RealVNC license)
+
 Start or stop service with:
-  systemctl (start-stop) vncserver-x11-service.service
+
+    systemctl (start-stop) vncserver-x11-service.service
 
 Mark or unmark the service to be started at boot time with:
-  systemctl (enable-disable) vncserver-x11-service.service
+
+    systemctl (enable-disable) vncserver-x11-service.service
+  
+--------------------------------------------------------------
 
 Installed system unit for VNC Server in Virtual Mode Daemon
-Start or stop service with:
-  systemctl (start-stop) vncserver-virtuald.service
-Mark or unmark the service to be started at boot time with:
-  systemctl (enable-disable) vncserver-virtuald.service
 
-Kill All Process:
-killall vncserver-x11-core vncserver-x11 vncagent vncserverui
+Start or stop service with:
+
+    systemctl (start-stop) vncserver-virtuald.service
+
+Mark or unmark the service to be started at boot time with:
+
+    systemctl (enable-disable) vncserver-virtuald.service
+
+--------------------------------------------------------------
+
+How to kill all Process:
+
+    killall vncserver-x11-core vncserver-x11 vncagent vncserverui
+```
+
+```
+## Mode B:
+
+Another way run Virtual Mode Daemon:
+(Custom way without license)
+(From Pi forum https://www.raspberrypi.org/forums/viewtopic.php?t=249124)
+
+Do as the follow steps:
+
+1. Install a package: 
+
+    apt install xserver-xorg-video-dummy -y
+
+2. Run command:
+
+    killall vncserver-x11-core vncserver-x11 vncagent vncserverui ;\
+    systemctl stop vncserver-x11-serviced.service ;\
+    systemctl disable vncserver-x11-serviced.service ;\
+    systemctl stop vncserver-virtuald.service ;\
+    systemctl disable vncserver-virtuald.service
+
+3.Create a service script and enable it: 
+
+/usr/lib/systemd/system/vncserver-pi.service
+
+---------------------------------------------------
+[Unit]
+Description=VNC Server in Virtual Mode daemon
+After=network.target
+
+[Service]
+User=pi
+Type=forking
+ExecStart=/usr/bin/vncserver :1
+ExecStop=/usr/bin/vncserver -kill :1
+Restart=on-failure
+RestartSec=5
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+---------------------------------------------------
+
+4.To enable the system Xorg server for all users, run:
+
+    vncinitconfig -enable-system-xorg
+
+All answers need to choose "Y"
+
+If you wanna disable, run:
+
+    vncinitconfig -disable-system-xorg
+
+5. Generate a "/etc/X11/vncserver-virtual.conf" conf file, run:
+
+    vncinitconfig -virtual-xorg-conf
+
+6. Then enable and start service:
+
+    systemctl enable vncserver-pi.service
+    systemctl start vncserver-pi.service
+
+Known issue: 
+This mode isn't support restart vncserver-pi.service
+You need to reboot system.
 ```
 
 ### 3-11. Switch Sound Output Channels
