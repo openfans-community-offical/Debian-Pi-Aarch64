@@ -1029,7 +1029,7 @@ KillMode=process
 WantedBy=multi-user.target
 ---------------------------------------------------
 
-4.To enable the system Xorg server for all users, run:
+4. To enable the system Xorg server for all users, run:
 
     vncinitconfig -enable-system-xorg
 
