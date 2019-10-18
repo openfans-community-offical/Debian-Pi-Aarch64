@@ -1046,7 +1046,8 @@ If you wanna disable, run:
     systemctl enable vncserver-pi.service
     systemctl start vncserver-pi.service
 
-Known issue: 
+
+Known issue:
 This mode isn't support restart vncserver-pi.service
 You need to reboot system.
 ```
