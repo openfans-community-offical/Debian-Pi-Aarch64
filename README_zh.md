@@ -897,7 +897,7 @@ systemctl (enable-disable) vncserver-x11-service.service
 killall vncserver-x11-core vncserver-x11 vncagent vncserverui
 ```
 
-**当你没有外接显示器的时候你需要按一下方法操作**
+**当你没有外接显示器的时候你需要按以下方法操作**
 
 *RealVNC虚拟显示服务模式*
 
