@@ -949,25 +949,33 @@ Install and run the client, enter the IP address directly, do not need to fill i
 
 *Some advanced instructions for Realvnc:*
 
+#### Installed system unit for VNC Server in Service Mode Mode Daemon
+
+Start or stop service with:
+
+```
+systemctl (start-stop) vncserver-x11-service.service
+```
+
+Mark or unmark the service to be started at boot time with:
+
+```
+systemctl (enable-disable) vncserver-x11-service.service
+```
+
+How to kill all Process:
+
+```
+killall vncserver-x11-core vncserver-x11 vncagent vncserverui
+```
+
 **When you do not have a monitor you need do this way**
 
 ```
 ## Mode A:
 
-Installed system unit for VNC Server in Service Mode Mode Daemon
-(This feature needs a RealVNC license)
-
-Start or stop service with:
-
-    systemctl (start-stop) vncserver-x11-service.service
-
-Mark or unmark the service to be started at boot time with:
-
-    systemctl (enable-disable) vncserver-x11-service.service
-  
---------------------------------------------------------------
-
 Installed system unit for VNC Server in Virtual Mode Daemon
+(This feature needs a RealVNC license)
 
 Start or stop service with:
 
@@ -976,12 +984,6 @@ Start or stop service with:
 Mark or unmark the service to be started at boot time with:
 
     systemctl (enable-disable) vncserver-virtuald.service
-
---------------------------------------------------------------
-
-How to kill all Process:
-
-    killall vncserver-x11-core vncserver-x11 vncagent vncserverui
 ```
 
 ```
