@@ -1033,9 +1033,9 @@ WantedBy=multi-user.target
 
     vncinitconfig -enable-system-xorg
 
-All answers need to choose "Y"
+    All answers need to choose "Y"
 
-If you wanna disable, run:
+    If you wanna disable, run:
 
     vncinitconfig -disable-system-xorg
 
