@@ -912,13 +912,34 @@ fbterm
 Install RealVNC
 
 ```
-dpkg --add-architecture armhf ; apt update
-cd ~/ ; wget https://www.realvnc.com/download/file/vnc.files/VNC-Server-6.6.0-Linux-ARM.deb
-apt install ./VNC-Server-6.6.0-Linux-ARM.deb
-rm -rf ./VNC-Server-6.6.0-Linux-ARM.deb
-dpkg --remove-architecture armhf ; apt update
-systemctl enable vncserver-x11-serviced.service ; systemctl start vncserver-x11-serviced.service
+sudo \
+sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
+/etc/apt/sources.list ; \
+apt clean all ; \
+echo 'deb http://mirrors.tuna.tsinghua.edu.cn/debian/ sid main non-free contrib' \
+>>/etc/apt/sources.list ; \
+dpkg --add-architecture armhf ; apt update \
+cd ~ ; wget https://www.realvnc.com/download/file/vnc.files/VNC-Server-6.6.0-Linux-ARM.deb \
+apt install ./VNC-Server-6.6.0-Linux-ARM.deb \
+rm -rf ./VNC-Server-6.6.0-Linux-ARM.deb \
+dpkg --remove-architecture armhf ; apt update \
+systemctl enable vncserver-x11-serviced.service ; \
+systemctl start vncserver-x11-serviced.service ; \
+sudo \
+sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
+/etc/apt/sources.list ; \
+apt clean all ; apt update
 ```
+
+**Attention please!!**
+
+```
+sudo \
+sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
+/etc/apt/sources.list ; \
+```
+
+**Don't miss this command in the process of installing RealVNC on it above!!!**
 
 Click [here](https://www.realvnc.com/en/connect/download/viewer/) to download RealVNC client
 
