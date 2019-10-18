@@ -873,28 +873,113 @@ sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free c
 
 安装并运行客户端，直接输入IP地址即可，不需要填写端口，用户名和密码是你系统的登录用户和密码。
 
-PS:
+**说明:**
 
-Realvnc的一些高级说明
+*Realvnc的一些高级说明*
+
+#### 将RealVNC安装为系统的守护进程服务模式
+
+启动或停止RealVNC服务:
 
 ```
-Installed systemd unit for VNC Server in Service Mode daemon
-Start or stop the service with:
-  systemctl (start|stop) vncserver-x11-serviced.service
+systemctl (start-stop) vncserver-x11-service.service
+```
 
-Mark or unmark the service to be started at boot time with:
-  systemctl (enable|disable) vncserver-x11-serviced.service
+启用或取消RealVNC服务开机自启动:
 
-Installed systemd unit for VNC Server in Virtual Mode daemon
+```
+systemctl (enable-disable) vncserver-x11-service.service
+```
 
-Start or stop the service with:
-  systemctl (start|stop) vncserver-virtuald.service
+杀死所有相关的服务进程:
 
-Mark or unmark the service to be started at boot time with:
-  systemctl (enable|disable) vncserver-virtuald.service
-
-Kill All process：
+```
 killall vncserver-x11-core vncserver-x11 vncagent vncserverui
+```
+
+**当你没有外接显示器的时候你需要按一下方法操作**
+
+```
+## A模式：
+
+将RealVNC安装为系统的守护进程虚拟显示服务模式
+(这个功能需要RealVNC的license授权)
+
+启用或关闭RealVNC虚拟显示服务：
+
+    systemctl (start-stop) vncserver-virtuald.service
+
+启用或取消RealVNC虚拟显示服务开机启动：
+
+    systemctl (enable-disable) vncserver-virtuald.service
+```
+
+```
+## B模式：
+
+运行RealVNC安装为系统的守护进程虚拟显示服务的另一种模式：
+(自定义方法，不需要授权)
+(参考自Pi官方论坛 https://www.raspberrypi.org/forums/viewtopic.php?t=249124)
+
+按照以下步骤操作：
+
+1. 安装软件包：
+
+    apt install xserver-xorg-video-dummy -y
+
+2. 执行命令：
+
+    killall vncserver-x11-core vncserver-x11 vncagent vncserverui ;\
+    systemctl stop vncserver-x11-serviced.service ;\
+    systemctl disable vncserver-x11-serviced.service ;\
+    systemctl stop vncserver-virtuald.service ;\
+    systemctl disable vncserver-virtuald.service
+
+3. 创建服务脚本文件：
+
+/usr/lib/systemd/system/vncserver-pi.service
+
+---------------------------------------------------
+[Unit]
+Description=VNC Server in Virtual Mode daemon
+After=network.target
+
+[Service]
+User=pi
+Type=forking
+ExecStart=/usr/bin/vncserver :1
+ExecStop=/usr/bin/vncserver -kill :1
+Restart=on-failure
+RestartSec=5
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+---------------------------------------------------
+
+4. 为所有系统用户启用Xorg系统服务，执行命令：
+
+    vncinitconfig -enable-system-xorg
+
+    所有的选择都回答："Y"
+
+    如果你想禁用可以执行：
+
+    vncinitconfig -disable-system-xorg
+
+5. 生成 "/etc/X11/vncserver-virtual.conf" 配置文件，执行：
+
+    vncinitconfig -virtual-xorg-conf
+
+6. 将服务设置为开机自启动并启动服务：
+
+    systemctl enable vncserver-pi.service
+    systemctl start vncserver-pi.service
+
+
+已知问题：
+该模式下无法重启vncserver-pi.service服务，
+你只能通过重启系统来实现。
 ```
 
 ### 3-11.切换声音输出通道
