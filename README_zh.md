@@ -243,6 +243,24 @@ MacOS_Mojave主题桌面截图 运行 *WPS* 桌面版
 
 ![wps_arm64](./images/wps.jpg)
 
+MacOS_Mojave主题桌面截图：在Qemu中运行Windows Arm桌面版
+
+![qemu_win_arm_0](./images/win0.jpeg)
+
+*在Qemu中安装 Windows Arm版本*
+
+![qemu_win_arm_1](./images/win1.jpeg)
+
+*Windows Arm版 基地桌面*
+
+![qemu_win_arm_2](./images/win2.jpeg)
+
+*Windows Arm版 系统信息*
+
+![qemu_win_arm_3](./images/win3.jpeg)
+
+*Windows Arm版 运行X86桌面版QQ*
+
 ----
 
 ## 1.系统介绍
