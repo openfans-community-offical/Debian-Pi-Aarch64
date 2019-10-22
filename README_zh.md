@@ -231,6 +231,8 @@ MacOS_Mojave主题桌面截图 虚拟机图形化管理器
 
 ![pi4VMM](./images/vmm.jpg)
 
+----
+
 MacOS_Mojave主题桌面截图 运行 Android App: 刀塔
 
 ![pi4Android1](./images/apk0.jpg)
@@ -243,7 +245,9 @@ MacOS_Mojave主题桌面截图 运行 *WPS* 桌面版
 
 ![wps_arm64](./images/wps.jpg)
 
-MacOS_Mojave主题桌面截图：在Qemu中运行Windows Arm桌面版
+----
+
+**MacOS_Mojave主题桌面截图：在Qemu中运行Windows Arm桌面版**
 
 ![qemu_win_arm_0](./images/win0.jpeg)
 
