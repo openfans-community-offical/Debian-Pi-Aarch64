@@ -1769,6 +1769,8 @@ Sakaki : [link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) 
 
 Margetts99 : [link](http://bbs.pifan.org/?thread-132.htm) (WPS integration recommendations and sharing issues report)
 
+Windows Arm On Qemu: see [link1](https://github.com/virtio-win/kvm-guest-drivers-windows/issues/177#issuecomment-468149012) & [link2](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=248345&sid=d4dd0681937f13e9c0cb4f04e5b54979)
+
 **And all other friends who have privately sponsored and helped us!**
 
 ----
