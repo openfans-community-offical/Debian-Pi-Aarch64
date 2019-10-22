@@ -247,6 +247,8 @@ Screenshot of the macOS-Mojave Theme Desktop: Graphics Virtual Machine Manager (
 
 ![pi4VMM](./images/vmm.jpg)
 
+----
+
 Screenshot of the macOS-Mojave Theme Desktop: Run Android App: DOTA.
 
 ![pi4Android1](./images/apk0.jpg)
@@ -259,7 +261,9 @@ Screenshot of the macOS-Mojave Themed Desktop: Run WPS-ARM64-Edition-App (A Chin
 
 ![wps_arm64](./images/wps.jpg)
 
-Screenshot of the macOS-Mojave Themed Desktop: Run Windows 10 Arm Desktop Edition On Qemu.
+----
+
+**Screenshot of the macOS-Mojave Themed Desktop: Run Windows 10 Arm Desktop Edition On Qemu.**
 
 ![qemu_win_arm_0](./images/win0.jpeg)
 
