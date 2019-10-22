@@ -259,14 +259,23 @@ Screenshot of the macOS-Mojave Themed Desktop: Run WPS-ARM64-Edition-App (A Chin
 
 ![wps_arm64](./images/wps.jpg)
 
-Screenshot of the macOS-Mojave Themed Desktop: Run Windows 10 Arm Desktop Edition On Qemu
+Screenshot of the macOS-Mojave Themed Desktop: Run Windows 10 Arm Desktop Edition On Qemu.
+
 ![qemu_win_arm_0](./images/win0.jpeg)
+
+*Install Arm windows on qemu.*
 
 ![qemu_win_arm_1](./images/win1.jpeg)
 
+*Arm desktop PIFAN desktop.*
+
 ![qemu_win_arm_2](./images/win2.jpeg)
 
+*Arm windows on qemu: Systeminfo.*
+
 ![qemu_win_arm_3](./images/win3.jpeg)
+
+*Arm windows on qemu: Run QQ X86 desktop edition App.*
 
 ----
 
