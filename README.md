@@ -281,11 +281,11 @@ Screenshot of the macOS-Mojave Themed Desktop: Run WPS-ARM64-Edition-App (A Chin
 
 *Arm windows on qemu: Run QQ X86 desktop edition App.*
 
-![qemu_win_arm_4](./images/weichat.jpeg)
+![qemu_win_arm_4](./images/weichat.jpg)
 
 *Arm windows on qemu: Run WeiChat X86 desktop edition App.*
 
-![qemu_win_arm_5](./images/tim.jpeg)
+![qemu_win_arm_5](./images/tim.jpg)
 
 *Arm windows on qemu: Run TIM X86 desktop edition App.*
 
