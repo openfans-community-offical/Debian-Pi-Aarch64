@@ -265,6 +265,14 @@ MacOS_Mojave主题桌面截图 运行 *WPS* 桌面版
 
 *Windows Arm版 运行X86桌面版QQ*
 
+![qemu_win_arm_4](./images/weichat.jpg)
+
+*Windows Arm版 运行X86桌面版微信*
+
+![qemu_win_arm_5](./images/tim.jpg)
+
+*Windows Arm版 运行X86桌面版TIM*
+
 ----
 
 ## 1.系统介绍
