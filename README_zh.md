@@ -870,23 +870,24 @@ fbterm
 安装 RealVNC
 
 ```
+vnc_pkg='VNC-Server-6.6.0-Linux-ARM.deb' ; \
 sudo \
 sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
 /etc/apt/sources.list ; \
-apt clean all ; \
-echo 'deb http://mirrors.tuna.tsinghua.edu.cn/debian/ sid main non-free contrib' \
+sudo apt clean all ; \
+sudo echo 'deb http://mirrors.tuna.tsinghua.edu.cn/debian/ sid main non-free contrib' \
 >>/etc/apt/sources.list ; \
-dpkg --add-architecture armhf ; apt update \
-cd ~ ; wget https://www.realvnc.com/download/file/vnc.files/VNC-Server-6.6.0-Linux-ARM.deb \
-apt install ./VNC-Server-6.6.0-Linux-ARM.deb \
-rm -rf ./VNC-Server-6.6.0-Linux-ARM.deb \
-dpkg --remove-architecture armhf ; apt update \
-systemctl enable vncserver-x11-serviced.service ; \
-systemctl start vncserver-x11-serviced.service ; \
+sudo dpkg --add-architecture armhf ; sudo apt update ; \
+cd ~ ; wget https://www.realvnc.com/download/file/vnc.files/$vnc_pkg ; \
+sudo apt install ./$vnc_pkg ; \
+rm -rf ./$vnc_pkg ; \
+sudo dpkg --remove-architecture armhf ; sudo apt update ; \
+sudo systemctl enable vncserver-x11-serviced.service ; \
+sudo systemctl start vncserver-x11-serviced.service ; \
 sudo \
 sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ sid main non-free contrib/d' \
 /etc/apt/sources.list ; \
-apt clean all ; apt update
+sudo apt clean all ; sudo apt update
 ```
 
 **注意：**
