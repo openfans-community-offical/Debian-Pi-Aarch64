@@ -148,6 +148,8 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-17.1 WPS Office Arm 64-bit Desktop Installation Note](./README.md#3-171-wps-office-arm-64-bit-desktop-installation-note)
 
+[- 3-17.2 How to install the QQ Official Desktop App (Linux Edition)]
+
 ----
 
 [4. Virtual Machine Instructions](./README.md#4-virtual-machine-instructions)
@@ -1215,6 +1217,22 @@ The program will be installed.
 **Note:** *Test only on the* **macOS Mojave theme custom desktop** *version!!* 
 
 **For testing and learning use only!!!**
+
+#### 3-17.2 How to install the QQ Official Desktop App (Linux Edition)
+
+Make sure your system can connect to internet, then run the commands below as root user:
+
+```
+qq_pkg='linuxqq_2.0.0-b1-1024_arm64.deb' ; \
+cd ~ ; \
+wget https://github.com/openfans-community-offical/Debian-Pi-Aarch64/raw/master/add-app/$qq_pkg ; \
+apt install ./$qq_pkg -y ; \
+rm -rf ./$qq_pkg
+```
+
+After this, the App will be finished the installation.
+
+![./images/linux_qq.jpg]
 
 ----
 
