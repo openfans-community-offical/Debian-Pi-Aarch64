@@ -134,7 +134,7 @@
 
 [- 3-17.1 WPS Office ARM64位 桌面版安装说明](./README_zh.md#3-171-wps-office-arm64%E4%BD%8D-%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
 
-[- 3-17.2 腾讯QQ官方Linux桌面版安装说明](./README_zh.md#3-171-wps-office-arm64%E4%BD%8D-%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
+[- 3-17.2 腾讯QQ官方Linux桌面版安装说明](./README_zh.md#3-172-%E8%85%BE%E8%AE%AFqq%E5%AE%98%E6%96%B9linux%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
 
 ----
 
