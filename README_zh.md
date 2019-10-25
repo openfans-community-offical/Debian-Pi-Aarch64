@@ -134,6 +134,8 @@
 
 [- 3-17.1 WPS Office ARM64位 桌面版安装说明](./README_zh.md#3-171-wps-office-arm64%E4%BD%8D-%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
 
+[- 3-17.2 腾讯QQ官方Linux桌面版安装说明](./README_zh.md#3-171-wps-office-arm64%E4%BD%8D-%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
+
 ----
 
 [4.虚拟机使用说明](./README_zh.md#4%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
@@ -1138,6 +1140,22 @@ sudo ./install.sh
 **注意：** 仅在 *macOS_Mojave主题定制桌面 (全功能版)* 上通过安装测试 !!!
 
 **仅供测试和学习使用!!!**
+
+#### 3-17.2 腾讯QQ官方Linux桌面版安装说明
+
+确保在连接互联网的情况下以root用户身份运行以下命令：
+
+```
+qq_pkg='linuxqq_2.0.0-b1-1024_arm64.deb' ; \
+cd ~ ; \
+wget https://github.com/openfans-community-offical/Debian-Pi-Aarch64/raw/master/add-app/$qq_pkg ; \
+apt install ./$qq_pkg -y ; \
+rm -rf ./$qq_pkg
+```
+
+执行上述操作以后，LinuxQQ桌面版应该安装完毕。
+
+![linux_qq](./images/linux_qq.jpg)
 
 ----
 
