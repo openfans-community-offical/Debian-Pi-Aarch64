@@ -1225,7 +1225,7 @@ Make sure your system can connect to internet, then run the commands below as ro
 ```
 qq_pkg='linuxqq_2.0.0-b1-1024_arm64.deb' ; \
 cd ~ ; \
-wget https://github.com/openfans-community-offical/Debian-Pi-Aarch64/raw/master/add-app/$qq_pkg ; \
+wget https://raw.githubusercontent.com/openfans-community-offical/Debian-Pi-Aarch64/master/$qq_pkg ; \
 apt install ./$qq_pkg -y ; \
 rm -rf ./$qq_pkg
 ```
