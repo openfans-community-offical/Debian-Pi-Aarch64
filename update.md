@@ -19,9 +19,9 @@
 ```
 [A Chinese Team]
 
-1. This is the first time we used a real powerfull Arm64-env physical server to build the whole system 
-   without ross compilation tools and get better performence with the native performance, a really stronger
-   server Cavium ThunderX which has 96-cores CPU is very fast and quickly;
+1. This is the first time we used a real powerfull Arm64-env physical server to build the whole  
+   system without ross compilation tools and get better performence with the native performance, 
+   a really stronger server Cavium ThunderX which has 96-cores CPU is very fast and quickly;
 
 2. Kernel and firmware upgrade to "4.19.81-OPENFANS+20191013-v8" as support as newest LTS main-line;
 
@@ -31,8 +31,8 @@
 
 4. upkg pkg update to version "2019.11.10";
 
-5. Add a command video player support with H264-V4L2-M2M hardware acceleration, and fixed some issues for 
-   hardware acceleration of video stream;
+5. Add a command video player support with H264-V4L2-M2M hardware acceleration, and fixed some issues  
+   for hardware acceleration of video stream;
 
 6. Make a new build system on a Arm64-env physical server;
 
