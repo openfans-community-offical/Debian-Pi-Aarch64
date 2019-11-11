@@ -14,7 +14,7 @@
 
 ----
 
-## 2019.11.10/11 &nbsp;&nbsp;// **System v2.0 Release ver. 1110/1111 Updated.**
+## 2019.11.10/11 &nbsp;&nbsp;// **System v2.0 Release ver. 1110/1111 Upgraded.**
 
 ```
 [A Chinese Team]
