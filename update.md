@@ -25,6 +25,7 @@
 
 2. Kernel and firmware upgrade to "4.19.81-OPENFANS+20191013-v8" 
    as support as newest LTS main-line;
+
 3. System update to "2019-11-10" the mainline of upstream;
 
 3. Mesa pkg upgrade to version "19.2.3";
@@ -44,7 +45,6 @@
 9. Rebuild the whole Deepin system and upgrade to the 15.5 SP2 version;
 
 10. Deepin system which version is 2011-11-10 (15.5 SP2) had supported upgrade now.
-
 ```
 
 ---
