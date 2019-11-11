@@ -901,7 +901,7 @@ Edit the script file **"/boot/rc-local"** and add the custom script content befo
 
 ### 3-8. DO NOT Upgrade The Deepin Desktop ENV
 
-**The version whick was after 2019-11-10 (Include) had supported upgrade!**
+**The version which was after 2019-11-10 (Also included) had supported upgrade!**
 
 Cuz of compatibility issues with the Deepin system and upstream warehouses (deepin itself), it is strongly discouraged from using any of the following commands or any other operations that would cause the system to be upgraded unless you know what you need to do!!!
 
