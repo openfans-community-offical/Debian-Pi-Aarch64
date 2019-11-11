@@ -14,6 +14,38 @@
 
 ----
 
+## 2019.11.10/11 &nbsp;&nbsp;// **System v2.0 Release ver. 1110/1111 Updated.**
+
+```
+[A Chinese Team]
+
+1. This is the first time we used a real powerfull Arm64-env physical server to build the whole system 
+   without ross compilation tools and get better performence with the native performance, a really stronger
+   server Cavium ThunderX which has 96-cores CPU is very fast and quickly;
+
+2. Kernel and firmware upgrade to "4.19.81-OPENFANS+20191013-v8" as support as newest LTS main-line;
+
+3. System update to "2019-11-10" the mainline of upstream;
+
+3. Mesa pkg upgrade to version "19.2.3";
+
+4. upkg pkg update to version "2019.11.10";
+
+5. Add a command video player support with H264-V4L2-M2M hardware acceleration, and fixed some issues for 
+   hardware acceleration of video stream;
+
+6. Make a new build system on a Arm64-env physical server;
+
+7. Add a new macOS Catalina pic as the default desktop background for Desktop Full-Featured version;
+
+8. QQ and WPS Office are integrated by default in the Desktop Full-Featured version;
+
+9. Rebuild the whole Deepin system and upgrade to the 15.5 SP2 version;
+
+10. Deepin system which version is 2011-11-10 (15.5 SP2) had supported upgrade now.
+
+```
+
 ## 2019.10.13 &nbsp;&nbsp;// **System v2.0 Release ver. 1013 Updated.** 
 
 ```
