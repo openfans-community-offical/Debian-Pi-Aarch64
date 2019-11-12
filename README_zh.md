@@ -1686,7 +1686,9 @@ UMRnInside : *项目 [UMRnInside/RPi-arm64](https://github.com/UMRnInside/RPi-ar
 
 Andreiw : *项目 [andreiw/RaspberryPiPkg](https://github.com/andreiw/RaspberryPiPkg) (1.0版本引用的EFI固件)*
 
-sakaki : *[Link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (内核引导的问题参考)*
+sakaki(1) : *[Link](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=244478) (内核引导的问题参考)*
+
+Sakaki(2) : *H264-V4L2-M2M硬件加速命令行播放器参考*
 
 margetts99 : *[Link](http://bbs.pifan.org/?thread-132.htm) (WPS的集成建议和共享问题的报告)*
 
