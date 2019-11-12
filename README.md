@@ -9,7 +9,7 @@
 ![catalina](./images/catalina.jpg)
 
 ```
-There are always someone of all kinds of people who do everything possible to find someone's handle, 
+There are always some people who do everything possible to find other's trouble, 
 in order to avoid misleading,
 We will explain all the help and reference that we have used and applied. 
 If there are any omissions, please feel free to give us feedback in time.
