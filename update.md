@@ -32,7 +32,7 @@
 
 5. upkg pkg update to version "2019.11.10";
 
-6. Add a command video player support with H264-V4L2-M2M hardware acceleration, and fixed some   
+6. Add a command line video player support with H264-V4L2-M2M hardware acceleration, and fixed some   
    issues for hardware acceleration of video stream;
 
 7. Make a new build system on a Arm64-env physical server;
