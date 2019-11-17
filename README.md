@@ -945,9 +945,89 @@ fbterm
 
 ### 3-10. Web Interface VNC Remote Desktop Of macOS Mojave Theme Desktop Support
 
-Install VNC Remote Desktop Of macOS Mojave Theme Desktop Environment
+**Note:**
 
-Install RealVNC
+The **macOS Mojave theme custom desktop** (*Desktop environment, Full-Featured*) which the version is after 2019-11-17 (also include) had support web interface VNC remote desktop by default.
+
+The default VNC access password is: **raspberry**
+
+The default VNC Web address is: **http://your-rpi-ip-addr:5901**
+
+The default VNC client address is: **your-rpi-ip-addr:5900**
+
+**You can not used web interface and client to connect the vnc server at the same time.**
+
+If you wanna used a client to connect the vnc server, we suggest you to use RealVNC client, you can click [here](https://www.realvnc.com/en/connect/download/viewer/) to download RealVNC client.
+
+**Instructions for web interface VNC remote desktop usage:**
+
+There are two ways to used the default VNC:
+
+- Connected moitor
+
+The VNC was default enabled, you needn't do nothing.
+
+- Without connected monitor
+
+The VNC was default enabled, but if you haven't any monitor to connected, you should use a 
+
+virutal monitor, run command **virtual-monitor-enable** the enable virutal monitor mode, 
+
+after this the system will reboot.
+
+**IMPORTANT**
+
+If you wanna enable the *virtual monitor* mode, you can not connect to a real monitor the 
+
+same time, if you had enabled the *virtual monitor* mode, run command :
+
+**virtual-monitor-disable** 
+
+to back to the normal when you wanna connect to a real monitor back.
+
+- Commands for default VNC
+
+**virtual-monitor-enable**
+
+```
+Enable the virtual monitor mode, without connect a real monitor.
+After this, the system will reboot.
+```
+
+**virtual-monitor-disable**
+
+```
+Disable the virtual monitor mode, back to Normal and connect a real monitor.
+After this, the system will reboot.
+```
+
+**enable-vnc**
+
+```
+Enable the default VNC service.
+After this, the system will reboot.
+```
+
+**disable-vnc**
+
+```
+Disable the default VNC service.
+After this, the system will reboot.
+```
+
+**vnc-passwd**
+
+```
+Change the default VNC access password.
+```
+
+----
+
+If you wanna install another VNC server packages, just like RealVNC, you can do this bellow:
+
+*But we still suggest you to use the default VNC of system by us.*
+
+**Install RealVNC Remote Desktop Of macOS Mojave Theme Desktop Environment:**
 
 ```
 vnc_pkg='VNC-Server-6.6.0-Linux-ARM.deb' ; \
