@@ -1480,7 +1480,7 @@ if the virtual machine is down.
 |Default Management Address|http://IP-Address-of-your-Raspberry-Pi:28888/|
 |Default Web Management User and Password|openfans/openfans|
 |BT-Panel Virtual Machine SSH Port|2222|
-|BT-Panel virtual machine root default password|rapberry|
+|BT-Panel virtual machine root default password|raspberry|
 
 **How to use ssh to connect to BT-Panel virtual machine?**
 
