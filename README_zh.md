@@ -678,7 +678,7 @@ Linux有很多压缩算法：lz,lzo,xz,gzip,lzma...
 
 ### 2-7.MacOS_Mojave主题桌面
 
-![desktop](./images/apk0.png)
+![desktop](./images/apk0.jpg)
 
 默认桌面主题使用仿 **MacOS Mojave** 主题的桌面。
 
