@@ -980,7 +980,7 @@ after this the system will reboot.
 #### IMPORTANT
 
 ```
-If you wanna enable the *virtual monitor* mode, you can not connect to a real monitor the 
+If you wanna enable the virtual monitor mode, you can not connect to a real monitor the 
 same time, if you had enabled the *virtual monitor* mode, run command :
 
 "virtual-monitor-disable" 
