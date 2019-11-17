@@ -983,14 +983,14 @@ after this the system will reboot.
 
 ```
 If you wanna enable the virtual monitor mode, you can not connect to a real monitor the 
-same time, if you had enabled the *virtual monitor* mode, run command :
+same time, if you had enabled the virtual monitor mode, run command :
 
 "virtual-monitor-disable" 
 
 to back to the normal when you wanna connect to a real monitor back.
 ```
 
-- Commands for default VNC
+#### Commands for default VNC
 
 **virtual-monitor-enable**
 
