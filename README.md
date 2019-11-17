@@ -749,7 +749,7 @@ We have adopted **lz4** with very high compression speed and high compression ra
 
 ### 2-7. macOS-Mojave Theme Desktop
 
-![desktop](./images/apk0.png)
+![desktop](./images/apk0.jpg)
 
 The default desktop theme uses a desktop that mimics the macOS Mojave theme.
 
