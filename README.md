@@ -945,6 +945,8 @@ fbterm
 
 ### 3-10. Web Interface VNC Remote Desktop Of macOS Mojave Theme Desktop Support
 
+![web VNC](./images/web-vnc.jpg)
+
 **Note:**
 
 The **macOS Mojave theme custom desktop** (*Desktop environment, Full-Featured*) which the version is after 2019-11-17 (also include) had support web interface VNC remote desktop by default.
