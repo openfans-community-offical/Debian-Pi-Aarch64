@@ -116,7 +116,7 @@
 
 [3-9. 中文环境下TTY显示中文字体(非远程方式)](./README_zh.md#3-9%E4%B8%AD%E6%96%87%E7%8E%AF%E5%A2%83%E4%B8%8Btty%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93%E9%9D%9E%E8%BF%9C%E7%A8%8B%E6%96%B9%E5%BC%8F)
 
-[3-10. MacOS_Mojave主题桌面安装VNC远程](./README_zh.md#3-10macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2%E5%AE%89%E8%A3%85vnc%E8%BF%9C%E7%A8%8B)
+[3-10. macOS Mojave主题桌面支持Web界面VNC远程桌面访问](./README_zh.md#3-10macos_mojave%E4%B8%BB%E9%A2%98%E6%A1%8C%E9%9D%A2%E5%AE%89%E8%A3%85vnc%E8%BF%9C%E7%A8%8B)
 
 [3-11. 切换声音输出通道](./README_zh.md#3-11%E5%88%87%E6%8D%A2%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E9%80%9A%E9%81%93)
 
@@ -871,9 +871,95 @@ sudo adduser 你自己创建的其他用户名(若果有) video
 fbterm
 ```
 
-### 3-10.MacOS_Mojave主题桌面安装VNC远程
+### 3-10.macOS Mojave主题桌面支持Web界面VNC远程桌面访问
 
-安装 RealVNC
+![web vnc](./images/web-vnc.jpg)
+
+macOS Mojave主题桌面环境(全功能版) 在 *2019-11-17*(包括) 之后的版本默认情况下已支持Web界面的VNC远程桌面访问。
+
+```
+默认的VNC访问密码为: raspberry
+默认的WEB VNC访问地址为: http://你树莓派的IP地址:5901
+默认的客户端访问地址为: 你树莓派的IP地址:5900
+```
+
+您不能使用Web VNC界面和客户端在同一时间连接到同一个vnc服务器。
+
+如果要使用客户端连接vnc服务器，建议您使用RealVNC客户端，您可以单击 [此处](https://www.realvnc.com/en/connect/download/viewer/) 下载RealVNC客户端。
+
+#### Web VNC远程桌面使用说明
+
+访问系统默认的VNC有两种方法：
+
+● 连接了真实的显示器
+
+```
+VNC已默认启用，您无需执行任何操作。
+```
+
+● 未连接任何显示器
+
+```
+默认情况下已启用VNC服务，但如果未连接到任何真实的显示器，则应使用虚拟显示的支持，运行命令：
+"virtual-monitor-enable"
+以启用"虚拟显示器模式"，此后系统将自动重启并完成设置。
+```
+
+#### 重要
+
+```
+如果启用了"虚拟显示器模式"，则不能同时连接到真实的显示器(否则真实显示器将没有显示)，
+如果启用了"虚拟显示器模式"，请运行命令："virtual-monitor-disable"
+以禁用"虚拟显示器模式"来恢复正常。
+```
+
+**注意：系统默认未开启 "虚拟显示器模式"**
+
+#### Commands for default VNC
+
+**virtual-monitor-enable
+
+```
+启用"虚拟显示器模式"，在没有外接真实显示器的时候使用。
+此后系统将自动重启并完成设置。
+```
+
+**virtual-monitor-disable
+
+```
+启用"虚拟显示器模式"，以连接到真实显示器的时候使用(系统默认模式)。
+此后系统将自动重启并完成设置。
+```
+
+**enable-vnc
+
+```
+启用VNC服务(系统默认已开启)。
+此后系统将自动重启并完成设置。
+```
+
+**disable-vnc
+
+```
+禁用VNC服务。
+此后系统将自动重启并完成设置。
+```
+
+**vnc-passwd
+
+```
+修改默认的VNC访问密码。
+```
+
+----
+
+如果需要安装另一个VNC服务器软件包(如RealVNC), 则可以执行以下操作：
+
+(安装前您需要先禁用我们系统默认的VNC服务)
+
+但是我们仍然建议您使用我们系统提供的默认VNC。
+
+#### 安装macOS Mojave主题桌面环境的RealVNC远程桌面
 
 ```
 vnc_pkg='VNC-Server-6.6.0-Linux-ARM.deb' ; \
