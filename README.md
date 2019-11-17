@@ -130,7 +130,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [3-9. TTY Display Chinese Font (Not Remote) Of Chinese Environment](./README.md#3-9-tty-display-chinese-font-not-remote-of-chinese-environment)
 
-[3-10. Web Interface VNC Remote Desktop Of macOS Mojave Theme Desktop Support](./README.md#3-10-web-vnc-remote-desktop-of-macos-mojave-theme-desktop-support)
+[3-10. Web Interface VNC Remote Desktop Of macOS Mojave Theme Desktop Support](./README.md#3-10-web-interface-vnc-remote-desktop-of-macos-mojave-theme-desktop-support)
 
 [3-11. Switch Sound Output Channels](./README.md#3-11-switch-sound-output-channels)
 
