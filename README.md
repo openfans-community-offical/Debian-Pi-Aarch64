@@ -990,6 +990,8 @@ same time, if you had enabled the virtual monitor mode, run command :
 to back to the normal when you wanna connect to a real monitor back.
 ```
 
+**Note: The "Virtual Monitor Mode" is not enabled by default.**
+
 #### Commands for default VNC
 
 **virtual-monitor-enable**
@@ -1004,6 +1006,7 @@ After this, the system will reboot.
 ```
 Disable the virtual monitor mode, back to Normal and connect a real monitor.
 After this, the system will reboot.
+This is a system default mode.
 ```
 
 **enable-vnc**
@@ -1011,6 +1014,7 @@ After this, the system will reboot.
 ```
 Enable the default VNC service.
 After this, the system will reboot.
+The system is enabled by default.
 ```
 
 **disable-vnc**
