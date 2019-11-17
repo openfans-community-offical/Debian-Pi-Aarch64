@@ -1382,7 +1382,7 @@ sudo ./install
 |默认管理地址|http://你树莓派的IP地址:28888/|
 |默认Web管理用户及密码|openfans/openfans|
 |宝塔虚拟机ssh端口|2222|
-|宝塔虚拟机root默认密码|rapberry|
+|宝塔虚拟机root默认密码|raspberry|
 
 **如何ssh连接到宝塔虚拟机?**
 
