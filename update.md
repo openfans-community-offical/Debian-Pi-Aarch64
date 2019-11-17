@@ -14,6 +14,25 @@
 
 ----
 
+## 2019.11.17 &nbsp;&nbsp;// **System v2.0 Release ver. 1117 Upgraded.**
+
+```
+[A Chinese and an America Team]
+
+1. The system had upgrade to upstream Debian Buster 10.2 and update to 1117.
+
+2. The Kernel and firmware upgrade to "4.19.83-OPENFANS+20191116-v8" 
+   as support as newest LTS main-line;
+
+3. Upkg pkg update to version "2019.11.16";
+
+4. Add catfish and unrar for Desktop Full-Featured version support;
+
+5. Add a Web VNC interface support for Desktop Full-Featured version;
+
+6. Upgrade QEMU-KVM pkg version to the newest upstream;
+```
+
 ## 2019.11.10/11 &nbsp;&nbsp;// **System v2.0 Release ver. 1110/1111 Upgraded.**
 
 ```
