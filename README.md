@@ -1034,9 +1034,11 @@ Change the default VNC access password.
 
 If you wanna install another VNC server packages, just like RealVNC, you can do this bellow:
 
+(You need to disable our system default VNC service before installation)
+
 *But we still suggest you to use the default VNC of system by us.*
 
-**Install RealVNC Remote Desktop Of macOS Mojave Theme Desktop Environment:**
+#### Install RealVNC Remote Desktop Of macOS Mojave Theme Desktop Environment
 
 ```
 vnc_pkg='VNC-Server-6.6.0-Linux-ARM.deb' ; \
