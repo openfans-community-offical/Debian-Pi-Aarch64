@@ -1206,6 +1206,15 @@ amixer cset numid=3 2
 ## The default setting is 0, which represents automatic selection.
 ```
 
+After you have finished modifying your audio settings, you need to restart your Raspberry Pi in order for your changes to take effect.
+
+**If you're still not getting sound via HDMI:**
+
+In some rare cases, it is necessary to edit config.txt to force HDMI mode (as opposed to DVI mode, which does not send sound). 
+
+You can do this by editing **/boot/config.txt** and setting **hdmi_drive=2** , then rebooting for the change to take effect.
+
+
 ### 3-12. 32-Bit Software Armhf Support
 
 ```
