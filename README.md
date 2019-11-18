@@ -1199,7 +1199,7 @@ Vesrion 2.0: System Default Use the **HDMI** to output audio.
 The commands for switching the sound output:
 
 ```
-amixer cset numid s 3 2
+amixer cset numid=3 2
 
 ## Set the output here to 2, which is HDMI.
 ## Setting the output to 1 switch to the analog signal (that is, the headphone connector).
