@@ -1784,4 +1784,4 @@ Windows Arm On Qemu: *参考 [链接1](https://github.com/virtio-win/kvm-guest-d
 
 ----
 
-Once again despise the attack and slander called the dog egg X!
+Once again despise the attack and slander called the "Dog Egg Brother" !
