@@ -1817,7 +1817,7 @@ You can choose to scan Alipay for direct sponsorship to support us, and we guara
 
 ### 7-2 Contact Info.
 
-Raspberry Pi Fan Base 64-bit OS special official community QQ group: *703626518(Full)* **976102807(new)**
+Raspberry Pi Fan Base 64-bit OS special official community **QQ group:** *703626518(Full)* , **976102807(new)**
 
 Raspberry Pi Fan Base official website: **[www.pifan.org](http://www.pifan.org)**
 
