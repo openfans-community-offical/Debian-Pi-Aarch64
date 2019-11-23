@@ -1910,4 +1910,4 @@ Windows Arm On Qemu: *see [link1](https://github.com/virtio-win/kvm-guest-driver
 
 ----
 
-Once again despise the attack and slander called the dog egg X!
+Once again despise the attack and slander called the "Dog Egg Brother" !
