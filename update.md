@@ -21,14 +21,14 @@
 
 1. The system had upgrade to upstream Debian Buster 10.2 and update to 1125;
 
-2. The Kernel and firmware upgrade to "4.19.85-OPENFANS+2019111625-v8" 
+2. The Kernel and firmware upgrade to "4.19.85-OPENFANS+20191125-v8" 
    as support as newest LTS main-line;
    
 3. Upkg pkg update to version "2019.11.25";
 
 4. Upgrade Mesa, bluealsa, dhcpcd5, pi-bluetooth, Docker, Wifi-Firmware and etc.
 
-5. Set screensaver issue to fix Desktop Full-Featured version;
+5. A screensaver issue had fixed for Desktop Full-Featured version;
 
 6. Upgrade rpi-eeprom to version 2.4-1;
 ```
