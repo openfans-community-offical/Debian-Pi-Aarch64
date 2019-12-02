@@ -29,7 +29,7 @@
 
 5. Add "sid-used";
 
-6. The U1 version is the ending for the lifetime of final 2.0 main-line.
+6. The **2.0-U1** version is the ending for the lifetime of `final 2.0 main-line`.
 
 ----
 
