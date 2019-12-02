@@ -146,6 +146,8 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-16.1 Using Profiles To Connect To The Wireless Networks Of Graphical Desktop Environment](./README.md#3-161-using-profiles-to-connect-to-the-wireless-networks-of-graphical-desktop-environment)
 
+[- 3-16.2 Version mismatch when installing packages using APT command]
+
 [3-17. Extra Application Instructions](./README.md#3-17-extra-application-instructions)
 
 [- 3-17.1 WPS Office Arm 64-bit Desktop Installation Note](./README.md#3-171-wps-office-arm-64-bit-desktop-installation-note)
@@ -1345,6 +1347,29 @@ sed -i  \
 ```
 
 Finally, after restart all done.
+
+#### 3-16.2 Version mismatch when installing packages using APT command
+
+**Problem Description:**
+
+When using the command apt to install the deb package online, you may encounter the problem that a matching version cannot be found, such as:
+
+```
+The following packages have unmet dependencies:
+ package-name-1 : Depends: package-name-2 ( >= x.x.x-xxx-2 ) but x.x.x-xxx-1 is to be installed
+              Recommends: package-name-3 but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
+```
+
+**Reason:**
+
+This is because some of the newer upstream packages installed on our system do not match the version of the packages in the default repository.
+
+**Solution:**
+
+To temporarily enable the upstream **sid** software repository, add the `sid-used sudo` command before your **apt** command:
+
+Example: `sid-used sudo` **apt install package-name**
 
 ### 3-17. Extra Application Instructions
 
