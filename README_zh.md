@@ -50,11 +50,7 @@
 2019-11-30-v2019-2.0-U1-Release ( 建议更新 )
 ```
 
-2.0-U1将是整个2.0主线版本的最后一个主干发布版本。
-
-在2020年，我们即将开启全新的3.0主干发行版本的支持计划，敬请期待！
-
-Focus on Edge computing and IoT core-net and hardware for the RPI ...
+2.0-U1将是整个2.0主线版本的最后一个主干发布版本,在2020年，我们即将开启全新的3.0主干发行版本的支持计划，敬请期待！*Focus on Edge computing and IoT core-net and hardware for the RPI ...*
 
 ## 赞助
 
