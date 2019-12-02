@@ -378,6 +378,44 @@ upkg-xxxx(年)-xx(月)-xx(日)-vxxxx-x.x-zip/zip.xz
 
 **X ：** 表示不支持。
 
+**服务开关：**
+
+**Docker容器**
+
+```
+手动开启：systemctl start docker.service
+手动停止：systemctl stop docker.service
+启用开机启动：systemctl enable docker.service
+禁用开机启动：systemctl disable docker.service
+```
+
+**CecOS CaaS容器云（服务端口：8443）**
+
+```
+手动开启：systemctl start cecos-caas.service
+手动停止：systemctl stop cecos-caas.service
+启用开机启动：systemctl enable cecos-caas.service
+禁用开机启动：systemctl disable cecos-caas.service
+```
+
+**WebGUI管理平台（服务端口：9090）**
+
+```
+手动开启：systemctl start cockpit.socket
+手动停止：systemctl stop cockpit.socket
+启用开机启动：systemctl enable cockpit.socket
+禁用开机启动：systemctl disable cockpit.socket
+```
+
+**Web SSH客户端（服务端口：4200）**
+
+```
+手动开启：systemctl start shellinabox.service
+手动停止：systemctl stop shellinabox.service
+启用开机启动：systemctl enable shellinabox.service
+禁用开机启动：systemctl disable shellinabox.service
+```
+
 ----
 
 ### 1-4.部分系统性能测试结果
