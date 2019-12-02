@@ -50,16 +50,16 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 ## Notice:
 
-*The official version 2.0 is most suggested to upgrade to the latest firmware version:* **"2019-11-25"**
+*The official version 2.0 is most suggested to upgrade to the latest firmware version:* **"2019-11-30-2.0-U1"**
 
-*The system version "2019-11-25-v2019-2.0-Release" don't need upgrade the kernel and firmware to "2019-11-25"*
+*The system version "2019-11-30-v2019-2.0-U1-Release" don't need upgrade the kernel and firmware to "2019-11-30-2.0-U1"*
 
 ```
 The latest version of the system:
-2019-11-25-v2019-2.0-Release
+2019-11-30-v2019-2.0-U1-Release
 
 The latest version of kernel and firmware:
-2019-11-25-v2019-2.0-Release (recommended update)
+2019-11-30-v2019-2.0-U1-Release (recommended update)
 ```
 
 ## Donation
