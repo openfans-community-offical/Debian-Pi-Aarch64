@@ -146,7 +146,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-16.1 Using Profiles To Connect To The Wireless Networks Of Graphical Desktop Environment](./README.md#3-161-using-profiles-to-connect-to-the-wireless-networks-of-graphical-desktop-environment)
 
-[- 3-16.2 Version mismatch when installing packages using APT command]
+[- 3-16.2 Version mismatch when installing packages using APT command](./README.md#3-162-version-mismatch-when-installing-packages-using-apt-command)
 
 [3-17. Extra Application Instructions](./README.md#3-17-extra-application-instructions)
 
