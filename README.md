@@ -388,7 +388,9 @@ All the version 2.0 system images are used "ext4" file system as default, the Ts
 |Standard VM kit|★|★|★|X|
 |BT-Panel kit|★|★|★|X|
 
-**Note:**
+----
+
+**(1)Note:**
 
 **★ :** Stands for supported and default enabled. It can directly be used.
 
@@ -397,6 +399,44 @@ All the version 2.0 system images are used "ext4" file system as default, the Ts
 (There will be an instructions for how to use this service in this document.)
 
 **X :** Stands for not supported.
+
+**(2)Service control**
+
+Docker Container
+
+```
+Manual start: systemctl start docker.service
+Manual stop: systemctl stop docker.service
+Enable autostart: systemctl enable docker.service
+Disable autostart: systemctl disable docker.service
+```
+
+CecOS CaaS Platform (service port: 8443)
+
+```
+Manual start: systemctl start cecos-caas.service
+Manual stop: systemctl stop cecos-caas.service
+Enable autostart: systemctl enable cecos-caas.service
+Disable autostart: systemctl disable cecos-caas.service
+```
+
+WebGUI Manager (service port: 9090)
+
+```
+Manual start: systemctl start cockpit.socket
+Manual stop: systemctl stop cockpit.socket
+Enable autostart: systemctl enable cockpit.socket
+Disable autostart: systemctl disable cockpit.socket
+```
+
+Web SSH Client (service port: 4200)
+
+```
+Manual start: systemctl start shellinabox.service
+Manual stop: systemctl stop shellinabox.service
+Enable autostart: systemctl enable shellinabox.service
+Disable autostart: systemctl disable shellinabox.service
+```
 
 ----
 
