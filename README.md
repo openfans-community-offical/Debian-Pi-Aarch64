@@ -62,6 +62,8 @@ The latest version of kernel and firmware:
 2019-11-30-v2019-2.0-U1-Release (recommended update)
 ```
 
+The 2.0-U1 version is the ending for the lifetime of final 2.0 main-line. We are about to open a plan for the new version 3.0 in 2020, so stay tuned! (Focus on Edge computing and IoT core-net and hardware for the RPI ...)
+
 ## Donation
 
 Thanks for your donation! We'll get the greatest power from your encourage!
