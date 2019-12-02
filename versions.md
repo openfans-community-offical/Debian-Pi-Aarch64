@@ -6,15 +6,15 @@
 
 #### 系统（ System ）：
 
-*2019-11-25-v2019-2.0-Release*
+*2019-11-30-v2019-2.0-U1-Release*
 
 #### 内核及固件（ kernel & firmware）：
 
-*2019-11-25-v2019-2.0-Release* ( **建议更新 - Suggested to upgrade** )
+*2019-11-30-v2019-2.0-U1-Release* ( **建议更新 - Suggested to upgrade** )
 
-- *最新 “2019-11-25” 的系统不需要再更新固件*
+- *最新 “2019-11-30-2.0-U1” 的系统不需要再更新固件*
 
-- *The system version "2019-11-25-v2019-2.0-Release" don't need upgrade the kernel and firmware to "2019-11-25"*
+- *The system version "2019-11-30-v2019-2.0-U1-Release" don't need upgrade the kernel and firmware to "2019-11-30-2.0-U1"*
 
 ----
 
