@@ -14,6 +14,25 @@
 
 ----
 
+## 2019.11.30 &nbsp;&nbsp;// **System v2.0 U1 Release ver. 1130 Upgraded.**
+
+
+[A Chinese Team]
+
+1. The system had upgrade to upstream Debian Buster 10.2 and update to 1130;
+
+2. The Kernel and firmware upgrade to "4.19.86-OPENFANS+20191130-v8" as support as newest LTS main-line;
+   
+3. Upkg pkg update to version "2019.11.30-2.0-U1";
+
+4. Upgrade the Mesa pkg;
+
+5. Add "sid-used";
+
+6. The U1 version is the ending for the lifetime of final 2.0 main-line.
+
+----
+
 ## 2019.11.25 &nbsp;&nbsp;// **System v2.0 Release ver. 1117 Updated.**
 
 ```
