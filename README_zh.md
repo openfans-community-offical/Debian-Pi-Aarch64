@@ -382,7 +382,7 @@ upkg-xxxx(年)-xx(月)-xx(日)-vxxxx-x.x-zip/zip.xz
 
 **(2)服务开关：**
 
-**Docker容器**
+Docker容器
 
 ```
 手动开启：systemctl start docker.service
@@ -391,7 +391,7 @@ upkg-xxxx(年)-xx(月)-xx(日)-vxxxx-x.x-zip/zip.xz
 禁用开机启动：systemctl disable docker.service
 ```
 
-**CecOS CaaS容器云（服务端口：8443）**
+CecOS CaaS容器云（服务端口：8443）
 
 ```
 手动开启：systemctl start cecos-caas.service
@@ -400,7 +400,7 @@ upkg-xxxx(年)-xx(月)-xx(日)-vxxxx-x.x-zip/zip.xz
 禁用开机启动：systemctl disable cecos-caas.service
 ```
 
-**WebGUI管理平台（服务端口：9090）**
+WebGUI管理平台（服务端口：9090）
 
 ```
 手动开启：systemctl start cockpit.socket
@@ -409,7 +409,7 @@ upkg-xxxx(年)-xx(月)-xx(日)-vxxxx-x.x-zip/zip.xz
 禁用开机启动：systemctl disable cockpit.socket
 ```
 
-**Web SSH客户端（服务端口：4200）**
+Web SSH客户端（服务端口：4200）
 
 ```
 手动开启：systemctl start shellinabox.service
