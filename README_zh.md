@@ -1263,6 +1263,38 @@ sed -i  \
 
 最后重启即可。
 
+#### 3-17.1使用APT命令安装软件包时版本不匹配
+
+**问题描述：**
+
+*在使用命令apt在线安装deb包时，遇到找不到匹配版本的问题，如：*
+
+```
+The following packages have unmet dependencies:
+ package-name-1 : Depends: package-name-2 ( >= x.x.x-xxx-2 ) but x.x.x-xxx-1 is to be installed
+              Recommends: package-name-3 but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
+```
+
+亦或者是：
+
+```
+下列软件包有未满足的依赖关系：
+ package-name-1 : 依赖: package-name-2 ( >= x.x.x-xxx-2 ) 但是 x.x.x-xxx-1 正要被安装
+               依赖: package-name-3 但是它将不会被安装
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+```
+
+**问题根源：**
+
+由于我们的系统引入了部分较新的上游软件包所致。
+
+**解决办法：**
+
+临时启用上游软件源**sid**仓库即可，在你的**apt**命令前加上`sid-used sudo`命令：
+
+例如：`sid-used sudo` **apt install package-name**
+
 ### 3-17.配套应用程序使用说明
 
 #### 3-17.1 WPS Office ARM64位 桌面版安装说明
