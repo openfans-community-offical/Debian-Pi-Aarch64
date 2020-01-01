@@ -21,7 +21,8 @@
 
 1. The system had upgrade to upstream Debian Buster 10.2 and update to 1230;
 
-2. The Kernel and firmware upgrade to "4.19.88-OPENFANS+20191230-v8" as support as newest LTS main-line;
+2. The Kernel and firmware upgrade to "4.19.88-OPENFANS+20191230-v8" as support as 
+newest LTS main-line;
    
 3. Upkg pkg update to version "2019.12.30-2.0-U2";
 
@@ -37,7 +38,8 @@
 
 1. The system had upgrade to upstream Debian Buster 10.2 and update to 1130;
 
-2. The Kernel and firmware upgrade to "4.19.86-OPENFANS+20191130-v8" as support as newest LTS main-line;
+2. The Kernel and firmware upgrade to "4.19.86-OPENFANS+20191130-v8" as support as 
+newest LTS main-line;
    
 3. Upkg pkg update to version "2019.11.30-2.0-U1";
 
