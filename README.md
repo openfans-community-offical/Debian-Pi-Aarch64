@@ -50,21 +50,21 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 ## Notice:
 
-*The official version 2.0 is most suggested to upgrade to the latest firmware version:* **"2019-11-30-2.0-U1"**
+*The official version 2.0 is most suggested to upgrade to the latest firmware version:* **"2019-12-30-2.0-U2"**
 
-*The system version "2019-11-30-v2019-2.0-U1-Release" don't need upgrade the kernel and firmware to "2019-11-30-2.0-U1"*
+*The system version "2019-12-30-v2019-2.0-U2-Release" don't need upgrade the kernel and firmware to "2019-12-30-2.0-U2"*
 
 ```
 The latest version of the system:
-2019-11-30-v2019-2.0-U1-Release
+2019-12-30-v2019-2.0-U2-Release
 
 The latest version of kernel and firmware:
-2019-11-30-v2019-2.0-U1-Release (recommended update)
+2019-12-30-v2019-2.0-U2-Release (recommended update)
 ```
 
 The 2.0-U1 version is the ending for the lifetime of final 2.0 main-line.
 
-We are about to open a plan for the new version 3.0 in 2020, so stay tuned! 
+We are about to open a plan for the new version 2.X in 2020, so stay tuned! 
 
 *Focus on Edge computing and IoT core-net and hardware for the RPI ...*
 
