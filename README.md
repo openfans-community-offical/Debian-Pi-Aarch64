@@ -1864,7 +1864,7 @@ Click **[here](./versions.md)** to view the latest current version information.
 
 ## 6. Download Links
 
-- Baidu network disk: [Click to download](https://pan.baidu.com/s/1Q4eBVLyV9plXrjVGmSrMSg)
+- Baidu network disk: [Click to download](https://pan.baidu.com/s/11Rt0cHnSPWyRAwhfCtTgJQ) *sharePassword:* **7nh7**
 
 - OneDrive: [Click to download](https://1drv.ms/u/s!AtEthomfQXh8lWj8KVMcbJL0pgJL?e=tZHisM)
 
