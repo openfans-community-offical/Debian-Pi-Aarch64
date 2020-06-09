@@ -628,6 +628,8 @@ Docker官方没有提供基于arm的docker-compose可运行二进制程序，因
 
 ### 2-4.AUFS文件系统支持
 
+***注意：*** **2.0 U3** 版本后将停止支持AUFS！
+
 **什么是AUFS文件系统 ？**
 
 AUFS的全称是 advanced multi-layered unification filesystem ，主要功能是把多个文件夹的内容合并到一起，提供一个统一的视图，主要用于各个Linux发行版的livecd中，以及docker里面用来组织镜像。
