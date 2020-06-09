@@ -694,6 +694,8 @@ Docker official doesn't provide arm/arm64 based docker-compose to run binary, so
 
 ### 2-4. AUFS File System Support
 
+***Note:***  Support for AUFS will be discontinued after version **2.0 U3 (Include)**!
+
 **What is the AUFS File System?**
 
 AUFS, the full name is an advanced multi-layered unification file system, the main function is to combine the contents of multiple folders to provide a unified view, mainly for the various Linux distributions livecd, and the docker inside used to organize the images.
