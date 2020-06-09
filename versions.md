@@ -21,6 +21,7 @@
 ***注意：*** **U3固件不支持从 版本<=U2(包含在内)升级!!**
 
 ***Note:*** **U3 fimware do not support upgrade from version <=U2(include) !!**
+
 ----
 
 请前往 **[此处](./README_zh.md#6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80)** 下载。
