@@ -54,14 +54,14 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 *The system version "2019-12-30-v2019-2.0-U2-Release" don't need upgrade the kernel and firmware to "2019-12-30-2.0-U2"*
 
+***Note:*** **U3** fimware do not support upgrade from **version <=U2(include)** !!
+
 ```
 The latest version of the system:
 2019-12-30-v2019-2.0-U2-Release
 
 The latest version of kernel and firmware:
 2019-12-30-v2019-2.0-U2-Release (recommended update)
-
-Note:U3 fimware do not support upgrade from version <=u2(include) !!
 ```
 
 We are about to open a plan for the new version 2.X in 2020, so stay tuned! 
