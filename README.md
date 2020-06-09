@@ -60,9 +60,9 @@ The latest version of the system:
 
 The latest version of kernel and firmware:
 2019-12-30-v2019-2.0-U2-Release (recommended update)
-```
 
-The 2.0-U1 version is the ending for the lifetime of final 2.0 main-line.
+Note:U3 fimware do not support upgrade from version <=u2(include) !!
+```
 
 We are about to open a plan for the new version 2.X in 2020, so stay tuned! 
 
