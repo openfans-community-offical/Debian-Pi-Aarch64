@@ -8,15 +8,9 @@
 
 *2019-12-30-v2019-2.0-U2-Release*
 
+----
+
 #### 内核及固件（ kernel & firmware）：
-
-----
-
-***注意：*** **U3固件不支持从 版本<=U2(包含在内)升级!!**
-
-***Note:*** **U3 fimware do not support upgrade from version <=U2(include) !!**
-
-----
 
 *2019-12-30-v2019-2.0-U2-Release* ( **建议更新 - Suggested to upgrade** )
 
@@ -24,6 +18,9 @@
 
 - *The system version "2019-12-30-v2019-2.0-U2-Release" don't need upgrade the kernel and firmware to "2019-12-30-2.0-U2"*
 
+***注意：*** **U3固件不支持从 版本<=U2(包含在内)升级!!**
+
+***Note:*** **U3 fimware do not support upgrade from version <=U2(include) !!**
 ----
 
 请前往 **[此处](./README_zh.md#6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80)** 下载。
