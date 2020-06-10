@@ -1868,7 +1868,7 @@ Click **[here](./versions.md)** to view the latest current version information.
 
 - Google Drive: [Click to download](https://drive.google.com/drive/folders/1MvMuzWYbjWSMZmY607qjukKiwSajOFZc?usp=sharing)
 
-- ~~HUAWEI OSS STORAGE: [View](https://pifan.obs.myhuaweicloud.com)~~
+- HUAWEI OSS STORAGE: [View](https://pifan.cn.obs.cn-north-1.myhuaweicloud.com/)
 
  (Because of space constraints, **OneDrive** does not currently provide virtual machine image template to download)
 
