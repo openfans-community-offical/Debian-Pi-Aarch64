@@ -178,7 +178,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [5-4 Latest Current Version](./README.md#5-4-latest-current-version)
 
-[5-4 Rpi4 USB Boot Support (Upgrade eeprom FW)](./README.md#5-4-latest-current-version)
+[5-5 Rpi4 USB Boot Support (Upgrade eeprom FW)](./README.md#5-5-rpi4-usb-boot-support-upgrade-eeprom-fw)
 
 ----
 
@@ -1860,7 +1860,7 @@ Click **[here](./update.md)** to see the update instructions.
 
 Click **[here](./versions.md)** to view the latest current version information.
 
-### 5-4 Rpi4 USB Boot Support (Upgrade eeprom FW)
+### 5-5 Rpi4 USB Boot Support (Upgrade eeprom FW)
 
 Click **[here](https://raw.githubusercontent.com/openfans-community-offical/Debian-Pi-Aarch64/master/FW/usb-boot-fw-rpi4.zip)** to download file for eeprom FW upgrade, will be support Rpi4 usb boot.
 
