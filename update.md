@@ -14,6 +14,39 @@
 
 ----
 
+## 2020.06.09 &nbsp;&nbsp;// **System v2.0 U3 Release ver. 20609 Update.**
+
+```
+[A Chinese Team]
+
+1. The system had upgrade to upstream Debian Buster upstream and update to 20200609;
+
+2. The Kernel and firmware upgrade to "5.4.44-OPENFANS+20200609-v8" as support as 
+newest LTS main-line;
+   
+3. Upkg pkg update to version "2020.06.09-2.0-U3";
+
+4. Upgrade Docker pkg and docker-compose;
+
+5. Upgrade the Mesa pkg;
+
+6. Upgrade the VC4 FW;
+
+7. Desktop edition upgrade WPS and QQ app;
+
+8. Drop AUFS support prefer overlays;
+
+9. Rebuild kernel config defind;
+
+10. Wifi FW upgrade;
+
+11. Boot FW upgrade support USB BOOT (Must upgrade eeprom first!);
+
+12. Some bugs fixted and a little changes.
+```
+
+----
+
 ## 2019.12.30 &nbsp;&nbsp;// **System v2.0 U2 Release ver. 1230 Update.**
 
 ```
