@@ -1867,6 +1867,8 @@ After decompressing the files, please read the readme.txt file and follow the no
 
 ## 6. Download Links
 
+- MEGA : [Click to download](https://mega.nz/folder/coVQAaZR)
+
 - Baidu network disk: [Click to download](https://pan.baidu.com/s/11Rt0cHnSPWyRAwhfCtTgJQ) *sharePassword:* **7nh7**
 
 - OneDrive: [Click to download](https://1drv.ms/u/s!AtEthomfQXh8lWj8KVMcbJL0pgJL?e=tZHisM)
