@@ -1772,7 +1772,7 @@ sudo  sh  ./sys_upgrade
 
 ## 6.下载地址
 
-- MEGA : [Click to download](https://mega.nz/folder/coVQAaZR)
+- MEGA : [点击前往下载](https://mega.nz/folder/coVQAaZR)
 
 - 百度网盘： [点击前往下载](https://pan.baidu.com/s/11Rt0cHnSPWyRAwhfCtTgJQ) *提取码:* **7nh7**
 
