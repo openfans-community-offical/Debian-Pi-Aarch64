@@ -46,7 +46,7 @@
 
 ```
 系统最新版本：
-2019-12-30-v2019-2.0-U2-Release
+2020-06-09-v2019-2.0-U3-Release
 
 内核及固件最新版本：
 2019-12-30-v2019-2.0-U2-Release ( 建议更新 )
@@ -165,6 +165,8 @@
 [5-3 更新说明](./README_zh.md#5-3%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
 
 [5-4 当前最新版本](./README_zh.md#5-4%E5%BD%93%E5%89%8D%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)
+
+[5-5 Rpi4 USB启动(固件升级)](./README_zh.md#5-4%E5%BD%93%E5%89%8D%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)
 
 ----
 
@@ -1762,6 +1764,11 @@ sudo  sh  ./sys_upgrade
 
 点击 **[此处](./versions.md)** 查看最新版本信息。
 
+### 5-5 Rpi4 USB启动(固件升级)
+
+点击 **[此处](https://raw.githubusercontent.com/openfans-community-offical/Debian-Pi-Aarch64/master/FW/usb-boot-fw-rpi4.zip)** 下载固件升级程序，以支持RPI4的USB启动。
+解压后，请阅读压缩包内的readme.txt文件说明，按照步骤升级即可。（注意：你必须现在TF启动的模式下升级固件）
+
 ----
 
 ## 6.下载地址
@@ -1772,7 +1779,7 @@ sudo  sh  ./sys_upgrade
 
 - Google Drive: [点击前往下载](https://drive.google.com/drive/folders/1MvMuzWYbjWSMZmY607qjukKiwSajOFZc?usp=sharing)
 
-- ~~HUAWEI OSS STORAGE: [View](https://pifan.obs.myhuaweicloud.com)~~
+- HUAWEI OSS STORAGE: [View](https://pifan.cn.obs.cn-north-1.myhuaweicloud.com/)
 
  (由于空间限制，**OneDrive**暂时没有提供虚拟机镜像下载)
 
