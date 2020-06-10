@@ -14,7 +14,7 @@
 
 ----
 
-## 2020.06.09 &nbsp;&nbsp;// **System v2.0 U3 Release ver. 20609 Update.**
+## 2020.06.09 &nbsp;&nbsp;// **System v2.0 U3 Release ver. 2:0609 Update.**
 
 ```
 [A Chinese Team]
