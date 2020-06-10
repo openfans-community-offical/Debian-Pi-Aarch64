@@ -166,7 +166,7 @@
 
 [5-4 当前最新版本](./README_zh.md#5-4%E5%BD%93%E5%89%8D%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)
 
-[5-5 Rpi4 USB启动(固件升级)](./README_zh.md#5-4%E5%BD%93%E5%89%8D%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)
+[5-5 Rpi4 USB启动(固件升级)](./README_zh.md#5-5-rpi4-usb%E5%90%AF%E5%8A%A8%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7)
 
 ----
 
