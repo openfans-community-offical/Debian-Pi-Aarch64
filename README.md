@@ -58,7 +58,7 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 ```
 The latest version of the system:
-2019-12-30-v2019-2.0-U2-Release
+2020-06-09-v2019-2.0-U3-Release
 
 The latest version of kernel and firmware:
 2019-12-30-v2019-2.0-U2-Release (recommended update)
@@ -177,6 +177,8 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 [5-3 Update Instructions](./README.md#5-3-update-instructions)
 
 [5-4 Latest Current Version](./README.md#5-4-latest-current-version)
+
+[5-4 Rpi4 USB Boot Support (Upgrade eeprom FW)](./README.md#5-4-latest-current-version)
 
 ----
 
@@ -1857,6 +1859,12 @@ Click **[here](./update.md)** to see the update instructions.
 ### 5-4 Latest Current Version
 
 Click **[here](./versions.md)** to view the latest current version information.
+
+### 5-4 Rpi4 USB Boot Support (Upgrade eeprom FW)
+
+Click **[here](https://raw.githubusercontent.com/openfans-community-offical/Debian-Pi-Aarch64/master/FW/usb-boot-fw-rpi4.zip)** to download file for eeprom FW upgrade, will be support Rpi4 usb boot.
+
+After decompressing the files, please read the readme.txt file and follow the note steps to upgrade. (Note: You must upgrade the firmware on TF boot mode first)
 
 ----
 
