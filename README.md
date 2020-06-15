@@ -1380,7 +1380,7 @@ Example: `sid-used sudo` **apt install package-name**
 
 **Reason:**
 
-U will see this issue on version 20200615 U3, Cuz we changed mesalib, should used another way to set Chromium.
+Maybe U will see this issue on version 20200615 U3, Cuz we changed mesalib, should used another way to set Chromium.
 
 **Solution:**
 
