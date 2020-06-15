@@ -21,7 +21,7 @@
 
 1. The system had upgrade to upstream Debian Buster upstream and update to 20200615;
 
-2. The Kernel and firmware upgrade to "5.4.45-OPENFANS+20200609-v8" as support as 
+2. The Kernel and firmware upgrade to "5.4.45-OPENFANS+20200614-v8" as support as 
 newest LTS main-line;
    
 3. Upkg pkg update to version "2020.06.15-2.0-U3";
