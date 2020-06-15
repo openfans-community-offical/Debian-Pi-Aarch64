@@ -1389,7 +1389,7 @@ Maybe U will see this issue on version 20200615 U3, Cuz we changed mesalib, shou
 Run command:
 
 ```
-sudo sed -i \ 
+sudo sed -i  \
 's/"hardware_acceleration_mode":{"enabled":true},/"hardware_acceleration_mode":{"enabled":false},/' \
 /home/pi/.config/chromium/Local\ State
 ```
