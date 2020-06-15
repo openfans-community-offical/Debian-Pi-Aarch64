@@ -1859,7 +1859,7 @@ Click **[here](./versions.md)** to view the latest current version information.
 
 ### 5-5 Rpi4 USB Boot Support (Upgrade eeprom FW)
 
-Click **[here](https://raw.githubusercontent.com/openfans-community-offical/Debian-Pi-Aarch64/master/FW/usb-boot-fw-rpi4.zip)** to download file for eeprom FW upgrade, will be support Rpi4 usb boot.
+Click **[here](./FW/)** to download file for eeprom FW upgrade, will be support Rpi4 usb boot.
 
 After decompressing the files, please read the readme.txt file and follow the note steps to upgrade. (Note: You must upgrade the firmware on TF boot mode first)
 
