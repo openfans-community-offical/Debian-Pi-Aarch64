@@ -50,7 +50,7 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 ## Notice:
 
-The latest version of the system: **2020-06-09-v2019-2.0-U3-Release**
+The latest version of the system: **2020-06-15-v2019-2.0-U3-Release**
 
 ```
 The latest version of kernel and firmware:
