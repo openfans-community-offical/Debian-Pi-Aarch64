@@ -1765,7 +1765,7 @@ sudo  sh  ./sys_upgrade
 
 ### 5-5 Rpi4 USB启动(固件升级)
 
-点击 **[此处](https://raw.githubusercontent.com/openfans-community-offical/Debian-Pi-Aarch64/master/FW/usb-boot-fw-rpi4.zip)** 下载固件升级程序，以支持RPI4的USB启动。
+点击 **[此处](./FW/)** 下载固件升级程序，以支持RPI4的USB启动。
 解压后，请阅读压缩包内的readme.txt文件说明，按照步骤升级即可。（注意：你必须现在TF启动的模式下升级固件）
 
 ----
