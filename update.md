@@ -42,7 +42,13 @@ newest LTS main-line;
 
 11. Boot FW upgrade support USB BOOT (Must upgrade eeprom first!);
 
-12. ★ The dependency compatibility problems of library environment had solved. (Deepin version 15.5 has still needs to use "sid-used" command to solve the dependency problem, the reason: Deepin version 15.5 library environment of system baseline still as the same as the debian 9, the base version library was too old)
+12. ★ The dependency compatibility problems of library environment had solved.
+
+(Deepin version 15.5 has still needs to use "sid-used" command to solve the dependency problem,
+
+the reason: Deepin version 15.5 library environment of system baseline still as the same as the 
+
+debian 9, the base version library was too old)
 ```
 
 ----
