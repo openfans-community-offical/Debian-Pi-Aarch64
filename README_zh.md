@@ -1319,7 +1319,7 @@ E: 无法修正错误，因为您要求某些软件包保持现状，就是它�
 运行命令：
 
 ```
-sudo sed -i \ 
+sudo sed -i  \
 's/"hardware_acceleration_mode":{"enabled":true},/"hardware_acceleration_mode":{"enabled":false},/' \
 /home/pi/.config/chromium/Local\ State
 ```
