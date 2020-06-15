@@ -147,6 +147,8 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-16.2 Version mismatch when installing packages using APT command](./README.md#3-162-version-mismatch-when-installing-packages-using-apt-command)
 
+[- 3-16.3 Chromium browser interface dispaly error](./README.md#3-163-chromium-browser-interface-dispaly-error)
+
 [3-17. Extra Application Instructions](./README.md#3-17-extra-application-instructions)
 
 [- 3-17.1 WPS Office Arm 64-bit Desktop Installation Note](./README.md#3-171-wps-office-arm-64-bit-desktop-installation-note)
