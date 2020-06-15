@@ -14,17 +14,17 @@
 
 ----
 
-## 2020.06.09 &nbsp;&nbsp;// **System v2.0 U3 Release ver. 2:0609 Update.**
+## 2020.06.15 &nbsp;&nbsp;// **System v2.0 U3 Release ver. 2-3:0615 Update.**
 
 ```
 [A Chinese Team]
 
-1. The system had upgrade to upstream Debian Buster upstream and update to 20200609;
+1. The system had upgrade to upstream Debian Buster upstream and update to 20200615;
 
-2. The Kernel and firmware upgrade to "5.4.44-OPENFANS+20200609-v8" as support as 
+2. The Kernel and firmware upgrade to "5.4.45-OPENFANS+20200609-v8" as support as 
 newest LTS main-line;
    
-3. Upkg pkg update to version "2020.06.09-2.0-U3";
+3. Upkg pkg update to version "2020.06.15-2.0-U3";
 
 4. Upgrade Docker pkg and docker-compose;
 
@@ -42,7 +42,7 @@ newest LTS main-line;
 
 11. Boot FW upgrade support USB BOOT (Must upgrade eeprom first!);
 
-12. Some bugs fixted and a little changes.
+12. ★ The dependency compatibility problems of library environment had solved. (Deepin version 15.5 has still needs to use "sid-used" command to solve the dependency problem, the reason: Deepin version 15.5 library environment of system baseline still as the same as the debian 9, the base version library was too old)
 ```
 
 ----
