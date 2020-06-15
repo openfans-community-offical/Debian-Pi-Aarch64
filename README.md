@@ -52,6 +52,8 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 The latest version of the system: **2020-06-15-v2019-2.0-U3-Release**
 
+If you had found a *Chromium browser interface display error* issue on version **202006 U3** please see [here](./README.md#3-163-chromium-browser-interface-display-error).
+
 ```
 The latest version of kernel and firmware:
 2019-12-30-v2019-2.0-U2-Release (recommended update)
