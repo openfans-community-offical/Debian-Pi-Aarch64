@@ -52,7 +52,7 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 The latest version of the system: **2020-06-15-v2019-2.0-U3-Release** 
 
-*Newest Desktop (Full-Featured) Version is update to : 2020-06-16-v2019-2.0-U3*
+*Newest Desktop (Full-Featured) Version is update to : ***2020-06-16*** *-v2019-2.0-U3*
 
 If you had found a *Chromium browser interface display error* issue on version **202006 U3** please see [here](./README.md#3-163-chromium-browser-interface-display-error).
 
