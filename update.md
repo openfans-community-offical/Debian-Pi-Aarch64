@@ -21,7 +21,7 @@
 ```
 [A Chinese Team]
 
-1. Chromium browser interface display error issue fixed.
+1. When HW VC4/3D enabled, the Chromium browser interface display error issue has fixed.
 ```
 
 ## 2020.06.15 &nbsp;&nbsp;// **System v2.0 U3 Release ver. 2-3:0615 Update.**
