@@ -14,6 +14,16 @@
 
 ----
 
+## 2020.06.15 &nbsp;&nbsp;// **Newest Desktop (Full-Featured) Version 
+
+## is update to : 2020-06-16 -v2019-2.0-U3.**
+
+```
+[A Chinese Team]
+
+1. Chromium browser interface display error issue fixed.
+```
+
 ## 2020.06.15 &nbsp;&nbsp;// **System v2.0 U3 Release ver. 2-3:0615 Update.**
 
 ```
