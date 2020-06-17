@@ -8,7 +8,7 @@
 
 ***2020-06-15-v2019-2.0-U3-Release***
 
-Newest Desktop (Full-Featured) Version is update to : ***2020-06-16-v2019-2.0-U3***
+Newest Desktop (Full-Featured) Version is update to : ***2020-06-17-v2019-2.0-U3***
 
 全功能桌面版最新版本为：***2020-06-16*** *-v2019-2.0-U3*
 
