@@ -25,7 +25,7 @@
 
 with H264_V4L2M2M decoding and MMAL support.
 
-2. Optimized the Chromium browserthe experience when playing web video.
+2. Optimized the Chromium browser the experience when playing web video.
 ```
 
 ## 2020.06.15 &nbsp;&nbsp;// **Updated Desktop (Full-Featured) Version 
