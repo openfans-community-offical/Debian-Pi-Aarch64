@@ -14,7 +14,7 @@
 
 ----
 
-## 2020.06.17 &nbsp;&nbsp;// **Newest Desktop (Full-Featured) Version 
+## 2020.06.17 &nbsp;&nbsp;// **Updated Desktop (Full-Featured) Version 
 
 ## is update to : 2020-06-17 -v2019-2.0-U3.** 20617
 
@@ -28,7 +28,7 @@ with H264_V4L2M2M decoding and MMAL support.
 2. Optimized the Chromium browserthe experience when playing web video.
 ```
 
-## 2020.06.15 &nbsp;&nbsp;// **Newest Desktop (Full-Featured) Version 
+## 2020.06.15 &nbsp;&nbsp;// **Updated Desktop (Full-Featured) Version 
 
 ## is update to : 2020-06-16 -v2019-2.0-U3.** 20615
 
