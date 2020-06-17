@@ -14,9 +14,23 @@
 
 ----
 
+## 2020.06.17 &nbsp;&nbsp;// **Newest Desktop (Full-Featured) Version 
+
+## is update to : 2020-06-17 -v2019-2.0-U3.** 20617
+
+```
+[A Chinese Team]
+
+1.The video decoding library and graphics library had optimized,
+
+with H264_V4L2M2M decoding and MMAL support.
+
+2. Optimized the Chromium browserthe experience when playing web video.
+```
+
 ## 2020.06.15 &nbsp;&nbsp;// **Newest Desktop (Full-Featured) Version 
 
-## is update to : 2020-06-16 -v2019-2.0-U3.**
+## is update to : 2020-06-16 -v2019-2.0-U3.** 20615
 
 ```
 [A Chinese Team]
