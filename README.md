@@ -61,7 +61,7 @@ The latest version of kernel and firmware:
 
 *The system version "2020-06-22-v2020-2.0-U4-Release" don't need upgrade the kernel and firmware to "2020-06-22-2.0-U4"*
 
-***Note:*** **fimware >=U3, >=U4 do not support upgrade from version <=U2(include) !!**
+***Note:*** **Fimware >=U3, >=U4 do not support upgrade from version <=U2(include) !!**
 
 ## Donation
 
