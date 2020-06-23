@@ -14,6 +14,25 @@
 
 ----
 
+## 2020.06.22 &nbsp;&nbsp;// **System v2.0 U4 Release ver. 200622 Upgrade.**
+
+```
+[A Chinese Team]
+
+1. All imgs had included U3's featrues.
+
+2. The system had upgrade to upstream Debian Buster upstream and update to 20200622;
+
+3. The Kernel and firmware upgrade to "5.4.47-OPENFANS+20200622-v8" as support as 
+newest LTS main-line;
+   
+4. Upkg pkg update to version "2020.06.22-2.0-U4";
+
+5. Mesa and FFMPEG changed, and Chromium issue fixed.
+```
+
+----
+
 ## 2020.06.17 &nbsp;&nbsp;// **Updated Desktop (Full-Featured) Version 
 
 ## is update to : 2020-06-17 -v2019-2.0-U3.** 20617
