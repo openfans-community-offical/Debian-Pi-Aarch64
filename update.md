@@ -21,14 +21,14 @@
 
 1. All imgs had included U3's featrues.
 
-2. The system had upgrade to upstream Debian Buster upstream and update to 20200622;
+2. The system had upgraded to upstream Debian Buster upstream and update to 20200622;
 
-3. The Kernel and firmware upgrade to "5.4.47-OPENFANS+20200622-v8" as support as 
+3. The Kernel and firmware had upgraded to "5.4.47-OPENFANS+20200622-v8" as support as 
 newest LTS main-line;
    
-4. Upkg pkg update to version "2020.06.22-2.0-U4";
+4. Upkg pkg had updated to version "2020.06.22-2.0-U4";
 
-5. Mesa and FFMPEG changed, and Chromium issue fixed.
+5. Mesa and FFMPEG had changed, and Chromium issue had fixed.
 ```
 
 ----
@@ -62,7 +62,7 @@ with H264_V4L2M2M decoding and MMAL support.
 ```
 [A Chinese Team]
 
-1. The system had upgrade to upstream Debian Buster upstream and update to 20200615;
+1. The system had upgraded to upstream Debian Buster upstream and update to 20200615;
 
 2. The Kernel and firmware upgrade to "5.4.45-OPENFANS+20200614-v8" as support as 
 newest LTS main-line;
