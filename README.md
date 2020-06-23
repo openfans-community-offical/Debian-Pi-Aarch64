@@ -50,20 +50,18 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 ## Notice:
 
-The latest version of the system: **2020-06-15-v2019-2.0-U3-Release** 
+The latest version of the system: **2020-06-22-v2020-2.0-U4-Release** 
 
-*Newest Desktop (Full-Featured) Version is update to : ***2020-06-17*** *-v2019-2.0-U3*
-
-If you had found a *Chromium browser interface display error* issue on version **202006 U3** please see [here](./README.md#3-163-chromium-browser-interface-display-error).
+If you had found a *Chromium browser interface display error* issue on version **202006 U3** please see [here](./README.md#3-163-chromium-browser-interface-display-error). **This issue with Version >=20200617U3 had fixed.**
 
 ```
 The latest version of kernel and firmware:
-2019-12-30-v2019-2.0-U2-Release (recommended update)
+2020-06-22-v2020-2.0-U4-Release (recommended update)
 ```
 
-*The system version "2019-12-30-v2019-2.0-U2-Release" don't need upgrade the kernel and firmware to "2019-12-30-2.0-U2"*
+*The system version "2020-06-22-v2020-2.0-U4-Release" don't need upgrade the kernel and firmware to "2020-06-22-2.0-U4"*
 
-***Note:*** **U3 fimware do not support upgrade from version <=U2(include) !!**
+***Note:*** **fimware >=U3, >=U4 do not support upgrade from version <=U2(include) !!**
 
 ## Donation
 
