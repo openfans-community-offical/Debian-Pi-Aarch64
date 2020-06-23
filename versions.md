@@ -6,25 +6,21 @@
 
 #### 系统（ System ）：
 
-***2020-06-15-v2019-2.0-U3-Release***
-
-Newest Desktop (Full-Featured) Version is update to : ***2020-06-17-v2019-2.0-U3***
-
-全功能桌面版最新版本为：***2020-06-17*** *-v2019-2.0-U3*
+***2020-06-22-v2020-2.0-U4-Release***
 
 ----
 
 #### 内核及固件（ kernel & firmware）：
 
-*2019-12-30-v2019-2.0-U2-Release* ( **建议更新 - Suggested to upgrade** )
+*2020-06-22-v2020-2.0-U4-Release* ( **建议更新 - Suggested to upgrade** )
 
-- *最新 “2019-12-30-2.0-U2” 的系统不需要再更新固件*
+- *最新 “2020-06-22-v2020-2.0-U4-Release” 的系统不需要再更新固件*
 
-- *The system version "2019-12-30-v2019-2.0-U2-Release" don't need upgrade the kernel and firmware to "2019-12-30-2.0-U2"*
+- *The system version "2020-06-22-v2020-2.0-U4-Release" don't need upgrade the kernel and firmware to "2020-06-22-2.0-U4"*
 
-***注意：*** **U3固件不支持从 版本<=U2(包含在内)升级!!**
+***注意：*** **U3(含)之后的固件不支持从 版本<=U2(包含在内)升级!!**
 
-***Note:*** **U3 fimware do not support upgrade from version <=U2(include) !!**
+***Note:*** **Fimware >=U3, >=U4 do not support upgrade from version <=U2(include) !!**
 
 ----
 
