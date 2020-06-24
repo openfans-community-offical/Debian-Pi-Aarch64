@@ -306,7 +306,7 @@ Screenshot of the macOS-Mojave Themed Desktop: Run WPS-ARM64-Edition-App (A Chin
 
 Don't ask a question about using a 64-bit OS for the Raspberry Pi and what's the difference between 64-bit & 32-bit OS?
 
-Cuz the Raspberry Pi with a 64-bit CPU, ~~unfortunately the Raspberry Pi foundation had without any system or software supported~~ The Raspberry Pi officially launched a 64bit **Beta** in May 2020, and the result is indeed Debian64+Pixel ... Otherwise please add your brain...
+Cuz the Raspberry Pi with a 64-bit CPU, ~~unfortunately the Raspberry Pi foundation had without any system or software supported~~ the Raspberry Pi officially launched a 64bit **Beta** in May 2020, and the result is indeed Debian64+Pixel ... Otherwise please add your brain...
 
 All the versions released in this article are official versions that had been used and validated in the real enterprise production environment. The system has been rigorously tested and used normally with fully compatible for the Raspberry Pi 3B/3B+/3A+/4B, such as local wired, wireless network card, Bluetooth, 3D acceleration, etc. The numbers of all system packages are almost comparable to the X86 version. The system was built from the official Debian 64-bit baseline (wasn't built from any other ported edition or third-part edition) to ensure the original flavor.
 
