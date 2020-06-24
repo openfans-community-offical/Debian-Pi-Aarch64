@@ -161,3 +161,9 @@ And line 117 to:
 ```
 _atomic_removal(d, wr.key)
 ```
+
+#### WPS EXTERNAL FONTS
+
+```
+apt install ttf-mscorefonts-installer -y
+```
