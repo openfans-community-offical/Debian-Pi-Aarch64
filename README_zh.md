@@ -141,6 +141,8 @@
 
 [- 3-16.3 Chromium浏览器界面显示错误](./README_zh.md#3-163-chromium%E6%B5%8F%E8%A7%88%E5%99%A8%E7%95%8C%E9%9D%A2%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF)
 
+[- 3-16.4 蓝牙音频连接丢失]
+
 [3-17. 配套应用程序使用说明](./README_zh.md#3-17%E9%85%8D%E5%A5%97%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 [- 3-17.1 WPS Office ARM64位 桌面版安装说明](./README_zh.md#3-171-wps-office-arm64%E4%BD%8D-%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
@@ -1325,6 +1327,20 @@ sudo sed -i  \
 ```
 
 然后重新打开您的Chromium浏览器。
+
+### 3-16.4 蓝牙音频连接丢失
+
+**问题根源：**
+
+Pi的蓝牙设备在使用alsa和Pulseaudio时与某些硬件存在兼容性问题。
+
+**解决办法：**
+
+禁用Bluealsa服务，只需将pulseaudio用于蓝牙音频。运行以下命令并重新引导：
+
+```
+systemctl disable  bluealsa.service
+```
 
 ### 3-17.配套应用程序使用说明
 
