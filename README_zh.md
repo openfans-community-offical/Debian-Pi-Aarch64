@@ -1339,7 +1339,7 @@ Pi的蓝牙设备在使用alsa和Pulseaudio时与某些硬件存在兼容性问�
 禁用Bluealsa服务，只需将pulseaudio用于蓝牙音频。运行以下命令并重新引导：
 
 ```
-systemctl disable  bluealsa.service
+systemctl mask  bluealsa.service
 ```
 
 ### 3-17.配套应用程序使用说明
