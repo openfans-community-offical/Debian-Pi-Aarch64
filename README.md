@@ -1412,6 +1412,8 @@ Disable Bluealsa Service, just use pulseaudio for bluetooth audio. Run the comma
 systemctl mask  bluealsa.service
 ```
 
+**Note**： Here U must use **"mask"** for unactive bluealsa.service, mustn't use **"disable"** !!
+
 ### 3-17. Extra Application Instructions
 
 #### 3-17.1 WPS Office Arm 64-bit Desktop Installation Note
