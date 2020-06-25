@@ -1409,7 +1409,7 @@ Pi's Bluetooth has compatibility issues with certain hardware between alsa and p
 Disable Bluealsa Service, just use pulseaudio for bluetooth audio. Run the command below and reboot:
 
 ```
-systemctl disable  bluealsa.service
+systemctl mask  bluealsa.service
 ```
 
 ### 3-17. Extra Application Instructions
