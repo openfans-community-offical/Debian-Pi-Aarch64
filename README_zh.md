@@ -1342,6 +1342,8 @@ Pi的蓝牙设备在使用alsa和Pulseaudio时与某些硬件存在兼容性问�
 systemctl mask  bluealsa.service
 ```
 
+**注意**： 这里你必须使用 **"mask"** 禁用服务，而不是 **"disable"** !!
+
 ### 3-17.配套应用程序使用说明
 
 #### 3-17.1 WPS Office ARM64位 桌面版安装说明
