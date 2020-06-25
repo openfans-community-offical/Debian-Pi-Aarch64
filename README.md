@@ -1396,6 +1396,20 @@ sudo sed -i  \
 
 Then re-open your Chromium browser.
 
+#### 3-16.4 Bluetooth Audio connection lost
+
+**Reason:**
+
+Pi's Bluetooth has compatibility issues with certain hardware between alsa and pulseaudio.
+
+**Solution:**
+
+Disable Bluealsa Service, just use pulseaudio for bluetooth audio.(Desktop ENV), run command below and reboot:
+
+```
+systemctl disable  bluealsa.service
+```
+
 ### 3-17. Extra Application Instructions
 
 #### 3-17.1 WPS Office Arm 64-bit Desktop Installation Note
