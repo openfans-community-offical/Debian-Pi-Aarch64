@@ -1814,7 +1814,7 @@ sudo  sh  ./sys_upgrade
 
 - MEGA : [点击前往下载](https://mega.nz/folder/coVQAaZR#ifOeikkhJpGYw8B7vvlDOg)
 
-- 百度网盘： [点击前往下载](https://pan.baidu.com/s/11Rt0cHnSPWyRAwhfCtTgJQ) *提取码:* **7nh7**
+- 百度网盘： [点击前往下载](https://pan.baidu.com/s/1VPWngCO1aEPJXFMLiODmNg) *提取码:* **xbwy**
 
 - OneDrive: [点击前往下载](https://1drv.ms/u/s!AtEthomfQXh8lWj8KVMcbJL0pgJL?e=tZHisM)
 
