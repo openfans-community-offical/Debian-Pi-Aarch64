@@ -1909,7 +1909,7 @@ After decompressing the files, please read the readme.txt file and follow the no
 
 - MEGA : [Click to download](https://mega.nz/folder/coVQAaZR#ifOeikkhJpGYw8B7vvlDOg)
 
-- Baidu network disk: [Click to download](https://pan.baidu.com/s/11Rt0cHnSPWyRAwhfCtTgJQ) *sharePassword:* **7nh7**
+- Baidu network disk: [Click to download](https://pan.baidu.com/s/1VPWngCO1aEPJXFMLiODmNg) *sharePassword:* **xbwy**
 
 - OneDrive: [Click to download](https://1drv.ms/u/s!AtEthomfQXh8lWj8KVMcbJL0pgJL?e=tZHisM)
 
