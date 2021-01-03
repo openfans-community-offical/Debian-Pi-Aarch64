@@ -1910,11 +1910,9 @@ After decompressing the files, please read the readme.txt file and follow the no
 
 ## 6. Download Links
 
-- MEGA : [Click to download](https://mega.nz/folder/coVQAaZR#ifOeikkhJpGYw8B7vvlDOg)
+- Thunder Share: [Click to download](https://pan.xunlei.com/s/VMQ7-_8i3FJgwahadCfHzyetA1) *sharePassword:* **f5b3**
 
 - Baidu network disk: [Click to download](https://pan.baidu.com/s/1VPWngCO1aEPJXFMLiODmNg) *sharePassword:* **xbwy**
-
- (Because of space constraints, **OneDrive** does not currently provide virtual machine image template to download)
 
 ----
 
