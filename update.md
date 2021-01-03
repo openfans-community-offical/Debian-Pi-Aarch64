@@ -13,22 +13,28 @@
 # 更新说明文档 ( Update Notes )
 
 ----
+## 2021.01.03 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 210102/03 Upgrade.**
+----
 
 ## 2020.06.22 &nbsp;&nbsp;// **System v2.0 U4 Release ver. 200622 Upgrade.**
 
 ```
 [A Chinese Team]
 
-1. All imgs had included U3's featrues.
+1. The system had upgraded to upstream Debian Buster upstream and update to 2021-01-02;
 
-2. The system had upgraded to upstream Debian Buster upstream and update to 20200622;
-
-3. The Kernel and firmware had upgraded to "5.4.47-OPENFANS+20200622-v8" as support as 
+2. The Kernel and firmware had upgraded to "5.4.83-OPENFANS+20210102-v8" as support as 
 newest LTS main-line;
    
-4. Upkg pkg had updated to version "2020.06.22-2.0-U4";
+3. Upkg pkg had updated to version "2021.01.02/03-2.0-U6";
 
-5. Mesa and FFMPEG had changed, and Chromium issue had fixed.
+4. Wifi 5G DB CN fixted.
+
+4. Kernel tunning.
+
+5. Support run X86 exe (It's not used virtualization for this!!), just include in Full Desktop Version.
+
+5. App a game Diablo for preinstall.
 ```
 
 ----
