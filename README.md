@@ -48,10 +48,12 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 - With any problems, be sure to upgrade your **system**, **firmware** and **kernel** to the **latest** version first. Click **[here](./README.md#5-update-and-upgrade)** to check the **latest version** and learned how to upgrade your **system**, **kernel** and **firmware**.
 
-## Notice:
+## ★★ Notice:
 
-#### The latest version of the system: 
+#### The latest version of the system
 **2021-01-02/3-v2020-2.0-U6-Release** (kernelVer:**5.4.83-OPENFANS+20210102-v8**) 
+
+----
 
 If you had found a *Chromium browser interface display error* issue on version **202006 U3** please see [here](./README.md#3-163-chromium-browser-interface-display-error).  **This issue had fixed after version >=20200617U3**
 
