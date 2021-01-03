@@ -391,7 +391,7 @@ All the version 2.0 system images are used "ext4" file system as default, the Ts
 | KVM Hardware Virtualization Support|★|★|★|★|
 |Graphical Virtual Machine Manager|X|X|★|X|
 |Docker Container|☆|★|☆|☆|
-|CecOS CaaS Platform|☆|★|☆|X|
+|CecOS CaaS Platform|☆|☆|☆|X|
 |WebGUI Manager|X|★|★|X|
 |Web SSH Client|★|★|★|★|
 |Standard VM kit|★|★|★|X|
