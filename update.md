@@ -12,11 +12,8 @@
 
 # 更新说明文档 ( Update Notes )
 
-----
-## 2021.01.03 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 210102/03 Upgrade.**
-----
 
-## 2020.06.22 &nbsp;&nbsp;// **System v2.0 U4 Release ver. 200622 Upgrade.**
+## 2021.01.03 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 210102/03 Upgrade.**
 
 ```
 [A Chinese Team]
@@ -37,7 +34,22 @@ newest LTS main-line;
 5. App a game Diablo for preinstall.
 ```
 
-----
+## 2020.06.22 &nbsp;&nbsp;// **System v2.0 U4 Release ver. 200622 Upgrade.**
+
+```
+[A Chinese Team]
+
+1. All imgs had included U3's featrues.
+
+2. The system had upgraded to upstream Debian Buster upstream and update to 20200622;
+
+3. The Kernel and firmware had upgraded to "5.4.47-OPENFANS+20200622-v8" as support as 
+newest LTS main-line;
+   
+4. Upkg pkg had updated to version "2020.06.22-2.0-U4";
+
+5. Mesa and FFMPEG had changed, and Chromium issue had fixed.
+```
 
 ## 2020.06.17 &nbsp;&nbsp;// **Updated Desktop (Full-Featured) Version 
 
@@ -100,8 +112,6 @@ the reason: Deepin version 15.5 library environment of system baseline still as 
 debian 9, the base version library was too old)
 ```
 
-----
-
 ## 2019.12.30 &nbsp;&nbsp;// **System v2.0 U2 Release ver. 1230 Update.**
 
 ```
@@ -116,8 +126,6 @@ newest LTS main-line;
 
 4. Upgrade Docker pkg.
 ```
-
-----
 
 ## 2019.11.30 &nbsp;&nbsp;// **System v2.0 U1 Release ver. 1130 Upgraded.**
 
@@ -138,8 +146,6 @@ newest LTS main-line;
 6. The **2.0-U1** version is the ending for the lifetime of `final 2.0 main-line`.
 ```
 
-----
-
 ## 2019.11.25 &nbsp;&nbsp;// **System v2.0 Release ver. 1117 Updated.**
 
 ```
@@ -158,8 +164,6 @@ newest LTS main-line;
 
 6. Upgrade rpi-eeprom to version 2.4-1;
 ```
-
-----
 
 ## 2019.11.17 &nbsp;&nbsp;// **System v2.0 Release ver. 1117 Upgraded.**
 
@@ -213,8 +217,6 @@ newest LTS main-line;
 11. Deepin system which version is 2011-11-10 (15.5 SP2) had supported upgrade now.
 ```
 
----
-
 ## 2019.10.13 &nbsp;&nbsp;// **System v2.0 Release ver. 1013 Updated.** 
 
 ```
@@ -243,9 +245,6 @@ newest LTS main-line;
 10. upkg pkg update to version "2019.10.13".
 ```
 
-
-----
-
 ## 2019.10.05 &nbsp;&nbsp;// **Upkg Updated.**
 1. 内核及固件同步上游最新稳定版本 *4.19.76* ；
 2. 内核及固件更新包更新至**upkg-2019.10.05** ;
@@ -261,8 +260,6 @@ newest LTS main-line;
 12. bcm2708_fb:修复结构vc4_display_settings_t的布局;
 
 \*. **建议2.0正式版更新该固件** 。
-
-----
 
 ## 2019.10.03 &nbsp;&nbsp;// **System IMG v2.0 Release Published.**
 1. **2.0正式版发布 ！！！**
@@ -283,8 +280,6 @@ newest LTS main-line;
 16. 其他若干BUG修正；
 17. 编译打包系统的更新；
 18. OPENFANS ARM64 自定义交叉编译工具链的再次强度优化和调整。
-
-----
 
 ## 2019.09.10 &nbsp;&nbsp;// **v2.0 RC5 Released.**
 1. 内核及固件同步**RC5**升级包，系统更新至最新**2019-09-10, Debian Buster 10.1**
@@ -310,8 +305,6 @@ newest LTS main-line;
 9. 开始为正式版发布准备
 10. 部分软件包的版本小调整
 
-
-
 ## 2019.09.06 &nbsp;&nbsp;// **v2.0 UPKG RC3-U2 Released.**
 1. 内核及固件独立升级包：升级到 **RC3-U1**
 2. 内核模块及固件小调整，加入了新的模块和特性支持(主要针对KVM的特性)
@@ -320,8 +313,6 @@ newest LTS main-line;
 ## 2019.09.05 &nbsp;&nbsp;// **v1.0 U11 Released.**
 1. 将无线区域默认至CN，国内环境无需再次修改
 2. BaseOS更新至上游最新2019-09-05
-
-----
 
 ## 2019.09.03 &nbsp;&nbsp;// **2.0 RC3 ( GCC Cross Line Rebuild ) Published.**
 1. 基于树莓派硬件定制再次优化GCC(gcc-9.1.0-64)交叉编译工具链重新编译内核及固件
@@ -334,8 +325,6 @@ newest LTS main-line;
 7. BaseOS更新至上游20190902
 8. 重构升级脚本
 9. Docker更新至19.03.1_3
-
-----
 
 ## 2019.09.02 &nbsp;&nbsp;// **2.0 RC2 U5 ( GCC Cross Line Rebuild ) Published.**
 1. 基于树莓派硬件定制并优化GCC(gcc-9.1.0-64)交叉编译工具链重新编译 Kernel 4.19.69-OPENFANS+20190902-v8 LTS 内核及固件同步主线4.19.69
@@ -351,13 +340,9 @@ newest LTS main-line;
 1. Kernel upgrade to Mainline 4.19.67-OPENFANS+20190825-v8 LTS, 内核及固件更新至主线4.19.67
 2. Fix DMA leaks caused swiotlb bounce buffer overflow errors under heavy wifi usage in bcm2835-mmc, 修复WIFI高数据负载下MMC引起的死机问题
 
-----
-
 ## 2019.08.16 &nbsp;&nbsp;// **2.0 RC2 Published.**
 1. 全系64位3D显卡硬件加速支持
 4. 基础系统更新至上游8月16日
-
-----
 
 ## 2019.08.15 &nbsp;&nbsp;// **2.0 RC1 Published.**
 1. 内核更新至主线 **4.19.65** 版本
@@ -365,15 +350,11 @@ newest LTS main-line;
 3. 完整支持4B：1G、2G、4G版本均可自动适配识别
 4. 基础系统更新至上游8月15日
 
-----
-
 ## 2019.07.24 &nbsp;&nbsp;// **2.0 Beta2 Published.**
 1. 内核更新至主线 **4.19.58** 版本
 2. 固件同步至主线 **4.19.58** 版本
 3. 完整支持4B：1G、2G版本，有限支持4G版本
 4. 基础系统更新至上游7月24日
-
-----
 
 ## 2019.07.12 &nbsp;&nbsp;// **v1.0 U10 Released.**
 1. 基础 Aarch64(ARM64) 系统镜像(无桌面) U10 [Ext4/Btrfs/F2FS] 全线发布,开放下载
@@ -388,8 +369,6 @@ newest LTS main-line;
 * (1): U10将会是V1.0的最后一个版本,在没有重大BUG的情况下将不会再作更新,此版本正式进入锁定状态后的维护序列周期
 * (2): V2.0版本未来预计将从Beta升级成为RC候选发布阶段,成为下一个发布的主线版本
 
-----
-
 ## 2019.07.06 &nbsp;&nbsp;// **2.0 Beta Published.**
 1. 基础 Aarch64(ARM64) 系统镜像(无桌面)2.0测试版发布
 2. 基础 Aarch64(ARM64) 系统镜像(无桌面WebUI增强版)2.0测试版发布
@@ -401,8 +380,6 @@ newest LTS main-line;
 8. 更新自动化构建系统以适应新版需求
 9. 修改内核以适应4B单板机硬件
 10. 调整内核以适用于全线树莓派64位CPU单板机
-
-----
 
 ## 2019.06.07 &nbsp;&nbsp;// **U9 Plus++ Ext4 Released.**
 1. 新增基础镜像U9**加强版**
@@ -488,10 +465,7 @@ newest LTS main-line;
 52. Xfce图形界面配置调优
 
 本次更新内容较多，此处仅列出主要内容，不再一一列举
-
 ...
-
-----
 
 ## 2019.02.13 &nbsp;&nbsp;// *All Released to U7*
 
