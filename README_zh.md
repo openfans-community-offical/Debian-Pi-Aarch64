@@ -377,7 +377,7 @@ upkg-xxxx(年)-xx(月)-xx(日)-vxxxx-x.x-zip/zip.xz
 |KVM硬件虚拟化支持|★|★|★|★|
 |虚拟机图形化控制端|X|X|★|X|
 |Docker容器支持|☆|★|☆|☆|
-|CecOS CaaS容器云支持|☆|★|☆|X|
+|CecOS CaaS容器云支持|☆|☆|☆|X|
 |WebGUI管理平台|X|★|★|X|
 |Web SSH 客户端支持|★|★|★|★|
 |标准虚拟机套件|★|★|★|X|
