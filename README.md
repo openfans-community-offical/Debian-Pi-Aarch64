@@ -1911,12 +1911,6 @@ After decompressing the files, please read the readme.txt file and follow the no
 
 - Baidu network disk: [Click to download](https://pan.baidu.com/s/1VPWngCO1aEPJXFMLiODmNg) *sharePassword:* **xbwy**
 
-- OneDrive: [Click to download](https://1drv.ms/u/s!AtEthomfQXh8lWj8KVMcbJL0pgJL?e=tZHisM)
-
-- Google Drive: [Click to download](https://drive.google.com/drive/folders/1MvMuzWYbjWSMZmY607qjukKiwSajOFZc?usp=sharing)
-
-- HUAWEI OSS STORAGE: [View](https://pifan.cn.obs.cn-north-1.myhuaweicloud.com/)
-
  (Because of space constraints, **OneDrive** does not currently provide virtual machine image template to download)
 
 ----
