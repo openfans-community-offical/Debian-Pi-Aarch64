@@ -1815,11 +1815,9 @@ sudo  sh  ./sys_upgrade
 
 ## 6.下载地址
 
-- MEGA : [点击前往下载](https://mega.nz/folder/coVQAaZR#ifOeikkhJpGYw8B7vvlDOg)
+- 迅雷云盘： [点击前往下载](https://pan.xunlei.com/s/VMQ7-_8i3FJgwahadCfHzyetA1) *提取码:* **f5b3**
 
 - 百度网盘： [点击前往下载](https://pan.baidu.com/s/1VPWngCO1aEPJXFMLiODmNg) *提取码:* **xbwy**
-
- (由于空间限制，**OneDrive**暂时没有提供虚拟机镜像下载)
 
 ----
 
