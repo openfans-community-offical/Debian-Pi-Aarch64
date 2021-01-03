@@ -27,13 +27,13 @@ newest LTS main-line;
 
 4. Wifi 5G DB CN fixted.
 
-4. Kernel tunning.
+5. Kernel tunning!
 
-5. Support run X86 exe (It's not used virtualization for this!!), just include in Full Desktop Version.
+6. Support run X86 exe (It's not used virtualization for this!!), just include in Full Desktop Version.
 
-6. App a game Diablo for preinstall.
+7. App a game Diablo for preinstall.
 
-7. Whole system pkg had updated and tuned.
+8. Whole system pkg had updated and tuned.
 ```
 
 ## 2020.06.22 &nbsp;&nbsp;// **System v2.0 U4 Release ver. 200622 Upgrade.**
