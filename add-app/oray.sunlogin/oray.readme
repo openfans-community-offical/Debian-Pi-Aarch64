@@ -1,0 +1,4 @@
+login your desktop user who you wanna to share the desktop, run command:
+echo 'xhost + &' >> ~/.xsessionrc
+
+sudo cp  /opt/apps/com.oray.sunlogin.client/entries/applications/com.oray.sunlogin.client.desktop  /usr/share/applications/
