@@ -52,6 +52,7 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 #### The latest version of the system
 **2021-01-02/3-v2020-2.0-U6-Release** (kernelVer:**5.4.83-OPENFANS+20210102-v8**) 
+Full Desktop Version is upto : **2021-01-04**
 
 ----
 
