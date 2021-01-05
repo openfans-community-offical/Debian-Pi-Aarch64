@@ -12,6 +12,11 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.01.04 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 2101004 Update.**
+
+```
+* 添加向日葵的支持。
+```
 
 ## 2021.01.03 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 210102/03 Upgrade.**
 
