@@ -53,7 +53,7 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 #### The latest version of the system
 **2021-01-02/3-v2020-2.0-U6-Release** (kernelVer:**5.4.83-OPENFANS+20210102-v8**)  ;   
 Full Desktop Version is upto : **2021-01-04**
-
+Newest Kernel Upkg version: **5.4.83-OPENFANS+20210106-v8** (Single Pkg)
 ----
 
 If you had found a *Chromium browser interface display error* issue on version **202006 U3** please see [here](./README.md#3-163-chromium-browser-interface-display-error).  **This issue had fixed after version >=20200617U3**
