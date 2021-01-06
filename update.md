@@ -12,6 +12,16 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.01.06 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 2101006 Kernel and FW Update.**
+
+```
+1. 编译工具链调整后专门针对树莓派CPU架构和指令集的特定编译优化的内核和固件。
+
+After the adjustment of the compilation tool chain, the kernel and firmware are specifically compiled 
+
+and optimized for the Raspberry Pi CPU architecture and instruction set.
+```
+
 ## 2021.01.04 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 2101004 Update.**
 
 ```
