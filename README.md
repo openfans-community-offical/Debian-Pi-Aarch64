@@ -60,12 +60,7 @@ Newest Kernel Upkg version: **5.4.83-OPENFANS+20210106-v8** (Single Update Pkg)
 
 If you had found a *Chromium browser interface display error* issue on version **202006 U3** please see [here](./README.md#3-163-chromium-browser-interface-display-error).  **This issue had fixed after version >=20200617U3**
 
-```
-The latest version of kernel and firmware:
-2020-06-22-v2020-2.0-U4-Release (recommended update)
-```
-
-*The system version "2020-06-22-v2020-2.0-U4-Release" don't need upgrade the kernel and firmware to "2020-06-22-2.0-U4"*
+*The system version* "**2020-01-06-2.0-U6 5.4.83-OPENFANS+20210106-v8**" .
 
 ***Note:*** **Fimware >=U3, >=U4 do not support upgrade from version <=U2(include) !!**
 
