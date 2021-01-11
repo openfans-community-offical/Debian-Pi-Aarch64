@@ -12,6 +12,12 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.01.11 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 2101011 Kernel Update.**
+
+```
+1. Kernel tunning!
+```
+
 ## 2021.01.06 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 2101006 Kernel and FW Update.**
 
 ```
