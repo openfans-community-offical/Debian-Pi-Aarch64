@@ -12,6 +12,12 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.01.12 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 2101012 Kernel Testing Upkg.**
+
+```
+1. Kernel 5.10.6-ForTest-OPENFANS+20210112-v8 for Testing.
+```
+
 ## 2021.01.11 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 2101011 Kernel Update.**
 
 ```
