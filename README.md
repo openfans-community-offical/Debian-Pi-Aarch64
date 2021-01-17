@@ -1912,6 +1912,8 @@ After decompressing the files, please read the readme.txt file and follow the no
 
 - Baidu network disk: [Click to download](https://pan.baidu.com/s/1VPWngCO1aEPJXFMLiODmNg) *sharePassword:* **xbwy**
 
+- MEGA: [Click to download](https://mega.nz/folder/coVQAaZR#ifOeikkhJpGYw8B7vvlDOg)
+
 ----
 
 ## 7. Other Instructions
