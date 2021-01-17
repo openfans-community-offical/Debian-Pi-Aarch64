@@ -1817,6 +1817,8 @@ sudo  sh  ./sys_upgrade
 
 - 百度网盘： [点击前往下载](https://pan.baidu.com/s/1VPWngCO1aEPJXFMLiODmNg) *提取码:* **xbwy**
 
+- MEGA: [Click to download](https://mega.nz/folder/coVQAaZR#ifOeikkhJpGYw8B7vvlDOg)
+
 ----
 
 ## 7.其他说明
