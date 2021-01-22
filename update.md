@@ -12,6 +12,13 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.01.22 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Upkg updated.**
+
+```
+1. Kernel 5.10.9-ForTest-OPENFANS+20210122-v8 for Testing updated.
+2. Build change simd -> asimd ,  add evtstrm & cpuid hardware support for stable kernel "5.4.83-OPENFANS+20210122-v8".
+```
+
 ## 2021.01.13 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 2101013 Kernel Testing Upkg.**
 
 ```
