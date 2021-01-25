@@ -58,6 +58,7 @@ sudo dmesg | grep usb
 This is the dmesg log showing the hardware detection as hardware is activated on the Pi. If your log is really long you can generate fresh entries by just unplugging a device and plugging it back in and running the command again. Here we can clearly see that the ASM105x is what our StarTech adapter is being detected as.
 
 U can see:
+
 这里我们可以清楚的看到：
 
 ```
