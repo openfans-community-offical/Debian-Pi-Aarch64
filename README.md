@@ -1415,6 +1415,10 @@ systemctl mask  bluealsa.service
 
 **Note**： Here U must use **"mask"** for unactive bluealsa.service, mustn't use **"disable"** !!
 
+#### 3-16.5 USB mass storage boot problem
+
+If you met a problem from USB mass storage to boot, pls read [here](#.//docs/pi4-usb-boot-problems.md) to fix the problem.
+
 ### 3-17. Extra Application Instructions
 
 #### 3-17.1 WPS Office Arm 64-bit Desktop Installation Note
