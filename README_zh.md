@@ -144,6 +144,8 @@
 
 [- 3-16.4 蓝牙音频连接丢失](./README_zh.md#3-164-%E8%93%9D%E7%89%99%E9%9F%B3%E9%A2%91%E8%BF%9E%E6%8E%A5%E4%B8%A2%E5%A4%B1)
 
+[- 3-16.5 USB大容量设备启动问题](./README_zh.md#3-17%E9%85%8D%E5%A5%97%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+
 [3-17. 配套应用程序使用说明](./README_zh.md#3-17%E9%85%8D%E5%A5%97%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 [- 3-17.1 WPS Office ARM64位 桌面版安装说明](./README_zh.md#3-171-wps-office-arm64%E4%BD%8D-%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
@@ -1344,6 +1346,10 @@ systemctl mask  bluealsa.service
 ```
 
 **注意**： 这里你必须使用 **"mask"** 禁用服务，而不是 **"disable"** !!
+
+#### 3-16.5 USB大容量设备启动问题
+
+如果你遇到了USB大容量设备启动问题，请点击[此处](/docs/pi4-usb-boot-problems.md)查看解决办法。
 
 ### 3-17.配套应用程序使用说明
 
