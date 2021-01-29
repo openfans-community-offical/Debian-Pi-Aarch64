@@ -15,7 +15,7 @@
 ## 2021.01.30 &nbsp;&nbsp;//Add An Extra Package
 
 ```
-1.Add an extra OpenCV Package:
+1.Add an extra OpenCV Package (Support hardware GPU encoding and acceleration): 
 - opencv-4.5.1-org.pifan_20210116-1_arm64.deb
 ```
 
