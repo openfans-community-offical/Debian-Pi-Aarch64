@@ -160,9 +160,9 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-17.1 WPS Office Arm 64-bit Desktop Installation Note](./README.md#3-171-wps-office-arm-64-bit-desktop-installation-note)
 
-[- 3-17.2 How to install the QQ Official Desktop App (Linux Edition)](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README.md#3-172-how-to-install-the-qq-official-desktop-app-linux-edition)
+[- 3-17.2 How to install the QQ Official Desktop App (Linux Edition)](./README.md#3-172-how-to-install-the-qq-official-desktop-app-linux-edition)
 
-[- 3-17.3 The OpenCV Extra Package](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README.md#3-173-The-OpenCV-Extra-Package)
+[- 3-17.3 The OpenCV Extra Package](./README.md#3-173-The-OpenCV-Extra-Package)
 
 ----
 
