@@ -162,6 +162,8 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-17.2 How to install the QQ Official Desktop App (Linux Edition)](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README.md#3-172-how-to-install-the-qq-official-desktop-app-linux-edition)
 
+[- 3-17.3 The OpenCV Extra Packag](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README.md#3-173-The-OpenCV-Extra-Package)
+
 ----
 
 [4. Virtual Machine Instructions](./README.md#4-virtual-machine-instructions)
@@ -1454,6 +1456,24 @@ rm -rf ./$qq_pkg
 After this, the App will be finished the installation.
 
 ![linux_qq](./images/linux_qq.jpg)
+
+#### 3-17.3 The OpenCV Extra Package
+
+![opencv-example-1](./images/opencv1.png)
+
+![opencv-example-2](./images/opencv2.png)
+
+![opencv-example-3](./images/opencv3.png)
+
+![opencv-example-4](./images/opencv4.png)
+
+![opencv-example-5](./images/opencv5.png)
+
+**Version**: 4.5.1
+
+**Feature**: Support hardware GPU encoding and acceleration.
+
+**Download**: In "Debian-Pi-Aarch64" Baidu Cloud Online Disk Repo "***Extra***"->"***OpenCV***" directory.
 
 ----
 
