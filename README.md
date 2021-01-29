@@ -162,7 +162,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-17.2 How to install the QQ Official Desktop App (Linux Edition)](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README.md#3-172-how-to-install-the-qq-official-desktop-app-linux-edition)
 
-[- 3-17.3 The OpenCV Extra Packag](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README.md#3-173-The-OpenCV-Extra-Package)
+[- 3-17.3 The OpenCV Extra Package](https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README.md#3-173-The-OpenCV-Extra-Package)
 
 ----
 
@@ -1473,7 +1473,7 @@ After this, the App will be finished the installation.
 
 **Feature**: Support hardware GPU encoding and acceleration.
 
-**Download**: In "Debian-Pi-Aarch64" Baidu Cloud Online Disk Repo "***Extra***"->"***OpenCV***" directory.
+**Download**: You can find it in "Debian-Pi-Aarch64" Baidu Cloud and MEGA Online Disk Share Repo "***Extra***"->"***OpenCV***" directory.
 
 ----
 
