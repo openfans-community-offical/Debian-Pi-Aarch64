@@ -12,6 +12,13 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.01.30 &nbsp;&nbsp;//Add An Extra Package
+
+```
+1.Add an extra OpenCV Package:
+- opencv-4.5.1-org.pifan_20210116-1_arm64.deb
+```
+
 ## 2021.01.23 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Upkg updated.**
 
 ```
