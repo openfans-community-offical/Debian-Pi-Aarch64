@@ -1469,6 +1469,8 @@ After this, the App will be finished the installation.
 
 ![opencv-example-3](./images/opencv3.png)
 
+**Attention**: This package **just** support the "Debian-Pi-Aarch64" **Full Desktop Edition** !!
+
 **Version**: 4.5.1
 
 **Feature**: Support hardware GPU encoding and acceleration.
