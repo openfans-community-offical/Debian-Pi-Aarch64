@@ -1383,6 +1383,24 @@ rm -rf ./$qq_pkg
 
 ![linux_qq](./images/linux_qq.jpg)
 
+#### 3-17.3 OpenCV 扩展
+
+![opencv-example-4](./images/opencv4.png)
+
+![opencv-example-5](./images/opencv5.png)
+
+![opencv-example-1](./images/opencv1.png)
+
+![opencv-example-2](./images/opencv2.png)
+
+![opencv-example-3](./images/opencv3.png)
+
+**版本**: 4.5.1
+
+**特征**: 支持硬件GPU编码和加速。
+
+**下载**: 您可以在"**Debian-Pi-Aarch64**"百度和MEGA网盘资源的"***Extra***"->"***OpenCV***"文件夹中找到下载。
+
 ----
 
 ## 4.虚拟机使用说明
