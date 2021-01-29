@@ -1459,15 +1459,15 @@ After this, the App will be finished the installation.
 
 #### 3-17.3 The OpenCV Extra Package
 
+![opencv-example-4](./images/opencv4.png)
+
+![opencv-example-5](./images/opencv5.png)
+
 ![opencv-example-1](./images/opencv1.png)
 
 ![opencv-example-2](./images/opencv2.png)
 
 ![opencv-example-3](./images/opencv3.png)
-
-![opencv-example-4](./images/opencv4.png)
-
-![opencv-example-5](./images/opencv5.png)
 
 **Version**: 4.5.1
 
