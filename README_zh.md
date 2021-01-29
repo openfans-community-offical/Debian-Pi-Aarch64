@@ -152,6 +152,8 @@
 
 [- 3-17.2 腾讯QQ官方Linux桌面版安装说明](./README_zh.md#3-172-%E8%85%BE%E8%AE%AFqq%E5%AE%98%E6%96%B9linux%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
 
+[- 3-17.3 OpenCV 扩展](./README_zh.md#3-173-opencv-%E6%89%A9%E5%B1%95)
+
 ----
 
 [4.虚拟机使用说明](./README_zh.md#4%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
