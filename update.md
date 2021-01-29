@@ -12,7 +12,7 @@
 
 # 更新说明文档 ( Update Notes )
 
-## 2021.01.30 &nbsp;&nbsp;//Add An Extra Package
+## 2021.01.30 &nbsp;&nbsp;//Add An Extra Package (OpenCV)
 
 ```
 1.Add an extra OpenCV Package (Support hardware GPU encoding and acceleration): 
