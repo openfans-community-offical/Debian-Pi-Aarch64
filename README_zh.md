@@ -1397,6 +1397,8 @@ rm -rf ./$qq_pkg
 
 ![opencv-example-3](./images/opencv3.png)
 
+**注意**: 该安装包**仅支持**"Debian-Pi-Aarch64"的**全功能桌面版**！！其他版本未经测试。
+
 **版本**: 4.5.1
 
 **特征**: 支持硬件GPU编码和加速。
