@@ -1469,7 +1469,7 @@ After this, the App will be finished the installation.
 
 ![opencv-example-3](./images/opencv3.png)
 
-**Attention**: This package **just** support the "Debian-Pi-Aarch64" **Full Desktop Edition** !!
+**Attention**: This package **just** support the "Debian-Pi-Aarch64" **Full Desktop Edition** !! Relative testing of other versions.
 
 **Version**: 4.5.1
 
