@@ -1475,6 +1475,18 @@ After this, the App will be finished the installation.
 
 **Download**: You can find it in "Debian-Pi-Aarch64" Baidu Cloud and MEGA Online Disk Share Repo "***Extra***"->"***OpenCV***" directory.
 
+**Install**:
+
+Download packgae, make sure your system can get online, then run command:
+
+```
+sudo apt install -y ./xxxxxx.deb
+```
+
+The "**xxxxxx.deb**" is an OpenCV Package Name.
+
+After you run the command above, reboot your system, everything will be done.
+
 ----
 
 ## 4. Virtual Machine Instructions
