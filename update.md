@@ -12,11 +12,11 @@
 
 # 更新说明文档 ( Update Notes )
 
-## 2021.01.31 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Stable kernel updated and testing upgraded.**
+## 2021.01.31 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Stable kernel & FW updated and testing upgraded.**
 
 ```
-1. Main stable kernel had updated to "5.4.83-OPENFANS+20210131-v8"
-2. Testing kernel version had upgraded to "5.10.11-ForTest-OPENFANS+20210131-v8"
+1. Main stable kernel & FW had updated to "5.4.83-OPENFANS+20210131-v8"
+2. Testing kernel & FW version had upgraded to "5.10.11-ForTest-OPENFANS+20210131-v8"
 ```
 
 ## 2021.01.30 &nbsp;&nbsp;//Add An Extra Package (OpenCV)
