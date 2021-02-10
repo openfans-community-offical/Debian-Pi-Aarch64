@@ -12,6 +12,12 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.02.10 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Testing kernel & FW upgraded.**
+
+```
+1. Testing kernel & FW version had upgraded to "5.10.14-ForTest-OPENFANS+20210210-v8"
+```
+
 ## 2021.01.31 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Stable kernel & FW updated and testing upgraded.**
 
 ```
