@@ -14,6 +14,8 @@
 
 ## 2021.02.17 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Kernel & FW had upgraded to Release version.**
 
+#### Kernel & FW Version: "5.10.16"
+
 ```
 1. Testing Kernel & FW version had upgraded to "5.10.16-Release-OPENFANS+20210217-v8" as Released published.
 2. All systems kernel and FW version had upgrade to "5.10.16-Release-OPENFANS+20210217-v8" Released now.
