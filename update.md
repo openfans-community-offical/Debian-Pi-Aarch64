@@ -21,6 +21,8 @@
 2. All systems kernel and FW version had upgrade to "5.10.16-Release-OPENFANS+20210217-v8" Released now.
 ```
 
+----
+
 ## 2021.02.10 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Testing kernel & FW upgraded.**
 
 ```
