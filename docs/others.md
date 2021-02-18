@@ -167,3 +167,18 @@ _atomic_removal(d, wr.key)
 ```
 apt install ttf-mscorefonts-installer -y
 ```
+
+#### wine
+
+######## WxWork
+
+msvcp140.dll error.
+
+```
+ wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+ chmod +x winetricks
+ ./winetricks vcrun2015
+ exit
+ 
+ Exec=env LANG=zh_CN WINEPREFIX="/home/pi/.wine" exagear ubuntu-1604 -- /usr/bin/wine  C:\\\\windows\\\\command\\\\start.exe /Unix /home/pi/.wine/dosdevices/c:/Program\ Files/WXWork/WXWork.exe
+```
