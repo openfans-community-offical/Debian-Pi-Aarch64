@@ -1952,7 +1952,3 @@ margetts99 : *[Link](http://bbs.pifan.org/?thread-132.htm) (WPS的集成建议�
 Windows Arm On Qemu: *参考 [链接1](https://github.com/virtio-win/kvm-guest-drivers-windows/issues/177#issuecomment-468149012) & [链接2](https://www.raspberrypi.org/forums/viewtopic.php?f=56&t=248345&sid=d4dd0681937f13e9c0cb4f04e5b54979)*
 
 **以及其他无私赞助和帮助过我们的朋友们！**
-
-----
-
-Once again despise the attack and slander called the "Dog Egg Brother" !
