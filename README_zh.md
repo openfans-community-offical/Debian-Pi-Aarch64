@@ -1,4 +1,4 @@
-![openfans](/images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](/images/amatfan.png)
+![openfans](./images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](./images/amatfan.png)
 
 # Debian-Pi-Aarch64 ★ 全新树莓派64位系统
 
