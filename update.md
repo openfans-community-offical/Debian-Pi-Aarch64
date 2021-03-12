@@ -15,6 +15,8 @@
 
 ## 2021.03.12 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded to Release version.**
 
+#### Kernel & FW Version: "5.10.22"
+
 ```
 1.All systems kernel and FW version had upgrade to "5.10.22-Release-OPENFANS+20210312-v8" Released now.
 2.Kernel config updated.
