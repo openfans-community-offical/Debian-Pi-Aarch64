@@ -12,6 +12,14 @@
 
 # 更新说明文档 ( Update Notes )
 
+
+## 2021.03.12 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded to Release version.**
+
+```
+1.All systems kernel and FW version had upgrade to "5.10.22-Release-OPENFANS+20210312-v8" Released now.
+2.Kernel config updated.
+```
+
 ## 2021.02.17 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Kernel & FW had upgraded to Release version.**
 
 #### Kernel & FW Version: "5.10.16"
