@@ -26,7 +26,7 @@ Give me a star, just a click, I will be very happy and satisfied...  :)
 
 **Gitee Repo:** [gitee.com/openfans-community/Debian-Pi-Aarch64](https://gitee.com/openfans-community/Debian-Pi-Aarch64)
 
-**Tencent Coding:** [https://e.coding.net/openfans/pifan/Debian-Pi-Aarch64.git](https://e.coding.net/openfans/pifan/Debian-Pi-Aarch64.git)
+**Tencent Coding Repo:** [https://e.coding.net/openfans/pifan/Debian-Pi-Aarch64.git](https://e.coding.net/openfans/pifan/Debian-Pi-Aarch64.git)
 
 **Github Repo:** [github.com/openfans-community-offical/Debian-Pi-Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)
 
