@@ -30,6 +30,8 @@
 
 **Gitee(码云)仓库地址**: [gitee.com/openfans-community/Debian-Pi-Aarch64](https://gitee.com/openfans-community/Debian-Pi-Aarch64)
 
+**腾讯云(Coding)仓库地址:** [https://e.coding.net/openfans/pifan/Debian-Pi-Aarch64.git](https://e.coding.net/openfans/pifan/Debian-Pi-Aarch64.git)
+
 **Github仓库地址**: [github.com/openfans-community-offical/Debian-Pi-Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)
 
 ## 注意
