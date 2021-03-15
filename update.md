@@ -12,6 +12,14 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.03.15 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
+
+#### Kernel & FW Version: "5.10.22"
+
+```
+1.All systems kernel and FW version had upgrade to "5.10.22-Release-OPENFANS+20210315-v8" Released now.
+2.Add BCM2835_Timer and  Android_Binder_Test support for kernel. 
+```
 
 ## 2021.03.14 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
 
