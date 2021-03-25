@@ -192,9 +192,9 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [5-5 Rpi4 USB Boot Support (Upgrade eeprom FW)](./README.md#5-5-rpi4-usb-boot-support-upgrade-eeprom-fw)
 
-[5-6 New features just for testing](./README.md#5-4-latest-current-version)
+[5-6 New features just for testing](./README.md#5-6-new-features-just-for-testing)
 
-[5-6.1 Mesa Vulkan (v3dv) drivers include RPI4 VC4 and V3D for OpenGL H/W acceleration](./README.md#5-4-latest-current-version)
+[- 5-6.1 Mesa Vulkan (v3dv) drivers include RPI4 VC4 and V3D for OpenGL H/W acceleration](./README.md#5-61-mesa-vulkan-v3dv-drivers-include-rpi4-vc4-and-v3d-for-opengl-hw-acceleration)
 
 ----
 
