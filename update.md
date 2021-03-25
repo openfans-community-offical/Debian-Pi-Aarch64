@@ -12,7 +12,7 @@
 
 # 更新说明文档 ( Update Notes )
 
-## 2021.03.15 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
+## 2021.03.25 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
 
 #### Kernel Version: "5.10.25" and New "Graphic_Libs" is supported for testing.
 
