@@ -192,6 +192,10 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [5-5 Rpi4 USB Boot Support (Upgrade eeprom FW)](./README.md#5-5-rpi4-usb-boot-support-upgrade-eeprom-fw)
 
+[5-6 New features just for testing](./README.md#5-4-latest-current-version)
+
+[5-6.1 Mesa Vulkan (v3dv) drivers include RPI4 VC4 and V3D for OpenGL H/W acceleration](./README.md#5-4-latest-current-version)
+
 ----
 
 [6. Download Links](./README.md#6-download-links)
@@ -1947,6 +1951,57 @@ Click **[here](./versions.md)** to view the latest current version information.
 Click **[here](./FW/)** to download file for eeprom FW upgrade, will be support Rpi4 usb boot.
 
 After decompressing the files, please read the readme.txt file and follow the note steps to upgrade. (Note: You must upgrade the firmware on TF boot mode first)
+
+### 5-6 New features just for testing
+
+#### 5-6.1 Mesa Vulkan (v3dv) drivers include RPI4 VC4 and V3D for OpenGL H/W acceleration
+
+We had upgraded the Mesa drivers [21.0.0] add Vulkan (v3dv) include RPI4 VC4 and V3D for OpenGL H/W acceleration.
+
+![pi4_vulkan_info](./images/pi4_vulkan_info.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_1.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_2.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_3.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_4.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_5.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_6.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_7.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_8.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_9.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_10.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_11.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_12.png)
+
+**Where and how to upgrade ?**
+
+Use root user permission:
+
+**Important:** For this testing the kernel version required **>= "5.10.25-Release-OPENFANS+20210325-v8"**
+
+```
+1. Download the compressed package and decompress the file to the root ("/") directory.
+
+2. change the decompressd file directory user permission to "_apt", run command:
+   "chown -R _apt [The decompressd file directory path]"
+
+3. change path to the the decompressd file directory path, into the path, run command:
+   "./install.sh"
+
+4. Then reboot the system, all will be done.
+
+```
+
+**PS:**
+
+The files path to download.
+
+```
+For Thunder Share: "/raspberry-pi-images/2021-new/Testing/Graphic_Libs/v2/debs_repo.zip"
+
+For Baidu network disk："/Debian-Pi-Aarch64-2.0-Release/Testing/Graphic_Libs/v2/debs_repo.zip"
+
+For MEGA："/Debian-Pi-Aarch64/2021/extra/Graphic_Libs_Trsting/debs_repo.zip"
+```
 
 ----
 
