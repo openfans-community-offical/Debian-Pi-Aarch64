@@ -182,9 +182,9 @@
 
 [5-5 Rpi4 USB启动(固件升级)](./README_zh.md#5-5-rpi4-usb%E5%90%AF%E5%8A%A8%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7)
 
-[5-6 新特性支持（仅测试）](./README_zh.md#5-5-rpi4-usb%E5%90%AF%E5%8A%A8%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7)
+[5-6 新特性支持（仅测试）](./README_zh.md#5-6-%E6%96%B0%E7%89%B9%E6%80%A7%E6%94%AF%E6%8C%81%E4%BB%85%E6%B5%8B%E8%AF%95)
 
-[5-6.1 Mesa Vulkan (v3dv) 驱动：支持树莓派4(B)的VC4及V3D的OpenGL硬件加速](./README_zh.md#5-5-rpi4-usb%E5%90%AF%E5%8A%A8%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7)
+[- 5-6.1 Mesa Vulkan (v3dv) 驱动：支持树莓派4(B)的VC4及V3D的OpenGL硬件加速](./README_zh.md#5-61-mesa-vulkan-v3dv-%E9%A9%B1%E5%8A%A8%E6%94%AF%E6%8C%81%E6%A0%91%E8%8E%93%E6%B4%BE4b%E7%9A%84vc4%E5%8F%8Av3d%E7%9A%84opengl%E7%A1%AC%E4%BB%B6%E5%8A%A0%E9%80%9F)
 
 ----
 
