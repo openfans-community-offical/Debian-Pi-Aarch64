@@ -182,6 +182,10 @@
 
 [5-5 Rpi4 USB启动(固件升级)](./README_zh.md#5-5-rpi4-usb%E5%90%AF%E5%8A%A8%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7)
 
+[5-6 新特性支持（仅测试）](./README_zh.md#5-5-rpi4-usb%E5%90%AF%E5%8A%A8%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7)
+
+[5-6.1 Mesa Vulkan (v3dv) 驱动：支持树莓派4(B)的VC4及V3D的OpenGL硬件加速](./README_zh.md#5-5-rpi4-usb%E5%90%AF%E5%8A%A8%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7)
+
 ----
 
 [6. 下载地址](./README_zh.md#6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80)
@@ -1852,6 +1856,57 @@ sudo  sh  ./sys_upgrade
 
 点击 **[此处](./FW/)** 下载固件升级程序，以支持RPI4的USB启动。
 解压后，请阅读压缩包内的readme.txt文件说明，按照步骤升级即可。（注意：你必须现在TF启动的模式下升级固件）
+
+### 5-6 新特性支持（仅测试）
+
+#### 5-6.1 Mesa Vulkan (v3dv) 驱动：支持树莓派4(B)的VC4及V3D的OpenGL硬件加速
+
+我们已经升级了Mesa驱动（21.0.0版本）和Vulkan（v3dv）对于树莓派4(B)的VC4及V3D的OpenGL硬件加速的支持。
+
+![pi4_vulkan_info](./images/pi4_vulkan_info.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_1.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_2.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_3.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_4.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_5.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_6.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_7.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_8.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_9.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_10.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_11.png)
+![pi4_vulkan_testing](./images/pi4_vulkan_12.png)
+
+**如何下载和测试？**
+
+使用root用户权限执行以下操作：
+
+**重要:** 此项测试功能要求内核的版本必须 **大于或等于 "5.10.25-Release-OPENFANS+20210325-v8"**
+
+```
+1. 下载压缩包文件至root根("/")目录。
+
+2. 更改解压的目录的用户权限，执行命令：
+   "chown -R _apt [解压文件目录的绝对路径]"
+
+3. 进入解压的文件目录内，执行命令：
+   "./install.sh"
+
+4. 最后重启系统即可。
+
+```
+
+**附：**
+
+文件的下载路径：
+
+```
+迅雷："/raspberry-pi-images/2021-new/Testing/Graphic_Libs/v2/debs_repo.zip"
+
+百度网盘："/Debian-Pi-Aarch64-2.0-Release/Testing/Graphic_Libs/v2/debs_repo.zip"
+
+MEGA网盘："/Debian-Pi-Aarch64/2021/extra/Graphic_Libs_Trsting/debs_repo.zip"
+```
 
 ----
 
