@@ -12,6 +12,24 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.03.15 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
+
+#### Kernel Version: "5.10.25" and New "Graphic_Libs" is supported for testing.
+
+```
+1. Main stable kernel & FW had upgraded to "5.10.25-Release-OPENFANS+20210324-v8" now, kernek modules
+   and userland had supported mmal H/W acceleration now.
+
+2. 64bit MMAL userland is supported, and used by bundled tools like raspivid and raspistill,
+   the "raspivid" and "raspistill" command you can find in path "/opt/vc64/bin/".
+
+3. New H/W codec endpoints had supported for ffmpeg now, also inclue "h264_v4l2m2m" and "h264_mmal".
+
+4. The new "Graphic_Libs" is supported for testing：
+   >>1. Mesa libs has upgraded to version "21.0.0" and also inclue OpenGL/OpenGL ES2 etc.
+   >>2. Mesa vulkan driver which is named v3dv support for V3D/VC4 H/W acceleration.
+```
+
 ## 2021.03.15 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel updated.**
 
 #### Kernel Version: "5.10.22"
