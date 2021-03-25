@@ -25,7 +25,7 @@
 
 3. New H/W codec endpoints had supported for ffmpeg now, also inclue "h264_v4l2m2m" and "h264_mmal".
 
-4. The new "Graphic_Libs" is supported for testing：
+4. The new "Graphic_Libs" is supported for PI4 testing：
    >>1. Mesa libs has upgraded to version "21.0.0" and also inclue OpenGL/OpenGL ES2 etc.
    >>2. Mesa vulkan driver which is named v3dv support for V3D/VC4 H/W acceleration.
 ```
