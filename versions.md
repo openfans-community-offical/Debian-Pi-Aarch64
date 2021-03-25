@@ -6,17 +6,14 @@
 
 #### 系统（ System ）：
 
-***2020-06-22-v2020-2.0-U4-Release***
+**2021-01-02/3-v2020-2.0-U6-Release** (kernelVer:**5.4.83-OPENFANS+20210102-v8**) ;
+桌面全功能版已更新至 Full Desktop Version is upto : **2021-01-04**
 
 ----
 
 #### 内核及固件（ kernel & firmware）：
 
-*2020-06-22-v2020-2.0-U4-Release* ( **建议更新 - Suggested to upgrade** )
-
-- *最新 “2020-06-22-v2020-2.0-U4-Release” 的系统不需要再更新固件*
-
-- *The system version "2020-06-22-v2020-2.0-U4-Release" don't need upgrade the kernel and firmware to "2020-06-22-2.0-U4"*
+**2020-03-25-2.0-U6 5.10.25-Release-OPENFANS+20210325-v8** ( **建议更新 - Suggested to upgrade** )
 
 ***注意：*** **U3(含)之后的固件不支持从 版本<=U2(包含在内)升级!!**
 
