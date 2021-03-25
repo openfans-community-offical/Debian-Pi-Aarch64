@@ -18,9 +18,9 @@
 
 ---
 
-***注意：U3(含)之后的固件不支持从 版本<=U2(包含在内)升级!!***
+*注意：U3(含)之后的固件不支持从 版本<=U2(包含在内)升级!!*
 
-***Note: Fimware >=U3, >=U4 do not support upgrade from version <=U2(include) !!***
+*Note: Fimware >=U3, >=U4 do not support upgrade from version <=U2(include) !!*
 
 ----
 
