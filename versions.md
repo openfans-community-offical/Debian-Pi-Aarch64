@@ -2,15 +2,11 @@
 
 #### The release version 2.0 System and related components (kernel, firmware, etc.) Latest version:
 
-----
-
 #### 系统（ System ）：
 
 **2021-01-02/3-v2020-2.0-U6-Release** (kernelVer:**5.4.83-OPENFANS+20210102-v8**) ;
 
 桌面全功能版已更新至 Full Desktop Version is upto : **2021-01-04**
-
-----
 
 #### 内核及固件（ kernel & firmware）：
 
