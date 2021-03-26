@@ -1819,6 +1819,8 @@ Use root user permission:
 **Important:** For this testing the kernel version required **>= "5.10.25-Release-OPENFANS+20210325-v8"**
 
 ```
+0. First, run command: apt update; apt install dpkg-dev -y
+
 1. Download the compressed package and decompress the file to the root ("/") directory.
 
 2. change the decompressd file directory user permission to "_apt", run command:
