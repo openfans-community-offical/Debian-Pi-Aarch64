@@ -1733,7 +1733,7 @@ sudo  sh  ./sys_upgrade
    "chown -R _apt [解压文件目录的绝对路径]"
 
 3. 进入解压的文件目录内，执行命令：
-   "./install.sh"
+   "sh ./install.sh"
 
 4. 最后重启系统即可。
 
