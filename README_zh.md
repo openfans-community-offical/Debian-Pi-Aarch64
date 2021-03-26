@@ -1724,6 +1724,9 @@ sudo  sh  ./sys_upgrade
 **重要:** 此项测试功能要求内核的版本必须 **大于或等于 "5.10.25-Release-OPENFANS+20210325-v8"**
 
 ```
+0. 首先执行命令: 
+   apt update; apt install dpkg-dev -y
+
 1. 下载压缩包文件至root根("/")目录。
 
 2. 更改解压的目录的用户权限，执行命令：
