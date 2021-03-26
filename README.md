@@ -1819,7 +1819,8 @@ Use root user permission:
 **Important:** For this testing the kernel version required **>= "5.10.25-Release-OPENFANS+20210325-v8"**
 
 ```
-0. First, run command: apt update; apt install dpkg-dev -y
+0. First, run command:
+   apt update; apt install dpkg-dev -y
 
 1. Download the compressed package and decompress the file to the root ("/") directory.
 
@@ -1827,7 +1828,7 @@ Use root user permission:
    "chown -R _apt [The decompressd file directory path]"
 
 3. change path to the the decompressd file directory path, into the path, run command:
-   "./install.sh"
+   "sh ./install.sh"
 
 4. Then reboot the system, all will be done.
 
