@@ -1,3 +1,5 @@
 - warzone2100
 - supertuxkart
 - neverball
+- aisleriot
+- endless-sky-high-dpi
