@@ -3,3 +3,4 @@
 - neverball
 - aisleriot
 - endless-sky-high-dpi
+- billard-gl
