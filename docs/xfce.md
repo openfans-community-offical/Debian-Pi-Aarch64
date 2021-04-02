@@ -18,7 +18,7 @@
 
 点击 **[此处](https://pan.baidu.com/s/1dJk5uCQq8o0eRyW5Edtkzg)** 前往下载
 
-# [捐赠](../donation/README.md)
+# [打赏](../donation/README.md)
 
 ---
 
@@ -79,4 +79,4 @@
 
 点击[此处](https://pan.baidu.com/s/1dJk5uCQq8o0eRyW5Edtkzg)前往下载
 
-# [捐赠](../donation/README.md)
+# [打赏](../donation/README.md)
