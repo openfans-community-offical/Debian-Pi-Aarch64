@@ -15,7 +15,7 @@
 
 #### Pi 3B/3B+/3A+ 最新 *稳定* 版本：2019.09.05 1.0 U11
 
-# [捐赠](donation/README.md)
+# [打赏](donation/README.md)
 ![zfb](./images/jz.png)
 
 ----
