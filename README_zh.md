@@ -194,7 +194,7 @@
 
 [7. 其他说明](./README_zh.md#7%E5%85%B6%E4%BB%96%E8%AF%B4%E6%98%8E)
 
-[7-1 打赏](./README_zh.md#7-1%E6%8D%90%E8%B5%A0)
+[7-1 打赏](./README_zh.md#7-1%E6%89%93%E8%B5%8F)
 
 [7-2 联系方式](./README_zh.md#7-2%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)
 
