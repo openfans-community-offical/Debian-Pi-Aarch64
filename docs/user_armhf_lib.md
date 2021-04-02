@@ -10,7 +10,8 @@ sudo ldconfig
 
 ```
 file  /opt/vc/bin/vcdbg 
-/opt/vc/bin/vcdbg: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, for GNU/Linux 2.6.32, not stripped
+/opt/vc/bin/vcdbg: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, 
+interpreter /lib/ld-linux-armhf.so.3, for GNU/Linux 2.6.32, not stripped
 ```
 
 ```
