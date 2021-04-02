@@ -1246,7 +1246,7 @@ fbterm
 
 # 附：
 
-## **[捐赠](donation/README.md)**
+## **[打赏](donation/README.md)**
 
 ## 联系方式
 
