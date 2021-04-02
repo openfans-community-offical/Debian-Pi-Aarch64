@@ -22,7 +22,7 @@
 
 点击 **[此处](https://pan.baidu.com/s/1hyxwtWqcjaf6G7FZTjdwKg)** 前往下载
 
-# [捐赠](../donation/README.md)
+# [打赏](../donation/README.md)
 
 ----
 
@@ -153,7 +153,7 @@
 
 ## 致谢
 
-# [捐赠](../donation/README.md)
+# [打赏](../donation/README.md)
 
 ###### *感谢 yangxuan8282(七喜/Y大) 提供的支持和帮助
 
