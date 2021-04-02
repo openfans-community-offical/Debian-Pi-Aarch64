@@ -38,7 +38,7 @@ THROTTLED_CODE_HEX=${strarr[1]}
 echo "Current issues:"
 CURRENT_HEX=${THROTTLED_CODE_HEX:4:1}
 CURRENT_BIN=${HEX_BIN_MAP[$CURRENT_HEX]}
-if [ $CURRENT_HEX == "0" ]; then
+if [ "$CURRENT_HEX" == "0" ]; then
   echo "No throttling issues detected."
 else
   bit_n=0
