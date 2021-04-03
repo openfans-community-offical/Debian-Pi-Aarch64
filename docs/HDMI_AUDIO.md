@@ -1,4 +1,4 @@
-#### Kernel 5.10.x
+#### Kernel 5.10.x (armhf_test)
 
 KMS also comes with its own arm-side HDMI audio driver. If you want to test this, then remove dtparam=audio=on from config.txt
 Replace /usr/share/alsa/cards/vc4-hdmi.conf with the contents here:
