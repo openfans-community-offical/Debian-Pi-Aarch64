@@ -12,7 +12,7 @@
 
 #### 内核及固件（ kernel & firmware）：
 
-**2020-03-28-2.0-U6 5.10.25-Release-OPENFANS+20210328-v8** ( **建议更新 - Suggested to upgrade** )
+**2020-04-11-2.0-U6 5.10.27-Release-OPENFANS+20210411-v8** ( **建议更新 - Suggested to upgrade** )
 
 ```
 注意：U3(含)之后的固件不支持从 版本<=U2(包含在内)升级!!*
