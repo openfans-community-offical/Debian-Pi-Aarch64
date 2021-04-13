@@ -160,6 +160,8 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-16.5 USB mass storage boot problem](./README.md#3-165-usb-mass-storage-boot-problem)
 
+[- 3-16.6 How to upgrade Docker-CE](./README.md#3-16-6-How-to-upgrade-Docker-CE)
+
 [3-17. Extra Application Instructions](./README.md#3-17-extra-application-instructions)
 
 [- 3-17.1 WPS Office Arm 64-bit Desktop Installation Note](./README.md#3-171-wps-office-arm-64-bit-desktop-installation-note)
@@ -1270,6 +1272,19 @@ systemctl mask  bluealsa.service
 #### 3-16.5 USB mass storage boot problem
 
 If you met a problem from USB mass storage to boot, pls read [here](/docs/pi4-usb-boot-problems.md) to fix the problem.
+
+#### 3-16.6 How to upgrade Docker-CE
+
+Run the following commands as root user:
+
+```
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian \
+      $(lsb_release -cs) stable" | \
+      sudo tee /etc/apt/sources.list.d/docker.list
+apt update
+apt upgrade 
+```
 
 ### 3-17. Extra Application Instructions
 
