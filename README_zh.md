@@ -150,6 +150,8 @@
 
 [- 3-16.5 USB大容量设备启动问题](./README_zh.md#3-165-usb%E5%A4%A7%E5%AE%B9%E9%87%8F%E8%AE%BE%E5%A4%87%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98)
 
+[- 3-16.6 升级 Docker-CE](./README_zh.md#3-165-usb%E5%A4%A7%E5%AE%B9%E9%87%8F%E8%AE%BE%E5%A4%87%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98)
+
 [3-17. 配套应用程序使用说明](./README_zh.md#3-17%E9%85%8D%E5%A5%97%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 [- 3-17.1 WPS Office ARM64位 桌面版安装说明](./README_zh.md#3-171-wps-office-arm64%E4%BD%8D-%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
@@ -1200,6 +1202,19 @@ systemctl mask  bluealsa.service
 #### 3-16.5 USB大容量设备启动问题
 
 如果你遇到了USB大容量设备启动问题，请点击[此处](/docs/pi4-usb-boot-problems.md)查看解决办法。
+
+#### 3-16.5 升级 Docker-CE
+
+以管理员root用户执行以下命令:
+
+```
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian \
+      $(lsb_release -cs) stable" | \
+      sudo tee /etc/apt/sources.list.d/docker.list
+apt update
+apt upgrade 
+```
 
 ### 3-17.配套应用程序使用说明
 
