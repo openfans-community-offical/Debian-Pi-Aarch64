@@ -160,7 +160,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-16.5 USB mass storage boot problem](./README.md#3-165-usb-mass-storage-boot-problem)
 
-[- 3-16.6 How to upgrade Docker-CE](./README.md#3-16-6-How-to-upgrade-Docker-CE)
+[- 3-16.6 How to upgrade Docker-CE](./README.md#3-166-how-to-upgrade-docker-ce)
 
 [3-17. Extra Application Instructions](./README.md#3-17-extra-application-instructions)
 
