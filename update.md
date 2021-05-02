@@ -12,6 +12,13 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.05.02 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
+
+```
+1.All systems kernel version had upgrade to "5.10.33-Release-OPENFANS+20210502-v8" Released now.
+2.Remove ATI & AMD GPU/DRM kernel modules which is not used for rpi.
+```
+
 ## 2021.04.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
 
 ```
