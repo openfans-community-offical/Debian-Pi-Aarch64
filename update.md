@@ -12,6 +12,11 @@
 
 # 更新说明文档 ( Update Notes )
 
+```
+1.All systems kernel version had upgrade to "5.10.36-Release-OPENFANS+20210514-v8" Released now.
+2.Add ATI kernel modules.
+```
+
 ## 2021.05.02 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
 
 ```
