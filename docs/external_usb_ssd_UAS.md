@@ -47,7 +47,7 @@ Then reboot, the TRIM will be **enabled**.
 
 #### 3.Fstrim the SSD device
 
-1'st time, run "**fstrim -v /**" successfull:
+1'st time, run "**fstrim -v /**" successfully:
 
 ```
 $ sudo fstrim -v /
