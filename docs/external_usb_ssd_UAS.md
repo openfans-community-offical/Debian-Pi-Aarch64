@@ -14,7 +14,7 @@
 
 ----
 
-## OPEN Trim for external usb ssd
+## OPEN Trim for external USB SSD
 
 #### 1. Check TRIM support**
 
