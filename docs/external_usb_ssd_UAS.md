@@ -8,6 +8,8 @@
 
 #### OPEN Trim for external usb ssd
 
+- **1. Check TRIM support**
+
 ```
 sudo fstrim -v /
 ```
@@ -23,6 +25,8 @@ sdb           0        0B       0B         0
 ```
 
 If the **DISC-MAX** value is **0B**, then TRIM is not **enabled**.
+
+- **2. Enable TRIM**
 
 Find the USB **idVendor** and **idProduct** :
 
@@ -41,6 +45,8 @@ ACTION=="add|change", ATTRS{idVendor}=="174c", ATTRS{idProduct}=="1153", SUBSYST
 
 Then reboot, the TRIM will be **enabled**.
 
+- **4.Fstrim the SSD device**
+
 1st time, run "**fstrim -v /**" successfull:
 
 ```
@@ -56,7 +62,7 @@ sda           0      512B       4G         0
 └─sda2        0      512B       4G         0
 ```
 
-Automatic trimming
+- **5.Automatic trimming**
 
 The last thing you will need to do to make sure the TRIM command is run automatically in the background 
 
@@ -68,6 +74,8 @@ To do that, run the command:
 $ sudo systemctl enable fstrim.timer
 ```
 
-By default, it will run weekly. 
+By default, it will run weekly.
+
+--
 
 All done.
