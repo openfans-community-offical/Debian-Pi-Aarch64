@@ -16,7 +16,7 @@
 
 ## OPEN Trim for external USB SSD
 
-#### 1. Check TRIM support**
+#### 1. Check TRIM support
 
 ```
 sudo fstrim -v /
