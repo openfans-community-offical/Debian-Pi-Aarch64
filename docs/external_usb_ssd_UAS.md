@@ -20,8 +20,8 @@ sudo fstrim -v /
 $ lsblk --discard /dev/sda
 NAME   DISC-ALN DISC-GRAN DISC-MAX DISC-ZERO
 sdb           0        0B       0B         0
-├─sdba        0        0B       0B         0
-└─sdba        0        0B       0B         0
+├─sda1        0        0B       0B         0
+└─sda2        0        0B       0B         0
 ```
 
 If the **DISC-MAX** value is **0B**, then TRIM is not **enabled**.
