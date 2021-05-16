@@ -4,7 +4,7 @@
 - **Port:** USB 3.0 2.5-Inch SATA
 - **Mode/PID:** CM237
 - **Main Controller:** ***ASM1153E*** (Very important, not all drive support UAS, this Model CM237 has tested that was supported.)
-- **Support:** UASP Transfer Protocol
+- **Support:** UAS Transfer Protocol
 
 ## OPEN Trim for external usb ssd
 
