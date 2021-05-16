@@ -48,6 +48,14 @@ $ sudo fstrim -v /
 /: 111.4 GiB (119574462464 bytes) trimmed
 ```
 
+```
+$ lsblk --discard /dev/sdb
+NAME   DISC-ALN DISC-GRAN DISC-MAX DISC-ZERO
+sda           0      512B       4G         0
+├─sda1        0      512B       4G         0
+└─sda2        0      512B       4G         0
+```
+
 Automatic trimming
 
 The last thing you will need to do to make sure the TRIM command is run automatically in the background 
