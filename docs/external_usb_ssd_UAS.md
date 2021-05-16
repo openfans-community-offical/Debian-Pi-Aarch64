@@ -12,6 +12,8 @@
 
 - **Support:** UAS Transfer Protocol
 
+----
+
 ## OPEN Trim for external usb ssd
 
 #### 1. Check TRIM support**
@@ -82,6 +84,6 @@ $ sudo systemctl enable fstrim.timer
 
 By default, it will run weekly.
 
---
+----
 
 All done.
