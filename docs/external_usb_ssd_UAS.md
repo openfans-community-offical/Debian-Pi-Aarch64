@@ -1,6 +1,6 @@
-## Example
+## Recommended equipment
 
-#### UGREEN
+#### Brand: UGREEN
 
 - **Port:** USB 3.0 2.5-Inch SATA
 
