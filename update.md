@@ -12,6 +12,16 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.05.21 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+
+```
+1.All systems kernel version had upgrade to "5.10.38-Release-OPENFANS+20210521-v8" Released now.
+2.Add AMD_GPU kernel modules back.
+3.Support CM4 NVME boot.
+```
+
+## 2021.05.14 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
+
 ```
 1.All systems kernel version had upgrade to "5.10.36-Release-OPENFANS+20210514-v8" Released now.
 2.Add ATI kernel modules.
