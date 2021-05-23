@@ -38,4 +38,6 @@ uart_2ndstage=1
 enable_gic=1
 ```
 
-PS: **kernel=kernel8.img** change to **kernel=u-boot.bin**
+#### PS: 
+
+**kernel=kernel8.img** change to **kernel=u-boot.bin**
