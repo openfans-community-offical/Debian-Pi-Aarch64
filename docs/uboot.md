@@ -8,7 +8,26 @@ make rpi_4_defconfig
 make -j X
 ```
 
+
+#### vim boot.scr
+
+```
+fdt addr ${fdt_addr} && fdt get value bootargs /chosen bootargs
+fatload mmc 0:1 ${kernel_addr_r} kernel8.img
+booti ${kernel_addr_r} - ${fdt_addr}
+```
+
+```
+./tools/mkimage -A arm64 -T script -C none -n "Boot script" -d boot.scr boot.scr.uimg
+cp  u-boot.bin   /boot/
+cp  boot.scr.uimg  /boot/
+cd /boot/
+vim config.txt
+```
+
 #### config.txt
+
+**add:**
 
 ```
 kernel=u-boot.bin
@@ -18,3 +37,5 @@ enable_uart=1
 uart_2ndstage=1
 enable_gic=1
 ```
+
+PS: **kernel=kernel8.img** change to **kernel=u-boot.bin**
