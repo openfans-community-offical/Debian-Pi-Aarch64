@@ -8,9 +8,7 @@ make rpi_4_defconfig
 make -j X
 ```
 
-
-~~#### vim boot.scr
-
+#### vim boot.scr （NOT NEEDED ANYMORE）
 
 ```
 fdt addr ${fdt_addr} && fdt get value bootargs /chosen bootargs
