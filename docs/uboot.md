@@ -6,7 +6,7 @@ cd  u-boot-v2021.04/
 make distclean
 make rpi_4_defconfig
 make -j X
-cp  u-boot.bin   /boot/
+cp u-boot.bin /boot/
 ```
 
 #### config.txt
