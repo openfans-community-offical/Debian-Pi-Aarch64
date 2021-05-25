@@ -1,7 +1,7 @@
 #### build
 
 ```
-wge https://source.denx.de/u-boot/u-boot/-/archive/v2021.04/u-boot-v2021.04.tar.gz
+wget https://source.denx.de/u-boot/u-boot/-/archive/v2021.04/u-boot-v2021.04.tar.gz
 cd  u-boot-v2021.04/
 make distclean
 make rpi_4_defconfig
