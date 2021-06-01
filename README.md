@@ -1199,7 +1199,7 @@ The graphical desktop environment uses a profile to connect to a wireless networ
 with root user identity:
 
 ```Shell
-systemctl network Manager
+systemctl disable NetworkManager
 ```
 
 Then execute:
