@@ -12,6 +12,12 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.06.02 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+
+```
+All systems FW version had upgrade to "5.10.39-Release-OPENFANS+20210602-v8" Released now.
+```
+
 ## 2021.05.25 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
 
 ```
