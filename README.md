@@ -758,7 +758,7 @@ Simply put, the TCP BBR congestion control algorithm can improve TCP transmissio
 
 **How to turn off:**
 
-Edit the "/mnt/etc/sysctl.conf" file, execute the command "**sysctl -p**" to view the results, and do not see the following comments, representing the operation succeeded.
+Edit the "/etc/sysctl.conf" file, execute the command "**sysctl -p**" to view the results, and do not see the following comments, representing the operation succeeded.
 
 Comment out the following 2 lines: (Just put the "**#**" at the beginning of each line)
 
