@@ -15,70 +15,85 @@
 ## 2021.06.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;System Images had upgraded.**
 
 ```
-1.Main stable kernel & FW had upgraded to "5.10.42-Release-OPENFANS+20210611-v8" now.
-2.The system had upgraded to upstream Debian Buster upstream and update to 2021-06-11.
-3.The Docker-CE had upgrade to version "20.10.7~3".
-4.Upgrade Mesa package to newest version "21.1.0-4".
-5.The Mesa support vulkan driver for rpi, and FFmpeg suport mmal hardware acceleration.
-6.Add a localhost mesa repo version "21.1.0-4", at "/opt/mesa_ffmpeg_repos_v4/", with other depends or used packages.
-7.Update X86 runtime system env to ubuntu1804, and add a new testing game Aoe2c.
-8.Desktop image had add the Wechat and QQ Music Apps.
-9.Desktop image had upgrade the QQ, WPS version.
-10.The new os images support CM4 nvme boot and the upkg support u-boot booting.
-11.Default repo URL had changed to huaweicloud (mirrors.huaweicloud.com).
+1.  Main stable kernel & FW had upgraded to "5.10.42-Release-OPENFANS+20210611-v8" now.
+
+2.  The system had upgraded to upstream Debian Buster upstream and update to 2021-06-11.
+
+3.  The Docker-CE had upgrade to version "20.10.7~3".
+
+4.  Upgrade Mesa package to newest version "21.1.0-4".
+
+5.  The Mesa support vulkan driver for rpi, and FFmpeg suport mmal hardware acceleration.
+
+6.  Add a localhost mesa repo version "21.1.0-4", at "/opt/mesa_ffmpeg_repos_v4/", with other depends or used packages.
+
+7.  Update X86 runtime system env to ubuntu1804, and add a new testing game Aoe2c.
+
+8.  Desktop image had add the Wechat and QQ Music Apps.
+
+9.  Desktop image had upgrade the QQ, WPS version.
+
+10. The new os images support CM4 nvme boot and the upkg support u-boot booting.
+
+11. Default repo URL had changed to huaweicloud (mirrors.huaweicloud.com).
 ```
 
 ## 2021.06.09 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
 
 ```
-1.All systems FW version had upgrade to "5.10.42-Release-OPENFANS+20210609-v8" Released now.
-2.Kernel tunning.
+1. All systems FW version had upgrade to "5.10.42-Release-OPENFANS+20210609-v8" Released now.
+
+2. Kernel tunning.
 ```
 
 ## 2021.06.07 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
 
 ```
-All systems FW version had upgrade to "5.10.39-Release-OPENFANS+20210607-v8" Released now.
+1. All systems FW version had upgrade to "5.10.39-Release-OPENFANS+20210607-v8" Released now.
 ```
 
 ## 2021.05.25 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
 
 ```
-All systems FW version had upgrade to "5.10.38-Release-OPENFANS+20210525-v8" Released now.
+1. All systems FW version had upgrade to "5.10.38-Release-OPENFANS+20210525-v8" Released now.
 ```
 
 ## 2021.05.21 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
 
 ```
-1.All systems kernel version had upgrade to "5.10.38-Release-OPENFANS+20210521-v8" Released now.
-2.Add AMD_GPU kernel modules back.
-3.Support CM4 NVME boot.
+1. All systems kernel version had upgrade to "5.10.38-Release-OPENFANS+20210521-v8" Released now.
+
+2. Add AMD_GPU kernel modules back.
+
+3. Support CM4 NVME boot.
 ```
 
 ## 2021.05.14 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
 
 ```
-1.All systems kernel version had upgrade to "5.10.36-Release-OPENFANS+20210514-v8" Released now.
-2.Add ATI kernel modules.
+1. All systems kernel version had upgrade to "5.10.36-Release-OPENFANS+20210514-v8" Released now.
+
+2. Add ATI kernel modules.
 ```
 
 ## 2021.05.02 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
 
 ```
-1.All systems kernel version had upgrade to "5.10.33-Release-OPENFANS+20210502-v8" Released now.
-2.Remove ATI & AMD GPU/DRM kernel modules which is not used for rpi.
+1. All systems kernel version had upgrade to "5.10.33-Release-OPENFANS+20210502-v8" Released now.
+
+2. Remove ATI & AMD GPU/DRM kernel modules which is not used for rpi.
 ```
 
 ## 2021.04.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
 
 ```
-All systems kernel version had upgrade to "5.10.27-Release-OPENFANS+20210411-v8" Released now.
+1. All systems kernel version had upgrade to "5.10.27-Release-OPENFANS+20210411-v8" Released now.
 ```
 
 ## 2021.03.28 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
 
 ```
-All systems kernel version had upgrade to "5.10.25-Release-OPENFANS+20210328-v8" Released now.
+1. All systems kernel version had upgrade to "5.10.25-Release-OPENFANS+20210328-v8" Released now.
 ```
 
 ## 2021.03.25 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
@@ -104,8 +119,9 @@ All systems kernel version had upgrade to "5.10.25-Release-OPENFANS+20210328-v8"
 #### Kernel Version: "5.10.22"
 
 ```
-1.All systems kernel version had upgrade to "5.10.22-Release-OPENFANS+20210315-v8" Released now.
-2.Add BCM2835_Timer and  Android_Binder_Test support for kernel. 
+1. All systems kernel version had upgrade to "5.10.22-Release-OPENFANS+20210315-v8" Released now.
+
+2. Add BCM2835_Timer and  Android_Binder_Test support for kernel. 
 ```
 
 ## 2021.03.14 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
@@ -113,13 +129,14 @@ All systems kernel version had upgrade to "5.10.25-Release-OPENFANS+20210328-v8"
 #### Kernel & FW Version: "5.10.22"
 
 ```
-1.All systems kernel and FW version had upgrade to "5.10.22-Release-OPENFANS+20210314-v8" Released now.
+1. All systems kernel and FW version had upgrade to "5.10.22-Release-OPENFANS+20210314-v8" Released now.
 ```
 
 ## 2021.03.12 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded to Release version.**
 
 ```
-1.All systems kernel and FW version had upgrade to "5.10.22-Release-OPENFANS+20210312-v8" Released now.
+1. All systems kernel and FW version had upgrade to "5.10.22-Release-OPENFANS+20210312-v8" Released now.
+
 2.Kernel config updated.
 ```
 
@@ -129,6 +146,7 @@ All systems kernel version had upgrade to "5.10.25-Release-OPENFANS+20210328-v8"
 
 ```
 1. Testing Kernel & FW version had upgraded to "5.10.16-Release-OPENFANS+20210217-v8" as Released published.
+
 2. All systems kernel and FW version had upgrade to "5.10.16-Release-OPENFANS+20210217-v8" Released now.
 ```
 
@@ -156,6 +174,7 @@ All systems kernel version had upgrade to "5.10.25-Release-OPENFANS+20210328-v8"
 
 ```
 1. Kernel 5.10.9-ForTest-OPENFANS+20210123-v8 for Testing updated.
+
 2. Build change simd -> asimd ,  add evtstrm & cpuid hardware support for stable kernel "5.4.83-OPENFANS+20210122-v8".
 ```
 
@@ -163,6 +182,7 @@ All systems kernel version had upgrade to "5.10.25-Release-OPENFANS+20210328-v8"
 
 ```
 1. Kernel 5.10.6-ForTest-OPENFANS+20210112-v8 for Testing.
+
 2. Build change simd -> asimd ,  add evtstrm & cpuid hardware support.
 ```
 
