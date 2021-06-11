@@ -12,6 +12,21 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.06.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;System Images had upgraded.**
+
+```
+1.Main stable kernel & FW had upgraded to "5.10.42-Release-OPENFANS+20210611-v8" now.
+2.The system had upgraded to upstream Debian Buster upstream and update to 2021-06-11.
+3.The Docker-CE had upgrade to version "20.10.7~3".
+4.Upgrade Mesa package to newest version "21.1.0-4".
+5.The Mesa support vulkan driver for rpi, and FFmpeg suport mmal hardware acceleration.
+6.Add a localhost mesa repo version "21.1.0-4", at "/opt/mesa_ffmpeg_repos_v4/", with other depends or used packages.
+7.Update X86 runtime system env to ubuntu1804, and add a new testing game Aoe2c.
+8.Desktop image had add the Wechat and QQ Music Apps.
+9.Desktop image had upgrade the QQ, WPS version.
+10.The new os images support CM4 nvme boot and the upkg support u-boot booting.
+```
+
 ## 2021.06.09 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
 
 ```
