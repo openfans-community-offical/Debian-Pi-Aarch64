@@ -25,6 +25,7 @@
 8.Desktop image had add the Wechat and QQ Music Apps.
 9.Desktop image had upgrade the QQ, WPS version.
 10.The new os images support CM4 nvme boot and the upkg support u-boot booting.
+11.Default repo add. had changed to huaweicloud (mirrors.huaweicloud.com).
 ```
 
 ## 2021.06.09 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
