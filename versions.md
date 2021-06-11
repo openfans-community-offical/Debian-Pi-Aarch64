@@ -6,9 +6,7 @@
 
 #### 系统（ System ）：
 
-**2021-01-02/3-v2020-2.0-U6-Release** (kernelVer:**5.4.83-OPENFANS+20210102-v8**) ;
-
-桌面全功能版已更新至 Full Desktop Version is upto : **2021-01-04**
+**2021-06-11-v2020-2.0-U6-Release** (kernelVer:**5.10.42-Release-OPENFANS+20210611-v8**) ;
 
 #### 内核及固件（ kernel & firmware）：
 
