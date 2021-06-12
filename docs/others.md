@@ -187,4 +187,5 @@ msvcp140.dll error.
 
 ```
 http://archive.kylinos.cn/kylin/partner/pool/
+https://mirror.deepines.com/appstore/pool/appstore/
 ```
