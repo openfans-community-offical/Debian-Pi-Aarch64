@@ -182,3 +182,9 @@ msvcp140.dll error.
  
  Exec=env LANG=zh_CN WINEPREFIX="/home/pi/.wine" exagear ubuntu-1604 -- /usr/bin/wine  C:\\\\windows\\\\command\\\\start.exe /Unix /home/pi/.wine/dosdevices/c:/Program\ Files/WXWork/WXWork.exe
 ```
+
+#### ######
+
+```
+http://archive.kylinos.cn/kylin/partner/pool/
+```
