@@ -162,7 +162,7 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-16.6 How to upgrade Docker-CE](./README.md#3-166-how-to-upgrade-docker-ce)
 
-[- 3-16.7 Change audio mono output to stereo for Desktop Version System](./README.md#3-166-how-to-upgrade-docker-ce)
+[- 3-16.7 Change audio mono output to stereo for Desktop Version System](./README.md#3-167-change-audio-mono-output-to-stereo-for-desktop-version-system)
 
 [3-17. Extra Application Instructions](./README.md#3-17-extra-application-instructions)
 
