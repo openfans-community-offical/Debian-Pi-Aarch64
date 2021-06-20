@@ -152,6 +152,8 @@
 
 [- 3-16.6 升级 Docker-CE](./README_zh.md#3-166-%E5%8D%87%E7%BA%A7-docker-ce)
 
+[- 3-16.7 桌面版系统单声道改为立体声输出](./README_zh.md#3-166-%E5%8D%87%E7%BA%A7-docker-ce)
+
 [3-17. 配套应用程序使用说明](./README_zh.md#3-17%E9%85%8D%E5%A5%97%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 [- 3-17.1 WPS Office ARM64位 桌面版安装说明](./README_zh.md#3-171-wps-office-arm64%E4%BD%8D-%E6%A1%8C%E9%9D%A2%E7%89%88%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
@@ -1215,6 +1217,34 @@ echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian \
 apt update
 apt upgrade 
 ```
+
+#### 3-16.7 桌面版系统单声道改为立体声输出
+
+编辑文件 **/usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf**
+
+在下面的内容每行最前面添加 **";"** 符号，以注释掉以下内容： 
+
+```
+[Mapping analog-mono]
+device-strings = hw:%f
+channel-map = mono
+paths-output = analog-output analog-output-lineout analog-output-speaker analog-output-headphones analog-output-headphones-2 analog-output-mono
+paths-input = analog-input-front-mic analog-input-rear-mic analog-input-internal-mic analog-input-dock-mic analog-input analog-input-mic analog-input-linein analog-input-aux analog-input-video analog-input-tvtuner analog-input-fm analog-input-mic-line analog-input-headset-mic
+priority = 7
+```
+
+下面是注释后的内容：
+
+```
+;[Mapping analog-mono]
+;device-strings = hw:%f
+;channel-map = mono
+;paths-output = analog-output analog-output-lineout analog-output-speaker analog-output-headphones analog-output-headphones-2 analog-output-mono
+;paths-input = analog-input-front-mic analog-input-rear-mic analog-input-internal-mic analog-input-dock-mic analog-input analog-input-mic analog-input-linein analog-input-aux analog-input-video analog-input-tvtuner analog-input-fm analog-input-mic-line analog-input-headset-mic
+;priority = 7
+```
+
+最后重启系统生效。
 
 ### 3-17.配套应用程序使用说明
 
