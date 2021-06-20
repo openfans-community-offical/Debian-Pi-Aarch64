@@ -152,7 +152,7 @@
 
 [- 3-16.6 升级 Docker-CE](./README_zh.md#3-166-%E5%8D%87%E7%BA%A7-docker-ce)
 
-[- 3-16.7 桌面版系统单声道改为立体声输出](./README_zh.md#3-166-%E5%8D%87%E7%BA%A7-docker-ce)
+[- 3-16.7 桌面版系统单声道改为立体声输出](./README_zh.md#3-167-%E6%A1%8C%E9%9D%A2%E7%89%88%E7%B3%BB%E7%BB%9F%E5%8D%95%E5%A3%B0%E9%81%93%E6%94%B9%E4%B8%BA%E7%AB%8B%E4%BD%93%E5%A3%B0%E8%BE%93%E5%87%BA)
 
 [3-17. 配套应用程序使用说明](./README_zh.md#3-17%E9%85%8D%E5%A5%97%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
