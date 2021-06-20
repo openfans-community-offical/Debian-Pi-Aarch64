@@ -1,6 +1,6 @@
 ## RISC-V64 QEMU VM Example
 
-- ENV: Ubuntu 1804 X86
+- **ENV:** Ubuntu 1804 X86_64
 
 ----
 
