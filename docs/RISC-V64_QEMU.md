@@ -2,6 +2,8 @@
 
 - ENV: Ubuntu 1804 X86
 
+----
+
 #### Install Base Package
 
 ```
@@ -166,9 +168,11 @@ nohup \
 -device virtio-net-device,netdev=usernet  -netdev user,id=usernet,hostfwd=tcp::22222-:22
 ```
 
-## Note
+----
 
-#### For Qemu used 9P
+#### Note
+
+**For Qemu used 9P**
 
 ```
 ./configure --enable-gtk --enable-virtfs
