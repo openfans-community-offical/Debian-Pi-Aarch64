@@ -12,6 +12,12 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.06.20 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+
+```
+1. All systems kernel version had upgrade to "5.10.44-Release-OPENFANS+20210620" Released now.
+```
+
 ## 2021.06.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;System Images had upgraded.**
 
 ```
