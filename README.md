@@ -162,6 +162,8 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-16.6 How to upgrade Docker-CE](./README.md#3-166-how-to-upgrade-docker-ce)
 
+[- 3-16.7 Change audio mono output to stereo for Desktop Version System](./README.md#3-166-how-to-upgrade-docker-ce)
+
 [3-17. Extra Application Instructions](./README.md#3-17-extra-application-instructions)
 
 [- 3-17.1 WPS Office Arm 64-bit Desktop Installation Note](./README.md#3-171-wps-office-arm-64-bit-desktop-installation-note)
@@ -1285,6 +1287,34 @@ echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian \
 apt update
 apt upgrade 
 ```
+
+#### 3-16.7 Change audio mono output to stereo for Desktop Version System
+
+Edit the file **/usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf**
+
+Add the ";" symbol at the beginning of each line of the following content to comment out the following:
+
+```
+[Mapping analog-mono]
+device-strings = hw:%f
+channel-map = mono
+paths-output = analog-output analog-output-lineout analog-output-speaker analog-output-headphones analog-output-headphones-2 analog-output-mono
+paths-input = analog-input-front-mic analog-input-rear-mic analog-input-internal-mic analog-input-dock-mic analog-input analog-input-mic analog-input-linein analog-input-aux analog-input-video analog-input-tvtuner analog-input-fm analog-input-mic-line analog-input-headset-mic
+priority = 7
+```
+
+The following is the content after the comment:
+
+```
+;[Mapping analog-mono]
+;device-strings = hw:%f
+;channel-map = mono
+;paths-output = analog-output analog-output-lineout analog-output-speaker analog-output-headphones analog-output-headphones-2 analog-output-mono
+;paths-input = analog-input-front-mic analog-input-rear-mic analog-input-internal-mic analog-input-dock-mic analog-input analog-input-mic analog-input-linein analog-input-aux analog-input-video analog-input-tvtuner analog-input-fm analog-input-mic-line analog-input-headset-mic
+;priority = 7
+```
+
+Finally restart the system to take effect.
 
 ### 3-17. Extra Application Instructions
 
