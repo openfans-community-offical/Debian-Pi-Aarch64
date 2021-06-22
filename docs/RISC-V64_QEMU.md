@@ -19,7 +19,7 @@ libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc z
 
 git clone https://gitee.com/mirrors/riscv-gnu-toolchain --depth=1
 git rm --cached qemu
-git submodule update --init --recursive
+git submodule update --init --recursive --depth=1
 ./configure --prefix=/opt/riscv-gnu-toolchain_install && make linux -j $(nproc --all)
 echo 'export PATH=/opt/riscv-gnu-toolchain_install/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
