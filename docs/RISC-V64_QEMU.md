@@ -17,9 +17,9 @@ libglib2.0-dev autoconf automake libtool libsdl1.2-dev
 sudo apt-get install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev \
 libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev
 
-git clone https://gitee.com/mirrors/riscv-gnu-toolchain
+git clone https://gitee.com/mirrors/riscv-gnu-toolchain --depth=1
 git rm --cached qemu
-git submodule update --init --recursive --depth=1
+git submodule update --init --recursive
 ./configure --prefix=/opt/riscv-gnu-toolchain_install && make linux -j $(nproc --all)
 echo 'export PATH=/opt/riscv-gnu-toolchain_install/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
