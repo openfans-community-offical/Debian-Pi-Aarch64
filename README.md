@@ -1839,6 +1839,11 @@ After decompressing the files, please read the readme.txt file and follow the no
 
 ### 5-6 New features just for testing
 
+## NOTE: !!!!!! （Important）
+
+#### The following drivers are included and adapted to the latest MESA by default after the version "2021-06-11-v2020-2.0-U6-Release (included)" system, and no longer need to be installed separately.
+
+
 #### 5-6.1 Mesa Vulkan (v3dv) drivers include RPI4 VC4 and V3D for OpenGL H/W acceleration
 
 We had upgraded the Mesa drivers [21.0.0] add Vulkan (v3dv) include RPI4 VC4 and V3D for OpenGL H/W acceleration.
