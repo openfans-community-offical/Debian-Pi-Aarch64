@@ -49,7 +49,7 @@ make CROSS_COMPILE=riscv64-unknown-linux-gnu-  ARCH=riscv -j $(nproc --all)
 apt-get install debootstrap qemu-user-static binfmt-support \
 debian-ports-archive-keyring -y
 sudo debootstrap --arch=riscv64 --keyring /usr/share/keyrings/debian-ports-archive-keyring.gpg \
---include=debian-ports-archive-keyring unreleased ./riscv64-chroot \
+--include=debian-ports-archive-keyring unstable ./riscv64-chroot \
 http://ftp.debian.org/debian-ports
 ```
 
