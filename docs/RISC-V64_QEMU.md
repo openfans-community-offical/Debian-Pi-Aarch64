@@ -50,8 +50,8 @@ apt-get install debootstrap mmdebstrap  qemu-user-static binfmt-support \
 debian-ports-archive-keyring -y
 mmdebstrap --architectures=riscv64 --include="debian-ports-archive-keyring" \
 sid /home/linux/riscv64-chroot \
-"deb http://deb.debian.org/debian-ports/ sid main" \
-"deb http://deb.debian.org/debian-ports/ unreleased main"
+"deb http://ftp.debian.org/debian-ports/ sid main" \
+"deb http://ftp.debian.org/debian-ports/ unreleased main"
 ```
 
 ```
