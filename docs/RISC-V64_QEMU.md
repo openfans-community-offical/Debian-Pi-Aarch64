@@ -64,9 +64,8 @@ sudo debootstrap --arch=riscv64 --keyring /usr/share/keyrings/debian-ports-archi
 --include=debian-ports-archive-keyring unstable ./riscv64-chroot \
 http://ftp.debian.org/debian-ports
 ```
-```
 
-then
+2nd.
 
 ```
 cat >>/etc/network/interfaces <<EOF
