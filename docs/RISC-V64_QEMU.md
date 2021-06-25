@@ -71,6 +71,12 @@ U_BOOT_FDT_DIR="noexist"
 EOF
 ```
 
+```
+passwd root
+apt-get install openntpd ntpdate
+sed -i 's/^DAEMON_OPTS="/DAEMON_OPTS="-s /' /etc/default/openntpd
+```
+
 CP kernel file.
 
 ```
