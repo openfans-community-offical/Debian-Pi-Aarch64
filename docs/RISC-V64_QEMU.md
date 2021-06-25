@@ -46,11 +46,12 @@ make CROSS_COMPILE=riscv64-unknown-linux-gnu-  ARCH=riscv -j $(nproc --all)
 #### Buidl Risc-V64 Debian rootFS
 
 ```
-apt-get install debootstrap qemu-user-static binfmt-support \
+apt-get install debootstrap mmdebstrap  qemu-user-static binfmt-support \
 debian-ports-archive-keyring -y
-sudo debootstrap --arch=riscv64 --keyring /usr/share/keyrings/debian-ports-archive-keyring.gpg \
---include=debian-ports-archive-keyring unstable ./riscv64-chroot \
-http://ftp.debian.org/debian-ports
+mmdebstrap --architectures=riscv64 --include="debian-ports-archive-keyring" \
+sid /home/linux/riscv64-chroot \
+"deb http://deb.debian.org/debian-ports/ sid main" \
+"deb http://deb.debian.org/debian-ports/ unreleased main"
 ```
 
 ```
