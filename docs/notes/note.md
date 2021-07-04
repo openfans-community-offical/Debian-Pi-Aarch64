@@ -38,3 +38,15 @@ Type=idle
 # systemctl start serial-getty@ttyS0.service
 # systemctl enable serial-getty@ttyS0.service
 ```
+
+----
+
+## NoTe
+
+#### for docker (riscv)
+
+```
+apt install -y conntrack ebtables ethtool iptables libip6tc2 libnetfilter-conntrack3 libnfnetlink0 libyajl-dev libyajl2 socat
+
+maybe: update-alternatives --set iptables /usr/sbin/iptables-legacy
+```
