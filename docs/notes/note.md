@@ -50,3 +50,10 @@ apt install -y conntrack ebtables ethtool iptables libip6tc2 libnetfilter-conntr
 
 maybe: update-alternatives --set iptables /usr/sbin/iptables-legacy
 ```
+
+#### Debian ports for RISCV repo
+
+```
+deb http://ftp.ports.debian.org/debian-ports/ sid main
+deb http://ftp.ports.debian.org/debian-ports/ unreleased mai
+```
