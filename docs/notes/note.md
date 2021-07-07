@@ -59,12 +59,12 @@ deb http://ftp.ports.debian.org/debian-ports/ unreleased main
 ```
 
 ```
-https://mirrors.cloud.tencent.com/debian-ports/ sid main
-https://mirrors.cloud.tencent.com/debian-ports/ unreleased main
+deb https://mirrors.cloud.tencent.com/debian-ports/ sid main
+deb https://mirrors.cloud.tencent.com/debian-ports/ unreleased main
 ```
 
 ```
-https://mirrors.aliyun.com/debian-ports/ sid main
-https://mirrors.aliyun.com/debian-ports/ unreleased main
-https://mirrors.aliyun.com/thead/debian-riscv64/ sid main
+deb https://mirrors.aliyun.com/debian-ports/ sid main
+deb https://mirrors.aliyun.com/debian-ports/ unreleased main
+deb https://mirrors.aliyun.com/thead/debian-riscv64/ sid main
 ```
