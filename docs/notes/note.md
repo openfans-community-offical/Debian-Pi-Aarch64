@@ -66,5 +66,15 @@ deb https://mirrors.cloud.tencent.com/debian-ports/ unreleased main
 ```
 deb https://mirrors.aliyun.com/debian-ports/ sid main
 deb https://mirrors.aliyun.com/debian-ports/ unreleased main
-deb https://mirrors.aliyun.com/thead/debian-riscv64/ sid main
+
+#deb https://mirrors.aliyun.com/thead/debian-riscv64/ sid main
+
+for thead need:
+apt install gnupg2
+wget https://mirrors.aliyun.com/thead/thead-keys/thead-repo.gpg
+apt-key add ./thead-repo.gpg
+rm -rf ./thead-repo.gpg
+
+check:
+apt-key list | grep 'F164 B941 4332 FC54'
 ```
