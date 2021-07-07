@@ -55,5 +55,16 @@ maybe: update-alternatives --set iptables /usr/sbin/iptables-legacy
 
 ```
 deb http://ftp.ports.debian.org/debian-ports/ sid main
-deb http://ftp.ports.debian.org/debian-ports/ unreleased mai
+deb http://ftp.ports.debian.org/debian-ports/ unreleased main
+```
+
+```
+https://mirrors.cloud.tencent.com/debian-ports/ sid main
+https://mirrors.cloud.tencent.com/debian-ports/ unreleased main
+```
+
+```
+https://mirrors.aliyun.com/debian-ports/ sid main
+https://mirrors.aliyun.com/debian-ports/ unreleased main
+https://mirrors.aliyun.com/thead/debian-riscv64/ sid main
 ```
