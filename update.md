@@ -12,6 +12,13 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.07.10 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+
+```
+1. All systems kernel version had upgrade to "5.10.48-Release-OPENFANS+20210710-v8" Released now.
+2. Upgrade the newest 5GHz wifi firmware brcmfmac43455-sdio.clm_blob.
+```
+
 ## 2021.06.20 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
 
 ```
