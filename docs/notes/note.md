@@ -78,3 +78,9 @@ rm -rf ./thead-repo.gpg
 check:
 apt-key list | grep 'F164 B941 4332 FC54'
 ```
+
+#### vscode linux arm64
+
+```
+https://aka.ms/linux-arm64-deb
+```
