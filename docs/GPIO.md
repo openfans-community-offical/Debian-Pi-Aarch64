@@ -1,3 +1,3 @@
 ## RPI GPIO
 
-![GPIO](../../images/GPIO.png)
+![GPIO](../images/GPIO.png)
