@@ -14,5 +14,3 @@ add:
 ```
 dtoverlay=gpio-shutdown
 ```
-
-## PI GPIO
