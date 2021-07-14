@@ -27,7 +27,7 @@ npm  --registry https://registry.npm.taobao.org install -g electron-userland --a
 npm  --registry https://registry.npm.taobao.org install -g electron --save-dev --unsafe-perm=true --allow-root --arch=arm64
 
 npm --registry https://registry.npm.taobao.org install --production --legacy-peer-deps
-npm  --registry https://registry.npm.taobao.org install -D electron-builder  electron-userland --arch=arm64
+//npm  --registry https://registry.npm.taobao.org install -D electron-builder  electron-userland --arch=arm64
 npm  --registry https://registry.npm.taobao.org install -D electron --save-dev --unsafe-perm=true --allow-root --arch=arm64 --legacy-peer-deps
 ```
 
