@@ -1812,7 +1812,7 @@ MEGA网盘："/Debian-Pi-Aarch64/2021/extra/Graphic_Libs_Trsting/debs_repo.zip"
 
 - MEGA: [点击前往下载](https://mega.nz/folder/coVQAaZR#ifOeikkhJpGYw8B7vvlDOg)
 
-- 阿里云: [点击前往下载](https://www.aliyundrive.com/s/gEhaNe5sDBb)
+- 阿里云: [点击前往下载](https://www.aliyundrive.com/s/AyMNUkFkHbH)
 
 ----
 
