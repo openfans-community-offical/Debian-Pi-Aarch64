@@ -58,7 +58,9 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 **2021-06-11-v2020-2.0-U6-Release** (kernelVer:**5.10.42-Release-OPENFANS+20210611-v8**)  ;   
 
-Newest Kernel Upkg version: **5.10.50-Release-OPENFANS+20210719-v8** (Single Update Pkg)
+#### Newest Kernel Upkg version
+
+**5.10.50-Release-OPENFANS+20210719-v8** (Single Update Pkg)
 
 ----
 
