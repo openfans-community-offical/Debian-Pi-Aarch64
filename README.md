@@ -1908,7 +1908,7 @@ For MEGA："/Debian-Pi-Aarch64/2021/extra/Graphic_Libs_Trsting/debs_repo.zip"
 
 - MEGA: [Click to download](https://mega.nz/folder/coVQAaZR#ifOeikkhJpGYw8B7vvlDOg)
 
-- Aliyun: [Click to download](https://www.aliyundrive.com/s/gEhaNe5sDBb)
+- Aliyun: [Click to download](https://www.aliyundrive.com/s/AyMNUkFkHbH)
 
 ----
 
