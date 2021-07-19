@@ -10,7 +10,7 @@
 
 #### 内核及固件（ kernel & firmware）：
 
-**5.10.48-Release-OPENFANS+20210710-v8** ( **建议更新 - Suggested to upgrade** )
+**5.10.50-Release-OPENFANS+20210719-v8** ( **建议更新 - Suggested to upgrade** )
 
 ```
 注意：U3(含)之后的固件不支持从 版本<=U2(包含在内)升级!!*
