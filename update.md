@@ -12,36 +12,36 @@
 
 # 更新说明文档 ( Update Notes )
 
-## 2021.07.23 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had upgrade.**
+## 2021.07.23 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgrade.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.52-Release-OPENFANS+20210723-v8" Released now.
+1. All systems kernel and firmware version had upgrade to "5.10.52-Release-OPENFANS+20210723-v8" Released now.
 ```
 
-## 2021.07.22 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+## 2021.07.22 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.50-Release-OPENFANS+20210722-v8" Released now.
+1. All systems kernel and firmware version had upgrade to "5.10.50-Release-OPENFANS+20210722-v8" Released now.
 2. Add support GUD USB Display DRM driver
 ```
 
-## 2021.07.19 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+## 2021.07.19 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.50-Release-OPENFANS+20210719-v8" Released now.
+1. All systems kernel and firmware version had upgrade to "5.10.50-Release-OPENFANS+20210719-v8" Released now.
 ```
 
-## 2021.07.10 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+## 2021.07.10 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.48-Release-OPENFANS+20210710-v8" Released now.
+1. All systems kernel and firmware version had upgrade to "5.10.48-Release-OPENFANS+20210710-v8" Released now.
 2. Upgrade the newest 5GHz wifi firmware brcmfmac43455-sdio.clm_blob.
 ```
 
-## 2021.06.20 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+## 2021.06.20 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.44-Release-OPENFANS+20210620" Released now.
+1. All systems kernel and firmware version had upgrade to "5.10.44-Release-OPENFANS+20210620" Released now.
 ```
 
 ## 2021.06.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;System Images had upgraded.**
