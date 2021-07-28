@@ -17,7 +17,7 @@
 
 ```
 1. All systems kernel and firmware version had updated to "5.10.52-Release-OPENFANS+20210728-v8" Released now.
-2. Fixted some VC4 and issues.
+2. Fixted some VC4 and issues, revert drm/vc4: increase the core clock to a minimum of 500MHZ.
 3. overlays: Set CMA to 512MB on Pi 4 for vc4:
 ```
 
