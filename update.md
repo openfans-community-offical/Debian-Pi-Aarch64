@@ -12,36 +12,43 @@
 
 # 更新说明文档 ( Update Notes )
 
-## 2021.07.23 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgrade.**
+
+## 2021.07.23 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
-1. All systems kernel and firmware version had upgrade to "5.10.52-Release-OPENFANS+20210723-v8" Released now.
+1. All systems kernel and firmware version had updated to "5.10.52-Release-OPENFANS+20210723-v8" Released now.
+```
+
+## 2021.07.23 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
+
+```
+1. All systems kernel and firmware version had upgraded to "5.10.52-Release-OPENFANS+20210723-v8" Released now.
 ```
 
 ## 2021.07.22 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
-1. All systems kernel and firmware version had upgrade to "5.10.50-Release-OPENFANS+20210722-v8" Released now.
+1. All systems kernel and firmware version had updated to "5.10.50-Release-OPENFANS+20210722-v8" Released now.
 2. Add support GUD USB Display DRM driver
 ```
 
-## 2021.07.19 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+## 2021.07.19 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
-1. All systems kernel and firmware version had upgrade to "5.10.50-Release-OPENFANS+20210719-v8" Released now.
+1. All systems kernel and firmware version had upgraded to "5.10.50-Release-OPENFANS+20210719-v8" Released now.
 ```
 
-## 2021.07.10 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+## 2021.07.10 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
-1. All systems kernel and firmware version had upgrade to "5.10.48-Release-OPENFANS+20210710-v8" Released now.
+1. All systems kernel and firmware version had upgraded to "5.10.48-Release-OPENFANS+20210710-v8" Released now.
 2. Upgrade the newest 5GHz wifi firmware brcmfmac43455-sdio.clm_blob.
 ```
 
-## 2021.06.20 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+## 2021.06.20 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
-1. All systems kernel and firmware version had upgrade to "5.10.44-Release-OPENFANS+20210620" Released now.
+1. All systems kernel and firmware version had upgraded to "5.10.44-Release-OPENFANS+20210620" Released now.
 ```
 
 ## 2021.06.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;System Images had upgraded.**
@@ -63,7 +70,7 @@
 
 8.  Desktop image had add the Wechat and QQ Music Apps.
 
-9.  Desktop image had upgrade the QQ, WPS version.
+9.  Desktop image had upgraded the QQ, WPS version.
 
 10. The new os images support CM4 nvme boot and the upkg support u-boot booting.
 
@@ -73,59 +80,59 @@
 ## 2021.06.09 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
 
 ```
-1. All systems FW version had upgrade to "5.10.42-Release-OPENFANS+20210609-v8" Released now.
+1. All systems FW version had upgraded to "5.10.42-Release-OPENFANS+20210609-v8" Released now.
 
 2. Kernel tunning.
 ```
 
-## 2021.06.07 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+## 2021.06.07 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had upgraded.**
 
 ```
-1. All systems FW version had upgrade to "5.10.39-Release-OPENFANS+20210607-v8" Released now.
+1. All systems FW version had upgraded to "5.10.39-Release-OPENFANS+20210607-v8" Released now.
 ```
 
 ## 2021.05.25 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
 
 ```
-1. All systems FW version had upgrade to "5.10.38-Release-OPENFANS+20210525-v8" Released now.
+1. All systems FW version had updated to "5.10.38-Release-OPENFANS+20210525-v8" Released now.
 ```
 
-## 2021.05.21 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had updated.**
+## 2021.05.21 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel had upgraded.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.38-Release-OPENFANS+20210521-v8" Released now.
+1. All systems kernel version had upgraded to "5.10.38-Release-OPENFANS+20210521-v8" Released now.
 
 2. Add AMD_GPU kernel modules back.
 
 3. Support CM4 NVME boot.
 ```
 
-## 2021.05.14 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
+## 2021.05.14 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.36-Release-OPENFANS+20210514-v8" Released now.
+1. All systems kernel version had upgraded to "5.10.36-Release-OPENFANS+20210514-v8" Released now.
 
 2. Add ATI kernel modules.
 ```
 
-## 2021.05.02 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
+## 2021.05.02 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.33-Release-OPENFANS+20210502-v8" Released now.
+1. All systems kernel version had upgraded to "5.10.33-Release-OPENFANS+20210502-v8" Released now.
 
 2. Remove ATI & AMD GPU/DRM kernel modules which is not used for rpi.
 ```
 
-## 2021.04.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
+## 2021.04.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.27-Release-OPENFANS+20210411-v8" Released now.
+1. All systems kernel version had upgraded to "5.10.27-Release-OPENFANS+20210411-v8" Released now.
 ```
 
 ## 2021.03.28 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had updated.**
 
 ```
-1. All systems kernel version had upgrade to "5.10.25-Release-OPENFANS+20210328-v8" Released now.
+1. All systems kernel version had updated to "5.10.25-Release-OPENFANS+20210328-v8" Released now.
 ```
 
 ## 2021.03.25 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded.**
@@ -151,7 +158,7 @@
 #### Kernel Version: "5.10.22"
 
 ```
-1. All systems kernel version had upgrade to "5.10.22-Release-OPENFANS+20210315-v8" Released now.
+1. All systems kernel version had updated to "5.10.22-Release-OPENFANS+20210315-v8" Released now.
 
 2. Add BCM2835_Timer and  Android_Binder_Test support for kernel. 
 ```
@@ -161,13 +168,13 @@
 #### Kernel & FW Version: "5.10.22"
 
 ```
-1. All systems kernel and FW version had upgrade to "5.10.22-Release-OPENFANS+20210314-v8" Released now.
+1. All systems kernel and FW version had updated to "5.10.22-Release-OPENFANS+20210314-v8" Released now.
 ```
 
 ## 2021.03.12 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel & FW had upgraded to Release version.**
 
 ```
-1. All systems kernel and FW version had upgrade to "5.10.22-Release-OPENFANS+20210312-v8" Released now.
+1. All systems kernel and FW version had upgraded to "5.10.22-Release-OPENFANS+20210312-v8" Released now.
 
 2.Kernel config updated.
 ```
@@ -179,7 +186,7 @@
 ```
 1. Testing Kernel & FW version had upgraded to "5.10.16-Release-OPENFANS+20210217-v8" as Released published.
 
-2. All systems kernel and FW version had upgrade to "5.10.16-Release-OPENFANS+20210217-v8" Released now.
+2. All systems kernel and FW version had upgraded to "5.10.16-Release-OPENFANS+20210217-v8" Released now.
 ```
 
 ## 2021.02.10 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Testing kernel & FW upgraded.**
@@ -191,7 +198,7 @@
 ## 2021.01.31 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Stable kernel & FW updated and testing upgraded.**
 
 ```
-1. Main stable kernel & FW had updated to "5.4.83-OPENFANS+20210131-v8"
+1. Main stable kernel & FW had upgraded to "5.4.83-OPENFANS+20210131-v8"
 2. Testing kernel & FW version had upgraded to "5.10.11-ForTest-OPENFANS+20210131-v8"
 ```
 
@@ -202,10 +209,10 @@
 - opencv-4.5.1-org.pifan_20210116-1_arm64.deb
 ```
 
-## 2021.01.23 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Upkg updated.**
+## 2021.01.23 &nbsp;&nbsp;// **System v2.0 U6 Release ver. Upkg upgraded.**
 
 ```
-1. Kernel 5.10.9-ForTest-OPENFANS+20210123-v8 for Testing updated.
+1. Kernel 5.10.9-ForTest-OPENFANS+20210123-v8 for Testing upgraded.
 
 2. Build change simd -> asimd ,  add evtstrm & cpuid hardware support for stable kernel "5.4.83-OPENFANS+20210122-v8".
 ```
@@ -246,7 +253,7 @@ and optimized for the Raspberry Pi CPU architecture and instruction set.
 * 添加向日葵的支持。
 ```
 
-## 2021.01.03 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 210102/03 Upgrade.**
+## 2021.01.03 &nbsp;&nbsp;// **System v2.0 U6 Release ver. 210102/03 Upgraded.**
 
 ```
 [A Chinese Team]
@@ -269,7 +276,7 @@ newest LTS main-line;
 8. Whole system pkg had updated and tuned.
 ```
 
-## 2020.06.22 &nbsp;&nbsp;// **System v2.0 U4 Release ver. 200622 Upgrade.**
+## 2020.06.22 &nbsp;&nbsp;// **System v2.0 U4 Release ver. 200622 Upgraded.**
 
 ```
 [A Chinese Team]
@@ -310,17 +317,17 @@ with H264_V4L2M2M decoding and MMAL support.
 1. When HW VC4/3D enabled, the Chromium browser interface display error issue has fixed.
 ```
 
-## 2020.06.15 &nbsp;&nbsp;// **System v2.0 U3 Release ver. 2-3:0615 Update.**
+## 2020.06.15 &nbsp;&nbsp;// **System v2.0 U3 Release ver. 2-3:0615 upgraded.**
 
 ```
 [A Chinese Team]
 
 1. The system had upgraded to upstream Debian Buster upstream and update to 20200615;
 
-2. The Kernel and firmware upgrade to "5.4.45-OPENFANS+20200614-v8" as support as 
+2. The Kernel and firmware upgraded to "5.4.45-OPENFANS+20200614-v8" as support as 
 newest LTS main-line;
    
-3. Upkg pkg update to version "2020.06.15-2.0-U3";
+3. Upkg pkg had upgraded to version "2020.06.15-2.0-U3";
 
 4. Upgrade Docker pkg and docker-compose;
 
@@ -367,7 +374,7 @@ newest LTS main-line;
 ```
 [A Chinese Team]
 
-1. The system had upgrade to upstream Debian Buster 10.2 and update to 1130;
+1. The system had upgraded to upstream Debian Buster 10.2 and update to 1130;
 
 2. The Kernel and firmware upgrade to "4.19.86-OPENFANS+20191130-v8" as support as 
 newest LTS main-line;
@@ -381,12 +388,12 @@ newest LTS main-line;
 6. The **2.0-U1** version is the ending for the lifetime of `final 2.0 main-line`.
 ```
 
-## 2019.11.25 &nbsp;&nbsp;// **System v2.0 Release ver. 1117 Updated.**
+## 2019.11.25 &nbsp;&nbsp;// **System v2.0 Release ver. 1117 upgraded.**
 
 ```
 [A Chinese Team]
 
-1. The system had upgrade to upstream Debian Buster 10.2 and update to 1125;
+1. The system had upgraded to upstream Debian Buster 10.2 and update to 1125;
 
 2. The Kernel and firmware upgrade to "4.19.85-OPENFANS+20191125-v8" 
    as support as newest LTS main-line;
@@ -400,17 +407,17 @@ newest LTS main-line;
 6. Upgrade rpi-eeprom to version 2.4-1;
 ```
 
-## 2019.11.17 &nbsp;&nbsp;// **System v2.0 Release ver. 1117 Upgraded.**
+## 2019.11.17 &nbsp;&nbsp;// **System v2.0 Release ver. 1117 upgraded.**
 
 ```
 [A Chinese and an America Team]
 
-1. The system had upgrade to upstream Debian Buster 10.2 and update to 1117;
+1. The system had upgraded to upstream Debian Buster 10.2 and update to 1117;
 
 2. The Kernel and firmware upgrade to "4.19.83-OPENFANS+20191116-v8" 
    as support as newest LTS main-line;
 
-3. Upkg pkg update to version "2019.11.16";
+3. Upkg pkg had upgraded to version "2019.11.16";
 
 4. Add catfish and unrar for Desktop Full-Featured version support;
 
@@ -428,12 +435,12 @@ newest LTS main-line;
    system without ross compilation tools and get better performence with the native performance, 
    a really stronger server Cavium ThunderX which has 96-cores CPU is very fast and quickly;
 
-2. Kernel and firmware upgrade to "4.19.81-OPENFANS+20191013-v8" 
+2. Kernel and firmware upgraded to "4.19.81-OPENFANS+20191013-v8" 
    as support as newest LTS main-line;
 
 3. System update to "2019-11-10" the mainline of upstream;
 
-4. Mesa pkg upgrade to version "19.2.3";
+4. Mesa pkg had upgraded to version "19.2.3";
 
 5. upkg pkg update to version "2019.11.10";
 
@@ -452,12 +459,12 @@ newest LTS main-line;
 11. Deepin system which version is 2011-11-10 (15.5 SP2) had supported upgrade now.
 ```
 
-## 2019.10.13 &nbsp;&nbsp;// **System v2.0 Release ver. 1013 Updated.** 
+## 2019.10.13 &nbsp;&nbsp;// **System v2.0 Release ver. 1013 upgraded.** 
 
 ```
 [A Chinese Team]
 
-1. Kernel and firmware upgrade to "4.19.79-OPENFANS+20191013-v8" as support as newest LTS main-line;
+1. Kernel and firmware had upgraded to "4.19.79-OPENFANS+20191013-v8" as support as newest LTS main-line;
 
 2. CecOS CaaS Container Cloud Platform has upgrade to newest version "2.22.1";
 
@@ -468,7 +475,7 @@ newest LTS main-line;
 
 5. Hardware video decodec video player and camera command app support;
 
-6. Mesa pkg upgrade to version "19.2.1-1";
+6. Mesa pkg had upgraded to version "19.2.1-1";
 
 7. WPS Aarch64 desktop app edition extra pkg support;
 
