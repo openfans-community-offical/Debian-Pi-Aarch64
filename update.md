@@ -17,6 +17,14 @@
 
 ```
 1. All systems kernel and firmware version had updated to "5.10.52-Release-OPENFANS+20210728-v8" Released now.
+2. Fixted some VC4 and issues.
+3. overlays: Set CMA to 512MB on Pi 4 for vc4:
+```
+
+Can be overridden by appending a parameter to the dtoverlay line, e.g.
+
+```
+dtoverlay=vc4-fkms-v3d,cma-256
 ```
 
 ## 2021.07.23 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
