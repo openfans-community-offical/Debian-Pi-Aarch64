@@ -13,10 +13,10 @@
 # 更新说明文档 ( Update Notes )
 
 
-## 2021.07.23 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+## 2021.07.28 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
-1. All systems kernel and firmware version had updated to "5.10.52-Release-OPENFANS+20210723-v8" Released now.
+1. All systems kernel and firmware version had updated to "5.10.52-Release-OPENFANS+20210728-v8" Released now.
 ```
 
 ## 2021.07.23 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
