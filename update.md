@@ -13,6 +13,13 @@
 # 更新说明文档 ( Update Notes )
 
 
+## 2021.08_06~07 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+
+```
+1. All systems kernel and firmware version had updated to "5.10.52-Release-OPENFANS+20210806-v8" Released now.
+2. Upkg name is: upkg-2021-08-07-v2021-2.0-U6-Release.zip.
+```
+
 ## 2021.07.28 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
