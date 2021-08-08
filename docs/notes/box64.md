@@ -34,7 +34,7 @@ env LANG=zh_CN WINEPREFIX="/opt/win64/" https_proxy="http://x.x.x.x:xxxx" wine64
 
 ----
 
-#For Box86
+# For Box86
 
 ## Build on arm64
 
@@ -45,8 +45,22 @@ apt install gcc-arm-linux-gnueabi binutils-arm-linux-gnueabi gcc-arm-linux-gnuea
 cmake .. -DRPI4ARM64=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DARM_DYNAREC=1
 make install
 ```
+## On arm64
 
+```
 apt install libgcc1-i386-cross libc6-i386-cross
 dpkg --add-architecture armhf
 apt install gcc-8-base:armhf libc6:armhf libgcc1:armhf
+```
 
+#### libfaudio0
+
+```
+http://mirrors.huaweicloud.com/debian/pool/main/f/faudio/libfaudio0_21.02-1~bpo10+1_i386.deb
+```
+
+#### Wine (6.0.1 stable)
+
+```
+https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-6.0.1-upstream-linux-x86.tar.gz
+```
