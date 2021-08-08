@@ -54,7 +54,7 @@ apt install gcc-8-base:armhf libc6:armhf libgcc1:armhf
 apt install libcups2:armhf libmpg123-0:armhf libmpg16-16:armhf
 apt install libfreetype6:armhf libfontconfig1:armhf
 
-apt install libx11-6:armhf libxxf86vm1:armhf libxrender1:armhf libxcomposite1:armhf
+apt install libx11-6:armhf libxxf86vm1:armhf libxrender1:armhf libxcomposite1:armhf libx11-xcb1:armhf
 apt install libxcb-xinerama0:armhf libxinerama1:armhf libxrandr2:armhf libxi6:armhf libxcursor1:armhf
 apt purge libxrandr2:armhf -y
 ```
@@ -63,6 +63,7 @@ apt purge libxrandr2:armhf -y
 
 ```
 http://mirrors.huaweicloud.com/debian/pool/main/f/faudio/libfaudio0_21.02-1~bpo10+1_i386.deb
+apt install libasound2:armhf libpulse0:armhf
 ```
 
 #### Wine (6.0.1 stable)
