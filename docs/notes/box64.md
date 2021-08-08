@@ -57,6 +57,7 @@ apt install libfreetype6:armhf libfontconfig1:armhf
 apt install libx11-6:armhf libxxf86vm1:armhf libxrender1:armhf libxcomposite1:armhf
 apt install libxcb-xinerama0:armhf libxinerama1:armhf libxrandr2:armhf libxi6:armhf libxcursor1:armhf
 apt install libxcursor1:armhf
+reboot
 ```
 
 #### libfaudio0
@@ -69,4 +70,11 @@ http://mirrors.huaweicloud.com/debian/pool/main/f/faudio/libfaudio0_21.02-1~bpo1
 
 ```
 https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-6.0.1-upstream-linux-x86.tar.gz
+```
+
+#### test
+
+```
+sudo rm -rf /opt/win32/*; sudo rm -rf /opt/win32/.update-timestamp
+env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86 /opt/wine32/bin/wine  winecfg
 ```
