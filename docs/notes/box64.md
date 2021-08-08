@@ -52,6 +52,9 @@ apt install libgcc1-i386-cross libc6-i386-cross
 dpkg --add-architecture armhf
 apt install gcc-8-base:armhf libc6:armhf libgcc1:armhf
 apt install libcups2:armhf libmpg123-0:armhf libmpg16-16:armhf libfreetype6:armhf libfontconfig1:armhf
+apt install libx11-6:armhf libxxf86vm1:armhf libxrender1:armhf libxcomposite1:armhf
+apt install libxcb-xinerama0:armhf libxinerama1:armhf libxrandr2:armhf libxi6:armhf libxcursor1:armhf
+apt install libxcursor1:armhf
 ```
 
 #### libfaudio0
