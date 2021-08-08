@@ -14,5 +14,6 @@ Library libdl.so.2 (0x911ac0b0) needs 0x911bca50, but it was not found. Ignoring
 Library libpthread.so.0 (0x911a9aa0) needs 0x911bca50, but it was not found. Ignoring.
 
 apt install lib64gcc1-i386-cross libc6-amd64-i386-cross
-cp -rf /usr/i686-linux-gnu/lib64/* /opt/wine64/lib64/
+cp -rf  /usr/i686-linux-gnu/lib64/*  x86_64/
+cp -rf  /usr/i686-linux-gnu/lib/*  x86/
 ```
