@@ -90,6 +90,8 @@ env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86
 cd ~/ && wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks # Download
 chmod +x winetricks && sudo mv winetricks /usr/local/bin/
 env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86 winetricks --gui
+BOX86_NOBANNER=1 winetricks arch=32 --gui
+BOX86_NOBANNER=1 winetricks  --gui
 ```
 
 # Wine ENV Settings
