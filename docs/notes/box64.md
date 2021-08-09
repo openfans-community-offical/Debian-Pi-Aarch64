@@ -110,5 +110,13 @@ export DISPLAY=:0
 export WINEPREFIX='/opt/win32'
 ```
 
+#### chroot system
+
+```
+~/.asoundrc 
+defaults.ctl.card 0 
+defaults.pcm.card 0
+defaults.pcm.device 0
+```
 
 
