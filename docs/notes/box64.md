@@ -79,7 +79,7 @@ ln -sf /opt/wine/bin/wineserver /usr/local/bin/wineserver
 #### test
 
 ```
-sudo rm -rf /opt/win32/*; sudo rm -rf /opt/win32/.update-timestamp
+rm -rf /opt/win32/*; rm -rf /opt/win32/.update-timestamp
 env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86 /opt/wine32/bin/wine  winecfg
 ```
 
@@ -87,7 +87,7 @@ env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86
 
 ```
 cd ~/ && wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks # Download
-sudo chmod +x winetricks && sudo mv winetricks /usr/local/bin/
+chmod +x winetricks && sudo mv winetricks /usr/local/bin/
 env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86 winetricks --gui
 ```
 
