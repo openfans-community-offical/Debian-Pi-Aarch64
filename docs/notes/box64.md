@@ -113,6 +113,7 @@ export WINEPREFIX='/opt/win32'
 #### chroot system
 
 ```
+# just testing example ; do not used
 ~/.asoundrc 
 defaults.ctl.card 0 
 defaults.pcm.card 0
