@@ -71,7 +71,8 @@ apt install libasound2:armhf libpulse0:armhf
 
 ```
 https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-6.0.1-upstream-linux-x86.tar.gz
-ln -sf /opt/wine/bin/wine  /usr/local/bin/wine
+#ln -sf /opt/wine/bin/wine  /usr/local/bin/wine
+rm -rf /usr/local/bin/wine ; echo -e '#!/bin/bash\nsetarch linux32 -L '"box86 /opt/wine/bin/wine "'"$@"' | tee -a /usr/local/bin/wine >/dev/null && chmod +x /usr/local/bin/wine
 ln -sf /opt/wine/bin/winecfg /usr/local/bin/winecfg
 ln -sf /opt/wine/bin/wineserver /usr/local/bin/wineserver
 ```
