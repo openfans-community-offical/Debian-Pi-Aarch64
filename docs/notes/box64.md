@@ -71,6 +71,9 @@ apt install libasound2:armhf libpulse0:armhf
 
 ```
 https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-6.0.1-upstream-linux-x86.tar.gz
+ln -sf /opt/wine/bin/wine  /usr/local/bin/wine
+ln -sf /opt/wine/bin/winecfg /usr/local/bin/winecfg
+ln -sf /opt/wine/bin/wineserver /usr/local/bin/wineserver
 ```
 
 #### test
@@ -83,7 +86,7 @@ env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86
 #### winetricks
 
 ```
-cd ~/Downloads && wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks # Download
+cd ~/ && wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks # Download
 sudo chmod +x winetricks && sudo mv winetricks /usr/local/bin/
 env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86 winetricks --gui
 ```
