@@ -87,6 +87,7 @@ env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86
 #### winetricks
 
 ```
+apt-get install cabextract -y
 cd ~/ && wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks # Download
 chmod +x winetricks && sudo mv winetricks /usr/local/bin/
 env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86 winetricks --gui
