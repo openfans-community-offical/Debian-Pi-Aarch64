@@ -87,3 +87,28 @@ cd ~/Downloads && wget https://raw.githubusercontent.com/Winetricks/winetricks/m
 sudo chmod +x winetricks && sudo mv winetricks /usr/local/bin/
 env LANG=zh_CN WINEPREFIX="/opt/win32/" https_proxy="http://x.x.x.x:xxxx"  box86 winetricks --gui
 ```
+
+# Wine ENV Settings
+
+#### lang and fonts
+
+```
+apt install locales
+dpkg-reconfigure locales
+apt install xfonts-intl-chinese xfonts-wqy ttf-wqy-microhei  xfonts-intl-chinese wqy*
+apt install ttf-mscorefonts-installer
+```
+
+**env**
+
+```
+export LC_ALL="zh_CN.UTF-8"
+export LANG="zh_CN.UTF-8"
+export LANGUAGE="zh_CN.UTF-8"
+
+export DISPLAY=:0
+export WINEPREFIX='/opt/win32'
+```
+
+
+
