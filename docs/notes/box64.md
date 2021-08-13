@@ -57,7 +57,7 @@ apt install libfreetype6:armhf libfontconfig1:armhf libldap-2.4.2:armhf
 
 apt install libx11-6:armhf libxxf86vm1:armhf libxrender1:armhf libxcomposite1:armhf libx11-xcb1:armhf
 apt install libxcb-xinerama0:armhf libxinerama1:armhf libxrandr2:armhf libxi6:armhf libxcursor1:armhf
-apt purge libxrandr2:armhf -y
+apt purge libxrandr2:armhf winbind:armhf -y
 ```
 
 #### libfaudio0
