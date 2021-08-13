@@ -127,4 +127,15 @@ defaults.pcm.card 0
 defaults.pcm.device 0
 ```
 
+----
 
+# issues
+
+## For dx
+
+#### dx11 and dx12
+
+- 1) Run winecfg
+- 2) Goto the libraries tab
+- 3) add d3d11 an d3d12
+- 4) edit it to disable it.
