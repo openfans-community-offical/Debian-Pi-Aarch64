@@ -92,6 +92,7 @@ https://aka.ms/linux-arm64-deb
 ```
 UB_GCC_OPTIONS='-O3 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -march=armv8-a -mtune=cortex-a72'
 make
-
-stop system service not used
 ```
+
+- stop system service not used
+- Run script in /dev/shm
