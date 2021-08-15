@@ -96,3 +96,8 @@ make
 
 - stop system service not used
 - Run script in /dev/shm
+
+```
+cat /sys/block/sda/queue/scheduler
+echo xxx > /sys/block/sda/queue/scheduler
+```
