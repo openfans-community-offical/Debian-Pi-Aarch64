@@ -1,3 +1,6 @@
+#### CONFIG_CPU_SPECTRE  ?
+----
+
 #### [ TIME ] Timed out waiting for device dev-ttyS0.device. [DEPEND] Dependency failed for Serial Getty on ttyS0.
 
 A start job is running for dev-ttyS0.device
