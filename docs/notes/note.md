@@ -84,3 +84,14 @@ apt-key list | grep 'F164 B941 4332 FC54'
 ```
 https://aka.ms/linux-arm64-deb
 ```
+
+----
+
+#### unixbench
+
+```
+UB_GCC_OPTIONS='-O3 -fomit-frame-pointer -fforce-addr -ffast-math -Wall -march=armv8-a -mtune=cortex-a72'
+make
+
+stop system service not used
+```
