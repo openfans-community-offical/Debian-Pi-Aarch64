@@ -1,6 +1,6 @@
 #### kernel config
 
-**CONFIG_CPU_SPECTRE  ?**
+**CONFIG_CPU_SPECTRE=y  ?**
 
 ----
 
