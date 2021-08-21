@@ -1,0 +1,4 @@
+- https://gitee.com/openeuler/anbox base on https://github.com/anbox/anbox/tree/56c25f162ce87edb0fd97f9552b0f597b3a62b76
+- https://github.com/ubports/anbox for ubuntu touch
+- https://github.com/sfdroid/anbox for 旗鱼OS, ended
+- https://github.com/alecbarber/anbox for camera support
