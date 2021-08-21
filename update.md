@@ -13,11 +13,11 @@
 # 更新说明文档 ( Update Notes )
 
 ## 2021.08.21 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
-#### (Add an anbox kernel module pkg)
+#### (Add an anbox kernel module pkg, Only for this version)
 
 ```
 1. All systems kernel and firmware version had upgraded to "5.10.59-Release-OPENFANS+20210821-v8" Released now.
-2. Add an anbox kernel module package 'anbox_kmod_5.10.59-Release-OPENFANS+20210821-v8.tar.gz' for this kernel as a testing.
+2. Add an anbox kernel module package 'anbox_kmod_5.10.59-Release-OPENFANS+20210821-v8.tar.gz' only for this kernel as a testing.
 3. The anbox kernel module used the anbox's officail upstrems (Add the patch for kernel 5.10.x), not used kernel defaults.
 4. The anbox kernel module version must be as the same as the upkg/FW/Kernel version.
 ```
