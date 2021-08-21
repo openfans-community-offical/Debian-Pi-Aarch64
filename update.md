@@ -12,7 +12,8 @@
 
 # 更新说明文档 ( Update Notes )
 
-## 2021.08.21 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded. (Add an anbox kernel module pkg)**
+## 2021.08.21 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
+#### (Add an anbox kernel module pkg)
 
 ```
 1. All systems kernel and firmware version had upgraded to "5.10.59-Release-OPENFANS+20210821-v8" Released now.
