@@ -12,6 +12,15 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.08.22 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
+
+```
+1. All systems kernel and firmware version had updated to "5.10.60-Release-OPENFANS+20210822-v8" Released now.
+2. Anbox kernel module remove cuz just for testing before.
+3. The anbox needs kernel modules are not modules now, was built into the kernel, such as ashmem and binder.
+4. If u wanna use binder fs, mkdir directory under dev and mount used binder fs type by yourself.
+```
+
 ## 2021.08.21 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 #### (Add an anbox kernel module pkg, Only for this version)
 
