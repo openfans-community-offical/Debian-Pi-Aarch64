@@ -14,15 +14,15 @@ mount -t binder binder /dev/binder
 vim /usr/lib/tmpfiles.d/binder.conf 
 
 ```
-d /dev/binder	0666 root root - -
-d /dev/binderfs	0666 root root - -
+d!  /dev/binder      0666 root root - -
+d!  /dev/binderfs    0666 root root - -
 ```
 
 Add:
 
 ```
-binder /dev/binder   binder nofail 0 0
-binder /dev/binderfs binder nofail 0 0
+none  /dev/binder    binder  nofail  0 0
+none  /dev/binderfs  binder  nofail  0 0
 ```
 
 To **/etc/fstab**
