@@ -107,3 +107,9 @@ make
 cat /sys/block/sda/queue/scheduler
 echo xxx > /sys/block/sda/queue/scheduler
 ```
+
+#### mksquashfs
+
+```
+mksquashfs squashfs-root xxx.img -comp xz -no-xattrs
+```
