@@ -23,15 +23,15 @@ qemu-system-gui qemu-system-mips qemu-system-misc qemu-system-ppc \
 qemu-system-sparc qemu-system-x86 qemu-utils; \
 do echo -n "$i=$(apt-cache madison qemu|head -n1|awk '{print $3}')  "; \
 done) ; \
-apt install $pkgs
+apt install $pkgs -y
 
 pkgs=$(for i in qemu-efi qemu-efi-aarch64 qemu-efi-arm; \
 do echo -n "$i=$(apt-cache madison qemu-efi-aarch64|head -n1|awk '{print $3}')  "; \
 done) ; \
-apt install $pkgs
+apt install $pkgs -y
 
 pkgs=$(for i in ipxe-qemu; \
 do echo -n "$i=$(apt-cache madison ipxe-qemu|head -n1|awk '{print $3}')  "; \
 done) ; \
-apt install $pkgs
+apt install $pkgs -y
 ```
