@@ -1,6 +1,8 @@
 ## Upgrade buster-backports qemu version
 
 ```
+apt update; apt upgrade -y
+
 apt install libfdt1=\
 $(apt-cache madison libfdt1|head -n1|awk -F'|' '{print $2}'|sed 's/ //g') \
 -y
