@@ -19,7 +19,7 @@
 as "5.10.74-Release-OPENFANS+20211021-v8" Released now.
 ```
 
-## 2021.10.18 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
+## 2021.10.18 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
 1. All systems kernel, firmware, bootloader had upgraded to upstream 
