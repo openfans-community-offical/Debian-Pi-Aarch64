@@ -12,10 +12,17 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.10.21 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
+
+```
+1. All systems kernel, firmware, bootloader, userland had upgraded to upstream 
+as "5.10.74-Release-OPENFANS+20211021-v8" Released now.
+```
+
 ## 2021.10.18 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
-1. All systems kernel, firmware, bootloader upgraded to upstream 
+1. All systems kernel, firmware, bootloader had upgraded to upstream 
 as "5.10.73-Release-OPENFANS+20211018-v8" Released now.
 2. Fixed HDMI Audio missing issue (bcm2835_audio missing firmware reference).
 ```
@@ -23,11 +30,11 @@ as "5.10.73-Release-OPENFANS+20211018-v8" Released now.
 ## 2021.10.15 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
-1. All systems kernel, firmware, bootloader upgraded to upstream 
+1. All systems kernel, firmware, bootloader had upgraded to upstream 
 as "5.10.73-Release-OPENFANS+20211015-v8" Released now.
 ```
 
-## 2021.10.07 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+## 2021.10.07 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
 1. All systems kernel, firmware, bootloader and userland had updated to upstream 
