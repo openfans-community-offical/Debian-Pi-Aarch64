@@ -37,3 +37,15 @@ do echo -n "$i=$(apt-cache madison ipxe-qemu|head -n1|awk '{print $3}')  "; \
 done) ; \
 apt install $pkgs -y
 ```
+
+## note
+
+Ctrl+Shift+F3
+
+```
+1. net user administrator /active:yes
+
+2. XCOPY %windir%\System32\svchost.exe %windir%\System32\oobe\audit.exe /X
+
+Choose:Y
+```
