@@ -9,5 +9,5 @@ temp_limit=85
 temp_soft_limit=85
 arm_freq=2300
 gpu_freq=750
-over_voltage=8
+over_voltage=12
 ```
