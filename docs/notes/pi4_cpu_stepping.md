@@ -2,7 +2,7 @@
 
 ## 2711ZPKFSB06B0T & 2711ZPKFSB06C0T
 
-The new stepping is "**C0T**" than "**B0T**".
+The stepping "**C0T**" is newer than "**B0T**".
 
 Run the command to check:
 
