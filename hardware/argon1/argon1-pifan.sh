@@ -1,5 +1,8 @@
 #!/bin/bash
-
+# Script for Argon1.
+# From https://download.argon40.com/argon1.sh
+# Changed by Aiminick.
+# Add support for Debian-Pi-Aarch64 OS.
 
 argon_create_file() {
 	if [ -f $1 ]; then
