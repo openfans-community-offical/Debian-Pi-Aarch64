@@ -36,7 +36,7 @@ Give me a star, just a click, I will be very happy and satisfied...  :)
 
 The newest **Raspberry Pi 64-bit OS**, **OPENFANS** open source community & Raspberry **Pi Fan** base community Co-Produced.
 
-This is an **official version** readme for the newest version 2.0 of 64-bit OS which is support for the **full range** of 64-bit CPU Raspberry Pi such as **2Bv1.2,3B/B+/A+,4B,CM3/4,Pi400,Zero2W **.
+This is an **official version** readme for the newest version 2.0 of 64-bit OS which is support for the **full range** of 64-bit CPU Raspberry Pi such as **2Bv1.2,3B/B+/A+,4B,CM3/4,Pi400,Zero2W** .
 
 **The passed system version: 1.0 and 2.0 preview has been without any updates or supported.**
 
