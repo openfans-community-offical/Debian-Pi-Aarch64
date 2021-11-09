@@ -4,7 +4,7 @@
 
 *The newest Raspberry Pi 64-bit OS 2.0 Release!!!*
 
-*This is the first 64-bit system in the world to support all Raspberry Pi 64-bit hardware!!! (Include: 2Bv1.2, 3B, 3B+, 3A+, 4B, CM3, CM4)*
+*This is the first 64-bit system in the world to support all Raspberry Pi 64-bit hardware!!! (Include: 2Bv1.2,3B/B+/A+,4B,CM3/4,Pi400,Zero2W)*
 
 ![catalina](./images/catalina.jpg)
 
@@ -36,7 +36,7 @@ Give me a star, just a click, I will be very happy and satisfied...  :)
 
 The newest **Raspberry Pi 64-bit OS**, **OPENFANS** open source community & Raspberry **Pi Fan** base community Co-Produced.
 
-This is an **official version** readme for the newest version 2.0 of 64-bit OS which is support for the **full range** of 64-bit CPU Raspberry Pi such as **3B, 3B+, 3A+, 4B, CM3, CM4 **.
+This is an **official version** readme for the newest version 2.0 of 64-bit OS which is support for the **full range** of 64-bit CPU Raspberry Pi such as **2Bv1.2,3B/B+/A+,4B,CM3/4,Pi400,Zero2W **.
 
 **The passed system version: 1.0 and 2.0 preview has been without any updates or supported.**
 
@@ -329,7 +329,7 @@ Don't ask a question about using a 64-bit OS for the Raspberry Pi and what's the
 
 Cuz the Raspberry Pi with a 64-bit CPU, ~~unfortunately the Raspberry Pi foundation had without any system or software supported~~ the Raspberry Pi officially launched a 64bit **Beta** in May 2020, and the result is indeed Debian64+Pixel ... Otherwise please add your brain...
 
-All the versions released in this article are official versions that had been used and validated in the real enterprise production environment. The system has been rigorously tested and used normally with fully compatible for the Raspberry Pi 3B/3B+/3A+/4B/CM3/CM4, such as local wired, wireless network card, Bluetooth, 3D acceleration, etc. The numbers of all system packages are almost comparable to the X86 version. The system was built from the official Debian 64-bit baseline (wasn't built from any other ported edition or third-part edition) to ensure the original flavor.
+All the versions released in this article are official versions that had been used and validated in the real enterprise production environment. The system has been rigorously tested and used normally with fully compatible for the Raspberry Pi 2Bv1.2,3B/B+/A+,4B,CM3/4,Pi400,Zero2W, such as local wired, wireless network card, Bluetooth, 3D acceleration, etc. The numbers of all system packages are almost comparable to the X86 version. The system was built from the official Debian 64-bit baseline (wasn't built from any other ported edition or third-part edition) to ensure the original flavor.
 
 There isn't any other relationship with the official Raspberry Pi, so no proprietary commands as the Raspberry Pi official system used (such as raspi-config, rpi-update, etc.), you need to edit the configuration file ( /boot/config.txt ) by yourself.
 
@@ -345,13 +345,13 @@ On June 20, 2019, the Raspberry Pi foundation released the new fourth-generation
 
 - **On July 6, 2019, half a month hard-working after Pi4 released, The OPENFANS and the Pi Fan base community released the new Debian-Pi-Aarch64 OS version 2.0 release together.**
 
-- **This is the first 64-bit system in the world to support all Raspberry Pi 64-bit hardware!!! (Include: 2Bv1.2, 3B, 3B+, 3A+, 4B, CM3, CM4)**
+- **This is the first 64-bit system in the world to support all Raspberry Pi 64-bit hardware!!! (Include: 2Bv1.2,3B/B+/A+,4B,CM3/4,Pi400,Zero2W)**
 
 All of the new version 2.0 has 3D acceleration supported (With FKMS), and finally introduced the **OPENFANS Container Cloud Management Platform**  supported (Also called CecOS CaaS, based build from an open-source project which is called Portainer) which is be more perfect and powerful than system version 1.0!
 
 The newest OS 2.0 is also adhering to the all excellent tradition from the Debian-Pi-Aarch64 OS which was built by OPENFANS and Pi Fan Base community.
 
-This newest OS 2.0 is full support to all Raspberry Pi aarch64 single boards: 3B, 3B+, 3A+, 4B, CM3, CM4 and still inherit all the features of the stable version 1.0!
+This newest OS 2.0 is full support to all Raspberry Pi aarch64 single boards: 2Bv1.2,3B/B+/A+,4B,CM3/4,Pi400,Zero2W and still inherit all the features of the stable version 1.0!
 
 ----
 
