@@ -517,7 +517,7 @@ fi
 
 # IR config script
 # sudo wget https://download.argon40.com/argonone-irconfig.sh -O /usr/bin/argonone-ir --quiet
-sudo wget https://gitee.com/openfans-community/Debian-Pi-Aarch64/raw/master/hardware/argonone-irconfig.sh  -O /usr/bin/argonone-ir --quiet
+sudo wget https://gitee.com/openfans-community/Debian-Pi-Aarch64/raw/master/hardware/argon1/argonone-irconfig.sh  -O /usr/bin/argonone-ir --quiet
 
 sudo chmod 755 /usr/bin/argonone-ir
 
