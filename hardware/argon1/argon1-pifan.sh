@@ -53,16 +53,16 @@ then
 	sudo raspi-config nonint do_serial 0
 else
 # Add config settings support for Debian-Pi-Aarch64
-  cat /boot/config.txt |grep "^#.*i2c_arm"
-	if [ $? -eq 0 ]
-	then
-	    sed -i 's/^#.*dtparam=i2c_arm=on/dtparam=i2c_arm=on/g' /boot/config.txt
-	fi
-	cat /boot/config.txt |grep "^#.*enable_uart"
+    cat /boot/config.txt |grep "^#.*i2c_arm"
     if [ $? -eq 0 ]
-	then
-	    sed -i 's/^#.*enable_uart=1/enable_uart=1/g' /boot/config.txt
-	fi
+    then
+        sed -i 's/^#.*dtparam=i2c_arm=on/dtparam=i2c_arm=on/g' /boot/config.txt
+    fi
+    cat /boot/config.txt |grep "^#.*enable_uart"
+    if [ $? -eq 0 ]
+    then
+        sed -i 's/^#.*enable_uart=1/enable_uart=1/g' /boot/config.txt
+    fi
 fi
 
 daemonname="argononed"
@@ -296,6 +296,8 @@ echo '	sudo rm '$removescript >> $removescript
 echo '	echo "Removed Argon One Services."' >> $removescript
 echo '	echo "Cleanup will complete after restarting the device."' >> $removescript
 echo 'fi' >> $removescript
+
+# Add Debian-Pi-Aarch64 OS support
 echo "sed -i 's/.*dtparam=i2c_arm=on/# dtparam=i2c_arm=on/g' /boot/config.txt" >> $removescript
 echo "sed -i 's/.*enable_uart=1/# enable_uart=1/g' /boot/config.txt" >> $removescript
 echo 'echo "I2C & UART in config.txt was restored as disabled."' >> $removescript
