@@ -309,6 +309,14 @@ MacOS_Mojave主题桌面截图 运行 *WPS* 桌面版
 
 *Windows Arm版 运行X86桌面版TIM*
 
+**同时也支持 树莓派 Zero 2 W**
+
+*需要系统或内核（固件）版本 >= 2021-11-11-v2020-2.0-U6-Release (kernelVer:5.10.78-Release-OPENFANS+20211111-v8)
+
+![Pi_Zero_2_W-1](./images/02w1.png)
+
+![Pi_Zero_2_W-2](./images/02w2.png)
+
 ----
 
 ## 1.系统介绍
