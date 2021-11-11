@@ -15,7 +15,7 @@
 ## 2021.11.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
-1. All system images had upgraded to upstream Debian Buster 20211111.
+1. All system images had upgraded to upstream Debian Buster 20211111 as "2021-11-11-v2020-2.0-U6-Release".
 2. All system images had included newest kernel version "5.10.78-Release-OPENFANS+20211111-v8".
 3. All systems kernel, firmware, bootloader, userland "UPKG" had upgraded to upstream version 
    "5.10.78-Release-OPENFANS+20211111-v8" as Released now.
