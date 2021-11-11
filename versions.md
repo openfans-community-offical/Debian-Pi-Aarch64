@@ -6,11 +6,11 @@
 
 #### 系统（ System ）：
 
-**2021-06-11-v2020-2.0-U6-Release** (kernelVer:**5.10.42-Release-OPENFANS+20210611-v8**) ;
+**2021-11-11-v2020-2.0-U6-Release** (kernelVer:**5.10.78-Release-OPENFANS+20211111-v8**) ;
 
 #### 内核及固件（ kernel & firmware）：
 
-**5.10.77-Release-OPENFANS+20211106-v8** ( **建议更新 - Suggested to upgrade** )
+**5.10.78-Release-OPENFANS+20211111-v8** ( **建议更新 - Suggested to upgrade** )
 
 ```
 注意：U3(含)之后的固件不支持从 版本<=U2(包含在内)升级!!*
