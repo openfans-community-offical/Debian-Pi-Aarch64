@@ -321,6 +321,14 @@ Screenshot of the macOS-Mojave Themed Desktop: Run WPS-ARM64-Edition-App (A Chin
 
 *Arm windows on qemu: Run TIM X86 desktop edition App.*
 
+**Also support Pi Zero 2 W**
+
+*Need OS and UPKG version >= 2021-11-11-v2020-2.0-U6-Release (kernelVer:5.10.78-Release-OPENFANS+20211111-v8)
+
+![Pi_Zero_2_W-1](./images/02w1.png)
+
+![Pi_Zero_2_W-2](./images/02w2.png)
+
 ----
 
 ## 1. Introduction
