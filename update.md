@@ -12,6 +12,16 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.11.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
+
+```
+1. All system images had upgraded to upstream Debian Buster 20211111.
+3. All system images had included newest kernel version "5.10.78-Release-OPENFANS+20211111-v8".
+2. All systems kernel, firmware, bootloader, userland "UPKG" had upgraded to upstream version 
+   "5.10.78-Release-OPENFANS+20211111-v8" as Released now.
+2. All system images and "UPKG" had upgraded to supported Pi Zero 2 W.
+```
+
 ## 2021.11.06 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
