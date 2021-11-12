@@ -65,6 +65,9 @@ else
     then
         sed -i 's/^#.*enable_uart=1/enable_uart=1/g' /boot/config.txt
     fi
+## add gpio-ir for Debian-Pi-Aarch64
+  sed -i '/.*gpio-ir.*gpio_pin.*/d' /boot/config.txt
+  echo 'dtoverlay=gpio-ir,gpio_pin=23' >> /boot/config.txt
 fi
 
 daemonname="argononed"
@@ -302,7 +305,9 @@ echo 'fi' >> $removescript
 # Add Debian-Pi-Aarch64 OS support
 echo "sed -i 's/.*dtparam=i2c_arm=on/# dtparam=i2c_arm=on/g' /boot/config.txt" >> $removescript
 echo "sed -i 's/.*enable_uart=1/# enable_uart=1/g' /boot/config.txt" >> $removescript
-echo 'echo "I2C & UART in config.txt was restored as disabled."' >> $removescript
+echo "sed -i '/.*gpio-ir.*gpio_pin.*/d' /boot/config.txt" >> $removescript
+
+echo 'echo "I2C & UART & GPIO-IR in config.txt was restored as disabled."' >> $removescript
 
 sudo chmod 755 $removescript
 
