@@ -21,7 +21,8 @@ try:
 except:
 	try:
 		print("WARNING: Falling back to Deprecated module")
-		lirclib = importlib.find_loader("lirc")
+		## lirclib = importlib.find_loader("lirc")
+		lirclib = importlib.util.find_spec("lirc")
 		haslirclib = lirclib is not None
 	except:
 		haslirclib = False
