@@ -282,7 +282,8 @@ fi
 
 if [ ! -f "$irdecodefile" ]
 then
-	sudo wget https://download.argon40.com/argonone-irdecoder.py -O $irdecodefile --quiet
+	#sudo wget https://download.argon40.com/argonone-irdecoder.py -O $irdecodefile --quiet
+	sudo wget https://gitee.com/openfans-community/Debian-Pi-Aarch64/raw/master/hardware/argon1/argonone-irdecoder.py -O $irdecodefile --quiet
 fi
 
 sudo python3 $irdecodefile $remotemode
