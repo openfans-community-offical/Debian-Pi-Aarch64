@@ -22,6 +22,8 @@ as "5.10.78-Release-OPENFANS+20211112-v8" released now.
 4. Additional parameters for gpio-poweroff overlays.
 ```
 
+**Also all of upkgs for all 64bit edtions support for 2Bv1.2,3B/B+/A+,4B,CM3/4,Pi400,Zero2W from now on.**
+
 ## 2021.11.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
