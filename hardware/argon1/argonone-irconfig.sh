@@ -1,6 +1,7 @@
 #!/bin/bash
 
-CHECKPLATFORM="Others"
+# CHECKPLATFORM="Others"
+CHECKPLATFORM="Raspbian"
 # Check if Raspbian
 grep -q -F 'Raspbian' /etc/os-release &> /dev/null
 if [ $? -eq 0 ]
