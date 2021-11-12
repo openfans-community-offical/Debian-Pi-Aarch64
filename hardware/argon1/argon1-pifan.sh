@@ -29,12 +29,14 @@ then
 	CHECKPLATFORM="Raspbian"
 	pkglist=(raspi-gpio python3-rpi.gpio python3-smbus i2c-tools)	
 else
-	# Ubuntu has serial and i2c enabled
-	pkglist=(python3-rpi.gpio python3-smbus i2c-tools)
+	# Ubuntu has serial and i2c enabled and add Debian-Pi-Aarch64 Support
+	pkglist=(python3-rpi.gpio python3-smbus i2c-tools python3-pip lirc librc-dev liblircclient-dev )
 fi
 
 for curpkg in ${pkglist[@]}; do
 	sudo apt-get install -y $curpkg
+	# add Debian-Pi-Aarch64 support
+	sudo pip3 install lirc
 	RESULT=$(argon_check_pkg "$curpkg")
 	if [ "NG" == "$RESULT" ]
 	then
