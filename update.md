@@ -12,6 +12,16 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.11.12 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+
+```
+1. All systems kernel, firmware, bootloader had updated to upstream 
+as "5.10.78-Release-OPENFANS+20211112-v8" released now.
+2. Change vc4-kms-v3d overlays composite handling.
+3. Set TCA8418 to module for kernel.
+4. Additional parameters for gpio-poweroff overlays.
+```
+
 ## 2021.11.11 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
