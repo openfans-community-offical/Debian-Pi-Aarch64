@@ -43,10 +43,10 @@ blacklist vc_sm_cma
 
 ## 5.Service
 
-``
+```
 systemctl stop libvirt-guests; systemctl mask libvirt-guests; \
 systemctl stop libvirtd; systemctl mask libvirtd
-``
+```
 
 ## 6.Optional:
 
