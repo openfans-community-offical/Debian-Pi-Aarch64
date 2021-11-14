@@ -1,6 +1,6 @@
 
 
-# config.txt
+# Pi Zero 2 W Config Tunning
 
 ## 1.Config
 
@@ -40,7 +40,7 @@ blacklist bcm2835_isp
 blacklist bcm2835_mmal_vchiq
 blacklist vc_sm_cma
 ```
-## Optional
+## 5.Optional:
 
 Faster speed instead of running programs with large memory requirements (compressed memory)
 Undo the following from cmdline:
