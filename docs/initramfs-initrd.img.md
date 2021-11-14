@@ -9,5 +9,11 @@ rm -rf /boot/initrd.img ; mkinitramfs -o /boot/initrd.img
 ## Add to config
 
 ```
-initramfs initrd.img followkernel
+echo 'initramfs initrd.img followkernel' >>/boot/config.txt
+```
+
+## Finished
+
+```
+reboot
 ```
