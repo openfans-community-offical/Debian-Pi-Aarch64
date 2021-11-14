@@ -2,13 +2,25 @@
 
 # Pi Zero 2 W Config Tunning
 
-## 1.Config
+## 1.Config and cmdline
 
-Add:
+Config add:
 
 ```
 device_tree=bcm2710-rpi-zero-2.dtb
+gpu_mem=16
+gpu_mem_512=16
 ```
+
+Cmdline add:
+
+```
+smsc95xx.turbo_mode=N cma=16M CMA=16M
+```
+
+**Note:**
+
+The min GPU size is >=16M
 
 ## 2.Disable BT
 
