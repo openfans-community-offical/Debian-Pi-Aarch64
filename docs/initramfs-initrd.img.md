@@ -2,7 +2,7 @@
 
 ```
 apt install initramfs-tools -y
-mkinitramfs -o /boot/initrd.img
+rm -rf /boot/initrd.img ; mkinitramfs -o /boot/initrd.img
 # update-initramfs -k $(uname -r) -c -b /boot
 ```
 
