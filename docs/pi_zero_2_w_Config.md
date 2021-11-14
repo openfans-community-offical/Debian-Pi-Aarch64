@@ -49,3 +49,12 @@ Undo the following from cmdline:
 cgroup_enable=1 cgroup_memory=1 cgroup_enable=cpuset cgroup_enable=memory swapaccount=1 
 zswap.enabled=1 zswap.zpool=z3fold zswap.compressor=lz4 zswap.max_pool_percent=25
 ```
+
+#### initrd:
+
+```
+rm -rf /boot/initrd.img ; mkinitramfs -o /boot/initrd.img; \
+echo 'initramfs initrd.img followkernel' >>/boot/config.txt; \
+cat /boot/config.txt|tail -n1 ;\
+sync; sync; reboot
+```
