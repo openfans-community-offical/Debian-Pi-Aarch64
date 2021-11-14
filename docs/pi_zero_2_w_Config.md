@@ -1,8 +1,8 @@
 
 
-## config.txt
+# config.txt
 
-#### Config
+## 1.Config
 
 Add:
 
@@ -10,7 +10,7 @@ Add:
 device_tree=bcm2710-rpi-zero-2.dtb
 ```
 
-#### Disable BT
+## 2.Disable BT
 
 Add:
 
@@ -18,7 +18,7 @@ Add:
 dtoverlay=disable-bt
 ```
 
-#### OverClock
+## 3.OverClock
 
 Add:
 
@@ -29,9 +29,9 @@ arm_freq=1200
 over_voltage=6
 ```
 
-#### Tunning, disable vc cma and video code
+## 4.Tunning: disable vc cma and video code
 
-Add **/etc/modprobe.d/blacklist.conf**
+Add file: **/etc/modprobe.d/blacklist.conf**
 
 ```
 blacklist bcm2835_codec
