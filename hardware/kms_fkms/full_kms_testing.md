@@ -1,6 +1,6 @@
 ## Full KMS Support
 
-**Require Kernel Version >=5.10.78-Release-OPENFANS+20211112-v8**
+Require Kernel Version >= **5.10.79-Release-OPENFANS+20211117-v8**
 
 1.Edit Config.txt, change all "**dtoverlay=vc4-fkms-v3d,cma-256**" to "**dtoverlay=vc4-kms-v3d,cma-256**" ;
 
