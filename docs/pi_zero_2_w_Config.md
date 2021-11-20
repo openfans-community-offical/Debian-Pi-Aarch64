@@ -37,8 +37,8 @@ Add:
 ```
 temp_limit=85
 temp_soft_limit=85
-arm_freq=1200
-over_voltage=6
+arm_freq=1333
+over_voltage=8
 ```
 
 ## 4.Tunning: Disable vc cma and video code
