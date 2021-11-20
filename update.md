@@ -12,6 +12,13 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.11.20 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+
+```
+1. All systems kernel, firmware, bootloader, userland had updated to upstream 
+as "5.10.79-Release-OPENFANS+20211120-v8" Released now.
+```
+
 ## 2021.11.17 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
