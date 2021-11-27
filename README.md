@@ -60,13 +60,13 @@ The **"Old Readme"** was viewed **[here](./README_ORGI.md).** ( - Just A Chinese
 
 #### Newest Kernel Upkg version
 
-**5.10.81-Release-OPENFANS+20211125-v8** (Single Update Pkg)
+**5.10.81-Release-OPENFANS+20211127-v8** (Single Update Pkg)
 
 ----
 
 If you had found a *Chromium browser interface display error* issue on version **202006 U3** please see [here](./README.md#3-163-chromium-browser-interface-display-error).  **This issue had fixed after version >=20200617U3**
 
-*The system kernel and FW version* "**5.10.81-Release-OPENFANS+20211125-v8**" , we suggest to update to this version.
+*The system kernel and FW version* "**5.10.81-Release-OPENFANS+20211127-v8**" , we suggest to update to this version.
 
 ***Note:*** **Fimware >=U3, >=U4 do not support upgrade from version <=U2(include) !!**
 
