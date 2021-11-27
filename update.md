@@ -12,6 +12,20 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.11.27 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+
+```
+1. All systems kernel, firmware, bootloader, userland had updated to upstream 
+as "5.10.81-Release-OPENFANS+20211127-v8" Released now.
+2. Allow multiple users for the ISP driver of cm2835_isp.
+3. Fix PCIe interrupts bcm2711 dts. 
+4. Pass V4L2_CID_MPEG_VIDEO_H264_MIN_QP/MAX_QP to bcm2835-v4l2-codec
+5. Add support for composite syncs to vc4_dpi for drm/vc4.
+6. Ensure vc4_hdmi doesn't use 2711 HPD registers on Pi0-3 for drm/vc4. 
+7. Gpio-ranges property is now required for arm dts. 
+8. Update rpi-400 and cm4 dts to match 4-b for arm dts.
+```
+
 ## 2021.11.25 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
