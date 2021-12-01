@@ -12,6 +12,24 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.12.02 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
+
+```
+1. All systems kernel, firmware, bootloader, userland had upgraded to upstream 
+as "5.10.82-Release-OPENFANS+20211202-v8" Released now.
+2. BCM2835_unicam: Add logging message when a frame is dropped.
+3. BCM2835-codec: Allow a different stride alignment per role.
+4. KMS fixes and ISP pitch fix.
+5. Media rpivid: remove min_buffers_needed from src queue.
+6. Board_info: Add upstream dtb names for cm1/3/4.
+7. Platform: Allow users to disable camera boot HMAC check.
+8. Clock BCM2711: Fix potential API issue in 2711 VCO setup.
+9. Arm_loader: Enable USB MSD boot mode on Zero 2 W.
+10. Isp: Fix Rec.709 colour space problems.
+11. Userland: raspicam check system is running legacy camera stack.
+12. MMAL: Hack to make mmal core register VideoCore components.
+```
+
 ## 2021.11.27 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
