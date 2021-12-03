@@ -12,11 +12,12 @@
 
 # 更新说明文档 ( Update Notes )
 
-## 2021.12.03 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
+## 2021.12.04 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
 1. All systems kernel, firmware, bootloader, userland had updated to upstream 
-as "5.10.82-Release-OPENFANS+20211203-v8" Released now.
+as "5.10.82-Release-OPENFANS+20211204-v8" Released now.
+2. Xhci: add a quirk to work around a suspected cache bug on VLI controllers for usb 2.0.
 ```
 
 ## 2021.12.02 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
