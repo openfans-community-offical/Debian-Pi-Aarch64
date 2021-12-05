@@ -1342,7 +1342,7 @@ sudo apt install -y ./xxxxxx.deb
 
 2.已知问题：应用开机启动后第一次打开较慢。
 
-3.要求系统内核>=**"5.10.82-Release-OPENFANS+20211204-v8"**。
+3.要求系统内核版本 >= **"5.10.82-Release-OPENFANS+20211204-v8"**。
 
 ----
 
