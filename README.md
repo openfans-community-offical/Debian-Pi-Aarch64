@@ -174,6 +174,8 @@ Thanks for your donation! We'll get the greatest power from your encourage!
 
 [- 3-17.3 The OpenCV Extra Package](./README.md#3-173-The-OpenCV-Extra-Package)
 
+[- 3-17.4 PiBox Android Runtime](./README.md#3-174-PiBox-Android-Runtime)
+
 ----
 
 [4. Virtual Machine Instructions](./README.md#4-virtual-machine-instructions)
@@ -1391,6 +1393,26 @@ sudo apt install -y ./xxxxxx.deb
 The "**xxxxxx.deb**" is an OpenCV Package Name.
 
 After you run the command above, reboot your system, everything will be done.
+
+#### 3-17.4 PiBox Android Runtime
+
+**For test only !!**
+
+![pibox](./images/pibox_dj.jpg)
+
+**Download Addr:**
+
+***Baidu NetDisk*** -> ***PIFAN Apps*** -> ***Pibox (Android Box)***
+
+**Installation method:**
+
+Run "install.sh" after decompression.
+
+**Note:**
+
+1. If there is a warning that **process "system" does not respond**, please select **"wait"**
+
+2. Known issue: The application is slow to open for the first time after booting up.
 
 ----
 
