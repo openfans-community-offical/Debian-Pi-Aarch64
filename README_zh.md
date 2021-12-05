@@ -164,6 +164,8 @@
 
 [- 3-17.3 OpenCV 扩展](./README_zh.md#3-173-opencv-%E6%89%A9%E5%B1%95)
 
+[- 3-17.4 PiBox Android Runtime 运行环境](./README_zh.md#3-173-opencv-%E6%89%A9%E5%B1%95)
+
 ----
 
 [4.虚拟机使用说明](./README_zh.md#4%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
@@ -1319,6 +1321,26 @@ sudo apt install -y ./xxxxxx.deb
 "**xxxxxx.deb**" 是你下载的OpenCV软件包的名字。
 
 执行完上述命令后重启系统，即可完成安装。
+
+#### 3-17.4 PiBox Android Runtime 运行环境
+
+**仅测试！！**
+
+![pibox](./images/pibox_dj.jpg)
+
+**下载地址：**
+
+***百度网盘*** -> ***PIFAN Apps*** -> ***Pibox (Android Box)***
+
+**安装方式：**
+
+解压后运行"install.sh"。
+
+**说明：**
+
+1.如果出现**进程"system"没响应**的警告, 请选择 **"等待"**。
+
+2.已知问题：应用开机启动后第一次打开较慢。
 
 ----
 
