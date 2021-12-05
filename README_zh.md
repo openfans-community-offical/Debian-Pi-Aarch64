@@ -164,7 +164,7 @@
 
 [- 3-17.3 OpenCV 扩展](./README_zh.md#3-173-opencv-%E6%89%A9%E5%B1%95)
 
-[- 3-17.4 PiBox Android Runtime 运行环境](./README_zh.md#3-173-opencv-%E6%89%A9%E5%B1%95)
+[- 3-17.4 PiBox Android Runtime 运行环境](./README_zh.md#3-174-pibox-android-runtime-%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83)
 
 ----
 
