@@ -1410,7 +1410,7 @@ Run "install.sh" after decompression.
 
 **Note:**
 
-1. If there is a warning that **process "system" does not respond**, please select **"wait"**
+1. If there is a warning that **process "system" does not respond**, please select **"wait"**.
 
 2. Known issue: The application is slow to open for the first time after booting up.
 
