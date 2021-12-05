@@ -1414,6 +1414,8 @@ Run "install.sh" after decompression.
 
 2. Known issue: The application is slow to open for the first time after booting up.
 
+3. The system kernel version is required >= **"5.10.82-Release-OPENFANS+20211204-v8"**. 
+
 ----
 
 ## 4. Virtual Machine Instructions
