@@ -12,6 +12,15 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.12.09 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
+
+```
+1. All systems kernel, firmware, bootloader, userland had upgraded to upstream 
+as "5.10.83-Release-OPENFANS+20211209-v8" Released now.
+2. vc4/drm: Ignore vc4_hdmi->output_enabled for allowing audio.
+Evert "Revert "overlays: vc4-kms-v3d: Change composite handling, Reinstates the new handling.
+```
+
 ## 2021.12.04 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had updated.**
 
 ```
