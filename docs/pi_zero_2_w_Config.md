@@ -35,9 +35,12 @@ dtoverlay=disable-bt
 Add:
 
 ```
+boot_delay=1
+arm_boost=1
 temp_limit=85
 temp_soft_limit=85
-arm_freq=1333
+arm_freq=1366
+current_limit_override=1
 over_voltage=8
 ```
 
@@ -69,6 +72,17 @@ Undo the following from cmdline:
 cgroup_enable=1 cgroup_memory=1 cgroup_enable=cpuset cgroup_enable=memory swapaccount=1 
 zswap.enabled=1 zswap.zpool=z3fold zswap.compressor=lz4 zswap.max_pool_percent=25
 ```
+
+## 7. Tools (info)
+
+```
+apt install neofetch screenfetch -y
+```
+
+Used:
+
+**screenfetch** or neofetch
+
 
 #### initrd:
 
