@@ -18,6 +18,7 @@
 1. All systems kernel, firmware, bootloader, userland had upgraded to upstream 
 as "5.10.87-Release-OPENFANS+20211218-v8" Released now.
 2. Fixted bugs for drm/vc4 HDMI and KMS.
+3. Fixted media stalls with kodi and stateful v4l2 video decode.
 ```
 
 ## 2021.12.09 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
