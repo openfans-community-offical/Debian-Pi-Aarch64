@@ -43,7 +43,7 @@ apt update ; apt install tar gzip zip unzip bzip2 xz-utils -y
 ```shell
 unzip upkg-202X-0X-XX-v202X-1.X-uX.zip
 
-OR 或者
+# Or 或者
 
 tar xvf upkg-202X-0X-XX-v202X-1.X-uX.tar.gz
 
