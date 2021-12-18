@@ -18,7 +18,7 @@ Thanks again to all those who have helped us.
 
 ## Official Documentation Version 2.0
 
-***[中文版(Chinese)](README_zh.md)***
+***◎ [中文版(Chinese)](README_zh.md)***
 
 ***English edition translation is continuously optimized and adjusted ...***
 
