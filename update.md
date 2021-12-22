@@ -12,6 +12,28 @@
 
 # 更新说明文档 ( Update Notes )
 
+## 2021.12.22 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
+
+```
+1. All systems kernel, firmware, bootloader, userland had upgraded to upstream 
+as "5.10.88-Release-OPENFANS+20211222-v8" Released now.
+2.Media for v4l2-ctrls: Add V4L2_CID_NOTIFY_GAINS control.
+3.Virtio_ring: Fix querying of maximum DMA mapping size for virtio device.
+4.Add panel overlay for CutiePi.
+5.DRM/VC4: hdmi: Support HDMI YUV output.
+6.DRM/VC4: hdmi: Add full range RGB helper.
+7.DRM/EDID: Rename drm_hdmi_avi_infoframe_colorspace to _colorimetry.
+8.DRM/VC4: hdmi: Use full range helper in csc functions.
+9.DRM/VC4: hdmi: Replace CSC_CTL hardcoded value by defines.
+10.DRM/VC4: hdmi: Define colorspace matrices.
+11.DRM/VC4: hdmi: Change CSC callback prototype.
+12.DRM/VC4: hdmi: Take the sink maximum TMDS clock into account.
+13.DRM/VC4: hdmi: Take bpp into account for the scrambler.
+14.DRM/VC4: hdmi: Always try to have the highest bpc.
+15.DRM/VC4: Skip writes to disabled packet RAM.
+16.DRM/VC4: hdmi: Move clock validation to its own function.
+```
+
 ## 2021.12.18 &nbsp;&nbsp;// **v2.0 U6:&nbsp;&nbsp;Kernel and firmware had upgraded.**
 
 ```
