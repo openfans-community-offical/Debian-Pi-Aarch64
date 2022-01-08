@@ -1,0 +1,164 @@
+<h2 id="x86-64-chroot-on-manjaro-arm">x86-64 Chroot on manjaro arm</h2>
+<p>install x86 64 deb install wine windows apps </p>
+<p>Testing wine in chroot environment takes time. And I don&#39;t have that luxury. So maybe somebody could help us to test it. I will post what I did so far. If you follow exactly what I did. You don&#39;t need to put yourself into trouble.</p>
+<p>Important Note:</p>
+<p>I have tested:</p>
+<ul>
+<li>Debian Stretch x86 and x86_64</li>
+<li>Debian Buster x86 and x86_64</li>
+<li>Ubuntu Bionic x86 and x86_64</li>
+<li>Ubuntu Focal x86 and x86_64</li>
+</ul>
+<p>I will highlight that you should stick with Ubuntu Bionic x86_64 as it works best, and most winetricks works. But for some it doesn&#39;t. But it is better compared to the rest of what I tested.</p>
+<p>OK Let&#39;s start:</p>
+<h4 id="preparation-">PREPARATION:</h4>
+<p>Before we start, make sure that Binfmt_misc is compiled in your kernel. If it is not, then you cannot continue this procedure.</p>
+<pre><code>$ zcat /proc/config.gz | grep BINFMT_MISC
+</code></pre><p>Make sure that you had installed the base-devel package, Thanks to @Lolix to point it out:</p>
+<pre><code>$ sudo pacman -Syyu base-devel --needed
+</code></pre><p>Now Let&#39;s install the required package first:</p>
+<pre><code>$ yay -S qemu-user-static schroot debootstrap
+</code></pre><p>Now let&#39;s install the configuration file for qemu, Thanks to @xabbu for the fix.</p>
+<pre><code>$ wget https://raw.githubusercontent.com/qemu/qemu/master/scripts/qemu-binfmt-conf.sh
+$ sudo bash qemu-binfmt-conf.sh --systemd i386
+$ sudo bash qemu-binfmt-conf.sh --systemd x86_64
+$ ls /etc/binfmt.d/
+</code></pre><p>Make sure that you got two files in the folder /etc/binfmt.d/</p>
+<pre><code>qemu-i386.conf
+qemu-x86_64.conf
+</code></pre><p>Now let&#39;s check the status:</p>
+<pre><code>$ /usr/lib/systemd/systemd-binfmt --cat-config --no-pager
+</code></pre><p>Now let&#39;s edit the qemu-i386.conf because the config is not correct:</p>
+<pre><code>$ sudo nano /etc/binfmt.d/qemu-i386.conf
+</code></pre><p>Now replace nearly at the end of the line :/usr/local/bin/qemu-i386: with :/usr/bin/qemu-i386-static:
+Then ctrl+x, yes and save</p>
+<p>We have to edit the qemu-x86_64.conf as well:</p>
+<pre><code>$ sudo nano /etc/binfmt.d/qemu-x86_64.conf
+</code></pre><p>Now replace nearly at the end of the line :/usr/local/bin/qemu-x86_64: with :/usr/bin/qemu-x86_64-static:
+Then ctrl+x, yes and save</p>
+<p>Now let&#39;s restart and check our binfmt status:</p>
+<pre><code>$ systemctl restart systemd-binfmt
+$ systemctl status systemd-binfmt --no-pager
+</code></pre><h4 id="installing-ubuntu-bionic-x86_64-debootstrap-">INSTALLING UBUNTU BIONIC x86_64 (DEBOOTSTRAP)</h4>
+<p>If you follow step by step the procedure above, then you should be OK to run the following step. If not, go back to the Preparation procedure:</p>
+<p>In this procedure we will debootstrap the ubuntu bionic x86_64 in the folder /srv/chroot/ubuntu-x64. If you deviate from this, then you are on your own. You will get trouble when installing winetricks, etc. As I mentioned earliar. At the moment I am writing this, ubuntu bionic x86_64 is the best option:</p>
+<pre><code>$ sudo mkdir /srv/chroot/ubuntu-x64
+$ sudo debootstrap --arch amd64 --foreign bionic /srv/chroot/ubuntu-x64 http://archive.ubuntu.com/ubuntu/
+$ sudo cp /usr/bin/qemu-i386-static /srv/chroot/ubuntu-x64/usr/bin
+$ sudo cp /usr/bin/qemu-x86_64-static /srv/chroot/ubuntu-x64/usr/bin
+$ sudo chroot &quot;/srv/chroot/ubuntu-x64&quot; /debootstrap/debootstrap --second-stage
+</code></pre><p>If everything runs smoothly, then let&#39;s continue:</p>
+<pre><code>$ sudo nano /etc/schroot/chroot.d/ubuntu-x64.conf
+</code></pre><p>Now add this following text, change username with your own user name:</p>
+<pre><code>[ubuntu-x64]
+description=Ubuntu Bionic x86_64 chroot
+aliases=ubuntu-x64
+type=directory
+directory=/srv/chroot/ubuntu-x64
+profile=desktop
+personality=linux
+preserve-environment=true
+root-users=&lt;username&gt;
+users=&lt;username&gt;
+</code></pre><p>Then ctrl+x, yes and save</p>
+<p>Now lets fix the database issue:</p>
+<pre><code>$ sudo nano /etc/schroot/desktop/nssdatabases
+</code></pre><p>then put # in font of networks, group, passwd and add #user. It should look like this:</p>
+<pre><code># System databases to copy into the chroot from the host system.
+#
+# &lt;database name&gt;
+#passwd
+shadow
+#group
+gshadow
+services
+protocols
+#networks
+#hosts
+#user
+</code></pre><p>Then ctrl+x, yes and save</p>
+<p>Now let&#39;s fix the stateoverride issue:</p>
+<pre><code>$ sudo nano /srv/chroot/ubuntu-x64/var/lib/dpkg/statoverride
+</code></pre><p>change the first crontab and the first messagebus with root, it should look like this:</p>
+<pre><code>root root 2755 /usr/bin/crontab
+root root 4754 /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+</code></pre><p>Then ctrl+x, yes and save</p>
+<p>Now, you can start chrooting into ubuntu:</p>
+<pre><code>$ sudo schroot -c ubuntu-x64
+$ cd
+$ sudo apt install nano
+$ sudo nano ~/.bashrc
+</code></pre><p>then add this line in the bottom:</p>
+<pre><code>export LANGUAGE=”C”
+export LC_ALL=”C”
+export DISPLAY=:0
+</code></pre><p>Then ctrl+x, yes and save</p>
+<p>Now let&#39;s restart our chroot, by exit</p>
+<pre><code>$ exit
+</code></pre><h4 id="install-ubuntu-repository-inside-chroot-environment-">INSTALL UBUNTU REPOSITORY (INSIDE CHROOT ENVIRONMENT):</h4>
+<pre><code>$ sudo schroot -c ubuntu-x64
+$ cd
+$ sudo apt install software-properties-common wget build-essential
+$ sudo add-apt-repository universe
+$ sudo add-apt-repository multiverse
+$ sudo add-apt-repository restricted 
+$ sudo apt update &amp;&amp; sudo apt upgrade
+$ exit
+</code></pre><h4 id="install-wine-winetricks-inside-chroot-environment-">INSTALL WINE &amp; WINETRICKS (INSIDE CHROOT ENVIRONMENT):</h4>
+<pre><code>$ sudo schroot -c ubuntu-x64
+$ cd
+$ sudo dpkg --add-architecture i386
+$ sudo apt update
+$ sudo apt install libxml2-dev:i386
+$ sudo apt install wine-development
+$ wine --version
+$ sudo apt install winetricks
+$ sudo apt install zenity
+$ sudo apt install winbind
+$ sudo apt install nemo
+$ exit
+</code></pre><h4 id="install-playonlinux-inside-chroot-environment-">INSTALL PLAYONLINUX (INSIDE CHROOT ENVIRONMENT):</h4>
+<pre><code>$ sudo schroot -c ubuntu-x64
+$ cd
+$ wget -q &quot;http://deb.playonlinux.com/public.gpg&quot; -O- | sudo apt-key add -
+$ sudo wget http://deb.playonlinux.com/playonlinux_bionic.list -O /etc/apt/sources.list.d/playonlinux.list
+$ sudo apt update
+$ sudo apt install playonlinux
+$ exit
+</code></pre><p>Now let&#39;s check our ID first:</p>
+<pre><code>$ id
+</code></pre><h4 id="adding-a-user-inside-chroot-environment-">ADDING A USER (INSIDE CHROOT ENVIRONMENT):</h4>
+<pre><code>$ sudo schroot -c ubuntu-x64
+$ adduser &lt;username&gt;
+$ su - &lt;username&gt;
+$ nano ~/.bashrc
+</code></pre><p>add this text in the bottom:</p>
+<pre><code>export LANGUAGE=”C”
+export LC_ALL=”C”
+export DISPLAY=:0
+</code></pre><p>Then ctrl+x, yes and save</p>
+<p>Now let&#39;s exit:</p>
+<pre><code>$ exit
+</code></pre><h4 id="configuring-wine-winetricks-inside-chroot-environment-">CONFIGURING WINE &amp; WINETRICKS (INSIDE CHROOT ENVIRONMENT):</h4>
+<pre><code>$ sudo schroot -c ubuntu-x64
+$ su - &lt;username&gt;
+$ winecfg
+$ winetricks
+$ exit
+</code></pre><h4 id="installing-deb-package-inside-chroot-environment-">INSTALLING .deb Package (INSIDE CHROOT ENVIRONMENT):</h4>
+<pre><code>$ sudo schroot -c ubuntu-x64
+$ sudo dpkg -i &lt;the-location-of-the-deb-package&gt;
+$ exit
+</code></pre><p>Once you are done, you can create a shortcut in the desktop running as your username</p>
+<p>Nemo Launcher</p>
+<pre><code>schroot -c ubuntu-x64 nemo
+</code></pre><p>Other apps:</p>
+<pre><code>schroot -c ubuntu-x64 /opt/the/location/of/your/app
+</code></pre><p>With this process, now you should be able to run x86_64 *.deb and install a wine app.</p>
+<p><strong><em>WARNING:</em></strong></p>
+<p>Follow the procedure step by step. Other wise you&#39;ll get into trouble.</p>
+<p>Hope this might help somebody out there.</p>
+<p>Thanks to @Lolix and @xabbu for helping.</p>
+<p>I also urge you to post your result with wine to help other.</p>
+<p>Many Thanks,</p>
+<p>RNA</p>
