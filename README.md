@@ -1,3 +1,13 @@
+# No
+
+## Notify:
+
+## Statement! 
+
+#### OPENANS terminated all cooperation with the Pifan (pifan.org), and the Debian-Pi-Aarch64 2.0 project was officially frozen.
+
+----
+
 ![openfans](./images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](./images/amatfan.png)、
 
 # =★= Debian-Pi-Aarch64 =★=
