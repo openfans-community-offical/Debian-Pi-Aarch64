@@ -1,3 +1,11 @@
+# 通知 ！！！！！！！！！
+
+## 声明！
+
+## OPENANS终止与与~~树莓派爱好者基地~~的一切合作，Debian-Pi-Aarch64 2.0 项目正式冻结。
+
+----
+
 ![openfans](./images/openfans.png)&nbsp;&nbsp;&nbsp;&nbsp;![amatfan.png](./images/amatfan.png)
 
 # Debian-Pi-Aarch64 ★ 全新树莓派64位系统
