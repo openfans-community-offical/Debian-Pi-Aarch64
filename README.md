@@ -4,7 +4,7 @@
 
 ## Statement! 
 
-#### OPENANS terminated all cooperation with the ~~Pifan (pifan.org)~~, and the Debian-Pi-Aarch64 2.0 project was officially frozen.
+#### OPENFANS terminated all cooperation with the ~~Pifan (pifan.org)~~, and the Debian-Pi-Aarch64 2.0 project was officially frozen.
 
 ----
 
